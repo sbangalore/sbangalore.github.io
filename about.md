@@ -2,14 +2,15 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
-
-Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Hello! :wave:
+
+I'm an RA at the Bank of Canada working on Financial Research and studying Computer Science at the University of Texas at Austin.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[bsudarshan@outlook.com](mailto:bsudarshan@outlook.com)
