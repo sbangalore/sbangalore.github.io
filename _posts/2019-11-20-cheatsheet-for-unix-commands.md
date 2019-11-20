@@ -8,7 +8,7 @@ When I say or, it means that there are 2 equivalent commands, not that you shoul
 **Basic Navigation**
 
 | Command | Description | Example |
-|--------------------------|-----------------------------------------------------------------------------|-----------------|
+|---|---|---|
 | pwd | Present working directory | /Users/username |
 | man | The manual/help file for the command | man pwd |
 | cd Subdir | Move to a folder in the directory | cd Data |
