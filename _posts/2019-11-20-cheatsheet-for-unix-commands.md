@@ -72,7 +72,7 @@ You can see the protections by running <span style="color:blue">ll</span>.
 
 For example, for any given file, the protection (string on the far left) might look like this:
 
--rw-r--r--	1	bans	staff	6	8	Jun	17:12	test
+<span style="color:green">-rw-r--r--	1	bans	staff	6	8	Jun	17:12	test</span>
 
 You can read this protections string in groups of three starting with user then group then the world. In this instance, the user has read write permissions while the group and world have read permissions.
 
