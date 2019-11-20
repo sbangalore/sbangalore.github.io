@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-## How do government bonds work?
-
 A government bond is a security that provides a fixed stream of income to the lender. Government bonds can
 encompass a wide range of instruments. Such securities are issued at a discount to face value and are used to set the benchmark. Their prices are driven by factors such as:
 
