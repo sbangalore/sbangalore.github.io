@@ -1,0 +1,24 @@
+---
+layout: post
+title: Hello!
+published: true
+---
+This is my website to contact/reach me. You can see (or maybe even read) my writing on financial, tech, and other perspectives here.
+
+I'm currently an RA at the [Bank of Canada](https://www.bankofcanada.ca "Where I work!").
+
+I'm also a CS masters student at the [University of Texas](https://www.bankofcanada.ca "Where I study!").
+
+I enjoy reading **books and papers**. Here are the some I've read recently!
+
+- Red Notice
+- Deep Learning (Ian Goodfellow)
+- Understanding Machine Learning: From Theory to Algorithms
+- A Gentle Introduction to Effective Computing in Quantitative Research
+
+I'm also a **foodie**. But then again, who isn't?? See some of the ones I have recently enjoyed below.
+
+- Eataly Toronto
+- Rasa Toronto
+- Butter Baker Toronto
+- Amelie NYC
