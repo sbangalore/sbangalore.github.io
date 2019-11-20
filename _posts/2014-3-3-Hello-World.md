@@ -3,7 +3,7 @@ layout: post
 title: Hello!
 published: true
 ---
-This is my website to contact/reach me. You can my writing on financial, tech, and other perspectives here.
+This is my website to contact/reach me. You can see (or maybe even read) my writing on financial, tech, and other perspectives here.
 
 I'm currently an RA at the [Bank of Canada](https://www.bankofcanada.ca "Where I work!").
 
@@ -22,4 +22,3 @@ I'm also a **foodie**. But then again, who isn't?? See some of the ones I have r
 - Rasa Toronto
 - Butter Baker Toronto
 - Amelie NYC
-
