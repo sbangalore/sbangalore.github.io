@@ -1,10 +1,28 @@
 ---
 layout: post
-title: You're up and running!
+title: Hello!
+published: true
 ---
+This is my website to contact/reach me. You can my writing on financial, tech, and other perspectives here.
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+I'm currently an RA at the [Bank of Canada](https://www.bankofcanada.ca "Where I work!").
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+I'm also a CS masters student at the [University of Texas](https://www.bankofcanada.ca "Where I study!").
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+--
+I enjoy reading books and papers. Here are the some I've read recently!
+
+- Red Notice
+- Deep Learning (Ian Goodfellow)
+- Understanding Machine Learning: From Theory to Algorithms
+- A Gentle Introduction to Effective Computing in Quantitative Research
+
+
+--
+I'm also a foodie. But then again, who isn't?? See some of the ones I have recently enjoyed below.
+
+- Eataly Toronto
+- Rasa Toronto
+- Butter Baker Toronto
+- Amelie NYC
+
