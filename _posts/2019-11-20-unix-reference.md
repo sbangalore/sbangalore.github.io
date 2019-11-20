@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Cheatsheet for Unix Commands
 
@@ -57,6 +57,3 @@ You can chain together flags to create larger commands.
 | mv Out.out ~/data/ | Moves file to directory |  |
 
 You can use flags on these commands. For example, doing rm -r \*.csv will recursively remove all csv files from the current directory.
-
-
-
