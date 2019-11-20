@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## How do government bonds work?
 ### A quick view on government bonds.
