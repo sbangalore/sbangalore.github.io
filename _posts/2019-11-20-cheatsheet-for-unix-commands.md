@@ -76,4 +76,15 @@ For example, for any given file, the protection (string on the far left) might l
 
 You can read this protections string in groups of three starting with user then group then the world. In this instance, the user has read write permissions while the group and world have read permissions.
 
-To change the permissions/protection on a file or folder, you can run the command <span style="color:blue">chmod</span>.
+To change the permissions/protection on a file or folder, you can run the command <span style="color:blue">chmod</span>. Chmod works in the octal (or base 8) system, where:
+- 4 means read access
+- 2 means write access
+- 1 means execute access
+
+So, to have read and execute access would be 4 + 1 = 5. To use chmod, you determine the level of access for the user, group and world in the following format:
+
+<span style="color:blue">chmod ugw</span>
+
+For example, to have group and world read access and user read, write, and execute access would be:
+
+<span style="color:blue">chmod 744</span>.
