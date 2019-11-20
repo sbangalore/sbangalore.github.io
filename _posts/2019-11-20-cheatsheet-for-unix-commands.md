@@ -6,7 +6,7 @@ This is a quick cheatsheet for relevant UNIX commands! Enjoy :)
 When I say or, it means that there are 2 equivalent commands, not that you should type or. For example, you can move to the home directory using one of two commands: <span style="color:blue">cd</span> or <span style="color:blue">cd~</span>. You should not type <span style="color:blue">cd or cd~</span> into the terminal.
 
 **Basic Navigation**
-
+<div class="datatable-begin"></div>
 | Command | Description | Example |
 |---|---|---|
 | pwd | Present working directory | /Users/username |
@@ -14,6 +14,8 @@ When I say or, it means that there are 2 equivalent commands, not that you shoul
 | cd Subdir | Move to a folder in the directory | cd Data |
 | cd .. | Move to directory above | cd .. |
 | cd or cd ~ | Move to home directory | cd .. |
+<div class="datatable-end"></div>
+
 
 **Working with directories**
 
