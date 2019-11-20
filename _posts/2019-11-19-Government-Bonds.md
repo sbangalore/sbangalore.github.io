@@ -2,7 +2,6 @@
 published: true
 ---
 ## How do government bonds work?
-### A quick view on government bonds.
 
 A government bond is a security that provides a fixed stream of income to the lender. Government bonds can
 encompass a wide range of instruments. Such securities are issued at a discount to face value and are used to set the benchmark. Their prices are driven by factors such as:
@@ -21,7 +20,7 @@ weighted average of cash flows.
 6. **Seniority and collateral**: how senior the bond is in the debt tranche of the issuer and what is the
 collateral (i.e. taxing power vs. debenture.) This is usually the former.
 
-7. **Coupon**: what is the coupon, when do these coupons get issued, and how often they get issued
+7. **Coupon**: what is the coupon, when do these coupons get issued, and how often they get issued.
 
 8. **Settlement date**: when is the trade settled (this will determine if and how much of the coupons will be priced in.)
 
@@ -36,7 +35,7 @@ Canadian government at the same duration, convexity, and time to maturity can ca
 
 **Butterfly trading** based on relative value of similar bonds with the same duration and convexity (buying the higher yielding bond and selling the lower yielding bond) until one year has passed. This strategy is referenced in Fontaine, Nolin 2017. It involves using a portfolio of three bonds to establish the relative value of a similar bond.
 
-**Refinancing Risk**" An asset-liability mismatch between the leverage used and convertible could result in a situation where this is no leverage available in a down credit market.
+**Refinancing Risk** An asset-liability mismatch between the leverage used and convertible could result in a situation where this is no leverage available in a down credit market.
 
 **Matching Risk**: The strategy involves approximately matching the convexity and cash flows of the portfolio of three bonds.
 
