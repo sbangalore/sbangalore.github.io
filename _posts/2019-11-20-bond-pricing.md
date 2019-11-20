@@ -14,3 +14,5 @@ There are a few key ways to price bonds. In this post, I review 5 of them.
 [Leland and Toft (1996)](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.1996.tb02714.x "Optimal Capital Structure, Endogenous Bankruptcy, and the Term Structure of Credit Spreads")
 
 [Collin-Dufresne and Goldstein (2001)](https://onlinelibrary.wiley.com/doi/10.1111/0022-1082.00402 "The Determinants of Credit Spread Changes")
+
+[Heath, Jarrow, and Goldstein (1992)](https://www.jstor.org/stable/2951677?seq=1#metadata_info_tab_contents "Bond Pricing and the Term Structure of Interest Rates: A New Methodology for Contingent Claims Valuation")
