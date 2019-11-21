@@ -9,17 +9,17 @@ A couple of notes: first, you can access the Terminal through your UNIX computer
 
 | Command | Description | Example |
 |---  |---  |---|
-[pwd](http://man7.org/linux/man-pages/man1/pwd.1.html) | Present working directory | /Users/username |
-| <span style="color:blue">[man](http://man7.org/linux/man-pages/man1/man.1.html)</span> | The manual/help file for the command | man pwd |
-| <span style="color:blue">[cd Subdir](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> | Move to a folder in the directory | cd Data |
-| <span style="color:blue">[cd ..](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> | Move to directory above | cd .. |
-| <span style="color:blue">[cd](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> or <span style="color:blue">cd ~</span> | Move to home directory | cd .. |
-| <span style="color:blue">[df](http://man7.org/linux/man-pages/man1/df.1.html)</span> | Outputs amount of free space in the directory |  |
-| <span style="color:blue">[top](http://man7.org/linux/man-pages/man1/top.1.html)</span> | Outputs process status of processes running on computer |  |
-| <span style="color:blue">[ps]( "http://man7.org/linux/man-pages/man1/ps.1.html")</span> | Outputs process status of processes running on computer, related to you |  |
-| <span style="color:blue">[ps aux](http://man7.org/linux/man-pages/man1/ps.1.html)</span> | Outputs process status of processes running on computer, not related to you |  |
-| <span style="color:blue">[ps -jim](http://man7.org/linux/man-pages/man1/ps.1.html)</span> | Outputs process status of processes running on computer, related to user jim |  |
-| <span style="color:blue">[grep](http://man7.org/linux/man-pages/man1/grep.1.html)</span> | print lines that match regex patterns |  |
+| [pwd](http://man7.org/linux/man-pages/man1/pwd.1.html) | Present working directory | /Users/username |
+| [man](http://man7.org/linux/man-pages/man1/man.1.html) | The manual/help file for the command | man pwd |
+| [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) Subdir | Move to a folder in the directory | cd Data |
+| [cd ..](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> | Move to directory above | cd .. |
+| [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) or [cd ~](http://man7.org/linux/man-pages/man1/cd.1p.html) | Move to home directory | cd .. |
+| [df](http://man7.org/linux/man-pages/man1/df.1.html) | Outputs amount of free space in the directory |  |
+| [top](http://man7.org/linux/man-pages/man1/top.1.html) | Outputs process status of processes running on computer |  |
+| [ps]( "http://man7.org/linux/man-pages/man1/ps.1.html") | Outputs process status of processes running on computer, related to you |  |
+| [ps aux](http://man7.org/linux/man-pages/man1/ps.1.html) | Outputs process status of processes running on computer, not related to you |  |
+| [ps -jim](http://man7.org/linux/man-pages/man1/ps.1.html) | Outputs process status of processes running on computer, related to user jim |  |
+| [grep](http://man7.org/linux/man-pages/man1/grep.1.html) | print lines that match regex patterns |  |
 
 **Working with directories**
 
@@ -27,13 +27,13 @@ The dash after a command is used to indicate flags.
 
 | Command | Description | Example |
 |--------------------------|-----------------------------------------------------------------------------|-----------------|
-| <span style="color:blue">ls</span> | List directory contents | ... |
-| <span style="color:blue">ls -l</span> | List directory contents in long format (size, owner, protections, etc.) | ... |
-| <span style="color:blue">ls -a</span> | List all directory contents (including hidden files such as .bash) | ... |
-| <span style="color:blue">ls x*</span> | List all directory contents starting with x. You can use this * anywhere. | xanadu |
-| <span style="color:blue">ls x?</span> | List all directory contents which start with x and have one character after | xa |
-| <span style="color:blue">mkdir FolderA</span> | Creates a new directory |  |
-| <span style="color:blue">rmdir FolderA</span> | Deletes a directory |  |
+| [ls](http://man7.org/linux/man-pages/man1/ls.1.html) | List directory contents | ... |
+| [ls -l](http://man7.org/linux/man-pages/man1/ls.1.html) | List directory contents in long format (size, owner, protections, etc.) | ... |
+| [ls -a](http://man7.org/linux/man-pages/man1/ls.1.html) | List all directory contents (including hidden files such as .bash) | ... |
+| [ls x*](http://man7.org/linux/man-pages/man1/ls.1.html) | List all directory contents starting with x. You can use this * anywhere. | xanadu |
+| [ls x?](http://man7.org/linux/man-pages/man1/ls.1.html) | List all directory contents which start with x and have one character after | xa |
+| [mkdir](http://man7.org/linux/man-pages/man2/mkdir.2.html) FolderA | Creates a new directory |  |
+| [rmdir](http://man7.org/linux/man-pages/man2/mkdir.2.html) FolderA | Deletes a directory |  |
 
 You can chain together flags to create larger commands.
 
@@ -41,25 +41,25 @@ You can chain together flags to create larger commands.
 
 | Command                  | Description                                                                 | Example         |
 |--------------------------|-----------------------------------------------------------------------------|-----------------|
-| <span style="color:blue">ls -alh > Directory.out</span>  | Replace/Create a file named Directory.out results of ls -alh                |                 |
-| <span style="color:blue">ls -alh >> Directory.out</span> | Append to Directory.out file results of ls -alh                             |                 |
+| [ls -alh](http://man7.org/linux/man-pages/man1/ls.1.html) > Directory.out  | Replace/Create a file named Directory.out results of ls -alh                |                 |
+| [ls -alh](http://man7.org/linux/man-pages/man1/ls.1.html) >> Directory.out | Append to Directory.out file results of ls -alh                             |                 |
 
 **Working with files**
 
 | Command | Description | Example |
 |--------------------------|-----------------------------------------------------------------------------|-----------------|
-| <span style="color:blue">cat Test.out</span> | Lists entire contents of file |  |
-| <span style="color:blue">head Test.out</span> | Lists first 10 lines of file |  |
-| <span style="color:blue">tail Test.out</span> | Lists last 10 lines of file |  |
-| <span style="color:blue">more Test.out</span> | After head/tail, allows you to scroll down |  |
-| <span style="color:blue">less Test.out</span> | After head/tail, allows you to scroll up |  |
-| <span style="color:blue">rm Test.out</span> | Deletes a file |  |
-| <span style="color:blue">touch Test.out</span> | Creates a file |  |
-| <span style="color:blue">vim Test.out</span> | Edits a file using vim |  |
-| <span style="color:blue">diff Out.out New.out</span> | Lists lines where 2 files differ. |  |
-| <span style="color:blue">cp Out.out ~/data/</span> | Copys file to directory |  |
-| <span style="color:blue">mv Out.out ~/data/</span> | Moves file to directory |  |
-| <span style="color:blue">wc Out.out ~/data/</span> | Gives a line, word, and character count of the file |  |
+| [cat](http://man7.org/linux/man-pages/man1/cat.1.html) Test.out | Lists entire contents of file |  |
+| [head](http://man7.org/linux/man-pages/man1/head.1.html) Test.out | Lists first 10 lines of file |  |
+| [tail](http://man7.org/linux/man-pages/man1/tail.1.html) Test.out | Lists last 10 lines of file |  |
+| [more](http://man7.org/linux/man-pages/man1/more.1.html) Test.out | After head/tail, allows you to scroll down |  |
+| [less](http://man7.org/linux/man-pages/man1/less.1.html) Test.out | After head/tail, allows you to scroll up |  |
+| [rm](http://man7.org/linux/man-pages/man1/rm.1.html) Test.out | Deletes a file |  |
+| [touch](http://man7.org/linux/man-pages/man1/touch.1.html) Test.out | Creates a file |  |
+| [vim](http://man7.org/linux/man-pages/man1/vi.1p.html) Test.out | Edits a file using vim |  |
+| [diff](http://man7.org/linux/man-pages/man1/diff.1.html) Out.out New.out | Lists lines where 2 files differ. |  |
+| [cp](http://man7.org/linux/man-pages/man1/cp.1.html) Out.out ~/data/ | Copys file to directory |  |
+| [mv](http://man7.org/linux/man-pages/man1/mv.1.html) Out.out ~/data/ | Moves file to directory |  |
+| [wc](http://man7.org/linux/man-pages/man1/wc.1.html) Out.out ~/data/ | Gives a line, word, and character count of the file |  |
 
 You can use flags on these commands. For example, doing rm -r \*.csv will recursively remove all csv files from the current directory.
   
