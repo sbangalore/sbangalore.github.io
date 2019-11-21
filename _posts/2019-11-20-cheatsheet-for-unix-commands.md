@@ -9,14 +9,17 @@ A couple of notes: first, you can access the Terminal through your UNIX computer
 
 | Command | Description | Example |
 |---  |---  |---|
-| <span style="color:blue">pwd</span> | Present working directory | /Users/username |
-| <span style="color:blue">man</span> | The manual/help file for the command | man pwd |
-| <span style="color:blue">cd Subdir</span> | Move to a folder in the directory | cd Data |
-| <span style="color:blue">cd ..</span> | Move to directory above | cd .. |
-| <span style="color:blue">cd</span> or <span style="color:blue">cd ~</span> | Move to home directory | cd .. |
-| <span style="color:blue">fs</span> | Outputs amount of free space in the directory |  |
-| <span style="color:blue">top</span> | Outputs processes running on computer |  |
-| <span style="color:blue">top</span> | Outputs processes running on computer, related to you |  |
+[pwd](http://man7.org/linux/man-pages/man1/pwd.1.html) | Present working directory | /Users/username |
+| <span style="color:blue">[man](http://man7.org/linux/man-pages/man1/man.1.html)</span> | The manual/help file for the command | man pwd |
+| <span style="color:blue">[cd Subdir](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> | Move to a folder in the directory | cd Data |
+| <span style="color:blue">[cd ..](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> | Move to directory above | cd .. |
+| <span style="color:blue">[cd](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> or <span style="color:blue">cd ~</span> | Move to home directory | cd .. |
+| <span style="color:blue">[df](http://man7.org/linux/man-pages/man1/df.1.html)</span> | Outputs amount of free space in the directory |  |
+| <span style="color:blue">[top](http://man7.org/linux/man-pages/man1/top.1.html)</span> | Outputs process status of processes running on computer |  |
+| <span style="color:blue">[ps]( "http://man7.org/linux/man-pages/man1/ps.1.html")</span> | Outputs process status of processes running on computer, related to you |  |
+| <span style="color:blue">[ps aux](http://man7.org/linux/man-pages/man1/ps.1.html)</span> | Outputs process status of processes running on computer, not related to you |  |
+| <span style="color:blue">[ps -jim](http://man7.org/linux/man-pages/man1/ps.1.html)</span> | Outputs process status of processes running on computer, related to user jim |  |
+| <span style="color:blue">[grep](http://man7.org/linux/man-pages/man1/grep.1.html)</span> | print lines that match regex patterns |  |
 
 **Working with directories**
 
