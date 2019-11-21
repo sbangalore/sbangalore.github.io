@@ -59,7 +59,12 @@ You can chain together flags to create larger commands.
 | [diff](http://man7.org/linux/man-pages/man1/diff.1.html) Out.out New.out | Lists lines where 2 files differ. |  |
 | [cp](http://man7.org/linux/man-pages/man1/cp.1.html) Out.out ~/data/ | Copys file to directory |  |
 | [mv](http://man7.org/linux/man-pages/man1/mv.1.html) Out.out ~/data/ | Moves file to directory |  |
-| [wc](http://man7.org/linux/man-pages/man1/wc.1.html) Out.out ~/data/ | Gives a line, word, and character count of the file |  |
+| [wc](http://man7.org/linux/man-pages/man1/wc.1.html) Out.out | Gives a line, word, and character count of the file |  |
+| [sort](https://linux.die.net/man/1/sort) Out.out | Sorts a file in alphabetical order |  |
+| [paste](https://linux.die.net/man/1/paste) In.out Out.out | Adds two files side by side |  |
+| [cut](https://linux.die.net/man/1/cut) -d ' ' -f 2-3 In.out | Extracts file at specified columns with delimiter |  |
+| [join](https://linux.die.net/man/1/join) A.out B.out | Merges two files horizontally based on a common column |  |
+
 
 You can use flags on these commands. For example, doing rm -r \*.csv will recursively remove all csv files from the current directory.
   
