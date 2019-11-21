@@ -3,7 +3,7 @@ published: true
 ---
 This is a quick cheatsheet for relevant UNIX and VIM commands!
 
-A couple of notes: first, you can access the Terminal through your UNIX computer. Second, when I say or, it means that there are 2 equivalent commands, not that you should type or. For example, you can move to the home directory using one of two commands: <span style="color:blue">cd</span> or <span style="color:blue">cd~</span>. You should not type <span style="color:blue">cd or cd~</span> into the terminal.
+A couple of notes: first, you can access the Terminal through your UNIX computer. Second, when I say or, it means that there are 2 equivalent commands, not that you should type or. For example, you can move to the home directory using one of two commands: [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) or [cd~](http://man7.org/linux/man-pages/man1/cd.1p.html). You should not type <span style="color:blue">cd or cd~</span> into the terminal.
 
 **Basic Navigation**
 
