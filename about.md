@@ -26,11 +26,11 @@ Hello! Here's a TLDR of my background.
 <details>
   <summary>Other things I also enjoy</summary>
   
-  1. Powerlifting
-  2. Snowboarding
-  3. Basketball
-  4. Food!
-  5. Enjoying time with my cat
+  1.Powerlifting
+  2.Snowboarding
+  3.Basketball
+  4.Food!
+  5.Enjoying time with my cat
   
 </details>
 
