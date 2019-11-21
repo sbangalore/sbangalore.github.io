@@ -101,6 +101,12 @@ For example, to have group and world read access and user read, write, and execu
 
 [chmod](http://man7.org/linux/man-pages/man1/chmod.1.html) 744
 
+**Supersers and Installing Software**
+
+To install software or perform system administration tasks, you need superuser powers. To login as the superuser, use the su command and enter the password. However, you often don't have access to this as you are not the systems administrator. In this case, you would use [sudo](https://linux.die.net/man/8/sudo). For example, to update python 3.6:
+
+[sudo](https://linux.die.net/man/8/sudo) apt-get install python3.6
+
 **Linking Commands -- Piping**
 
 Piping takes the output from one command into another command. For example, if you want to see all the python processes you are running:
