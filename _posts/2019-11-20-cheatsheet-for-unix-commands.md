@@ -41,8 +41,8 @@ You can chain together flags to create larger commands.
 
 | Command                  | Description                                                                 | Example         |
 |--------------------------|-----------------------------------------------------------------------------|-----------------|
-| [ls -alh](http://man7.org/linux/man-pages/man1/ls.1.html) > Directory.out  | Replace/Create a file named Directory.out results of ls -alh                |                 |
-| [ls -alh](http://man7.org/linux/man-pages/man1/ls.1.html) >> Directory.out | Append to Directory.out file results of ls -alh                             |                 |
+| ls [>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out  | Replace/Create a file named Directory.out results of ls -alh                |                 |
+| ls [>>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out | Append to Directory.out file results of ls -alh                             |                 |
 
 **Working with files**
 
