@@ -94,4 +94,4 @@ So, to have read and execute access would be 4 + 1 = 5. To use chmod, you determ
 
 For example, to have group and world read access and user read, write, and execute access would be:
 
-[chmod 744](http://man7.org/linux/man-pages/man1/chmod.1.html)
+[chmod](http://man7.org/linux/man-pages/man1/chmod.1.html) 744
