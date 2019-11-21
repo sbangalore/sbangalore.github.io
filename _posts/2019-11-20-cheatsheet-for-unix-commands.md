@@ -26,7 +26,7 @@ A couple of notes: first, you can access the Terminal through your UNIX computer
 The dash after a command is used to indicate flags.
 
 | Command | Description | Example |
-|--------------------------|-----------------------------------------------------------------------------|-----------------|
+|---  |---  |---|
 | [ls](http://man7.org/linux/man-pages/man1/ls.1.html) | List directory contents | ... |
 | [ls -l](http://man7.org/linux/man-pages/man1/ls.1.html) | List directory contents in long format (size, owner, protections, etc.) | ... |
 | [ls -a](http://man7.org/linux/man-pages/man1/ls.1.html) | List all directory contents (including hidden files such as .bash) | ... |
@@ -39,15 +39,15 @@ You can chain together flags to create larger commands.
 
 **Redirecting content**
 
-| Command                  | Description                                                                 | Example         |
-|--------------------------|-----------------------------------------------------------------------------|-----------------|
+| Command | Description | Example |
+|---  |---  |---|
 | ls [>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out  | Replace/Create a file named Directory.out results of ls -alh                |                 |
 | ls [>>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out | Append to Directory.out file results of ls -alh                             |                 |
 
 **Working with files**
 
 | Command | Description | Example |
-|--------------------------|-----------------------------------------------------------------------------|-----------------|
+|---  |---  |---|
 | [cat](http://man7.org/linux/man-pages/man1/cat.1.html) Test.out | Lists entire contents of file |  |
 | [head](http://man7.org/linux/man-pages/man1/head.1.html) Test.out | Lists first 10 lines of file |  |
 | [tail](http://man7.org/linux/man-pages/man1/tail.1.html) Test.out | Lists last 10 lines of file |  |
