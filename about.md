@@ -23,6 +23,18 @@ Hello! Here's a TLDR of my background.
 - Finance - how to price
 - Selling - how to sell
 
+<details>
+  <summary>Other things I also enjoy</summary>
+  
+  1. Powerlifting
+  2. Snowboarding
+  3. Basketball
+  4. Food!
+  5. Enjoying time with my cat
+  
+</details>
+
+
 ### Contact me
 
 Email is key for connection.
