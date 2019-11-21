@@ -16,9 +16,9 @@ A couple of notes: first, you can access the Terminal through your UNIX computer
 | [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) or [cd ~](http://man7.org/linux/man-pages/man1/cd.1p.html) | Move to home directory | cd .. |
 | [df](http://man7.org/linux/man-pages/man1/df.1.html) | Outputs amount of free space in the directory |  |
 | [top](http://man7.org/linux/man-pages/man1/top.1.html) | Outputs process status of processes running on computer |  |
-| [ps]( "http://man7.org/linux/man-pages/man1/ps.1.html") | Outputs process status of processes running on computer, related to you |  |
-| [ps aux](http://man7.org/linux/man-pages/man1/ps.1.html) | Outputs process status of processes running on computer, not related to you |  |
-| [ps -jim](http://man7.org/linux/man-pages/man1/ps.1.html) | Outputs process status of processes running on computer, related to user jim |  |
+| [ps](https://linux.die.net/man/1/ps) | Outputs process status of processes running on computer, related to you |  |
+| [ps aux](https://linux.die.net/man/1/ps) | Outputs process status of processes running on computer, related to all users |  |
+| [ps -jim](https://linux.die.net/man/1/ps) | Outputs process status of processes running on computer, related to user jim |  |
 | [grep](http://man7.org/linux/man-pages/man1/grep.1.html) | print lines that match regex patterns |  |
 
 **Working with directories**
@@ -95,3 +95,11 @@ So, to have read and execute access would be 4 + 1 = 5. To use chmod, you determ
 For example, to have group and world read access and user read, write, and execute access would be:
 
 [chmod](http://man7.org/linux/man-pages/man1/chmod.1.html) 744
+
+**Linking Commands -- Piping**
+
+Piping takes the output from one command into another command. For example, if you 
+
+ps aux [|](https://linux.die.net/man/7/pipe) grep python
+
+
