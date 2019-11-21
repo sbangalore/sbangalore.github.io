@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Hello! You are here because you are a research assistant or quant or want to be one. (Or you’re just interested in a quick-start guide for quantitative finance – whatever rocks your boat!)
+You are a research assistant or quant or want to be one. (Or you’re just interested in a quick-start guide for quantitative finance – whatever rocks your boat!)
 
 To be a successful RA requires an (1) aptitude for detail, (2) strong communication skills, and a (3) technical background. This quick-start guide will teach you how to do all 3.
 
