@@ -20,6 +20,8 @@ A couple of notes: first, you can access the Terminal through your UNIX computer
 | [ps aux](https://linux.die.net/man/1/ps) | Outputs process status of processes running on computer, related to all users |  |
 | [ps -jim](https://linux.die.net/man/1/ps) | Outputs process status of processes running on computer, related to user jim |  |
 | [grep](http://man7.org/linux/man-pages/man1/grep.1.html) | print lines that match regex patterns |  |
+| [history](http://man7.org/linux/man-pages/man3/history.3.html) | provides you with last 10 commands |  |
+| ! 234 | reuse last command at line number specified or regex speicified |  |
 
 **Working with directories**
 
@@ -64,6 +66,18 @@ You can chain together flags to create larger commands.
 | [paste](https://linux.die.net/man/1/paste) In.out Out.out | Adds two files side by side |  |
 | [cut](https://linux.die.net/man/1/cut) -d ' ' -f 2-3 In.out | Extracts file at specified columns with delimiter |  |
 | [join](https://linux.die.net/man/1/join) A.out B.out | Merges two files horizontally based on a common column |  |
+
+**Shortcuts with Files**
+| Command | Description |
+|---  |---  |
+| ctrl-h | deletes last character |
+| ctrl-w | deletes last word |
+| ctrl-u | deletes last line |
+| ctrl-d | end text input/exit program |
+| ctrl-s | freeze terminal window |
+| ctrl-q | unfreeze terminal window |
+| ctrl-\ | terminates terminal |
+| ctrl-z | suspend terminal (sleep) |
 
 
 You can use flags on these commands. For example, doing rm -r \*.csv will recursively remove all csv files from the current directory.
@@ -113,6 +127,20 @@ Piping takes the output from one command into another command. For example, if y
 
 ps [\|](https://linux.die.net/man/7/pipe) grep python
 
+**Shell Scripts and Make files**
 
+To be written.
 
+**Accessing and running computers remotely, moving files**
+
+TO be written.
+
+**Storage and Version Control**
+| Command | Description |
+|---  |---  |
+| gzip file.txt | compresses (zips) file |
+| gunzip file.txt | unzips file |
+| zip Backup.zip * | zips files in directory |
+| zip -r Backup.zip * | zips files and directories in directory |
+| unzip Backup.zip | unzips zip file |
 
