@@ -98,8 +98,8 @@ For example, to have group and world read access and user read, write, and execu
 
 **Linking Commands -- Piping**
 
-Piping takes the output from one command into another command. For example, if you 
+Piping takes the output from one command into another command. For example, if you want to see all the python processes you are running:
 
-ps aux [|](https://linux.die.net/man/7/pipe) grep python
+ps [|](https://linux.die.net/man/7/pipe) grep python
 
 
