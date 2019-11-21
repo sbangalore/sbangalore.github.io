@@ -12,7 +12,7 @@ A couple of notes: first, you can access the Terminal through your UNIX computer
 | [pwd](http://man7.org/linux/man-pages/man1/pwd.1.html) | Present working directory | /Users/username |
 | [man](http://man7.org/linux/man-pages/man1/man.1.html) | The manual/help file for the command | man pwd |
 | [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) Subdir | Move to a folder in the directory | cd Data |
-| [cd ..](http://man7.org/linux/man-pages/man1/cd.1p.html)</span> | Move to directory above | cd .. |
+| [cd ..](http://man7.org/linux/man-pages/man1/cd.1p.html) | Move to directory above | cd .. |
 | [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) or [cd ~](http://man7.org/linux/man-pages/man1/cd.1p.html) | Move to home directory | cd .. |
 | [df](http://man7.org/linux/man-pages/man1/df.1.html) | Outputs amount of free space in the directory |  |
 | [top](http://man7.org/linux/man-pages/man1/top.1.html) | Outputs process status of processes running on computer |  |
