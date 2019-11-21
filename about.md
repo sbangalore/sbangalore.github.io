@@ -25,4 +25,12 @@ Hello! Here's a TLDR of my background.
 
 ### Contact me
 
+Email is key for connection.
+
+If you would like to work with me, please include:
+- how you reached me
+- what you are interested in working on
+- timeline
+- budget
+
 [bsudarshan@outlook.com](mailto:bsudarshan@outlook.com)
