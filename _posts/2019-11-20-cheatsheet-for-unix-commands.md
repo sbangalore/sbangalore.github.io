@@ -1,9 +1,9 @@
 ---
 published: true
 ---
-This is a quick cheatsheet for relevant UNIX commands! Enjoy :)
+This is a quick cheatsheet for relevant UNIX and VIM commands!
 
-When I say or, it means that there are 2 equivalent commands, not that you should type or. For example, you can move to the home directory using one of two commands: <span style="color:blue">cd</span> or <span style="color:blue">cd~</span>. You should not type <span style="color:blue">cd or cd~</span> into the terminal.
+A couple of notes: first, you can access the Terminal through your UNIX computer. Second, when I say or, it means that there are 2 equivalent commands, not that you should type or. For example, you can move to the home directory using one of two commands: <span style="color:blue">cd</span> or <span style="color:blue">cd~</span>. You should not type <span style="color:blue">cd or cd~</span> into the terminal.
 
 **Basic Navigation**
 
@@ -14,6 +14,9 @@ When I say or, it means that there are 2 equivalent commands, not that you shoul
 | <span style="color:blue">cd Subdir</span> | Move to a folder in the directory | cd Data |
 | <span style="color:blue">cd ..</span> | Move to directory above | cd .. |
 | <span style="color:blue">cd</span> or <span style="color:blue">cd ~</span> | Move to home directory | cd .. |
+| <span style="color:blue">fs</span> | Outputs amount of free space in the directory |  |
+| <span style="color:blue">top</span> | Outputs processes running on computer |  |
+| <span style="color:blue">top</span> | Outputs processes running on computer, related to you |  |
 
 **Working with directories**
 
@@ -53,6 +56,7 @@ You can chain together flags to create larger commands.
 | <span style="color:blue">diff Out.out New.out</span> | Lists lines where 2 files differ. |  |
 | <span style="color:blue">cp Out.out ~/data/</span> | Copys file to directory |  |
 | <span style="color:blue">mv Out.out ~/data/</span> | Moves file to directory |  |
+| <span style="color:blue">wc Out.out ~/data/</span> | Gives a line, word, and character count of the file |  |
 
 You can use flags on these commands. For example, doing rm -r \*.csv will recursively remove all csv files from the current directory.
   
