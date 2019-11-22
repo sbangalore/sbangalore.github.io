@@ -47,3 +47,5 @@ Precision = TP / (TP + FP)
 FPR = FP/(FP + TN)
 
 ROC (receiver operating chracteristic curve) provides an indexed score of an observation by plotting the specificity vs the FPR for different values of the tuning parameter tao. AUC is the area under the ROC curve. A higher AUC implies a higher accuracy for the classifier.
+
+Read this [https://www.kaggle.com/tentotheminus9/what-causes-heart-disease-explaining-the-model](kaggle exploration on what causes heart disease) for further concrete applications that you can work out in Google Colab or a Jupyter notebook.
