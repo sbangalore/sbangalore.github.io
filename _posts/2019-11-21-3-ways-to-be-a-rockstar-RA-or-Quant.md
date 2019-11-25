@@ -29,7 +29,7 @@ The main points from these books will be summarized in a future discussion.
 
 There are a few essential programming languages, data structures, and algorithms that you should know. Here, I link the discussion and cheatsheet to each:
 
-- Linux/UNIX
+- [Linux/UNIX](https://sbangalore.github.io/cheatsheet-for-unix-commands/)
 - Python
 - Java
 - STATA
@@ -38,3 +38,4 @@ There are a few essential programming languages, data structures, and algorithms
 - Algorithms
 - Statistics
 - (Optional) Machine Learning
+- (Optional) [Quick Mathematics](http://tradermaths.com/) -- for this, I like you to an external application
