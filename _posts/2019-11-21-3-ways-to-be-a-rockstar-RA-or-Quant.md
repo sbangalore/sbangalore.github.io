@@ -13,12 +13,15 @@ To be a successful RA requires an (1) _aptitude for detail_, (2) _strong communi
 - If it’s a longer project, brute-force first then make it efficient.
 
 2. _How to develop strong communication skills_
+
 There are a few papers and short books that are important to read.
+
 - [Strunk and White (2009) _The Elements of Style_](http://www.jlakes.org/ch/web/The-elements-of-style.pdf)
 - [Truss (2003) _Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation_](http://93.174.95.29/main/262000/9b1d0d6204c8718782759d24f98fa9a2/LYNNE%20TRUSS%20-%20EATS%2C%20SHOOTS%20%26%20LEAVES_%20WHY%2C%20COMMAS%20REALLY%20DO%20MAKE%20A%20DIFFERENCE%21-PROFILE%20BOOKS%20LTD%20%282006%29.pdf)
 - [Zinsser (2006) _On Writing Well_](http://richardcolby.net/writ2000/wp-content/uploads/2017/09/On-Writing-Well-30th-Anniversa-Zinsser-William.pdf)
 - [Miller (2004) _The Chicago Guide to Writing about Numbers_](http://93.174.95.29/main/479000/cf0ec8e2dd48f17fe28f248747dd6d2d/Jane%20E.%20Miller%20-%20The%20Chicago%20Guide%20to%20Writing%20about%20Numbers%20%28Chicago%20Guides%20to%20Writing%2C%20Editing%2C%20and%20Publishing%29%20%282004%29.pdf)
 - [Higham (1998) _Handbook of Writing for the Mathematical Sciences_](http://93.174.95.29/main/274000/c2358571c7443872a9db30bd298a4765/Nicholas%20J.%20Higham%20-%20Handbook%20of%20Writing%20for%20the%20Mathematical%20Sciences-Society%20for%20Industrial%20and%20Applied%20Mathematics%20%281998%29.pdf)
+
 The main points from these books will be summarized in a future discussion.
 
 3. _How to get a technical background_
