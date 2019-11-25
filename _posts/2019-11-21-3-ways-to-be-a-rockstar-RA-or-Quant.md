@@ -25,7 +25,7 @@ There are a few papers and short books that are important to read.
 
 The main points from these books will be summarized in a future discussion.
 
-  <span style="color:blue">_How to get a technical background_</span>
+  <span style="color:blue">_How to develop technical strength_</span>
 
 There are a few essential programming languages, data structures, and algorithms that you should know. Here, I link the discussion and cheatsheet to each:
 
