@@ -6,6 +6,7 @@ You are a research assistant or quant or want to be one. (Or you’re just inter
 To be a successful RA requires an (1) _aptitude for detail_, (2) _strong communication skills_, and a (3) _technical background_. This quick-start guide will teach you how to do all 3.
 
 1. _How to develop an aptitude for detail_
+
 - Before submitting anything to a researcher or senior, get it verified by a colleague.
 - For presentations and writing, make a print out; take a red pen and ink out any mistakes by hand.
 - For code, make sure the code is up to spec: docstrings, function names, variables, and that the code works! Check your data and aggregates (make some graphs). I.e. having a GDP of 10 B for Canada does not makes sense.
@@ -25,4 +26,15 @@ There are a few papers and short books that are important to read.
 The main points from these books will be summarized in a future discussion.
 
 3. _How to get a technical background_
-To be written.
+
+There are a few essential programming languages, data structures, and algorithms that you should know. Here, I link the discussion and cheatsheet to each:
+
+- Linux/UNIX
+- Python
+- Java
+- STATA
+- C++
+- Data Structures
+- Algorithms
+- Statistics
+- (Optional) Machine Learning
