@@ -3,20 +3,10 @@ published: false
 ---
 I discuss my 30 day journey where I work on improving my calculation speed through [Trader Maths](http://tradermaths.com/tradermath/).
 
+This was an effort to improve my calculation speed. Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw). I set the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points.
+
 | Day | Total Attempted | Correct | Incorrect | Score |
 |-----|-----------------|---------|-----------|-------|
 | 1   | 56              | 46      | 10        | 36    |
-
-**Day 1 mistakes**
-
--47*-0.13 = 5.11 | 6.11
--96*4.5 = -43.2 | -432
-9.9*0.2 = 19.8 | 1.98
-0.27/0.3 = 9 | 0.9
-0.52-2 = 1.48 | -1.48
-
-In day 1, I wanted to focus on reducing the # of mistakes in my calculations. I found that >80% of these mistakes were based on decimal placement. In the next couple of days, I focused on looking at the general magnitude (negative/positive and # of places) before submitting.
-
-| Day | Total Attempted | Correct | Incorrect | Score |
-|-----|-----------------|---------|-----------|-------|
-| 2   | 56              | 46      | 10        | 36    |
+| 2   | 41              | 31      | 10        | 11    |
+| 2   | 32              | 30      | 02        | 26    |
