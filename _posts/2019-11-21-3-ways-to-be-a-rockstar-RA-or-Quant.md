@@ -23,7 +23,28 @@ There are a few papers and short books that are important to read.
 - [Miller (2004) _The Chicago Guide to Writing about Numbers_](http://93.174.95.29/main/479000/cf0ec8e2dd48f17fe28f248747dd6d2d/Jane%20E.%20Miller%20-%20The%20Chicago%20Guide%20to%20Writing%20about%20Numbers%20%28Chicago%20Guides%20to%20Writing%2C%20Editing%2C%20and%20Publishing%29%20%282004%29.pdf)
 - [Higham (1998) _Handbook of Writing for the Mathematical Sciences_](http://93.174.95.29/main/274000/c2358571c7443872a9db30bd298a4765/Nicholas%20J.%20Higham%20-%20Handbook%20of%20Writing%20for%20the%20Mathematical%20Sciences-Society%20for%20Industrial%20and%20Applied%20Mathematics%20%281998%29.pdf)
 
-The main points from these books will be summarized in a future discussion.
+These books will help you write more pithy notes and papers. The main points from these books will be summarized in a future discussion.
+
+For presentations, I would recommend five major principles.
+
+1. **The Minto Pyramid Principle**
+- Start your presentations with the solution
+- Group arguments and summarize the main paints
+- Present supporting details in a logical manner
+2. **The Pareto Principle**
+- The 80/20 rule which states that 80% of a problem is driven by 20% of issues
+- Cover 80% of the problem by priioritizing on this 20%
+3. **The MECE Principle**
+- Your arguments should be mutually exclusive (ME): make sure that each argument does not overlap
+- and collectively exhaustive (CE): if you choose to focus on 20%, mention the points you have deprioritized
+4. **The Value Add and Clarity Principles**
+- Each slide and discussion point should be clear and a definite value add. If it is not, remove the point.
+- Implementation should be highlighted clearly (risks, benefits, and the primary thesis)
+- There should be clear formatting (consistency), page numbers, and a clear flow/story
+5. **The Audience principle**
+- Your slides should be easy to understand.
+- Keep a font size readable to someone who is 60.
+- Cater your slides to a first year undergraduate student (*or someone who just joined your firm*)
 
   <span style="color:blue">_How to develop technical strength_</span>
 
