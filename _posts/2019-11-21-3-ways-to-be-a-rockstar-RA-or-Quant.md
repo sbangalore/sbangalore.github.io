@@ -25,7 +25,7 @@ There are a few papers and short books that are important to read.
 
 These books will help you write more pithy notes and papers. The main points from these books will be summarized in a future discussion.
 
-For presentations, I would recommend five major principles.
+For presentations, I recommend five major principles.
 
 1. **The Minto Pyramid Principle**
 - Start your presentations with the solution
