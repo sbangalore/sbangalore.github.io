@@ -58,6 +58,8 @@ There are a few essential programming languages, data structures, and algorithms
 - Data Structures
 - Algorithms
 - Statistics
+- [Latex](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
+- Mathematics
 - (Optional) Machine Learning
 - (Optional) [Quick Mathematics](http://tradermaths.com/) -- for this, I link you to an external application. I recommend doing this every day until you can answer all 80 questions in 8 minutes with no mistakes.
 
