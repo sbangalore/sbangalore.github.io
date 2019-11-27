@@ -11,4 +11,4 @@ This was an effort to improve my calculation speed. Throughout these exercises, 
 | 2   | 41              | 31      | 10        | 11    | 0      |
 | 2   | 32              | 30      | 02        | 26    | 0      |
 | 3   | 59              | 52      | 07        | 45    | 1      |
-| 3   | 59              | 52      | 07        | 45    | 1      |
+| 3   | 47              | 43      | 04        | 39    | 1      |
