@@ -69,7 +69,7 @@ You can chain together flags to create larger commands.
 
 **Shortcuts with Files**
 | Command | Description |
-|---  |---  |
+|---------|------------------------|
 | ctrl-h | deletes last character |
 | ctrl-w | deletes last word |
 | ctrl-u | deletes last line |
@@ -143,4 +143,3 @@ TO be written.
 | zip Backup.zip * | zips files in directory |
 | zip -r Backup.zip * | zips files and directories in directory |
 | unzip Backup.zip | unzips zip file |
-
