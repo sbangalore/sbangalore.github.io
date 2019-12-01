@@ -68,6 +68,7 @@ You can chain together flags to create larger commands.
 | [join](https://linux.die.net/man/1/join) A.out B.out | Merges two files horizontally based on a common column |  |
 
 **Shortcuts with Files**
+
 | Command | Description |
 |---------|------------------------|
 | ctrl-h | deletes last character |
@@ -136,6 +137,7 @@ To be written.
 TO be written.
 
 **Storage and Version Control**
+
 | Command | Description |
 |---  |---  |
 | gzip file.txt | compresses (zips) file |
