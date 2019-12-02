@@ -22,6 +22,8 @@ This was an effort to improve my calculation speed. Throughout these exercises, 
 | 8   | 61              | 55      | 06        | 49    | 0      |
 | 8   | 57              | 46      | 11        | 35    | 0      |
 
+![Score improving over time]({{site.baseurl}}/_posts/Capture.PNG)
+
 
 I made a few incremental speed ups due to these:
 
