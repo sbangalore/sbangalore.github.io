@@ -5,6 +5,7 @@ I discuss my 30 day journey where I double my calculation accuracy and improve m
 
 This was an effort to improve my calculation speed. Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw). I set the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points.
 
+
 | Day | Total Attempted | Correct | Incorrect | Score | Coffee |
 |-----|-----------------|---------|-----------|-------|--------|
 | 1   | 56              | 46      | 10        | 36    | 1      |
@@ -18,3 +19,12 @@ This was an effort to improve my calculation speed. Throughout these exercises, 
 | 6   | 56              | 48      | 08        | 40    | 0      |
 | 7   | 60              | 57      | 03        | 54    | 0      |
 | 7   | 66              | 60      | 06        | 54    | 0      |
+| 8   | 61              | 55      | 06        | 49    | 0      |
+
+I made a few incremental speed ups due to these:
+1. After calculations, double check negatives and magnitudes (this should take 1/2 second)
+2. When multiplying by 11, add the digits of the number and put them in the middle.
+3. The product of a number should always be the units digit of the factors multiplied.
+	i.e. 34343 * 340128 must have 4 at the end of the answer, because 3 * 8 = 24
+
+For example, for 11 * 23, the answer is 2 (3+2) 3 = 253
