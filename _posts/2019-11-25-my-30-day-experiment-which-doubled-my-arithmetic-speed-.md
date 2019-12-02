@@ -22,7 +22,9 @@ This was an effort to improve my calculation speed. Throughout these exercises, 
 | 8   | 61              | 55      | 06        | 49    | 0      |
 | 8   | 57              | 46      | 11        | 35    | 0      |
 
+
 I made a few incremental speed ups due to these:
+
 1. **Double check**: after calculations, look at the negatives and magnitudes (this should take 1/2 second)
 2. **Use tricks**: for example, when multiplying by 11, add the digits of the number and put them in the middle. i.e. for 11 * 23, the answer is 2 (3+2) 3 = 253
 3. **Guess well**: the product of a number should always be the units digit of the factors multiplied.
