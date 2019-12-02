@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 I discuss my 30 day journey where I double my calculation accuracy and improve my calculation accuracy by 50% with [Trader Maths](http://tradermaths.com/tradermath/).
 
