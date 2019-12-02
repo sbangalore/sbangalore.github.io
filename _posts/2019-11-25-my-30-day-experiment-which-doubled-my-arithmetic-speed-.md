@@ -16,3 +16,4 @@ This was an effort to improve my calculation speed. Throughout these exercises, 
 | 4   | 64              | 57      | 07        | 50    | 0      |
 | 6   | 55              | 50      | 05        | 50    | 0      |
 | 6   | 56              | 48      | 08        | 40    | 0      |
+| 6   | 60              | 57      | 03        | 54    | 0      |
