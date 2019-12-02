@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Hello! Here's a TLDR of my background.
+:wave: Hello! Here's a TLDR of my background.
 
 ### Education
 - MS Computer Science at [University of Texas at Austin](https://www.utexas.edu/)
