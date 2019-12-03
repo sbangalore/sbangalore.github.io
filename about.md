@@ -25,11 +25,13 @@ published: true
 
 <details>
   <summary>Other things I also enjoy</summary>
+  
   -Powerlifting
   -Snowboarding
   -Basketball
   -Food
   -Enjoying time with my cat
+  
 </details>
 
 
