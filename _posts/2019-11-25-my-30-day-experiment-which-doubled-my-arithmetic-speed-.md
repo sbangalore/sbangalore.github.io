@@ -27,11 +27,11 @@ This was an effort to improve my calculation speed. Throughout these exercises, 
 ![Score improving over time](https://i.imgur.com/FgDGyii.png)
 
 
-I made a few incremental speed ups due to these:
+I made a few incremental speed ups from:
 
-1. **Double check**: after calculations, look at the negatives and magnitudes (this should take 1/2 second)
-2. **Use tricks**: for example, when multiplying by 11, add the digits of the number and put them in the middle. i.e. for 11 * 23, the answer is 2 (3+2) 3 = 253
-3. **Guess well**: the product of a number should always be the units digit of the factors multiplied.
+1. **Double checking**: after calculations, look at the negatives and magnitudes (this should take 1/2 second)
+2. **Using tricks**: for example, when multiplying by 11, add the digits of the number and put them in the middle. i.e. for 11 * 23, the answer is 2 (3+2) 3 = 253
+3. **Guessing well**: the product of a number should always be the units digit of the factors multiplied.
 	i.e. 34343 * 340128 must have 4 at the end of the answer, because 3 * 8 = 24
     
     
