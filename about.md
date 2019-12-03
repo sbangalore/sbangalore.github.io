@@ -26,11 +26,13 @@ published: true
 <details>
   <summary>Other things I also enjoy</summary>
   
-  -Powerlifting
-  -Snowboarding
-  -Basketball
-  -Food
-  -Enjoying time with my cat
+  - Powerlifting (1200 lbs atm)
+  - Snowboarding
+  - Food
+  - Basketball
+  - Boxing (learning)
+  - Poker
+  - Enjoying time with my cat
   
 </details>
 
