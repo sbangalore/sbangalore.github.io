@@ -40,6 +40,17 @@ Git works in the following way:
 | git diff                                | diff of what's staged but not commited                       |
 | git commit -m "[descriptive   message]" | description of what's changed, i.e. "added search by person" |
 
+**BRANCHING/MERGING**
 
+| Command                  | Purpose                                                 |
+|--------------------------|---------------------------------------------------------|
+| git branch               | list all branches                                       |
+| git branch [branch-name] | creates a new branch with branch-name at current commit |
+| git checkout [branch]    | switch to another branch and check it out               |
+| git merge [branch]       | merge the specified branch into the current checkout    |
+| git log                  | show all commits in current branch's history            |
 
+**
+
+___
 source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf)
