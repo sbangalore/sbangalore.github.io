@@ -3,12 +3,20 @@ published: false
 ---
 a.k.a. How to work with your coworkers in a friendly way.
 
-Git works in the following way:
+Git is a versioning system. There are several types of versioning systems, of two major categories.
 
-1. Initialization
-2. Staging/Adding
-3. Commiting/Merging
-4. Pushing
+|               | Free              | Propreitary |
+|---------------|-------------------|-------------|
+| Centralized   | Apache Subversion | Perforce    |
+| Decentralized | Git               | BitKeeper   |
+
+
+I will focus on Git since it is the most frequently used. Git works in the following way:
+
+1. Initialization - configuring user information and repositories (storage areas)
+2. Staging/Adding - setting up files to be added to repositories
+3. Commiting/Merging - integrating changes and context before uploading into repositories
+4. Pushing - uploading into repositories
 5. Sharing/Inspecting/Comparing
 
 <span style="color:blue">I've highlighted important commands in blue.</span>
@@ -64,18 +72,19 @@ Git works in the following way:
 | [git show [SHA]](https://git-scm.com/docs/git-show)               | show any object in Git in readable format       |
 
 **SHARING & UPDATING**
-
+to be completed
 
 **TRACKING PATH CHANGES**
-
+to be completed
 
 **REWRITE HISTORY**
-
+to be completed
 
 **IGNORING PATTERNS**
-
+to be completed
 
 **TEMPORARY COMMITS**
+to be completed
 
 ___
-source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf) & my experience
+source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf) & my experience on frequently used commands not in there
