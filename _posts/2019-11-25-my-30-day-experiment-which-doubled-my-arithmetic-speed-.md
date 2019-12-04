@@ -26,6 +26,7 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 9   | 70              | 63      | 07        | 56    | 1      |
 | 9   | 63              | 57      | 06        | 51    | 1      |
 | 10  | 80              | 75      | 05        | 70    | 0      |
+| 10  | 80              | 73      | 07        | 66    | 0      |
 
 ![Score improving over time](https://i.imgur.com/FgDGyii.png)
 
