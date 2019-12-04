@@ -1,9 +1,9 @@
 ---
 published: true
 ---
-I discuss my 30 day journey where I double my calculation accuracy and improve my calculation accuracy by 50% with [Trader Maths](http://tradermaths.com/tradermath/).
+I discuss my 30 day journey where I double my calculation speed and improve my calculation accuracy by 50% with [Trader Maths](http://tradermaths.com/tradermath/).
 
-This was an effort to improve my calculation speed. Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw). I set the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points.
+This was an effort to improve my mental math (the number of math questions correctly solved in a certain amount of time.) Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw). I set the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points.
 
 
 | Day | Total Attempted | Correct | Incorrect | Score | Coffee |
