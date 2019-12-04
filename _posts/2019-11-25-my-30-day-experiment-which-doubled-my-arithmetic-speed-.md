@@ -5,6 +5,8 @@ I discuss my 30 day journey where I double my calculation speed and improve my c
 
 This was an effort to improve my mental math (the number of math questions correctly solved in a certain amount of time.) Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw). I set the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points.
 
+_note: the platform deducts a point if you don't add a 0 in front of a decimal answer_
+
 
 | Day | Total Attempted | Correct | Incorrect | Score | Coffee |
 |-----|-----------------|---------|-----------|-------|--------|
@@ -23,6 +25,7 @@ This was an effort to improve my mental math (the number of math questions corre
 | 8   | 57              | 46      | 11        | 35    | 0      |
 | 9   | 70              | 63      | 07        | 56    | 1      |
 | 9   | 63              | 57      | 06        | 51    | 1      |
+| 10  | 80              | 75      | 05        | 70    | 0      |
 
 ![Score improving over time](https://i.imgur.com/FgDGyii.png)
 
