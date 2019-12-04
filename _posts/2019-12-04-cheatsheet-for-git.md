@@ -49,19 +49,19 @@ Git works in the following way:
 | [git branch](https://git-scm.com/docs/git-branch)               | list all branches                                       |
 | [git branch [branch-name]](https://git-scm.com/docs/git-branch) | creates a new branch with branch-name at current commit |
 | <span style="color:blue">[git checkout](https://git-scm.com/docs/git-checkout) [branch]    | switch to another branch and check it out</span>               |
-| <span style="color:blue">git merge [branch]       | merge the specified branch into the current checkout</span>    |
-| <span style="color:blue">git merge origin master       | merge the specified branch into the origin master repository</span>    |
-| git log                  | show all commits in current branch's history            |
+| <span style="color:blue">[git merge [branch]](https://git-scm.com/docs/git-merge)       | merge the specified branch into the current checkout</span>    |
+| <span style="color:blue">[git merge origin master](https://git-scm.com/docs/git-merge)       | merge the specified branch into the origin master repository</span>    |
+| [git log](https://git-scm.com/docs/git-log)                  | show all commits in current branch's history            |
 
 **INSPECTING & COMPARING**
 
 | Command                      | Purpose                                         |
 |------------------------------|-------------------------------------------------|
-| git log                      | show all commits in current branch's history    |
-| git log [branchB]..[branchA] | shows commits on branchA not on branch B        |
-| git diff [branchB]..branchA] | shows dif of commits on branchA not on branch B |
-| git log --follow [file]      | shows commits for file                          |
-| git show [SHA]               | show any object in Git in readable format       |
+| [git log](https://git-scm.com/docs/git-log)                      | show all commits in current branch's history    |
+| [git log [branchB]..[branchA]](https://git-scm.com/docs/git-log) | shows commits on branchA not on branch B        |
+| [git diff [branchB]..branchA]](https://git-scm.com/docs/git-diff) | shows dif of commits on branchA not on branch B |
+| [git log --follow [file]](https://git-scm.com/docs/git-log)      | shows commits for file                          |
+| [git show [SHA]](https://git-scm.com/docs/git-show)               | show any object in Git in readable format       |
 
 **SHARING & UPDATING**
 
