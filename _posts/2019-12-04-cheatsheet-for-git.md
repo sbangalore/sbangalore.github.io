@@ -11,7 +11,7 @@ Git is a versioning system. There are several types of versioning systems, of tw
 | **Decentralized** | Git               | BitKeeper   |
 
 
-I will focus on Git since it is the most frequently used. Git works in the following way:
+I will focus on Git & Github since it is most frequently used, however, this list works for other Git systems as well such as BitBucket. Git works in the following way:
 
 1. Initialization - configuring user information and repositories (storage areas)
 2. Staging/Adding - setting up files to be added to repositories
@@ -72,19 +72,39 @@ I will focus on Git since it is the most frequently used. Git works in the follo
 | [git show [SHA]](https://git-scm.com/docs/git-show)               | show any object in Git in readable format       |
 
 **SHARING & UPDATING**
-to be completed
+
+| Command                        | Purpose                                 |
+|--------------------------------|-----------------------------------------|
+| [git remote add [alias] [url]](https://help.github.com/en/github/using-git/adding-a-remote) | add git URL as alias                    |
+| [git fetch [alias]](https://git-scm.com/docs/git-fetch)              | fetch all branches from Git             |
+| [git merge [alias]/[branch]](https://git-scm.com/docs/git-merge)     | merge remote branch into current branch |
+| [git push [alias] [branch]](https://git-scm.com/docs/git-push)      | transmit local commits to remote branch |
+| [git pull](https://git-scm.com/docs/git-pull)                       | fetch and merge commits from branch     |
 
 **TRACKING PATH CHANGES**
-to be completed
+
+| Command                          | Purpose                                              |
+|----------------------------------|------------------------------------------------------|
+| [git rm [file]](https://git-scm.com/docs/git-rm)                    | remove file from project and stage removal           |
+| [git mv [current-path] [new-path]](https://git-scm.com/docs/git-mv) | change and stage existing file path                  |
+| [git log --stat -M](https://git-scm.com/docs/git-log)                | show all commit logs with indiciation of moved paths |
 
 **REWRITE HISTORY**
-to be completed
 
-**IGNORING PATTERNS**
-to be completed
+| Command                      | Purpose                                                   |
+|------------------------------|-----------------------------------------------------------|
+| [git rebase [branch]](https://git-scm.com/docs/git-rebase)          | apply current commits ahead of specified   branch         |
+| [git reset --hard [commit]](https://git-scm.com/docs/git-reset)    | clear staging, rewrite working tree from specified commit |
+
 
 **TEMPORARY COMMITS**
-to be completed
+
+| Command        | Purpose                                  |
+|----------------|------------------------------------------|
+| [git stash](https://git-scm.com/docs/git-stash)      | save modified and staged changes         |
+| [git stash list](https://git-scm.com/docs/git-stash) | list stack-order of stashed file changes |
+| [git stash pop](https://git-scm.com/docs/git-stash)  | write working from top of stash stack    |
+| [git stash drop](https://git-scm.com/docs/git-stash) | discard changes from top of stash stack  |
 
 
 ![Funny image on Git from XKCD]({{site.baseurl}}/https://imgs.xkcd.com/comics/git.png)
