@@ -5,10 +5,10 @@ a.k.a. How to work with your coworkers in a friendly way.
 
 Git is a versioning system. There are several types of versioning systems, of two major categories.
 
-|               | Free              | Propreitary |
+|               | **Free**              | **Propreitary** |
 |---------------|-------------------|-------------|
-| Centralized   | Apache Subversion | Perforce    |
-| Decentralized | Git               | BitKeeper   |
+| **Centralized**   | Apache Subversion | Perforce    |
+| **Decentralized** | Git               | BitKeeper   |
 
 
 I will focus on Git since it is the most frequently used. Git works in the following way:
