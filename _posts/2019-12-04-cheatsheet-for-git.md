@@ -86,5 +86,8 @@ to be completed
 **TEMPORARY COMMITS**
 to be completed
 
+
+![Funny image on Git from XKCD]({{site.baseurl}}/https://imgs.xkcd.com/comics/git.png)
+
 ___
 source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf) & my experience on frequently used commands not in there
