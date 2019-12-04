@@ -5,7 +5,11 @@ a.k.a. How to work with your coworkers in a friendly way.
 
 Git works in the following way:
 
-
+1. Initialization
+2. Staging/Adding
+3. Commiting/Merging
+4. Pushing
+5. Sharing/Inspecting/Comparing
 
 **SETUP**
 
