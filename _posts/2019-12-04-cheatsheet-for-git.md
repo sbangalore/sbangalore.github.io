@@ -107,7 +107,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git stash drop](https://git-scm.com/docs/git-stash) | discard changes from top of stash stack  |
 
 
-![Funny image on Git from XKCD]({{site.baseurl}}/https://imgs.xkcd.com/comics/git.png)
+![Funny image on Git from XKCD](https://imgs.xkcd.com/comics/git.png)
 
 ___
 source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf) & my experience on frequently used commands not in there
