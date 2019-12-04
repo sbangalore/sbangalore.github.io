@@ -35,8 +35,8 @@ I will focus on Git since it is the most frequently used. Git works in the follo
 
 | Command | Purpose |
 |---------|---------|
-| <span style="color:blue">[git init](https://git-scm.com/docs/git-init) | initialize a repository in the current directory</span> |
-| <span style="color:blue">[git clone [url]](https://git-scm.com/docs/git-clone)  | clone a repository into the current directory </span> |
+| [git init](https://git-scm.com/docs/git-init) | <span style="color:blue">initialize a repository in the current directory</span> |
+| [git clone [url]](https://git-scm.com/docs/git-clone)  | <span style="color:blue">clone a repository into the current directory </span> |
 
 **STAGING**
 
@@ -44,11 +44,11 @@ I will focus on Git since it is the most frequently used. Git works in the follo
 |-----------------------------------------|--------------------------------------------------------------|
 | [git status](https://git-scm.com/docs/git-status)                              | shows modified staged files                                  |
 | [git add [file]](https://git-scm.com/docs/git-add)                          | stage a file for a commit                                    |
-| <span style="color:blue">[git add -a](https://git-scm.com/docs/git-add)                              | stage all changed files for commit</span>                           |
+| [git add -a](https://git-scm.com/docs/git-add)                              | <span style="color:blue">stage all changed files for commit</span>                           |
 | [git reset [file]](https://git-scm.com/docs/git-reset)                        | unstage a file                                               |
 | [git reset -a](https://git-scm.com/docs/git-reset)                            | unstage all files                                            |
 | [git diff](https://git-scm.com/docs/git-diff)                                | diff of what's staged but not commited                       |
-| <span style="color:blue">[git commit -m "[descriptive   message]"](https://git-scm.com/docs/git-commit) | description of what's changed, i.e. "added search by person"</span> |
+| [git commit -m "[descriptive   message]"](https://git-scm.com/docs/git-commit) | <span style="color:blue">description of what's changed, i.e. "added search by person"</span> |
 
 **BRANCHING & MERGING**
 
@@ -56,9 +56,9 @@ I will focus on Git since it is the most frequently used. Git works in the follo
 |--------------------------|---------------------------------------------------------|
 | [git branch](https://git-scm.com/docs/git-branch)               | list all branches                                       |
 | [git branch [branch-name]](https://git-scm.com/docs/git-branch) | creates a new branch with branch-name at current commit |
-| <span style="color:blue">[git checkout [branch]](https://git-scm.com/docs/git-checkout)    | switch to another branch and check it out</span>               |
-| <span style="color:blue">[git merge [branch]](https://git-scm.com/docs/git-merge)       | merge the specified branch into the current checkout</span>    |
-| <span style="color:blue">[git merge origin master](https://git-scm.com/docs/git-merge)       | merge the specified branch into the origin master repository</span>    |
+| [git checkout [branch]](https://git-scm.com/docs/git-checkout)    | <span style="color:blue">switch to another branch and check it out</span>               |
+| [git merge [branch]](https://git-scm.com/docs/git-merge)       | <span style="color:blue">merge the specified branch into the current checkout</span>    |
+| [git merge origin master](https://git-scm.com/docs/git-merge)       | <span style="color:blue">merge the specified branch into the origin master repository</span>    |
 | [git log](https://git-scm.com/docs/git-log)                  | show all commits in current branch's history            |
 
 **INSPECTING & COMPARING**
