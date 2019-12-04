@@ -42,7 +42,7 @@ Git works in the following way:
 | git diff                                | diff of what's staged but not commited                       |
 | <span style="color:blue">git commit -m "[descriptive   message]" | description of what's changed, i.e. "added search by person"</span> |
 
-**BRANCHING/MERGING**
+**BRANCHING & MERGING**
 
 | Command                  | Purpose                                                 |
 |--------------------------|---------------------------------------------------------|
@@ -53,7 +53,7 @@ Git works in the following way:
 | <span style="color:blue">git merge origin master       | merge the specified branch into the origin master repository</span>    |
 | git log                  | show all commits in current branch's history            |
 
-**
+**INSPECTING & COMPARING**
 
 | Command                      | Purpose                                         |
 |------------------------------|-------------------------------------------------|
@@ -63,7 +63,19 @@ Git works in the following way:
 | git log --follow [file]      | shows commits for file                          |
 | git show [SHA]               | show any object in Git in readable format       |
 
+**SHARING & UPDATING**
 
+
+**TRACKING PATH CHANGES**
+
+
+**REWRITE HISTORY**
+
+
+**IGNORING PATTERNS**
+
+
+**TEMPORARY COMMITS**
 
 ___
 source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf) & my experience
