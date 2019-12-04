@@ -11,6 +11,8 @@ Git works in the following way:
 4. Pushing
 5. Sharing/Inspecting/Comparing
 
+<span style="color:blue">I've highlighted important commands in blue.</span>
+
 **SETUP**
 
 | Command                                                | Purpose              |
@@ -26,7 +28,7 @@ Git works in the following way:
 | Command | Purpose |
 |---------|---------|
 | git init | initialize a repository in the current   directory |
-| git clone [url] | clone a repository into the current directory |
+| <span style="color:blue">git clone [url] | clone a repository into the current directory </span> |
 
 **STAGING**
 
@@ -34,11 +36,11 @@ Git works in the following way:
 |-----------------------------------------|--------------------------------------------------------------|
 | git status                              | shows modified staged files                                  |
 | git add [file]                          | stage a file for a commit                                    |
-| git add -a                              | stage all changed files for commit                           |
+| <span style="color:blue">git add -a                              | stage all changed files for commit</span>                           |
 | git reset [file]                        | unstage a file                                               |
 | git reset -a                            | unstage all files                                            |
 | git diff                                | diff of what's staged but not commited                       |
-| git commit -m "[descriptive   message]" | description of what's changed, i.e. "added search by person" |
+| <span style="color:blue">git commit -m "[descriptive   message]" | description of what's changed, i.e. "added search by person"</span> |
 
 **BRANCHING/MERGING**
 
@@ -46,11 +48,22 @@ Git works in the following way:
 |--------------------------|---------------------------------------------------------|
 | git branch               | list all branches                                       |
 | git branch [branch-name] | creates a new branch with branch-name at current commit |
-| git checkout [branch]    | switch to another branch and check it out               |
-| git merge [branch]       | merge the specified branch into the current checkout    |
+| <span style="color:blue">git checkout [branch]    | switch to another branch and check it out</span>               |
+| <span style="color:blue">git merge [branch]       | merge the specified branch into the current checkout</span>    |
+| <span style="color:blue">git merge origin master       | merge the specified branch into the origin master repository</span>    |
 | git log                  | show all commits in current branch's history            |
 
 **
 
+| Command                      | Purpose                                         |
+|------------------------------|-------------------------------------------------|
+| git log                      | show all commits in current branch's history    |
+| git log [branchB]..[branchA] | shows commits on branchA not on branch B        |
+| git diff [branchB]..branchA] | shows dif of commits on branchA not on branch B |
+| git log --follow [file]      | shows commits for file                          |
+| git show [SHA]               | show any object in Git in readable format       |
+
+
+
 ___
-source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf)
+source: [Git Cheat Sheet Education](https://education.github.com/git-cheat-sheet-education.pdf) & my experience
