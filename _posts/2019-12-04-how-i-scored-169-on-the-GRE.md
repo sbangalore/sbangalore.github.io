@@ -69,7 +69,9 @@ You will spend the rest of your time ~60 hours here. This is real crunch time an
   
 Congrats, you now have your solid GRE score and, hopefully, are happy with it.
     
-**List of Free Exams**
+**List of Free Exams (ordered by relevance)**
 
+GRE Paper based tests: first(https://www.ets.org/s/gre/pdf/practice_book_GRE_pb_revised_general_test.pdf), second(http://web.archive.org/web/20110605194015/http://www.ets.org/s/gre/pdf/practice_book_GRE_pb_revised_general_test.pdf)
+Kaplan (https://www.kaptest.com/gre/free/gre-practice-test-options)
 
-
+Let me know if you have another resources in the comments. Strength and solidarity, folks. Work with others who are doing the test as well. We're all working for the same goal :muscle:
