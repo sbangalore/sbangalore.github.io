@@ -87,3 +87,5 @@ Let me know if you have another resources in the comments. Strength and solidari
 | Quant   | <160   |
 | Verbal  | <155   |
 | AWA     | <3     |
+
+
