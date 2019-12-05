@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Today, I get you the fastest way to mint cash :sparkles: getting into HYPS.
 
