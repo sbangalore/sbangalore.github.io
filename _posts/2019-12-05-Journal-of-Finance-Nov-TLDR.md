@@ -102,4 +102,4 @@ The authors construct a [HH concentration index](https://www.investopedia.com/te
 
 ___
 
-<span style="color:blue"> Jointly, they explain 23.4% of the variation in the PCA component. Search and bargaining capture 18% of variation, and inventory captures 13.9%. Compared to the initial CDGM model, the mean and median adjusted R^2s increase by 9 and 14.4% respectively to 30.7% and …? (couldn't find this). This implies that OTC frictions account for 1/3 of total explained variation in yield spread changes.</span>
+<span style="color:blue"> Jointly, they explain 23.4% of the variation in the PCA component. Search and bargaining capture 18% of variation, and inventory captures 13.9%. Compared to the initial CDGM model, the mean and median adjusted R^2s increase respectively by 9% and 14.4% to 30.7% and …?. This implies that OTC frictions account for 1/3 of total explained variation in yield spread changes.</span>
