@@ -14,8 +14,9 @@ There is substance in this post, I promise. This is my four step process on how 
 - [Magoosh Flashcards](https://gre.magoosh.com/flashcards/vocabulary) (FREE)
 - [Magoosh Math and Quant](https://gre.magoosh.com/plans) ($129)
 - [Essay topics from the GRE](https://www.ets.org/gre/revised_general/prepare/analytical_writing/issue/pool) (FREE)
-- [PowerPrep by GRE] (FREE & $40 USD + taxes)
-- This blogpost with a list of exams (FREE)
+- [PowerPrep by GRE](https://www.ets.org/gre/revised_general/prepare/powerprep/) (FREE & $40 USD + taxes)
+- [MGMAT](https://www.amazon.ca/Complete-GMAT-Strategy-Guide-Set/dp/1941234100/ref=asc_df_1941234100/?tag=googleshopc0c-20&linkCode=df0&hvadid=292996645836&hvpos=1o1&hvnetw=g&hvrand=14512839492580413724&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061009&hvtargid=pla-406475559775&psc=1) (~$200 or ... just buy it off [Kijiji](https://www.kijiji.ca/)/[Craigslist](https://craigslist.org/) like I did)
+- This blogpost with a list of exams & strategy (FREE :wink:)
 
 <span style="color:blue">How much time did I take?</span>
 
@@ -27,17 +28,17 @@ This is how you use your time.
 
 **Diagnostic**
 
-Download the free PowerPrep software and do the first (free!) exam included in a testing environment. Get your score. This is your baseline. This should take ~3-5 hours. Understand where your major problems lie. If your quant is anything below a 160, focus on bringing it up as most masters programs focus on it.
+Download the [free PowerPrep software](https://www.ets.org/gre/revised_general/prepare/powerprep/) and do the first (free!) exam included in a testing environment. Get your score. This is your baseline. This should take ~3-5 hours. Understand where your major problems lie. If your quant is anything below a 160, focus on bringing it up as most masters programs focus on it.
 
 **Verbal**
 
-During your daily activities when you have a couple of hours metally, spend them on the Magoosh Flashcards until you get all the cards correct on the first try. That will take at least 20 days and 2 hours per day. For me, this was when I was doing cardio/running, in the washroom, and on the way to work. If you're wondering about the running, I put my phone on the treadmill and swiped.
+During your daily activities when you have a couple of hours metally, spend them on the [Magoosh Flashcards](https://gre.magoosh.com/flashcards/vocabulary) until you get all the cards correct on the first try. That will take at least 20 days and 2 hours per day. For me, this was when I was doing cardio/running, in the washroom, and on the way to work. If you're wondering about the running, I put my phone on the treadmill and swiped.
 
 This is now 40 hours of verbal prep in 20 days. You will have a good understanding of the verbal section and should reach the high 150s/160s.
 
 **Quant**
 
-For math, I would recommend going through the MGMAT books if you are uncomfortable, or if you are relatively comfortable but making small mistakes, to start working on the Magoosh Math and Quant online. Do NOT run the questions sequentially. Instead, run practice tests purely on quant continuously in blocks of time, and analyze your mistakes afterwords in sections. For example, if you notice that combinatorics is a weak point, read it over in the MGMAT, and solve another practice test. Continue with this for 10 practice tests.
+For math, I would recommend going through the [MGMAT](https://www.amazon.ca/Complete-GMAT-Strategy-Guide-Set/dp/1941234100/ref=asc_df_1941234100/?tag=googleshopc0c-20&linkCode=df0&hvadid=292996645836&hvpos=1o1&hvnetw=g&hvrand=14512839492580413724&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061009&hvtargid=pla-406475559775&psc=1) books if you are uncomfortable, or if you are relatively comfortable but making small mistakes, to start working on the [Magoosh Math and Quant online](https://gre.magoosh.com/plans). Do NOT run the questions sequentially. Instead, run practice tests purely on quant continuously in blocks of time, and analyze your mistakes afterwords in sections. For example, if you notice that combinatorics is a weak point, read it over in the [MGMAT](https://www.amazon.ca/Complete-GMAT-Strategy-Guide-Set/dp/1941234100/ref=asc_df_1941234100/?tag=googleshopc0c-20&linkCode=df0&hvadid=292996645836&hvpos=1o1&hvnetw=g&hvrand=14512839492580413724&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061009&hvtargid=pla-406475559775&psc=1), and solve another practice test. Continue with this for 10 practice tests.
 
 This will run you ~10 hours for a total of 50 hours of prep in 23 days. You will now have a good understanding of the quantiative section and should reach the mid to high 160s.
 
@@ -51,9 +52,9 @@ You will spend ~10 hours on essay writing for a total of 60 hours of prep in 25 
   
 This should be your workflow:
 
-1. Get the second (free!) PowerPrep exam done under exam circumstances (no distractions, music, etc.) Score it properly. This will give you an estimate of the score you might make. See the difference. :smile:
-2. If you haven't finished your Magoosh problems and reviewed them, finish and review them now. _Focus on getting your Magoosh questions done._
-3. Then, if you have the moola, purchase PowerPrep Plus. Work on the next 3-4 exams in the software (~$40/2 exams). If you do not, start solving 3-4 of the free exams. Review the problems you do not get correct, and resolve them in random order.
+1. Get the second (free!) [PowerPrep](https://www.ets.org/gre/revised_general/prepare/powerprep/) exam done under exam circumstances (no distractions, music, etc.) Score it properly. This will give you an estimate of the score you might make. See the difference. :smile:
+2. If you haven't finished your [Magoosh](https://gre.magoosh.com/plans) problems and reviewed them, finish and review them now. _Focus on getting your [Magoosh questions](https://gre.magoosh.com/plans) done._
+3. Then, if you have the moola, purchase [PowerPrep Plus](https://www.ets.org/gre/revised_general/prepare/powerprep/). Work on the next 3-4 exams in the software (~$40/2 exams). If you do not, start solving 3-4 of the free exams. Review the problems you do not get correct, and resolve them in random order.
   
 You'll start to notice that some of the more obscure words are challenging. You'll have to take Ls on these for a bit; focus on the Pareto principle, and get the high frequency words correct. If you find that you're hitting the mid 160s on verbal and high 160s on quant, this is when you start working on the more advanced verbal flashcards.
   
