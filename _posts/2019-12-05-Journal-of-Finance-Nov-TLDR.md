@@ -9,7 +9,7 @@ Paper #1: [Over-the-Counter Market Frictions and Yield Spread Changes](https://o
 
 
 
-**My thoughts**
+### My thoughts
 
 This paper is interesting if you are in asset pricing. It provides an empirical proof for Duffie et. al in 2007 which discusses search frictions as a factor in yield variability.
 
@@ -17,7 +17,7 @@ It doesn't look too tough to implement parts of the paper even with public infor
 
 The paper also builds heavily on CDGM (2011), so it might be useful, though not necessary, to check that out.
 
-**TLDR**
+### TLDR
 
 | Who | [Nils Friewald](https://sites.google.com/site/nilsfriewald) and [Florian Nagler](https://sites.google.com/site/floriannagler/) |
 | --- | --- |
@@ -39,7 +39,7 @@ For Interdealer trades, they have info on coded identities. With customer-dealer
 
 Finally, they get info from Thomson Reuters eMAXX which has info on insurance companies, mutual funds, and pension funds and who they trade with.
 
-_Dealing with inventory search frictions_
+### Dealing with inventory search frictions
 
 **Bottom line: If there is more of an asset available, it will be cheaper.**
 
@@ -65,7 +65,7 @@ Vayanos (2002), Brunnermeier and Pederson (2009), Nagel (2012): asset prices inv
 
 They proxy aggregate order flow for increases in market-wide inventory and the TED spread for dealers' funding costs. <span style="color:blue"> This explains 13.9% of the variation in the PCA component.</span>
 
-_Dealing with systematic search frictions_
+### Dealing with systematic search frictions
 
 **Bottomline: If an asset is easier to find and sell, it will be cheaper.**
 
@@ -86,7 +86,7 @@ They identify generalized split intermediation chains by tracing bonds through t
 
 <span style="color:blue">This explains 6.3% of the variation in the PCA component.</span>
 
-_Dealing with systematic bargaining frictions_
+### Dealing with systematic bargaining frictions
 
 **Bottomline: If dealers have more leverage vs. clients, yields spreads increase**
 
