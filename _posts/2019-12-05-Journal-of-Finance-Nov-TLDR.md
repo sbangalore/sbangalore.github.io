@@ -5,7 +5,7 @@ Where I read and concisely summarize 100s of pages from dry financial papers so 
 
 Caveat: I summarize the ones I find interesting gradually (an article/day.) I'm biased towards market structure/markets. Think Duffie/Vayanos/Krishnamurthy.
 
-Paper #1: [Over-the-Counter Market Frictions and Yield Spread Changes](https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12827)
+## Paper #1: [Over-the-Counter Market Frictions and Yield Spread Changes](https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12827)
 
 
 
