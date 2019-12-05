@@ -27,7 +27,7 @@ This is how you use your time.
 
 **Diagnostic**
 
-Download the free PowerPrep software and do the first exam included in a testing environment. Get your score. This is your baseline. This should take ~3-5 hours. Understand where your major problems lie. If your quant is anything below a 160, focus on bringing it up as most masters programs focus on it.
+Download the free PowerPrep software and do the first (free!) exam included in a testing environment. Get your score. This is your baseline. This should take ~3-5 hours. Understand where your major problems lie. If your quant is anything below a 160, focus on bringing it up as most masters programs focus on it.
 
 **Verbal**
 
@@ -51,7 +51,7 @@ You will spend ~10 hours on essay writing for a total of 60 hours of prep in 25 
   
 This should be your workflow:
 
-1. Get the second PowerPrep exam done under exam circumstances (no distractions, music, etc.) Score it properly. This will give you an estimate of the score you might make. See the difference. :smile:
+1. Get the second (free!) PowerPrep exam done under exam circumstances (no distractions, music, etc.) Score it properly. This will give you an estimate of the score you might make. See the difference. :smile:
 2. If you haven't finished your Magoosh problems and reviewed them, finish and review them now. _Focus on getting your Magoosh questions done._
 3. Then, if you have the moola, purchase PowerPrep Plus. Work on the next 3-4 exams in the software (~$40/2 exams). If you do not, start solving 3-4 of the free exams. Review the problems you do not get correct, and resolve them in random order.
   
