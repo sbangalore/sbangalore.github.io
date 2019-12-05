@@ -64,6 +64,9 @@ You will spend the rest of your time ~60 hours here. This is real crunch time an
 **Day before exam**
   
 - Get some sleep!!
+
+**Exam day**
+
 - Take a banana :banana: and a bottle of water.
 - Don't drink too much water.
   
