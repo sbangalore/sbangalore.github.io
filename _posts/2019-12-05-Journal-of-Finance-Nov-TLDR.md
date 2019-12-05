@@ -11,7 +11,11 @@ Paper #1: [Over-the-Counter Market Frictions and Yield Spread Changes](https://o
 
 **My thoughts**
 
-This paper is interesting if you are in asset pricing. It provides an empirical proof for an important paper by Duffie et. al in 2007 which discusses search frictions as an important factor in yield variability. It doesn't look too tough to implement parts of the paper even with public information, and might be valuable when assessing the efficiency of a specific capital market or the potential price of an asset/asset class moving forward if you have a view on certain factors (i.e. market concentration) The paper also builds heavily on CDGM (2011), so it might be useful, though not necessary, to check that out.
+This paper is interesting if you are in asset pricing. It provides an empirical proof for Duffie et. al in 2007 which discusses search frictions as a factor in yield variability.
+
+It doesn't look too tough to implement parts of the paper even with public information, and might be valuable when assessing the efficiency of a specific capital market or the potential price of an asset/asset class if you have a view on certain factors (i.e. market concentration.)
+
+The paper also builds heavily on CDGM (2011), so it might be useful, though not necessary, to check that out.
 
 **TLDR**
 
@@ -23,13 +27,13 @@ This paper is interesting if you are in asset pricing. It provides an empirical 
 
 The authors here use secondary market US corporate bond info from TRACE by FINRA to verify Duffie, Garleanu, and Pederson (2005,2007), DGP's theory on deviations of prices from fundamentals through OTC market frictions. It contains 44 million intra day trades by 2,600 + dealers from 2003 - 2013.  This data looks like:
 
-| Date | ISIN | Price | Volume | Party | Counterparty |
-| --- | --- | --- | --- | --- | --- |
+|    Date    |    ISIN    |    Price    |    Volume    |    Party    |    Counterparty    |
+|------------|------------|-------------|--------------|-------------|--------------------|
 
 For Interdealer trades, they have info on coded identities. With customer-dealer trades, they only have the info on the dealer and that it is with a customer. They merge this with bond info from Mergent:
 
 | ISIN | Offering amount | Offering date | Outstanding | Coupon Rate | Maturity | Credit Rating |
-| --- | --- | --- | --- | --- | --- | --- |
+|------|-----------------|---------------|-------------|-------------|----------|---------------|
 
 Finally, they get info from Thomson Reuters eMAXX which has info on insurance companies, mutual funds, and pension funds and who they trade with.
 
@@ -41,11 +45,13 @@ _Dealing with inventory search frictions_
 
 That is, the factors are:
 
-\delta F\_{i.t} := [\deltaLEV\_{i,t} \deltaRF\_t (\deltaRF\_t)^2 \deltaSLOPE\_t \deltaVIX\_t \RM\_t \deltaJUMP\_t]
+\delta F\_{i.t} := \deltaLEV\_{i,t} \deltaRF\_t (\deltaRF\_t)^2 \deltaSLOPE\_t \deltaVIX\_t \RM\_t \deltaJUMP\_t
 
 Lev is leverage. Rf is risk free rate. Slope is changes in the yield curve slope. VIX is VIX. RM is SP500. JUMP is probability and magnitude of large negative jump in firm value using Black Scholes Merton (1973/74).
 
-They run an OLS using the above as factors and find a similar story to CDGM: a mean adj. R^2 of 21.7% using the CDGM baseline regression model. They also find using PCA that residuals are highly cross-correlated and have a large common component (Component 1 capturing 48.4% of variation! The next only captures 9.5%.)
+They run an OLS using the above as factors and find a similar story to CDGM: a mean adj. R^2 of 21.7% using the CDGM baseline regression model.
+
+They also find using PCA that residuals are highly cross-correlated and have a large common component <span style="color:blue">Component 1 capturing 48.4% of variation! The next only captures 9.5%.</span>
 
 [LMN (2005)](http://dx.doi.org/10.1111/j.1540-6261.2005.00797.x), [CLW (2007)](http://dx.doi.org/10.1111/j.1540-6261.2007.01203.x), BPW(2011): proxy transaction costs related with yield spread changes (high level)
 
@@ -55,7 +61,7 @@ Stoll (1978), Ho and Stoll (1981, 1983): asset prices are inversely related to s
 
 Vayanos (2002), Brunnermeier and Pederson (2009), Nagel (2012): asset prices inversely related to risk aversion and funding costs
 
-They proxy aggregate order flow for increases in market-wide inventory and the TED spread for dealers' funding costs. -- This explains 13.9% of the variation in the PCA component --
+They proxy aggregate order flow for increases in market-wide inventory and the TED spread for dealers' funding costs. <span style="color:blue"> This explains 13.9% of the variation in the PCA component.</span>
 
 _Dealing with systematic search frictions_
 
@@ -76,7 +82,7 @@ They identify generalized split intermediation chains by tracing bonds through t
 1. Find number of dealers in a chain. Longer chain = smaller yield spread.
 2. Proxy chains as meeting rates (required sales required to complete the chain.) More sales in larger sales = smaller yield spreads (i.e. dealers rely on large client base)
 
--- This explains 6.3% of the variation in the PCA component --
+<span style="color:blue">This explains 6.3% of the variation in the PCA component.</span>
 
 _Dealing with systematic bargaining frictions_
 
@@ -90,6 +96,7 @@ LRW (2011), Feldhutter (2012), EJL (2011), Chen et. al (2014): dealer bargaining
 
 They construct a [HH concentration index](https://www.investopedia.com/terms/h/hhi.asp) based on dealers' transaction volumes with customers. More concentration \implies less competitive dealer market \implies higher yield spreads.
 
--- This explains 15.4% of the variation in the PCA component --
+<span style="color:blue">This explains 15.4% of the variation in the PCA component</span>
 
+___
 Jointly, they explain 23.4% of the variation in the PCA component. Search and bargaining capture 18% of variation, and inventory captures 13.9%. Compared to the initial CDGM model, the mean and median adjusted R^2s increase by 9 and 14.4% respectively to 30.7% and …? (couldn't find this). This implies that OTC frictions account for 1/3 of total explained variation in yield spread changes.
