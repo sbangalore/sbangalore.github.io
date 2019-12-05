@@ -1,7 +1,9 @@
 ---
 published: false
 ---
-Today, I get you the fastest way to mint cash :sparkles: getting into HYPS
+Today, I get you the fastest way to mint cash :sparkles: getting into HYPS.
+
+:exclamation: Warning: This takes time. 120 hours, maybe more. :exclamation:
 
 There is substance in this post, I promise. This is my four step process on how I made a 169/168/5 on the GRE. Here's the proof:
 
@@ -20,7 +22,7 @@ The best way to start is with time. I budgeted 30 days to get the 169 with 4 hou
 
 This is how you use your time.
 
-<span style="color:blue">The meat of the plan<span style="color:blue">
+<span style="color:blue">The meat of the plan</span>
 
 
 **Verbal**
@@ -51,18 +53,18 @@ This should be your workflow:
 You'll start to notice that some of the more obscure words are challenging. You'll have to take Ls on these; focus on the Pareto principle, and get the high frequency words correct.
   
 You will spend the rest of your time ~60 hours here. This is real crunch time and it is important to put in the time.
-  
-  
+
+<span style="color:blue">Exam day :sunglasses:</span>
+
 **Day before exam**
   
 - Get some sleep!!
-- Take a banana and a bottle of water.
+- Take a banana :banana: and a bottle of water.
 - Don't drink too much water.
   
-Congrats, you now have your solid GRE score and, hopefully, are happy with it (:
-  
-  
+Congrats, you now have your solid GRE score and, hopefully, are happy with it.
+    
 **List of Free Exams**
-  
+
 
 
