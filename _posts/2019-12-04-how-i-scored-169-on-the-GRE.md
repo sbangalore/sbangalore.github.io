@@ -44,7 +44,7 @@ This will run you ~10 hours for a total of 50 hours of prep in 23 days. You will
 
 **AWA**
 
-The optimal essay length is 600 words; this is pretty long. It is improtant to have clarity, conciseness, and be verbose (use long, useless words.) That's what the GRE likes :confused:. Get a rocking thesis, have an introduction, use transitions, three paragraphs with supporting arguments, and a conclusion that restates the thesis. Basically, do what you did when learning to write in middle school: a solid 5 paragraph essay. Use the prompts from the essay topics shown above.
+The optimal essay length is 600 words; this is pretty long. It is important to be clear, concise, and verbose (use long, useless words.) That's what the GRE likes :confused:. Get a rocking thesis, have an introduction, use transitions, three paragraphs with supporting arguments, and a conclusion that restates the thesis. Basically, do what you did when learning to write in middle school: a solid 5 paragraph essay. Use the prompts from the essay topics shown above.
   
 You will spend ~10 hours on essay writing for a total of 60 hours of prep in 25 days. This should get you a 4.5+ score on the AWA. You will now have a week to get your practice exams on.
   
