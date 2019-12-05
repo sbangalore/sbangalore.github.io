@@ -47,7 +47,7 @@ Finally, they get info from Thomson Reuters eMAXX which has info on insurance co
 
 That is, the factors are:
 
-$\delta F\_{i.t} := \deltaLEV\_{i,t} \deltaRF\_t (\deltaRF\_t)^2 \deltaSLOPE\_t \deltaVIX\_t \RM\_t \deltaJUMP\_t$
+$$ \delta F_{i.t} := \delta LEV_{i,t} \delta RF_t (\delta RF_t)^2 \delta SLOPE_t \delta VIX_t \delta RM_t \delta JUMP_t $$
 
 Lev is leverage. Rf is risk free rate. Slope is changes in the yield curve slope. VIX is VIX. RM is SP500. JUMP is probability and magnitude of large negative jump in firm value using Black Scholes Merton (1973/74).
 
