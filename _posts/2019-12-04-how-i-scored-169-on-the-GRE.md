@@ -5,11 +5,11 @@ Today, I get you the fastest way to mint cash :sparkles: getting into HYPS.
 
 :exclamation: Warning: This takes time. 120 hours, maybe more. :exclamation:
 
-There is substance in this post, I promise. This is my four step process on how I made a 169/168/5 on the GRE. Here's the proof:
+There is substance in this post, I promise. This is my three step process on how I made a 169/168/5 on the GRE. Here's the proof:
 
 ![My GRE score](https://i.imgur.com/8tmIAQm.png)
 
-1. Get the tools.
+<span style="color:blue">The tools of the trade</span>
 
 - [Magoosh Flashcards](https://gre.magoosh.com/flashcards/vocabulary) (FREE)
 - [Magoosh Math and Quant](https://gre.magoosh.com/plans) ($129)
