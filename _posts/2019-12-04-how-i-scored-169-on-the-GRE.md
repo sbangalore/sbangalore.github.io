@@ -81,6 +81,7 @@ Congrats, you now have your solid GRE score and, hopefully, are happy with it.
 Let me know if you have another resources in the comments. Strength and solidarity, folks. Work with others who are doing the test as well. We're all working for the same goal :muscle:
 
 **When should you retake?**
+
 | Section | Retake |
 |---------|--------|
 | Quant   | <160   |
