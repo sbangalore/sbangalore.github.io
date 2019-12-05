@@ -31,7 +31,7 @@ The authors here use secondary market US corporate bond info from TRACE by FINRA
 |------------|------------|-------------|--------------|-------------|--------------------|
 |            |            |             |              |             |                    |
 
-For Interdealer trades, they have info on coded identities. With customer-dealer trades, they only have the info on the dealer and that it is with a customer. They merge this with bond info from Mergent:
+For Interdealer trades, the authors have info on coded identities. With customer-dealer trades, they only have the info on the dealer and that it is with a customer. They merge this with bond info from Mergent:
 
 | ISIN | Offering amount | Offering date | Outstanding | Coupon Rate | Maturity | Credit Rating |
 |------|-----------------|---------------|-------------|-------------|----------|---------------|
@@ -51,19 +51,19 @@ That is, the factors are:
 
 Lev is leverage. Rf is risk free rate. Slope is changes in the yield curve slope. VIX is VIX. RM is SP500. JUMP is probability and magnitude of large negative jump in firm value using Black Scholes Merton (1973/74).
 
-They run an OLS using the above as factors and find a similar story to CDGM: a mean adj. R^2 of 21.7% using the CDGM baseline regression model.
+The authors run an OLS using the above as factors and find a similar story to CDGM: a mean adj. R^2 of 21.7% using the CDGM baseline regression model.
 
-They also find using PCA that residuals are highly cross-correlated and have a large common component <span style="color:blue">Component 1 capturing 48.4% of variation! The next only captures 9.5%.</span>
+They also find using PCA that residuals are highly cross-correlated and have a large common component. In their PCA, <span style="color:blue">Component 1 captures 48.4% of variation! The next component only captures 9.5%.</span>
 
 [LMN (2005)](http://dx.doi.org/10.1111/j.1540-6261.2005.00797.x), [CLW (2007)](http://dx.doi.org/10.1111/j.1540-6261.2007.01203.x), BPW(2011): proxy transaction costs related with yield spread changes (high level)
 
-They go more granular, constructing proxies for systematic inventory, search, and bargaining frictions in the corp. bond market.
+The authors go more granular, constructing proxies for systematic inventory, search, and bargaining frictions in the corp. bond market.
 
 Stoll (1978), Ho and Stoll (1981, 1983): asset prices are inversely related to systematic inventory frictions (dealer inventories)
 
 Vayanos (2002), Brunnermeier and Pederson (2009), Nagel (2012): asset prices inversely related to risk aversion and funding costs
 
-They proxy aggregate order flow for increases in market-wide inventory and the TED spread for dealers' funding costs. <span style="color:blue"> This explains 13.9% of the variation in the PCA component.</span>
+The authors proxy aggregate order flow for increases in market-wide inventory and the TED spread for dealers' funding costs. <span style="color:blue"> This explains 13.9% of the variation in the PCA component.</span>
 
 ### Dealing with systematic search frictions
 
@@ -71,7 +71,7 @@ They proxy aggregate order flow for increases in market-wide inventory and the T
 
 DKS (2016): Dealers don't randomly search. They form trading networks to reduce these costs.
 
-They proxy connectivity of dealers by using the graph-level [eigen centrality](https://en.wikipedia.org/wiki/Eigenvector_centrality) of the interdealer network.
+The authors proxy connectivity of dealers by using the graph-level [eigen centrality](https://en.wikipedia.org/wiki/Eigenvector_centrality) of the interdealer network.
 
 Neklyudov (2014), Chang and Zhang (2016), Wang (2016): search frictions correlate with properties of intermediation chains.
 
@@ -79,7 +79,7 @@ HNS (2017), LS (2019): introduce intermediation chains.
 
 SWY (2016), NS (2017): lower search costs lead to larger intermediary sector with longer chains
 
-They identify generalized split intermediation chains by tracing bonds through the interdealer network after being sold by customers and before they go into portfolios: how?
+The authors identify generalized split intermediation chains by tracing bonds through the interdealer network after being sold by customers and before they go into portfolios: how?
 
 1. Find number of dealers in a chain. Longer chain = smaller yield spread.
 2. Proxy chains as meeting rates (required sales required to complete the chain.) More sales in larger sales = smaller yield spreads (i.e. dealers rely on large client base)
@@ -96,7 +96,7 @@ Randall (2015): marketwide fraction of blocktrades, correlated with better clien
 
 LRW (2011), Feldhutter (2012), EJL (2011), Chen et. al (2014): dealer bargaining power correlated with demand shock to bonds due to investor mandates, regulation
 
-They construct a [HH concentration index](https://www.investopedia.com/terms/h/hhi.asp) based on dealers' transaction volumes with customers. More concentration \implies less competitive dealer market \implies higher yield spreads.
+The authors construct a [HH concentration index](https://www.investopedia.com/terms/h/hhi.asp) based on dealers' transaction volumes with customers. More concentration \implies less competitive dealer market \implies higher yield spreads.
 
 <span style="color:blue">This explains 15.4% of the variation in the PCA component</span>
 
