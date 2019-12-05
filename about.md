@@ -21,7 +21,7 @@ published: true
 ### Things I enjoy doing
 - Software - how to build
 - Finance - how to price
-- Selling - how to sell
+- Sales - how to sell
 
 <details>
   <summary>Other things I also enjoy</summary>
