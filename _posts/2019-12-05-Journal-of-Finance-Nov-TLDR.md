@@ -99,5 +99,7 @@ LRW (2011), Feldhutter (2012), EJL (2011), Chen et. al (2014): dealer bargaining
 They construct a [HH concentration index](https://www.investopedia.com/terms/h/hhi.asp) based on dealers' transaction volumes with customers. More concentration \implies less competitive dealer market \implies higher yield spreads.
 
 <span style="color:blue">This explains 15.4% of the variation in the PCA component</span>
+
 ___
+
 <span style="color:blue"> Jointly, they explain 23.4% of the variation in the PCA component. Search and bargaining capture 18% of variation, and inventory captures 13.9%. Compared to the initial CDGM model, the mean and median adjusted R^2s increase by 9 and 14.4% respectively to 30.7% and …? (couldn't find this). This implies that OTC frictions account for 1/3 of total explained variation in yield spread changes.</span>
