@@ -63,7 +63,9 @@ Stoll (1978), Ho and Stoll (1981, 1983): asset prices are inversely related to s
 
 Vayanos (2002), Brunnermeier and Pederson (2009), Nagel (2012): asset prices inversely related to risk aversion and funding costs
 
-The authors proxy aggregate order flow for increases in market-wide inventory and the TED spread for dealers' funding costs. <span style="color:blue"> This explains 13.9% of the variation in the PCA component.</span>
+The authors proxy aggregate order flow for increases in market-wide inventory and the TED spread for dealers' funding costs.
+
+<span style="color:blue"> This explains 13.9% of the variation in the PCA component.</span>
 
 ### Dealing with systematic search frictions
 
