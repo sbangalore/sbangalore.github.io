@@ -1,6 +1,8 @@
 ---
 published: true
-tags: [fi, finance]
+tags:
+  - fi
+  - finance
 ---
 A bond is a security that provides a fixed stream of income to the lender. I discuss the factors behind government bond valuation.
 
