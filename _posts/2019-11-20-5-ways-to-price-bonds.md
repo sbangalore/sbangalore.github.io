@@ -2,7 +2,7 @@
 published: true
 tags:
   - finance
-  - fi
+  - fixed-income
 ---
 There are a few key ways to price bonds. In this post, I review 5 of them.
 
