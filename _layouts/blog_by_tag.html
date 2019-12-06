@@ -42,19 +42,21 @@
       </div>
     </div>
 	<div id="main" role="main" class="container">
-      <h1>Articles by tag: {{ page.tag }}</h1>
-      <div>
-          {% if site.tags[page.tag] %}
-            <ul style="list-style-type:none">
-              {% for post in site.tags[page.tag] %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              	&nbsp; {{ post.date | date: "%B %e, %Y" }}
-              {% endfor %}
-        	</ul>
-          {% else %}
-              <p>There are no posts for this tag.</p>
-          {% endif %}
-      </div>
+      <article class="post">
+        <h1>Articles by tag: {{ page.tag }}</h1>
+        <div>
+            {% if site.tags[page.tag] %}
+              <ul style="list-style-type:none">
+                {% for post in site.tags[page.tag] %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  &nbsp; {{ post.date | date: "%B %e, %Y" }}
+                {% endfor %}
+              </ul>
+            {% else %}
+                <p>There are no posts for this tag.</p>
+            {% endif %}
+        </div>
+      </article>
     </div>
     
     <div class="wrapper-footer">
