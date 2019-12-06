@@ -1,8 +1,8 @@
 ---
 published: true
 tags:
-  - tech
-  - quant
+  - technology
+  - quantitative-methods
 ---
 This is a quick cheatsheet for relevant UNIX and VIM commands!
 
