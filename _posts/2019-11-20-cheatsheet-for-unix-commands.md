@@ -5,7 +5,7 @@ This is a quick cheatsheet for relevant UNIX and VIM commands!
 
 A couple of notes: first, you can access the Terminal through your UNIX computer. Second, when I say or, it means that there are 2 equivalent commands, not that you should type or. For example, you can move to the home directory using one of two commands: [cd](http://man7.org/linux/man-pages/man1/cd.1p.html) or [cd~](http://man7.org/linux/man-pages/man1/cd.1p.html). You should not type <span style="color:blue">cd or cd~</span> into the terminal.
 
-**Basic Navigation**
+## Basic Navigation
 
 | Command | Description | Example |
 |---  |---  |---|
@@ -23,7 +23,7 @@ A couple of notes: first, you can access the Terminal through your UNIX computer
 | [history](http://man7.org/linux/man-pages/man3/history.3.html) | provides you with last 10 commands |  |
 | ! 234 | reuse last command at line number specified or regex speicified |  |
 
-**Working with directories**
+## Working with directories
 
 The dash after a command is used to indicate flags.
 
@@ -39,14 +39,14 @@ The dash after a command is used to indicate flags.
 
 You can chain together flags to create larger commands.
 
-**Redirecting content**
+## Redirecting content
 
 | Command | Description | Example |
 |---  |---  |---|
 | ls [>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out  | Replace/Create a file named Directory.out results of ls -alh                |                 |
 | ls [>>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out | Append to Directory.out file results of ls -alh                             |                 |
 
-**Working with files**
+## Working with files
 
 | Command | Description | Example |
 |---  |---  |---|
@@ -67,7 +67,7 @@ You can chain together flags to create larger commands.
 | [cut](https://linux.die.net/man/1/cut) -d ' ' -f 2-3 In.out | Extracts file at specified columns with delimiter |  |
 | [join](https://linux.die.net/man/1/join) A.out B.out | Merges two files horizontally based on a common column |  |
 
-**Shortcuts with Files**
+## Shortcuts with Files
 
 | Command | Description |
 |---------|------------------------|
@@ -83,7 +83,7 @@ You can chain together flags to create larger commands.
 
 You can use flags on these commands. For example, doing rm -r \*.csv will recursively remove all csv files from the current directory.
   
-**File Protections**
+## File Protections
 
 All files on UNIX have three levels of protection:
 - read (r)
@@ -122,21 +122,21 @@ To install software or perform system administration tasks, you need superuser p
 
 [sudo](https://linux.die.net/man/8/sudo) apt-get install python3.6
 
-**Linking Commands -- Piping**
+## Linking Commands -- Piping
 
 Piping takes the output from one command into another command. For example, if you want to see all the python processes you are running:
 
 ps [\|](https://linux.die.net/man/7/pipe) grep python
 
-**Shell Scripts and Make files**
+## Shell Scripts and Make files
 
 To be written.
 
-**Accessing and running computers remotely, moving files**
+## Accessing and running computers remotely, moving files
 
 TO be written.
 
-**Storage and Version Control**
+## Storage and Version Control
 
 | Command | Description |
 |---  |---  |
