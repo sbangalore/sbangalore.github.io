@@ -1,5 +1,6 @@
 ---
 layout: blog_by_tag
-tag: github-pages
+tag: quant
 permalink: /blog/tag/quant/
+published: true
 ---
