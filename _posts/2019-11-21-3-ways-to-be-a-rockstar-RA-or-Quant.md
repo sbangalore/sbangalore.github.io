@@ -2,7 +2,7 @@
 published: true
 tags:
   - finance
-  - quant
+  - quantitative-methods
 ---
 You are a research assistant or quant or want to be one. (Or you’re just interested in a quick-start guide for quantitative finance – whatever rocks your boat!)
 
