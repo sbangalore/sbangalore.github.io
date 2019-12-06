@@ -1,6 +1,6 @@
 ---
 layout: blog_by_tag
 tag: technology
-permalink: /blog/tag/technology/
+permalink: /series/technology/
 published: true
 ---
