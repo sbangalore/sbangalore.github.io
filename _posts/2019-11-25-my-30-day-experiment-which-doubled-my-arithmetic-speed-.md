@@ -34,7 +34,7 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 12  | 75              | 70      | 05        | 65    | 0      |
 | 12  | 80 + 30 s left! | 75      | 05        | 70    | 0      |
 
-![Score improving over time](https://i.imgur.com/kMfeVyd.png)
+![Score improving over time](https://i.imgur.com/04ppYkD.png)
 
 
 I made a few incremental speed ups from:
