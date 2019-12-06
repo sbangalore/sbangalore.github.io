@@ -9,7 +9,7 @@ Today, I get you the fastest way to mint cash :sparkles: getting into HYPS.
 
 There is substance in this post, I promise. This is my three step process on how I made a 169/168/5 on the GRE. Here's the proof:
 
-![My GRE score](https://i.imgur.com/8tmIAQm.png)
+![My GRE score](https://i.imgur.com/K8hOrGr.png)
 
 # The tools of the trade
 
