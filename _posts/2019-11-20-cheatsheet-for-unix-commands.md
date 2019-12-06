@@ -1,5 +1,8 @@
 ---
 published: true
+tags:
+  - tech
+  - quant
 ---
 This is a quick cheatsheet for relevant UNIX and VIM commands!
 
