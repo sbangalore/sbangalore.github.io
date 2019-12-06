@@ -1,5 +1,8 @@
 ---
 published: true
+tags:
+  - tech
+  - quant
 ---
 a.k.a. How to work with your coworkers in a friendly way.
 
