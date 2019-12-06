@@ -1,7 +1,7 @@
 ---
 published: true
 tags:
-  - jf
+  - journal-of-finance
   - finance
   - fixed-income
 ---
