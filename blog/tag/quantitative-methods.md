@@ -1,6 +1,6 @@
 ---
 layout: blog_by_tag
-tag: quant
-permalink: /blog/tag/quant/
+tag: quantitative-methods
+permalink: /blog/tag/quantitative-methods/
 published: true
 ---
