@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.tag.name }} – {{ site.name }} – {{ site.description }}</title>
+    <title>{{ tag.name }} – {{ site.name }} – {{ site.description }}</title>
     {% include meta.html %}
 
     <!--[if lt IE 9]>
@@ -42,21 +42,19 @@
       </div>
     </div>
 	<div id="main" role="main" class="container">
-      <article class="post">
-        <h1>Articles by tag: {{ page.tag }}</h1>
-        <div>
-            {% if site.tags[page.tag] %}
-              <ul style="list-style-type:none">
-                {% for post in site.tags[page.tag] %}
-                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                  &nbsp; {{ post.date | date: "%B %e, %Y" }}
-                {% endfor %}
-              </ul>
-            {% else %}
-                <p>There are no posts for this tag.</p>
-            {% endif %}
-        </div>
-      </article>
+      <h1>Articles by tag: {{ page.tag }}</h1>
+      <div>
+          {% if site.tags[page.tag] %}
+            <ul style="list-style-type:none">
+              {% for post in site.tags[page.tag] %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              	&nbsp; {{ post.date | date: "%B %e, %Y" }}
+              {% endfor %}
+        	</ul>
+          {% else %}
+              <p>There are no posts for this tag.</p>
+          {% endif %}
+      </div>
     </div>
     
     <div class="wrapper-footer">
