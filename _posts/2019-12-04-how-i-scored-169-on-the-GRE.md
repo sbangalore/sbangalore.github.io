@@ -1,5 +1,7 @@
 ---
 published: true
+tags:
+  - test
 ---
 Today, I get you the fastest way to mint cash :sparkles: getting into HYPS.
 
