@@ -1,5 +1,7 @@
 ---
 published: false
+tags:
+  - quant
 ---
 This discussion will clarify notions around outcomes and predictions.
 
@@ -28,4 +30,3 @@ True positives and negatives are desirable while the other two are not.
 |  	|  	| _True_ 	| _False_ 	|
 | **Predicted Values** 	| _True_ 	| True Positive 	| False Positive 	|
 |  	| _False_ 	| False Negative 	| True Negative 	|
-
