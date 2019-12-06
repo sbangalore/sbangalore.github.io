@@ -1,5 +1,7 @@
 ---
 published: true
+tags:
+  - quant
 ---
 We discuss outcomes, predictions, evaluations, and ROC Curves.
 
