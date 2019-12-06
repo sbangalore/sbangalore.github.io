@@ -9,7 +9,7 @@ There is substance in this post, I promise. This is my three step process on how
 
 ![My GRE score](https://i.imgur.com/8tmIAQm.png)
 
-# <span style="color:blue">The tools of the trade</span>
+# The tools of the trade
 
 - [Magoosh Flashcards](https://gre.magoosh.com/flashcards/vocabulary) (FREE)
 - [Magoosh Math and Quant](https://gre.magoosh.com/plans) ($129)
@@ -18,13 +18,13 @@ There is substance in this post, I promise. This is my three step process on how
 - [MGMAT](https://www.amazon.ca/Complete-GMAT-Strategy-Guide-Set/dp/1941234100/ref=asc_df_1941234100/?tag=googleshopc0c-20&linkCode=df0&hvadid=292996645836&hvpos=1o1&hvnetw=g&hvrand=14512839492580413724&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061009&hvtargid=pla-406475559775&psc=1) (~$200 or ... just buy it off [Kijiji](https://www.kijiji.ca/)/[Craigslist](https://craigslist.org/) like I did)
 - This blogpost with a list of exams & strategy (FREE :wink:)
 
-## <span style="color:blue">How much time did I take?</span>
+## How much time did I take?
 
 The best way to start is with time. I budgeted 30 days to get the 169 with 4 hours per day (approx ~120 hours.) Budget 2x this amount if you are not a native speaker, and 1.5x this amount if you are not comfortable with math. So if you are both, this would be ~350 hours. Follow that formula for all times mentioned hereforth.
 
 This is how you use your time.
 
-# <span style="color:blue">The meat of the plan</span>
+# The meat of the plan
 
 ## **Diagnostic**
 
