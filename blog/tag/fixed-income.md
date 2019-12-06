@@ -1,6 +1,6 @@
-
 ---
 layout: blog_by_tag
-tag: jf
-permalink: /blog/tag/jf/
+tag: fixed-income
+permalink: /blog/tag/fixed-income/
+published: true
 ---
