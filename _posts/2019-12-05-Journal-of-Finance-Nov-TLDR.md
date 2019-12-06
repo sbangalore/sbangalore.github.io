@@ -5,11 +5,11 @@ Where I read and concisely summarize 100s of pages from dry financial papers so 
 
 Caveat: I summarize the ones I find interesting gradually (an article/day.) I'm biased towards market structure/markets. Think Duffie/Vayanos/Krishnamurthy.
 
-## Paper #1: [Over-the-Counter Market Frictions and Yield Spread Changes](https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12827)
+# Paper #1: [Over-the-Counter Market Frictions and Yield Spread Changes](https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12827)
 
 
 
-### My thoughts
+## My thoughts
 
 This paper is interesting if you are in asset pricing. It provides an empirical proof for Duffie et. al in 2007 which discusses search frictions as a factor in yield variability.
 
@@ -17,7 +17,7 @@ It doesn't look too tough to implement parts of the paper even with public infor
 
 The paper also builds heavily on CDGM (2011), so it might be useful, though not necessary, to check that out.
 
-### TLDR
+## TLDR
 
 | Who | [Nils Friewald](https://sites.google.com/site/nilsfriewald) and [Florian Nagler](https://sites.google.com/site/floriannagler/) |
 | --- | --- |
@@ -39,7 +39,7 @@ For Interdealer trades, the authors have info on coded identities. With customer
 
 Finally, they get info from Thomson Reuters eMAXX which has info on insurance companies, mutual funds, and pension funds and who they trade with.
 
-### Dealing with inventory search frictions
+## Dealing with inventory search frictions
 
 **Bottom line: If there is more of an asset available, it will be cheaper.**
 
@@ -67,7 +67,7 @@ The authors proxy aggregate order flow for increases in market-wide inventory an
 
 <span style="color:blue"> This explains 13.9% of the variation in the PCA component.</span>
 
-### Dealing with systematic search frictions
+## Dealing with systematic search frictions
 
 **Bottomline: If an asset is easier to find and sell, it will be cheaper.**
 
@@ -88,7 +88,7 @@ The authors identify generalized split intermediation chains by tracing bonds th
 
 <span style="color:blue">This explains 6.3% of the variation in the PCA component.</span>
 
-### Dealing with systematic bargaining frictions
+## Dealing with systematic bargaining frictions
 
 **Bottomline: If dealers have more leverage vs. clients, yields spreads increase**
 
