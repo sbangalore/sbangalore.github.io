@@ -1,6 +1,6 @@
 ---
 layout: blog_by_tag
-tag: jf
-permalink: /blog/tag/jf/
+tag: journal-of-finance
+permalink: /blog/tag/journal-of-finance/
 published: true
 ---
