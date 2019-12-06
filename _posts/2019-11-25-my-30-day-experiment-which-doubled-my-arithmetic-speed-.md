@@ -1,7 +1,7 @@
 ---
 published: true
 tags:
-  - quant
+  - quantitative-methods
 ---
 I discuss my 30 day journey where I double my calculation speed and improve my calculation accuracy by 50% with [Trader Maths](http://tradermaths.com/tradermath/).
 
