@@ -60,7 +60,7 @@ You'll start to notice that some of the more obscure words are challenging. You'
   
 You will spend the rest of your time ~60 hours here. This is real crunch time and it is important to sweat it out.
 
-# <span style="color:blue">Exam day :sunglasses:</span>
+# Exam day :sunglasses:
 
 **Day before exam**
   
