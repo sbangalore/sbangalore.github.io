@@ -1,8 +1,8 @@
 ---
 published: true
 tags:
-  - tech
-  - quant
+  - technology
+  - quantitative-methods
 ---
 a.k.a. How to work with your coworkers in a friendly way.
 
