@@ -1,12 +1,17 @@
 - slug: finance
   name: Finance
+
 - slug: jf
   name: Journal of Finance
+
 - slug: tech
   name: Technology
+
 - slug: quant
   name: Quantitative Methods
+
 - slug: test
   name: Generalized Tests
+
 - slug: fi
   name: Fixed Income
