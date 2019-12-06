@@ -3,7 +3,7 @@ published: true
 ---
 Where I read and concisely summarize 100s of pages from dry financial papers so you don't have to!
 
-Caveat: I summarize the ones I find interesting gradually (an article/day.) I'm biased towards market structure/markets. Think Duffie/Vayanos/Krishnamurthy.
+Caveat: I summarize the ones I find interesting gradually (an article/day). I'm biased towards market structure/markets. Think Duffie/Vayanos/Krishnamurthy.
 
 # Paper #1: [Over-the-Counter Market Frictions and Yield Spread Changes](https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12827)
 
@@ -13,7 +13,7 @@ Caveat: I summarize the ones I find interesting gradually (an article/day.) I'm 
 
 This paper is interesting if you are in asset pricing. It provides an empirical proof for Duffie et. al in 2007 which discusses search frictions as a factor in yield variability.
 
-It doesn't look too tough to implement parts of the paper even with public information, and might be valuable when assessing the efficiency of a specific capital market or the potential price of an asset/asset class if you have a view on certain factors (i.e. market concentration.)
+It doesn't look too tough to implement parts of the paper even with public information, and might be valuable when assessing the efficiency of a specific capital market or the potential price of an asset/asset class if you have a view on certain factors (i.e. market concentration).
 
 The paper also builds heavily on CDGM (2011), so it might be useful, though not necessary, to check that out.
 
