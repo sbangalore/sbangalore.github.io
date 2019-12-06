@@ -1,7 +1,7 @@
 ---
 published: true
 tags:
-  - quant
+  - quantitative-methods
 ---
 We discuss outcomes, predictions, evaluations, and ROC Curves.
 
