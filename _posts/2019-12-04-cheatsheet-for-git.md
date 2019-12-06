@@ -3,7 +3,7 @@ published: true
 ---
 a.k.a. How to work with your coworkers in a friendly way.
 
-## Intro
+## Introduction
 
 Git is a versioning system. There are several types of versioning systems, of two major categories.
 
@@ -23,7 +23,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 
 <span style="color:blue">I've highlighted important commands in blue.</span>
 
-## SETUP
+## Setup
 
 | Command                                                | Purpose              |
 |--------------------------------------------------------|----------------------|
@@ -33,14 +33,14 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git config --global user.email   “[valid-email]”](https://git-scm.com/docs/git-config)       | set your email       |
 | [git config --global color.ui auto](https://git-scm.com/docs/git-config)                      | set cli color        |
 
-## INITIALZIATION
+## Initialization
 
 | Command | Purpose |
 |---------|---------|
 | [git init](https://git-scm.com/docs/git-init) | <span style="color:blue">initialize a repository in the current directory</span> |
 | [git clone [url]](https://git-scm.com/docs/git-clone)  | <span style="color:blue">clone a repository into the current directory </span> |
 
-## STAGING
+## Staging
 
 | Command                                 | Purpose                                                      |
 |-----------------------------------------|--------------------------------------------------------------|
@@ -52,7 +52,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git diff](https://git-scm.com/docs/git-diff)                                | diff of what's staged but not commited                       |
 | [git commit -m "[descriptive   message]"](https://git-scm.com/docs/git-commit) | <span style="color:blue">description of what's changed, i.e. "added search by person"</span> |
 
-## BRANCHING & MERGING
+## Branching & Merging
 
 | Command                  | Purpose                                                 |
 |--------------------------|---------------------------------------------------------|
@@ -63,7 +63,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git merge origin master](https://git-scm.com/docs/git-merge)       | <span style="color:blue">merge the specified branch into the origin master repository</span>    |
 | [git log](https://git-scm.com/docs/git-log)                  | show all commits in current branch's history            |
 
-## INSPECTING & COMPARING
+## Inspecting & Comparing
 
 | Command                      | Purpose                                         |
 |------------------------------|-------------------------------------------------|
@@ -73,7 +73,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git log --follow [file]](https://git-scm.com/docs/git-log)      | shows commits for file                          |
 | [git show [SHA]](https://git-scm.com/docs/git-show)               | show any object in Git in readable format       |
 
-## SHARING & UPDATING
+## Sharing & Updating
 
 | Command                        | Purpose                                 |
 |--------------------------------|-----------------------------------------|
@@ -83,7 +83,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git push [alias] [branch]](https://git-scm.com/docs/git-push)      | transmit local commits to remote branch |
 | [git pull](https://git-scm.com/docs/git-pull)                       | fetch and merge commits from branch     |
 
-## TRACKING PATH CHANGES
+## Tracking Path Changes
 
 | Command                          | Purpose                                              |
 |----------------------------------|------------------------------------------------------|
@@ -91,7 +91,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git mv [current-path] [new-path]](https://git-scm.com/docs/git-mv) | change and stage existing file path                  |
 | [git log --stat -M](https://git-scm.com/docs/git-log)                | show all commit logs with indiciation of moved paths |
 
-## REWRITE HISTORY
+## Rewrite History
 
 | Command                      | Purpose                                                   |
 |------------------------------|-----------------------------------------------------------|
@@ -99,7 +99,7 @@ I will focus on Git & Github since it is most frequently used, however, this lis
 | [git reset --hard [commit]](https://git-scm.com/docs/git-reset)    | clear staging, rewrite working tree from specified commit |
 
 
-## TEMPORARY COMMITS
+## Temporary Commits
 
 | Command        | Purpose                                  |
 |----------------|------------------------------------------|
