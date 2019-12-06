@@ -24,8 +24,8 @@ published: true
 - Sales - how to sell
 
 <details>
-  <summary>Other things I DO</summary>
-  
+  <summary>Other things I like</summary>
+ 
   - Powerlifting (1200 lbs atm)
   - Snowboarding
   - Food
