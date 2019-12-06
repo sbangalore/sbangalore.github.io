@@ -1,5 +1,6 @@
 ---
 published: true
+tags: [jf, finance, fixed-income]
 ---
 Where I read and concisely summarize 100s of pages from dry financial papers so you don't have to!
 
