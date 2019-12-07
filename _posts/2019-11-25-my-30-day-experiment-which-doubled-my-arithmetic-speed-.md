@@ -32,7 +32,13 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 11  | 65              | 58      | 07        | 51    | 0      |
 | 11  | 75              | 67      | 09        | 58    | 0      |
 | 12  | 75              | 70      | 05        | 65    | 0      |
-| 12  | 80 + 30 s left! | 75      | 05        | 70    | 1      |
+| 12  | 80 + 30 s left  | 75      | 05        | 70    | 1      |
+| 13  | 80 + 60 s left  | 74      | 06        | 69    | 1      |
+| 13  | 80 + 60 s left  | 74      | 06        | 69    | 1      |
+
+At this point, I decided to increase the difficult to 3 decimal point questions.
+
+
 
 ![Score improving over time](https://i.imgur.com/04ppYkD.png)
 
