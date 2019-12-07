@@ -5,9 +5,17 @@ tags:
 ---
 I discuss my 30 day journey where I double my calculation speed and improve my calculation accuracy by 50% with [Trader Maths](http://tradermaths.com/tradermath/).
 
-This was an effort to improve my mental math (the number of math questions correctly solved in a certain amount of time.) Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw).
+# Mental math's important
 
-I started the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points. Once I hit 72/80+ (90%+) constantly, I increased the calculations to 3 digits and 3 decimal points.
+Every been on a table with somebody who, when you said, let's split the $24.56 pizza 4 ways, could run the math in their head to quickly get to $6.14?
+
+We do mental math everyday, from calculating tips to splitting cash between our friends. Mental math tests are also prevalent in quant finance, technology, and trading tests with firms like **Optiver**, **McKinsey**, and **Goldman Sachs**. It's important to get your numbers quick and right. That's why I wrote this post.
+
+# How I doubled my speed
+
+This was an effort to improve my mental math (the number of math questions correctly solved in a certain amount of time.)
+
+To do so, I did exercises on [Trader Maths](http://tradermaths.com/tradermath/), an online quizzing platform. I started the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points. Once I hit 72/80+ (90%+) constantly, I increased the calculations to 3 digits and 3 decimal points. Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw).
 
 _note: the platform deducts a point if you don't add a 0 in front of a decimal answer_
 
@@ -36,11 +44,9 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 12  | 75              | 70      | 05        | 65    | 0      |
 | 12  | 80 + 30 s left  | 75      | 05        | 70    | 1      |
 | 13  | 80 + 60 s left  | 74      | 06        | 69    | 1      |
-| 13  | 80 + 60 s left  | 74      | 06        | 69    | 1      |
+| 13  | 68              | 66      | 04        | 62    | 1      |
 
-At this point, I increased the difficulty to 3 decimal point questions.
-
-
+At this point, I increased the difficulty to 3 decimal points and 3 digits.
 
 ![Score improving over time](https://i.imgur.com/04ppYkD.png)
 
