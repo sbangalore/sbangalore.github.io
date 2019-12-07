@@ -49,7 +49,7 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 
 At this point, I increased the difficulty to 3 decimal points and 3 digits.
 
-![Score improving over time](https://i.imgur.com/04ppYkD.png)
+![Score improving over time](https://i.imgur.com/hUZqZqE.png)
 
 # Some tips
 
