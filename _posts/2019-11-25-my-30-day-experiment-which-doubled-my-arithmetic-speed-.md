@@ -51,6 +51,7 @@ At this point, I increased the difficulty to 3 decimal points and 3 digits.
 
 ![Score improving over time](https://i.imgur.com/04ppYkD.png)
 
+# Some tips
 
 I made a few incremental speed ups from:
 
