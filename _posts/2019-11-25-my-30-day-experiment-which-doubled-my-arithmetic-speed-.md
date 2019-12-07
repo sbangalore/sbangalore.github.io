@@ -19,6 +19,7 @@ To do so, I did exercises on [Trader Maths](http://tradermaths.com/tradermath/),
 
 _note: the platform deducts a point if you don't add a 0 in front of a decimal answer_
 
+# The data
 
 | Day | Total Attempted | Correct | Incorrect | Score | Coffee |
 |-----|-----------------|---------|-----------|-------|--------|
