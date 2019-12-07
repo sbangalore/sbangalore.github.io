@@ -44,8 +44,8 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 11  | 75              | 67      | 09        | 58    | 0      |
 | 12  | 75              | 70      | 05        | 65    | 0      |
 | 12  | 80 + 30 s left  | 75      | 05        | 70    | 1      |
-| 13  | 80 + 60 s left  | 74      | 06        | 69    | 1      |
-| 13  | 68              | 66      | 04        | 62    | 1      |
+| 13  | 80 + 60 s left  | 74      | 06        | 69    | 0      |
+| 13  | 68              | 66      | 04        | 62    | 0      |
 
 At this point, I increased the difficulty to 3 decimal points and 3 digits.
 
