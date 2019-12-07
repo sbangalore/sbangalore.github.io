@@ -7,7 +7,7 @@ I discuss my 30 day journey where I double my calculation speed and improve my c
 
 # Mental math's important
 
-Every been on a table with somebody who, when you said, let's split the $24.56 pizza 4 ways, could run the math in their head to quickly get to \$ 6.14?
+Every been on a table with somebody who, when you said, let's split the 24.56 pizza 4 ways, could run the math in their head to quickly get to6.14?
 
 We do mental math everyday, from calculating tips to splitting cash between our friends. Mental math tests are also prevalent in quant finance, technology, and trading tests with firms like **Optiver**, **McKinsey**, and **Goldman Sachs**. It's important to get your numbers quick and right. That's why I wrote this post.
 
