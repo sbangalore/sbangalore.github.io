@@ -5,7 +5,9 @@ tags:
 ---
 I discuss my 30 day journey where I double my calculation speed and improve my calculation accuracy by 50% with [Trader Maths](http://tradermaths.com/tradermath/).
 
-This was an effort to improve my mental math (the number of math questions correctly solved in a certain amount of time.) Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw). I set the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points.
+This was an effort to improve my mental math (the number of math questions correctly solved in a certain amount of time.) Throughout these exercises, I played loud music. See a nice album here: [Guardians of the Galaxy Awesome Mix](https://www.youtube.com/watch?v=sCT50t-JAMw).
+
+I started the exercises to ask 80 questions on floats with a mix of + , - , / , * , a maximum of 2 digits, and 2 decimal points. Once I hit 72/80+ (90%+) constantly, I increased the calculations to 3 digits and 3 decimal points.
 
 _note: the platform deducts a point if you don't add a 0 in front of a decimal answer_
 
@@ -36,7 +38,7 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 13  | 80 + 60 s left  | 74      | 06        | 69    | 1      |
 | 13  | 80 + 60 s left  | 74      | 06        | 69    | 1      |
 
-At this point, I decided to increase the difficult to 3 decimal point questions.
+At this point, I increased the difficulty to 3 decimal point questions.
 
 
 
