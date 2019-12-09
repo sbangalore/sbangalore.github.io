@@ -28,15 +28,12 @@ You can run the following commands to get an idea of your data structure.
 | :---        |          ---: |
 | .tables     | what tables are available   |
 | .schema   | what's the structure of the tables      |
-| .read FILENAME     | what tables are available   |
-| .import FILE TABLE   | what's the structure of the tables      |
-| .mode MODE ?TABLE?     | what tables are available   |
-| .seperator STRING   | what's the structure of the tables      |
-| .output FILENAME     | what tables are available   |
-| .backup ?DB? FILENAME   | what's the structure of the tables      |
-
-.tables: what tables are available
-.schema: Whats the structure of the tables
+| .read FILENAME     | read in commands form a file   |
+| .import FILE TABLE   | import raw data into a table      |
+| .mode MODE ?TABLE?     | what mode the output should take   |
+| .seperator STRING   | symbol to seperate variables in output      |
+| .output FILENAME     | direct data to an output file   |
+| .backup ?DB? FILENAME   | back up the db to a file      |
 
 
 There are about 20 commands that I always use.
