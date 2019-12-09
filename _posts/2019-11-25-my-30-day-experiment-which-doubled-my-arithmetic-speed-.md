@@ -46,10 +46,14 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 12  | 80 + 30 s left  | 75      | 05        | 70    | 1      |
 | 13  | 80 + 60 s left  | 74      | 06        | 69    | 0      |
 | 13  | 68              | 66      | 04        | 62    | 0      |
-
-At this point, I increased the difficulty to 3 decimal points and 3 digits.
+| 14  | 31              | 27      | 04        | 23    | 1      |
+| 14  | 28              | 25      | 03        | 22    | 1      |
 
 ![Score improving over time](https://i.imgur.com/hUZqZqE.png)
+
+At day 14, I increased the difficulty to 3 decimal points and 3 digits.
+
+![The new regime](https://i.imgur.com/ud11ZnW.png)
 
 # Some tips
 
