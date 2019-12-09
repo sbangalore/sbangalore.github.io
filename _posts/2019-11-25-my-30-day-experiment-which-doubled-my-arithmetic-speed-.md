@@ -48,6 +48,8 @@ _note: the platform deducts a point if you don't add a 0 in front of a decimal a
 | 13  | 68              | 66      | 04        | 62    | 0      |
 | 14  | 31              | 27      | 04        | 23    | 1      |
 | 14  | 28              | 25      | 03        | 22    | 1      |
+| 15  | 22              | 17      | 05        | 22    | 0      |
+| 15  | 20              | 14      | 06        | 20    | 0      |
 
 ![Score improving over time](https://i.imgur.com/hUZqZqE.png)
 
