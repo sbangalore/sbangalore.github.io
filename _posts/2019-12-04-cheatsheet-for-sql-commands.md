@@ -16,8 +16,14 @@ While you can work with databases in Excel, Python, and more, it's usually too s
 
 | Command     | Usage	      |
 | :---        |          ---: |
-| Header      | Here's this   |
-| Paragraph   | And more      |
+| .tables     | what tables are available   |
+| .schema   | what's the structure of the tables      |
+| .read FILENAME     | what tables are available   |
+| .import FILE TABLE   | what's the structure of the tables      |
+| .mode MODE ?TABLE?     | what tables are available   |
+| .seperator STRING   | what's the structure of the tables      |
+| .output FILENAME     | what tables are available   |
+| .backup ?DB? FILENAME   | what's the structure of the tables      |
 
 .tables: what tables are available
 .schema: Whats the structure of the tables
