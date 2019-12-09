@@ -15,20 +15,20 @@ While you can work with databases in Excel, Python, and more, it's usually too s
 There are about 20 commands that I always use.
 
 ``` json
-SELECT
-````
+SELECT *
+```
 ``` json
 SELECT
-````
+```
 ``` json
 SELECT
-````
+```
 ``` json
 SELECT
-````
+```
 ``` json
 SELECT
-````
+```
 
 
 
@@ -53,7 +53,7 @@ condition: Condition used.
 
 # Examples
 
-This is a sample sql command I used recently to aggregate the number of unique repos and prices in a dataset.
+This is a sample sql command I used recently to aggregate the number of unique trades and prices in a dataset.
 
 ```json
 SELECT
