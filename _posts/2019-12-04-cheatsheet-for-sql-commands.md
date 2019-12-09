@@ -12,6 +12,17 @@ While you can work with databases in Excel, Python, and more, it's usually too s
 
 # Commands
 
+## Reading & Exploring Data Structure
+
+| Command     | Usage	      |
+| :---        |          ---: |
+| Header      | Here's this   |
+| Paragraph   | And more      |
+
+.tables: what tables are available
+.schema: Whats the structure of the tables
+
+
 There are about 20 commands that I always use.
 
 ``` json
