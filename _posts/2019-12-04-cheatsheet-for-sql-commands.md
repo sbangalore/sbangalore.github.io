@@ -4,7 +4,7 @@ tags:
   - technology
   - quantitative-methods
 ---
-When Excel spreadsheets get huge ... we get databases. We discuss common SQL commands to work with databases.
+When Excel spreadsheets get huge ... we get databases. I discuss common SQL commands to work with databases.
 
 # Brief
 
