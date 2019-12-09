@@ -10,9 +10,19 @@ When Excel spreadsheets get huge ... we get databases. I discuss common SQL comm
 
 While you can work with databases in Excel, Python, and more, it's usually too slow. You end up spending a day sipping coffee while looking at a computer screen (if you had a hangover the previous day though, it's not a bad excuse to chill at work). In here, I bring you some command SQL commands and structure that I use when at work.
 
+Different versions of SQL have different commands, but there should be some generalities.
+
 # Commands
 
 ## Reading & Exploring Data Structure
+
+You first load up your database. For example, in SQLite,
+
+```json
+$ sqlite3 MyDB.db
+```
+
+You can run the following commands to get an idea of your data structure.
 
 | Command     | Usage	      |
 | :---        |          ---: |
