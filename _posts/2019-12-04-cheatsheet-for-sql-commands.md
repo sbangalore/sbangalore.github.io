@@ -19,7 +19,7 @@ Different versions of SQL have different commands, but there should be some gene
 You first load up your database. For example, in SQLite,
 
 ```json
-$ sqlite3 MyDB.db
+$ sqlite3 C:\users\bans\databases\MyDB.db
 ```
 
 You can run the following commands to get an idea of your data structure.
