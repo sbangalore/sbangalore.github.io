@@ -23,9 +23,7 @@ published: true
 - Finance - how to price
 - Sales - how to sell
 
-<details>
-  <summary>Other things I like</summary>
- 
+Other things I like
   - Powerlifting (1200 lbs atm)
   - Snowboarding
   - Food
@@ -34,7 +32,7 @@ published: true
   - Poker
   - Enjoying time with my cat
   
-</details>
+![Toothless](https://i.imgur.com/jSKgsYU.jpg)
 
 
 I enjoy reading **books and papers**. Here are some I've read recently!
