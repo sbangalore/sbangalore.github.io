@@ -13,7 +13,7 @@ published: true
 - [CFA](https://www.cfainstitute.org/) III Candidate
 
 ### Work Experience
-- RA at [Bank of Canada](https://www.bankofcanada.ca/) in Quantiative Finance
+- RA at [Bank of Canada](https://www.bankofcanada.ca/) in Quantitative Finance
 - RA at [University of Toronto](https://www.utoronto.ca/) in Healthcare Economics
 - ML at [Amazon AWS](https://aws.amazon.com/) Territory Sales
 - Some startup stuff.
