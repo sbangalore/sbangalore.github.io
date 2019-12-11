@@ -156,16 +156,25 @@ You can copy files securely using scp.
 
 | Command | Description |
 |---  |---  |
-| [scp username@bank.com:Docs/accounts.csv accounts.csv](https://linux.die.net/man/1/scp) * | Securely copy a file into the current directory |
+| [scp username@bank.com:Docs/accounts.csv accounts.csv](https://linux.die.net/man/1/scp) | Securely copy a file into the current directory |
 | [scp -P 40 username@bank.com:Docs/accounts.csv accounts.csv](https://linux.die.net/man/1/scp) | use a different port if that port is blocked |
 | [scp accounts.csv username@bank.com:Docs/accountsCopy.csv](https://linux.die.net/man/1/scp) | you can send a file too |
 
-You can run long jobs remotely, even after logging out of your account. There are two solutions: nohup, which forces the operating system to ignore the hangup signal issued after you log out of your account. Let's assume you want to run a file called TakesLongTime.
+You can run long jobs remotely, even after logging out of your account. There are two solutions: nohup, which forces the operating system to ignore the hangup signal issued after you log out of your account. Let's assume you want to run a file called TakesLongTime. With the first command, when you use the & symbol, it tells Unix to create a process seperate from the one in the command window.
 
 ```
 $ nohup TakesLongTime &
 $ exit
 ```
+
+This will not handle input and output. For that, you should have an error and out file.
+
+```
+$ nohup TakesLongTime > TakesLongTime.out 2> TakesLongTime.err < /project/null &
+# exit
+```
+
+We will redirect the output, `stdout` to `TakesLongTime.out` and take the input from `/project/null`. This will prevent the program from hanging.
 
 
 ## Storage and Version Control
