@@ -137,9 +137,35 @@ To be written.
 
 ## Accessing and running computers remotely, moving files
 
-TO be written.
+You can use secure shell client (ssh) to access a remote computer and then execute commands onto it.
+
+| Command | Description |
+|---  |---  |
+| [ssh username@bank.ca](https://linux.die.net/man/1/ssh) | ssh into a remote computer |
+| [ssh -p username@bank.ca](https://linux.die.net/man/1/ssh) | ssh into a computer at specific port |
+
+You can look up ipaddresses through nameserver lookup and then ssh into an IP adress if you don't know the name of the server.
+
+| Command | Description |
+|---  |---  |
+| [nslookup 176.34.155.23](https://linux.die.net/man/1/nslookup) * | this is the ip for a specific website |
+| [nslookup duckduckgo.com](https://linux.die.net/man/1/nslookup) | this gives the address for the specific ip|
+| [ssh username@176.34.155.23](https://linux.die.net/man/1/ssh) | you can ssh into an IP address |
+
+You can copy files securely using scp.
+
+| Command | Description |
+|---  |---  |
+| [scp username@bank.com:Docs/accounts.csv accounts.csv](https://linux.die.net/man/1/scp) * | Securely copy a file into the current directory |
+| [scp -P 40 username@bank.com:Docs/accounts.csv accounts.csv](https://linux.die.net/man/1/scp) | use a different port if that port is blocked |
+| [scp accounts.csv username@bank.com:Docs/accountsCopy.csv](https://linux.die.net/man/1/scp) | you can send a file too |
+
+
+
 
 ## Storage and Version Control
+
+Sometimes files are large. These commands offer ways to archive and compress them.
 
 | Command | Description |
 |---  |---  |
