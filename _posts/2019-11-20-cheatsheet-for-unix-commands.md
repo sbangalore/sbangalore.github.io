@@ -177,7 +177,7 @@ This will not handle input and output. For that, you should have an error and ou
 
 ``` json
 $ nohup TakesLongTime > TakesLongTime.out 2> TakesLongTime.err < /project/null &
-# exit
+$ exit
 ```
 
 We will redirect the output, `stdout` to `TakesLongTime.out` and take the input from `/project/null`. This will prevent the program from hanging.
