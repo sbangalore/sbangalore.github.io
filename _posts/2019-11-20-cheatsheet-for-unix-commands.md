@@ -168,14 +168,14 @@ You can copy files securely using scp.
 
 You can run long jobs remotely, even after logging out of your account. [Nohup](https://linux.die.net/man/1/nohup) forces the operating system to ignore the hangup signal issued after you log out of your account. Let's assume you want to run a file called TakesLongTime. With the first command, when you use the & symbol, it tells Unix to create a process seperate from the one in the command window.
 
-``` json
+```javascript
 $ nohup TakesLongTime &
 $ exit
 ```
 
 This will not handle input and output. For that, you should have an error and out file.
 
-``` json
+```javascript
 $ nohup TakesLongTime > TakesLongTime.out 2> TakesLongTime.err < /project/null &
 $ exit
 ```
@@ -186,7 +186,7 @@ We will redirect the output, `stdout` to `TakesLongTime.out` and take the input 
 
 Screen allows you to start a program oon one computer and resume it on another.
 
-``` json
+```javascript
 $ screen -S 
 ```
 
