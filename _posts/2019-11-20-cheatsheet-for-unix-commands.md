@@ -37,8 +37,8 @@ The dash after a command is used to indicate flags.
 | [ls -a](http://man7.org/linux/man-pages/man1/ls.1.html) | List all directory contents (including hidden files such as .bash) | ... |
 | [ls x*](http://man7.org/linux/man-pages/man1/ls.1.html) | List all directory contents starting with x. You can use this * anywhere. | xanadu |
 | [ls x?](http://man7.org/linux/man-pages/man1/ls.1.html) | List all directory contents which start with x and have one character after | xa |
-| [mkdir](http://man7.org/linux/man-pages/man2/mkdir.2.html) FolderA | Creates a new directory |  |
-| [rmdir](http://man7.org/linux/man-pages/man2/mkdir.2.html) FolderA | Deletes a directory |  |
+| [mkdir FolderA](http://man7.org/linux/man-pages/man2/mkdir.2.html) | Creates a new directory |  |
+| [rmdir FolderA](http://man7.org/linux/man-pages/man2/mkdir.2.html) | Deletes a directory |  |
 
 You can chain together flags to create larger commands.
 
@@ -46,42 +46,42 @@ You can chain together flags to create larger commands.
 
 | Command | Description | Example |
 |---  |---  |---|
-| ls [>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out  | Replace/Create a file named Directory.out results of ls -alh                |                 |
-| ls [>>](http://man7.org/linux/man-pages/man1/ls.1.html) Directory.out | Append to Directory.out file results of ls -alh                             |                 |
+| [ls > Directory.out](http://man7.org/linux/man-pages/man1/ls.1.html)  | Replace/Create a file named Directory.out results of ls -alh                |                 |
+| [ls >> Directory.out](http://man7.org/linux/man-pages/man1/ls.1.html) | Append to Directory.out file results of ls -alh                             |                 |
 
 ## Working with files
 
 | Command | Description | Example |
 |---  |---  |---|
-| [cat](http://man7.org/linux/man-pages/man1/cat.1.html) Test.out | Lists entire contents of file |  |
-| [head](http://man7.org/linux/man-pages/man1/head.1.html) Test.out | Lists first 10 lines of file |  |
-| [tail](http://man7.org/linux/man-pages/man1/tail.1.html) Test.out | Lists last 10 lines of file |  |
-| [more](http://man7.org/linux/man-pages/man1/more.1.html) Test.out | After head/tail, allows you to scroll down |  |
-| [less](http://man7.org/linux/man-pages/man1/less.1.html) Test.out | After head/tail, allows you to scroll up |  |
-| [rm](http://man7.org/linux/man-pages/man1/rm.1.html) Test.out | Deletes a file |  |
-| [touch](http://man7.org/linux/man-pages/man1/touch.1.html) Test.out | Creates a file |  |
-| [vim](http://man7.org/linux/man-pages/man1/vi.1p.html) Test.out | Edits a file using vim |  |
-| [diff](http://man7.org/linux/man-pages/man1/diff.1.html) Out.out New.out | Lists lines where 2 files differ. |  |
-| [cp](http://man7.org/linux/man-pages/man1/cp.1.html) Out.out ~/data/ | Copys file to directory |  |
-| [mv](http://man7.org/linux/man-pages/man1/mv.1.html) Out.out ~/data/ | Moves file to directory |  |
-| [wc](http://man7.org/linux/man-pages/man1/wc.1.html) Out.out | Gives a line, word, and character count of the file |  |
-| [sort](https://linux.die.net/man/1/sort) Out.out | Sorts a file in alphabetical order |  |
-| [paste](https://linux.die.net/man/1/paste) In.out Out.out | Adds two files side by side |  |
-| [cut](https://linux.die.net/man/1/cut) -d ' ' -f 2-3 In.out | Extracts file at specified columns with delimiter |  |
-| [join](https://linux.die.net/man/1/join) A.out B.out | Merges two files horizontally based on a common column |  |
+| [cat Test.out](http://man7.org/linux/man-pages/man1/cat.1.html) | Lists entire contents of file |  |
+| [head Test.out](http://man7.org/linux/man-pages/man1/head.1.html)  | Lists first 10 lines of file |  |
+| [tail Test.out](http://man7.org/linux/man-pages/man1/tail.1.html) | Lists last 10 lines of file |  |
+| [more Test.out](http://man7.org/linux/man-pages/man1/more.1.html) | After head/tail, allows you to scroll down |  |
+| [less Test.out](http://man7.org/linux/man-pages/man1/less.1.html) | After head/tail, allows you to scroll up |  |
+| [rm Test.out](http://man7.org/linux/man-pages/man1/rm.1.html) | Deletes a file |  |
+| [touch Test.out](http://man7.org/linux/man-pages/man1/touch.1.html) | Creates a file |  |
+| [vim Test.out](http://man7.org/linux/man-pages/man1/vi.1p.html) | Edits a file using vim |  |
+| [diff Out.out New.out](http://man7.org/linux/man-pages/man1/diff.1.html) | Lists lines where 2 files differ. |  |
+| [cp Out.out ~/data/](http://man7.org/linux/man-pages/man1/cp.1.html) | Copys file to directory |  |
+| [mv Out.out ~/data/](http://man7.org/linux/man-pages/man1/mv.1.html) | Moves file to directory |  |
+| [wc Out.out](http://man7.org/linux/man-pages/man1/wc.1.html) | Gives a line, word, and character count of the file |  |
+| [sort Out.out](https://linux.die.net/man/1/sort) | Sorts a file in alphabetical order |  |
+| [paste In.out Out.out](https://linux.die.net/man/1/paste) | Adds two files side by side |  |
+| [cut -d ' ' -f 2-3 In.out](https://linux.die.net/man/1/cut) | Extracts file at specified columns with delimiter |  |
+| [join A.out B.out(https://linux.die.net/man/1/join) | Merges two files horizontally based on a common column |  |
 
 ## Shortcuts with Files
 
 | Command | Description |
 |---------|------------------------|
-| ctrl-h | deletes last character |
-| ctrl-w | deletes last word |
-| ctrl-u | deletes last line |
-| ctrl-d | end text input/exit program |
-| ctrl-s | freeze terminal window |
-| ctrl-q | unfreeze terminal window |
-| ctrl-\ | terminates terminal |
-| ctrl-z | suspend terminal (sleep) |
+| [ctrl-h](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | deletes last character |
+| [ctrl-w](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | deletes last word |
+| [ctrl-u](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | deletes last line |
+| [ctrl-d](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | end text input/exit program |
+| [ctrl-s](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | freeze terminal window |
+| [ctrl-q](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | unfreeze terminal window |
+| [ctrl-\\](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | terminates terminal |
+| [ctrl-z](http://homepages.math.uic.edu/~hanson/UNIX/UnixDictionary.html#UNIX-CTRL) | suspend terminal (sleep) |
 
 
 You can use flags on these commands. For example, doing rm -r \*.csv will recursively remove all csv files from the current directory.
@@ -143,8 +143,8 @@ TO be written.
 
 | Command | Description |
 |---  |---  |
-| gzip file.txt | compresses (zips) file |
-| gunzip file.txt | unzips file |
-| zip Backup.zip * | zips files in directory |
-| zip -r Backup.zip * | zips files and directories in directory |
-| unzip Backup.zip | unzips zip file |
+| [gzip file.txt](https://linux.die.net/man/1/gzip) | compresses (zips) file |
+| [gunzip file.txt](https://linux.die.net/man/1/gunzip) | unzips file |
+| [zip Backup.zip](https://linux.die.net/man/1/zip) * | zips files in directory |
+| [zip -r Backup.zip \*](https://linux.die.net/man/1/zip) | zips files and directories in directory |
+| [unzip Backup.zip](https://linux.die.net/man/1/unzip) | unzips zip file |
