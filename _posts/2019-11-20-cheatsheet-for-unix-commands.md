@@ -184,12 +184,19 @@ We will redirect the output, `stdout` to `TakesLongTime.out` and take the input 
 
 ### Screen
 
-Screen allows you to start a program oon one computer and resume it on another.
+[Screen](https://linux.die.net/man/1/screen) allows you to start a session on one computer and resume it on another. It is more sophisticated since you are porting over an entire session vs. an individual program.
+
+First, you create a named session, that you remember/jot down. In this case, I use `abc`. `S` means sessionname.
 
 ```javascript
-$ screen -S 
+$ screen -S abc
 ```
 
+Next, you ssh into a remote computer and then use it. This would resume the session. `-d` means detach, and `-R` means reattach.
+
+```javascript
+$ screen -d -R abc
+```
 
 ## Storage and Version Control
 
