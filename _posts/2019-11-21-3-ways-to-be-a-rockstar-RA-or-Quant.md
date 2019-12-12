@@ -59,10 +59,12 @@ There are a few essential programming languages, data structures, and algorithms
 2. Python (_To be written_)
 3. Java (_To be written_)
 4. STATA (_To be written_)
-5. C++ (_To be written_)
-8. SQL (_To be written_)
-9. [Git](https://sbangalore.github.io/cheatsheet-for-git/)
-10. [LaTeX](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
+5. MATLAB (_To be written_)
+6. C++ (_To be written_)
+7. SQL (_To be written_)
+8. [Git](https://sbangalore.github.io/cheatsheet-for-git/)
+9. [LaTeX](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
+10. Parallel Computing
 
 ## Domain Knowledge
 
