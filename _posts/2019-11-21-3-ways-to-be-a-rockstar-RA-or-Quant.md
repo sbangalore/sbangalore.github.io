@@ -53,21 +53,27 @@ For presentations, I recommend five major principles.
 
 There are a few essential programming languages, data structures, and algorithms that you should know. Here, I link the discussion and cheatsheet to each:
 
-- [Linux/UNIX](https://sbangalore.github.io/cheatsheet-for-unix-commands/)
-- Python
-- Java
-- STATA
-- C++
-- Data Structures
-- Algorithms
-- Statistics
+## Technical Languages
+
+1. [Linux/UNIX](https://sbangalore.github.io/cheatsheet-for-unix-commands/)
+2. Python (_To be written_)
+3. Java (_To be written_)
+4. STATA (_To be written_)
+5. C++ (_To be written_)
+8. SQL
+9. [Git](https://sbangalore.github.io/cheatsheet-for-git/)
+10. [LaTeX](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
+
+## Domain Knowledge
+
+- Computer Science
+	- Data Structures (_To be written_)
+	- Algorithms (_To be written_)
+- Statistics (_To be written_)
 	- [Fixed Effects](https://www.youtube.com/watch?v=J9UEYUXi6lY&t=2s)
-- SQL
-- [Git](https://sbangalore.github.io/cheatsheet-for-git/)
-- [LaTeX](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
 - Mathematics
-- (Optional) Machine Learning
-- (Optional) [Quick Mathematics](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
+- Machine Learning
+- [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
 
 
 **This is a lot of work but developing these essentials: conscientousness, clarity, and quantiative strength, will set you up for professional success.**
