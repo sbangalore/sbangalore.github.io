@@ -51,7 +51,7 @@ For presentations, I recommend five major principles.
 
 # How to develop technical strength
 
-There are a few essential programming languages, data structures, and algorithms that you should know. Here, I link the discussion and cheatsheet to each:
+I've seperated this section into application and theory. You should have a good understanding of all the topics laid out here. I link the discussion and cheatsheet to each, if written. If uin
 
 ## Application
 
@@ -95,12 +95,16 @@ There are a few essential programming languages, data structures, and algorithms
     - Probability Theory
 4. Machine Learning
 5. Economics
-	- MicroEconomics
-    - MacroEconomics
+	- Game Theory
+    - Economic Growth
+    - Economic History
+    - Micro Economics
+    - Macro Economics
 6. Finance
 	- Equity Pricing
     - Fixed Income Pricing
     - Options Pricing
+    - Market History and Structure
 7. [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
 
 
