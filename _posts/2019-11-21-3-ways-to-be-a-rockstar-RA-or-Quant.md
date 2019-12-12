@@ -53,10 +53,14 @@ For presentations, I recommend five major principles.
 
 There are a few essential programming languages, data structures, and algorithms that you should know. Here, I link the discussion and cheatsheet to each:
 
-## Technical Languages
+## Application
 
 1. [Linux/UNIX](https://sbangalore.github.io/cheatsheet-for-unix-commands/)
 2. Python (_To be written_)
+	- Data Analysis (Pandas, Numpy, SciPy)
+    - Graphing (MatplotLib, Plotly, Seaborn)
+    - Machine Learning (SciKit Learn)
+    - Deep Learning (TensorFlow, Pytorch, MXNet)
 3. Java (_To be written_)
 4. STATA (_To be written_)
 5. MATLAB (_To be written_)
@@ -65,8 +69,12 @@ There are a few essential programming languages, data structures, and algorithms
 8. [Git](https://sbangalore.github.io/cheatsheet-for-git/)
 9. [LaTeX](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
 10. Parallel Computing
+	- SLURM
+    - RAPIDS
+    - MapReduce
+11. Docker
 
-## Domain Knowledge
+## Theory
 
 1. Computer Science
 	- Data Structures (_To be written_)
@@ -82,9 +90,18 @@ There are a few essential programming languages, data structures, and algorithms
 	- Single and Multivariable Calculus
     - Linear Algebra
     - Real Analysis
-    - Stochastic Calculus
+    - Stochastic Processes Calculus
+    - Ordinary Differential Equations
+    - Probability Theory
 4. Machine Learning
-5. [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
+5. Economics
+	- MicroEconomics
+    - MacroEconomics
+6. Finance
+	- Equity Pricing
+    - Fixed Income Pricing
+    - Options Pricing
+7. [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
 
 
 **This is a lot of work but developing these essentials: conscientousness, clarity, and quantiative strength, will set you up for professional success.**
