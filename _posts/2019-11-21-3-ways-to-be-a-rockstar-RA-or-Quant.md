@@ -68,14 +68,23 @@ There are a few essential programming languages, data structures, and algorithms
 
 ## Domain Knowledge
 
-- Computer Science
+1. Computer Science
 	- Data Structures (_To be written_)
 	- Algorithms (_To be written_)
-- Statistics (_To be written_)
-	- [Fixed Effects](https://www.youtube.com/watch?v=J9UEYUXi6lY&t=2s)
-- Mathematics
-- Machine Learning
-- [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
+    - Optimization
+2. Statistics (_To be written_)
+    - Regression
+    - Classification
+    - Testing
+    - Likelihood Estimation
+    - [Fixed Effects](https://www.youtube.com/watch?v=J9UEYUXi6lY&t=2s)
+3. Mathematics
+	- Single and Multivariable Calculus
+    - Linear Algebra
+    - Real Analysis
+    - Stochastic Calculus
+4. Machine Learning
+5. [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
 
 
 **This is a lot of work but developing these essentials: conscientousness, clarity, and quantiative strength, will set you up for professional success.**
