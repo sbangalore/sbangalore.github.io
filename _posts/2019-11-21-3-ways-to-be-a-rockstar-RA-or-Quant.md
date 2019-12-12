@@ -61,6 +61,7 @@ There are a few essential programming languages, data structures, and algorithms
 - Data Structures
 - Algorithms
 - Statistics
+	- [Fixed Effects](https://www.youtube.com/watch?v=J9UEYUXi6lY&t=2s)
 - SQL
 - [Git](https://sbangalore.github.io/cheatsheet-for-git/)
 - [LaTeX](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
