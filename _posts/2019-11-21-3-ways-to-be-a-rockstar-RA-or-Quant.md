@@ -109,4 +109,4 @@ I've seperated this section into application and theory. You should have a good 
 7. [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
 
 
-**This is a lot of work but developing these essentials: conscientousness, clarity, and quantiative strength, will set you up for professional success.**
+**This is a lot of work but developing these essentials: conscientousness, clarity, and quantitative strength, will set you up for professional success.**
