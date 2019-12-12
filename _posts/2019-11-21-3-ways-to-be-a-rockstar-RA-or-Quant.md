@@ -36,7 +36,7 @@ For presentations, I recommend five major principles.
 - Present supporting details in a logical manner
 2. **The Pareto Principle**
 - The 80/20 rule which states that 80% of a problem is driven by 20% of issues
-- Cover 80% of the problem by priioritizing on this 20%
+- Cover 80% of the problem by prioritizing on this 20%
 3. **The MECE Principle**
 - Your arguments should be mutually exclusive (ME): make sure that each argument does not overlap
 - and collectively exhaustive (CE): if you choose to focus on 20%, mention the points you have deprioritized
