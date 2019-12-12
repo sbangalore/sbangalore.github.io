@@ -51,56 +51,60 @@ For presentations, I recommend five major principles.
 
 # How to develop technical strength
 
-I've seperated this section into application and theory. You should have a good understanding of all the topics laid out here. I link the discussion and cheatsheet to each, if written. If uin
+I've seperated this section into application and theory. You should have a good understanding of all the topics laid out here. I link the discussion and cheatsheet to each, if written. If it is italicized, it is going to be written in the future.
 
 ## Application
 
 1. [Linux/UNIX](https://sbangalore.github.io/cheatsheet-for-unix-commands/)
-2. Python (_To be written_)
+2. _Python_
 	- Data Analysis (Pandas, Numpy, SciPy)
     - Graphing (MatplotLib, Plotly, Seaborn)
     - Machine Learning (SciKit Learn)
     - Deep Learning (TensorFlow, Pytorch, MXNet)
-3. Java (_To be written_)
-4. STATA (_To be written_)
-5. MATLAB (_To be written_)
-6. C++ (_To be written_)
-7. SQL (_To be written_)
+3. _Java_
+4. _STATA_
+5. _MATLAB_
+6. _C++_
+7. _SQL_
 8. [Git](https://sbangalore.github.io/cheatsheet-for-git/)
 9. [LaTeX](https://v1.overleaf.com/latex/templates/a-quick-guide-to-latex/fghqpfgnxggz.pdf)
-10. Parallel Computing
+10. _Parallel Computing_
 	- SLURM
     - RAPIDS
     - MapReduce
-11. Docker
+    - Hadoop
+11. _Docker_
 
 ## Theory
 
-1. Computer Science
-	- Data Structures (_To be written_)
-	- Algorithms (_To be written_)
+1. _Computer Science_
+	- Data Structures
+	- Algorithms
     - Optimization
-2. Statistics (_To be written_)
+2. _Statistics_
     - Regression
     - Classification
     - Testing
     - Likelihood Estimation
     - [Fixed Effects](https://www.youtube.com/watch?v=J9UEYUXi6lY&t=2s)
-3. Mathematics
+3. _Mathematics_
 	- Single and Multivariable Calculus
     - Linear Algebra
     - Real Analysis
     - Stochastic Processes Calculus
     - Ordinary Differential Equations
     - Probability Theory
-4. Machine Learning
-5. Economics
+4. _Machine Learning_
+	- Machine Learning
+    - Deep Learning
+    - Reinforcement Learning
+5. _Economics_
 	- Game Theory
     - Economic Growth
     - Economic History
     - Micro Economics
     - Macro Economics
-6. Finance
+6. _Finance_
 	- Equity Pricing
     - Fixed Income Pricing
     - Options Pricing
