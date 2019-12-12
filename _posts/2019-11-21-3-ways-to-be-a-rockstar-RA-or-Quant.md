@@ -104,7 +104,8 @@ I've seperated this section into application and theory. You should have a good 
 	- Equity Pricing
     - Fixed Income Pricing
     - Options Pricing
-    - Market History and Structure
+    - Repurchase Agreements (REPO) basics
+    - Market history and microstructure
 7. [Rapid Arithmetic](https://sbangalore.github.io/my-30-day-experiment-which-doubled-my-arithmetic-speed/)
 
 
