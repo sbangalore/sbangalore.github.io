@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Here's the resume format I used to get offers at Goldman, Amazon, and more
 
@@ -62,9 +62,3 @@ Each bullet you write on your resume needs to do 2 things:
 
 Say, specifically, what you did. Numbers are good. I.e. improved efficiency by xx% by doing yz.
 Give the results of what you did – and yes, numbers are good, but even something qualitative is better than nothing. You should use “by” to separate each part.
-
-
-
-
-
-
