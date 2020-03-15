@@ -46,7 +46,7 @@ When you’re picking your Interests try to list interesting Interests. Don’t 
 
 Even though this isn’t “work experience,” the same strategies hold true – be specific, focus on what’s memorable, and try to go in-depth with only a few areas rather than giving a laundry list with minimal details.
 
-</hr>
+<hr />
 
 ## The Structure
 
