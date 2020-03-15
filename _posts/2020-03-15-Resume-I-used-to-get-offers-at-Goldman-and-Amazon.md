@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## Here's the resume format I used to get offers at Goldman, Amazon, and more
+Here's the resume format I used to get offers at Goldman, Amazon, and more
 
 ## The Resume
 
