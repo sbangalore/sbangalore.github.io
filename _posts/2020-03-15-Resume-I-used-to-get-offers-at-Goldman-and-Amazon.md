@@ -88,3 +88,5 @@ There are often over 100+ job applicants to each job. Hiring teams use applicant
 :point_right: Insert keywords in the posting into your resume.
 
 ## The template
+
+[Resume Template](https://gofile.io/?c=jq5TRK)
