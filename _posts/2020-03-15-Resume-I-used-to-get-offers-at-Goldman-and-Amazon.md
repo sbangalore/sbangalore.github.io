@@ -71,21 +71,20 @@ Here's the resume format I used to get offers at Goldman, Amazon, and more
 
 There are often over 100+ job applicants to each job. Hiring teams use applicant tracking systems (ATS) to reduce this down to a manageable number. Examples include **Taleo** and **Greenhouse**. You need to pass this to get over the first round.
 
-:point-right: ATS Friendly Resume Layout -- Use the layout described above with proper headings
+:point_right: ATS Friendly Resume Layout -- Use the layout described above with proper headings
 
-:point-right: Use 1 column
+:point_right: Use 1 column. Keep a 2 column resume (if you want) when you’re sending it to a recruiter or manager directly.
 
-Multi-column resumes are generally not very friendly to an ATS. Keep a 1 column resume for the ATS and a 2-column resume (if you want) when you’re sending it to a recruiter or manager directly.
+:point_right: No Graphics and Clipart
 
-:point-right: No Graphics and Clipart
+:point_right: Font: 11/12 pt Arial/ Helvetica
 
-:point-right: Font: 11/12 pt Arial/ Helvetica
+:point_right: Bolded words and Bulleted Lists. Use **standard** round bullets throughout your application .
 
-:point-right: Bolded words and Bulleted Lists
+:point_right: No Tables or Special Characters
 
-Use **standard** round bullets throughout your application 
+:point_right: Save as a .docx Format
 
-:point-right: No Tables or Special Characters
+:point_right: Insert keywords in the posting into your resume.
 
-:point-right: .docx Format
-
+## The template
