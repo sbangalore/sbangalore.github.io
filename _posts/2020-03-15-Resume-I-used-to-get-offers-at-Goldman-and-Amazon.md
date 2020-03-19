@@ -89,4 +89,4 @@ There are often over 100+ job applicants to each job. Hiring teams use applicant
 
 ## The template
 
-[Resume Template](https://gofile.io/?c=jq5TRK)
+[Resume Template](https://gofile.io/?c=e5mtii)
