@@ -10,7 +10,8 @@ Let’s talk about scaling effectively a.k.a. how to deal with too much — neve
 ## Early beginnings
 
 You’ve started BookFace Co and have hosted a launch site on GoDaddy.com using Wordpress.
-![]({{site.baseurl}}/https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fff0c36d0-923f-432b-b7ae-715ae41cd5af_630x300.jpeg)
+
+![]({{site.baseurl}}/https://imgur.com/7eaClWH)
 
 It’s an exciting time! You tell all your friends on campus to spread the word and contact the sororities on campus. Y’all agree on a strategy to make it exclusive to the  campus and develop a small UI.
 
@@ -32,11 +33,11 @@ So, you decide to expand the EC2 on AWS that you have by adding more RAM and pro
 
 For reference, popular startups often experience growth rates 20+% per week (with social media having even faster growth!). Here’s Insta:
 
-![]({{site.baseurl}}/https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0cd3ea1f-b49f-46dd-8a1a-affb07f9e939_700x473.png)
+![]({{site.baseurl}}/https://i.imgur.com/fOVcZDQ.png)
 
 At this point, adding more stuff is getting expensive!
 
-![]({{site.baseurl}}/https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F872113c3-81c0-47c8-a11b-a53172ae013e_618x298.png)
+![]({{site.baseurl}}/https://i.imgur.com/aqtlkmK.png)
 
 Scaling is somewhat effective as you can see from the above image on storage. However, it starts getting expensive. Scaling RAM from 8 to 16 GB is easier and cheaper than scaling from 64 GB to 128 GB. 
 
@@ -52,7 +53,7 @@ Now that you have “excess capacity”, you go and sell the initial one you had
 
 You step back. Here’s your new system for bookface.com. The process as a picture and a break down below.
 
-![]({{site.baseurl}}/https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff955cf6e-38cb-405f-9637-7245204151e0_947x227.png)
+![]({{site.baseurl}}/https://i.imgur.com/s4Tow9t.png)
 
 First, a user types in BookFace.com. This is then directed to a DNS which directs the request to a AWS data centre (in this case, located in Virginia. A load balancer ( i.e. AWS Elastic Load Balancing) directs the request to one of the EC2 servers you have set up. The servers direct any requests for information to another load balancer which then directs it to the database (perhaps AWS Dynamo DB) you have set up.
 
@@ -78,15 +79,11 @@ As you noticed, you set up each of your databases and servers with a clone (exac
 
 The concepts here are summarized in RAID levels — which specify the redundancy and speed of different ways of making clones.
 
-Raid 0: fast, 100% utilization, 2 drives, can not withstand drive failure
-
-Raid 1: medium, 50% utilization, 2 drives, can withstand 1 drive failure
-
-Raid 5: slow, 70-95% utilization, 3 drives, can withstand 1 drive failure
-
-Raid 6: slow, 50-90% utilization, 4 drives, can withstand 2 drive failures
-
-Raid 10 (1 + 0): high, 50% utilization, 4 drives, can withstand 1 drive failure in subarray
+- Raid 0: fast, 100% utilization, 2 drives, can not withstand drive failure
+- Raid 1: medium, 50% utilization, 2 drives, can withstand 1 drive failure
+- Raid 5: slow, 70-95% utilization, 3 drives, can withstand 1 drive failure
+- Raid 6: slow, 50-90% utilization, 4 drives, can withstand 2 drive failures
+- Raid 10 (1 + 0): high, 50% utilization, 4 drives, can withstand 1 drive failure in subarray
 
 ## Caching
 
@@ -110,7 +107,7 @@ On your browser, you keep favorites. You’ll only keep the favorites you use mo
 
 It’s usually stored in RAM vs in the storage device for noncached items. There’s a couple ways (and a third option to do a hybrid) to cache:
 
-File based Caching
+**File based Caching**
 
 Redis/Memcache
 
@@ -120,7 +117,7 @@ Redis and memcache both work on TCP networks (meaning that internet speed matter
 
 Within Redis and memcache, we have a couple of options, where Cached objects >> Cached Db queries. Yes, you heard that right, cached objects are objectively better than cached DB queries. Here’s an example of memcache:
 
-![]({{site.baseurl}}/https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7a7ee7ac-bf47-4068-9016-d9cd8b32c8d7_690x221.png)
+![]({{site.baseurl}}/https://i.imgur.com/X59r4mZ.jpg)
 
 Queries from a database are when a user asks for a certain thing to be pulled from a database (for example, the 40 most recent posts by Rihanna).
 
@@ -128,9 +125,9 @@ Caching an object assembles a class from recently pulled queries from datasets a
 
 If you instead cache database queries, the raw data wouldn’t be included, meaning it would be discarded if Rihanna posts a new image and would have to be reconstructed 😟
 
-You decide to implement caching and get some cool results. More people are staying on the website !
+You decide to implement caching and get some cool results. More people are staying on the website!
 
-![]({{site.baseurl}}/https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc4ea5fc-9c40-4192-8857-1482de082618_638x479.jpeg)
+![]({{site.baseurl}}/https://imgur.com/7eaClWH)
 
 ## Asynchronism
 
