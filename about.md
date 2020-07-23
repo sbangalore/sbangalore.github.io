@@ -27,7 +27,7 @@ published: true
 - Boxing (learning)
 - Enjoying time with my cat
   
-![Toothless](https://i.imgur.com/jSKgsYU.jpg =250)
+![Toothless](https://i.imgur.com/jSKgsYU.jpg =100)
 
 
 I enjoy reading **books and papers**. Here are some I've read recently!
