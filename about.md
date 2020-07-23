@@ -32,15 +32,20 @@ Other things I like
   - Poker
   - Enjoying time with my cat
   
-![Toothless](https://i.imgur.com/jSKgsYU.jpg)
+![Toothless](https://i.imgur.com/jSKgsYU.jpg =250)
 
 
 I enjoy reading **books and papers**. Here are some I've read recently!
 
-- [Browder, Red Notice](https://www.amazon.ca/Red-Notice-Finance-Murder-Justice/dp/147675571X)
-- [Goodfellow, Deep Learning](https://www.amazon.ca/Deep-Learning-Ian-Goodfellow/dp/0262035618)
-- [Shwartz and David, Understanding Machine Learning: From Theory to Algorithms](https://www.amazon.ca/Understanding-Machine-Learning-Theory-Algorithms/dp/1107057132/)
-- [Paarsh and Golyaev, A Gentle Introduction to Effective Computing in Quantitative Research](https://www.amazon.ca/Introduction-Effective-Computing-Quantitative-Research/dp/0262034115)
+- 2019 [Browder, Red Notice](https://www.amazon.ca/Red-Notice-Finance-Murder-Justice/dp/147675571X)
+- 2019 [Goodfellow, Deep Learning](https://www.amazon.ca/Deep-Learning-Ian-Goodfellow/dp/0262035618)
+- 2020 [Shwartz and David, Understanding Machine Learning: From Theory to Algorithms](https://www.amazon.ca/Understanding-Machine-Learning-Theory-Algorithms/dp/1107057132/)
+- 2020 [Paarsh and Golyaev, A Gentle Introduction to Effective Computing in Quantitative Research](https://www.amazon.ca/Introduction-Effective-Computing-Quantitative-Research/dp/0262034115)
+- 2020 [Meditations: A New Translation](https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_3?dchild=1&keywords=meditations&qid=1595533513&s=books&sr=1-3)
+- 2020 [The Enchiridion](https://www.amazon.com/Enchiridion-Epictetus/dp/152156034X/ref=sr_1_3?dchild=1&keywords=enchiridion&qid=1595533572&sr=8-3)
+- 2020 [Reinforcement Learning: An Introduction](http://www.incompleteideas.net/book/the-book-2nd.html)
+- June 2020: [The Ghost Map: The Story of London's Most Terrifying Epidemic--and How It Changed Science, Cities, and the Modern World](https://www.amazon.com/Ghost-Map-Londons-Terrifying-Epidemic/dp/1594482691)
+- July 2020: [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.amazon.com/Freakonomics-Economist-Explores-Hidden-Everything/dp/0060731338)
 
 Here's what I'm reading now to learn more about real analysis.
 
