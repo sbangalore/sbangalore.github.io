@@ -22,15 +22,10 @@ published: true
 - Software - how to build
 - Finance - how to price
 - Sales - how to sell
-
-Other things I like
-  - Powerlifting (1200 lbs atm)
-  - Snowboarding
-  - Food
-  - Basketball
-  - Boxing (learning)
-  - Poker
-  - Enjoying time with my cat
+- Powerlifting (1200 lbs atm)
+- Snowboarding
+- Boxing (learning)
+- Enjoying time with my cat
   
 ![Toothless](https://i.imgur.com/jSKgsYU.jpg =250)
 
