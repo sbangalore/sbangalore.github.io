@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # _On Writing Well_  by William Zinsser
 
