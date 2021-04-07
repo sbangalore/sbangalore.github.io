@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-# _On Writing Well_  by William Zinsser
-
 I first read _On Writing Well_ as part of a university course on business writing. I enjoyed it so much that I continue to read it on an annual basis. It's a breath of fresh air and inspires me to write with simplicity and style.
 
 ## Review
