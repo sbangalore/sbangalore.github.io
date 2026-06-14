@@ -1,19 +1,19 @@
 :root {
   color-scheme: light;
-  --bg: #f4f0e8;
-  --bg-quiet: #f8f3e8;
-  --surface: #fffaf0;
-  --surface-raised: #fffdf7;
-  --surface-inset: #f8f1e4;
-  --rule: #d8cdb9;
-  --rule-strong: #b9ab93;
-  --text: #11110f;
-  --text-soft: #5e5a52;
-  --text-faint: #8a8273;
-  --accent: #ff6a00;
-  --accent-strong: #d95800;
-  --patina: #1f4ed8;
-  --warning: #b7791f;
+  --bg: #f6f7f1;
+  --bg-quiet: #eef1e9;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-inset: #f1f4ed;
+  --rule: #d9ddd2;
+  --rule-strong: #b8c0b2;
+  --text: #101411;
+  --text-soft: #5d665f;
+  --text-faint: #8a948d;
+  --accent: #315cff;
+  --accent-strong: #1d46d6;
+  --patina: #0f8b6f;
+  --warning: #a9681f;
   --danger: #b42318;
   --radius: 18px;
   --radius-sm: 999px;
@@ -24,8 +24,8 @@
   --space-5: 24px;
   --space-6: 32px;
   --space-7: 48px;
-  --font-sans: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  --font-mono: "SFMono-Regular", "Roboto Mono", Consolas, monospace;
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
   font-family: var(--font-sans);
 }
@@ -124,7 +124,7 @@ main,
   gap: var(--space-1);
   border: 1px solid var(--rule);
   border-radius: var(--radius);
-  background: rgba(255, 250, 240, 0.68);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
   padding: var(--space-1);
 }
 
@@ -186,11 +186,11 @@ main,
 
 .context-label {
   margin: 0 0 var(--space-2);
-  color: var(--accent);
-  font-family: var(--font-sans);
+  color: var(--patina);
+  font-family: var(--font-mono);
   font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.14em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -204,9 +204,9 @@ p {
 h1 {
   max-width: 980px;
   margin-bottom: var(--space-3);
-  font-size: 6.4rem;
-  line-height: 0.88;
-  letter-spacing: 0;
+  font-size: 5.8rem;
+  line-height: 0.92;
+  letter-spacing: -0.035em;
   text-wrap: balance;
 }
 

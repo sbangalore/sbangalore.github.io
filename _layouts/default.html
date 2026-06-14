@@ -3,14 +3,20 @@
   <head>
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
     {% include meta.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Instrument+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
-        --ink: #11110f;
-        --muted: #5e5a52;
-        --paper: #f4f0e8;
-        --card: #fffaf0;
-        --line: #d8cdb9;
-        --signal: #ff6a00;
+        --ink: #101411;
+        --muted: #5d665f;
+        --paper: #f6f7f1;
+        --card: #ffffff;
+        --line: #d9ddd2;
+        --signal: #315cff;
       }
 
       * {
@@ -21,7 +27,7 @@
         margin: 0;
         background: var(--paper);
         color: var(--ink);
-        font: 17px/1.55 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font: 17px/1.55 "Instrument Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
       }
 
       a {
@@ -61,7 +67,7 @@
         border: 1px solid var(--line);
         border-radius: 999px;
         padding: 9px 13px;
-        background: rgba(255, 250, 240, 0.66);
+        background: color-mix(in srgb, var(--card) 78%, transparent);
       }
 
       .page,
@@ -73,14 +79,14 @@
       h1 {
         margin: 0 0 18px;
         font-size: clamp(36px, 7vw, 82px);
-        line-height: 0.95;
-        letter-spacing: -0.055em;
+        line-height: 1;
+        letter-spacing: -0.03em;
       }
 
       h2,
       h3 {
         margin-top: 34px;
-        letter-spacing: -0.025em;
+        letter-spacing: -0.01em;
       }
 
       p,
