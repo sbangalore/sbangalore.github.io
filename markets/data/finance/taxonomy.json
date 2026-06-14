@@ -1,0 +1,530 @@
+{
+  "segments": [
+    {
+      "key": "exchanges_venues",
+      "label": "Exchanges & Trading Venues",
+      "description": "Matched markets and order books — where trades actually execute.",
+      "color": "#4f6ef7",
+      "flow": "venue"
+    },
+    {
+      "key": "brokers_execution",
+      "label": "Brokers & Execution",
+      "description": "Access intermediaries: retail and institutional brokerage, smart order routing, prime services.",
+      "color": "#0ea5e9",
+      "flow": "access"
+    },
+    {
+      "key": "lending_credit",
+      "label": "Lending, Credit & Rates Markets",
+      "description": "Balance-sheet markets: repo, margin finance, securities lending, private credit, DeFi lending, stablecoin credit, and collateralized borrow/lend protocols.",
+      "color": "#22c55e",
+      "flow": "capital"
+    },
+    {
+      "key": "market_data",
+      "label": "Market Data & Feeds",
+      "description": "Real-time and historical price, quote, and reference data vendors.",
+      "color": "#10b981",
+      "flow": "data_rail"
+    },
+    {
+      "key": "alt_data",
+      "label": "Alternative Data",
+      "description": "Non-price signals: sentiment, web-scrape, fundamentals crowdsourcing, transactional data.",
+      "color": "#84cc16",
+      "flow": "data_rail"
+    },
+    {
+      "key": "analytics_research",
+      "label": "Analytics, Research & Terminals",
+      "description": "Workstations, charting, factor/quant tooling, and research platforms built on top of data.",
+      "color": "#f59e0b",
+      "flow": "data_rail"
+    },
+    {
+      "key": "prediction_event",
+      "label": "Prediction & Event Markets",
+      "description": "Venues for trading contracts on real-world outcomes — elections, economics, sports, weather.",
+      "color": "#ef4444",
+      "flow": "venue"
+    },
+    {
+      "key": "crypto_infra",
+      "label": "Crypto-Native Infrastructure",
+      "description": "DEX protocols, on-chain analytics, node/indexing, and institutional crypto plumbing.",
+      "color": "#a855f7",
+      "flow": "venue"
+    },
+    {
+      "key": "clearing_custody",
+      "label": "Clearing, Custody & Settlement",
+      "description": "Post-trade plumbing: central counterparties, depositories, qualified custodians.",
+      "color": "#64748b",
+      "flow": "post_trade"
+    },
+    {
+      "key": "indices_benchmarks",
+      "label": "Indices & Benchmarks",
+      "description": "Index providers and reference rates the rest of the industry prices against.",
+      "color": "#ec4899",
+      "flow": "data_rail"
+    },
+    {
+      "key": "asset_mgmt",
+      "label": "Asset Management & Strategy Markets",
+      "description": "The delegated-capital layer: funds, vault protocols, copy trading, and marketplaces that turn trading track records into investable products. Sits on top of the stack — this is the demand side of everything else on the map.",
+      "color": "#14b8a6",
+      "flow": "capital"
+    }
+  ],
+  "layers": [
+    {
+      "key": "venue_liquidity",
+      "label": "L1 — Venue / Liquidity",
+      "description": "Where the trade clears or matches."
+    },
+    {
+      "key": "connectivity_execution",
+      "label": "L2 — Connectivity / Execution",
+      "description": "Brokerage, FIX gateways, smart order routing."
+    },
+    {
+      "key": "data_feeds",
+      "label": "L3 — Data / Feeds",
+      "description": "Raw and reference data distribution."
+    },
+    {
+      "key": "analytics_apps",
+      "label": "L4 — Analytics / Applications",
+      "description": "Research tools, terminals, and signal products on top of data."
+    },
+    {
+      "key": "infra_plumbing",
+      "label": "L5 — Infrastructure / Plumbing",
+      "description": "Clearing, custody, settlement, node/RPC, identity."
+    }
+  ],
+  "asset_classes": [
+    {
+      "key": "equities",
+      "label": "Equities"
+    },
+    {
+      "key": "etfs",
+      "label": "ETFs"
+    },
+    {
+      "key": "options",
+      "label": "Options"
+    },
+    {
+      "key": "futures",
+      "label": "Futures"
+    },
+    {
+      "key": "fx",
+      "label": "FX"
+    },
+    {
+      "key": "rates_fixed_income",
+      "label": "Rates & Fixed Income"
+    },
+    {
+      "key": "crypto_spot",
+      "label": "Crypto Spot"
+    },
+    {
+      "key": "crypto_perp",
+      "label": "Crypto Perps"
+    },
+    {
+      "key": "crypto_options",
+      "label": "Crypto Options"
+    },
+    {
+      "key": "crypto_lending",
+      "label": "Crypto Lending",
+      "description": "On-chain and institutional crypto borrow/lend markets, including overcollateralized money markets and credit pools."
+    },
+    {
+      "key": "stablecoins",
+      "label": "Stablecoins",
+      "description": "Dollar and fiat-linked crypto settlement assets, savings products, and credit primitives."
+    },
+    {
+      "key": "staking_yield",
+      "label": "Staking & Yield",
+      "description": "Staking, liquid staking, restaking, and yield-token markets."
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities"
+    },
+    {
+      "key": "prediction_markets",
+      "label": "Prediction Markets"
+    },
+    {
+      "key": "real_estate",
+      "label": "Real Estate"
+    },
+    {
+      "key": "cash_money_markets",
+      "label": "Cash & Money Markets",
+      "description": "T-bills, repo, CDs, money-market funds."
+    },
+    {
+      "key": "securitized",
+      "label": "Securitized (MBS/CMBS/ABS)",
+      "description": "Mortgage- and asset-backed structured credit."
+    },
+    {
+      "key": "private_credit",
+      "label": "Private Credit",
+      "description": "Direct lending and non-bank private debt."
+    },
+    {
+      "key": "sports_events",
+      "label": "Sports & Event Contracts",
+      "description": "Tradeable contracts on sports and real-world event outcomes."
+    },
+    {
+      "key": "collectibles",
+      "label": "Collectibles & Art",
+      "description": "Fractionalized art, cards, and other tangible alternatives."
+    },
+    {
+      "key": "private_alts",
+      "label": "Private Equity & VC"
+    },
+    {
+      "key": "multi_asset",
+      "label": "Multi-Asset"
+    }
+  ],
+  "regions": [
+    {
+      "key": "americas",
+      "label": "Americas"
+    },
+    {
+      "key": "emea",
+      "label": "EMEA"
+    },
+    {
+      "key": "apac",
+      "label": "APAC"
+    },
+    {
+      "key": "global",
+      "label": "Global / Distributed"
+    }
+  ],
+  "access": [
+    {
+      "key": "rest_api",
+      "label": "REST API"
+    },
+    {
+      "key": "websocket",
+      "label": "WebSocket"
+    },
+    {
+      "key": "fix",
+      "label": "FIX"
+    },
+    {
+      "key": "terminal_gui",
+      "label": "Terminal / GUI"
+    },
+    {
+      "key": "bulk_file",
+      "label": "Bulk Files"
+    },
+    {
+      "key": "on_chain",
+      "label": "On-Chain"
+    },
+    {
+      "key": "sdk",
+      "label": "SDK"
+    }
+  ],
+  "cost_tiers": [
+    {
+      "key": "free",
+      "label": "Free",
+      "description": "For venues/data/infra: public data or API access at no cost. For brokers: zero-commission core product. Never refers to trading fees on venues.",
+      "color": "#10b981"
+    },
+    {
+      "key": "freemium",
+      "label": "Freemium",
+      "description": "Meaningful free tier; paid tiers unlock depth or rate limits.",
+      "color": "#84cc16"
+    },
+    {
+      "key": "paid",
+      "label": "Paid",
+      "description": "Subscription required for useful access; self-serve pricing.",
+      "color": "#f59e0b"
+    },
+    {
+      "key": "enterprise",
+      "label": "Enterprise",
+      "description": "Negotiated licensing; sales process required.",
+      "color": "#ef4444"
+    }
+  ],
+  "data_depth": [
+    {
+      "key": "realtime",
+      "label": "Real-time"
+    },
+    {
+      "key": "delayed",
+      "label": "Delayed"
+    },
+    {
+      "key": "eod",
+      "label": "End-of-Day"
+    },
+    {
+      "key": "historical_only",
+      "label": "Historical Only"
+    },
+    {
+      "key": "tick_history",
+      "label": "Tick History"
+    }
+  ],
+  "statuses": [
+    {
+      "key": "active",
+      "label": "Active"
+    },
+    {
+      "key": "acquired",
+      "label": "Acquired",
+      "description": "Still operating, but absorbed into another listed or unlisted entity."
+    },
+    {
+      "key": "defunct",
+      "label": "Defunct",
+      "description": "Kept for reference — illustrates ecosystem churn."
+    }
+  ],
+  "matrix_cells": {
+    "description": "Semantics for empty cells in the layer-x-segment matrix. 'structural' = definitionally empty (taxonomy artifact or conflict-of-interest wall) — render borderless/inert. 'opportunity' = real-world white space worth annotating — render with accent + tooltip note. Any other empty cell = 'zero entries so far' — render as a normal dim cell.",
+    "structural": [
+      {
+        "layer": "venue_liquidity",
+        "segment": "market_data",
+        "reason": "A data vendor operating a venue would be reclassified as an exchange (single-select segment)."
+      },
+      {
+        "layer": "venue_liquidity",
+        "segment": "alt_data",
+        "reason": "Exchanges *for* data keep failing: data is non-rival and adversely selected, so it resists market-making."
+      },
+      {
+        "layer": "venue_liquidity",
+        "segment": "analytics_research",
+        "reason": "An analytics firm running a venue would be reclassified as an exchange."
+      },
+      {
+        "layer": "venue_liquidity",
+        "segment": "indices_benchmarks",
+        "reason": "Benchmark administrator running a venue trading its own index = manipulation conflict; post-LIBOR benchmark regulation walls this off."
+      },
+      {
+        "layer": "venue_liquidity",
+        "segment": "clearing_custody",
+        "reason": "CCP-operated venues exist only inside vertically integrated groups, which classify as exchanges (e.g. CME)."
+      },
+      {
+        "layer": "connectivity_execution",
+        "segment": "exchanges_venues",
+        "reason": "Exchanges are the endpoint of connectivity, not providers of it; venue-sold colocation lives under the venue entry."
+      },
+      {
+        "layer": "connectivity_execution",
+        "segment": "market_data",
+        "reason": "Data vendors that execute orders are brokers by definition."
+      },
+      {
+        "layer": "connectivity_execution",
+        "segment": "alt_data",
+        "reason": "No execution role exists for signal vendors."
+      },
+      {
+        "layer": "connectivity_execution",
+        "segment": "indices_benchmarks",
+        "reason": "Index providers do not touch order flow — by design and regulation."
+      },
+      {
+        "layer": "infra_plumbing",
+        "segment": "alt_data",
+        "reason": "Alt-data delivery rides general data infrastructure; no segment-specific plumbing layer."
+      },
+      {
+        "layer": "infra_plumbing",
+        "segment": "analytics_research",
+        "reason": "Analytics firms consume plumbing rather than provide it."
+      },
+      {
+        "layer": "infra_plumbing",
+        "segment": "indices_benchmarks",
+        "reason": "Benchmark administration is governance, not market plumbing."
+      }
+    ],
+    "opportunity": [
+      {
+        "layer": "connectivity_execution",
+        "segment": "prediction_event",
+        "note": "Filling fast as of mid-2026: PMXT (open-source router), Dome (acquired by Polymarket, Feb 2026), IBKR's regulated-venue router (May 2026), Stand terminal. STILL OPEN: a true prime broker — one account, unified collateral, margin netting across regulated (dollar) and crypto (USDC) venues. Every current router requires funded accounts at each venue.",
+        "as_of": "2026-06"
+      },
+      {
+        "layer": "analytics_apps",
+        "segment": "prediction_event",
+        "note": "Partially filled (PMXT hosted history, Stand terminal). STILL OPEN: a neutral, enterprise-grade event-data vendor — Kaiko-for-events with cross-venue tick history, resolution outcomes, and calibration analytics. Dome would have been it; it's venue-owned now.",
+        "as_of": "2026-06"
+      },
+      {
+        "layer": "infra_plumbing",
+        "segment": "prediction_event",
+        "note": "The deepest remaining gap: no cross-venue clearing or fungibility. The 'same' event on Kalshi vs Polymarket has different resolution criteria and can settle differently; no OCC-for-events nets positions across venues, so every arb carries settlement-mismatch risk and double capital. Whoever builds this owns the column.",
+        "as_of": "2026-06"
+      }
+    ]
+  },
+  "legend_flows": {
+    "description": "Two flows run through this map in opposite directions. CAPITAL flows down: savers -> asset managers & vaults -> brokers/execution -> venues -> clearing & custody. DATA flows up: venues emit prices -> data vendors normalize -> analytics interpret -> benchmarks standardize -> capital allocates against them. Most entities are simultaneously demand and supply (an exchange supplies liquidity and demands market-maker capital; BlackRock demands data and supplies Aladdin), which is why demand/supply is drawn as a flow, not stored as a facet.",
+    "capital_chain": [
+      "asset_mgmt",
+      "lending_credit",
+      "brokers_execution",
+      "exchanges_venues",
+      "clearing_custody"
+    ],
+    "data_chain": [
+      "exchanges_venues",
+      "market_data",
+      "analytics_research",
+      "indices_benchmarks",
+      "asset_mgmt"
+    ],
+    "scope_note": "Deliberately out of scope: the primary market (issuers, underwriters, IPO/bond syndication, token launches). This map covers secondary-market structure — where instruments trade, not where they are born."
+  },
+  "field_notes": {
+    "country": "Optional ISO-3166 alpha-2 HQ country, shown on cards and searchable. NOT a filter facet — region remains the facet. Omitted for decentralized/global entities and where HQ is uncertain.",
+    "market_mechanisms": "Cross-asset product mechanics. These are not top-level segments: a venue can be a CLOB, AMM, lending pool, or RFQ network while still occupying the same market-structure layer.",
+    "adapter_shapes": "Implementation-oriented integration shape for collectors and product surfaces. Adapter shape describes how to connect, not what business the entity is in."
+  },
+  "market_mechanisms": [
+    {
+      "key": "clob",
+      "label": "Central Limit Order Book",
+      "description": "Continuous bids/offers matched by price-time or venue-specific priority."
+    },
+    {
+      "key": "amm_pool",
+      "label": "AMM / Pool",
+      "description": "Automated liquidity pool where a formula or invariant quotes against pooled assets."
+    },
+    {
+      "key": "rfq",
+      "label": "RFQ / Dealer Quote",
+      "description": "Request-for-quote or dealer-mediated liquidity rather than a public central book."
+    },
+    {
+      "key": "quote_router",
+      "label": "Quote Router / SOR",
+      "description": "Aggregates venues or pools and returns executable routes, slippage, and best-price paths."
+    },
+    {
+      "key": "perp_venue",
+      "label": "Perp / Derivatives Venue",
+      "description": "Venue for perpetuals, futures, options, or synthetic derivatives exposure."
+    },
+    {
+      "key": "lending_pool",
+      "label": "Lending Pool / Credit Market",
+      "description": "Borrow/lend venue where collateral, utilization, rates, and liquidation rules define credit."
+    },
+    {
+      "key": "vault_strategy",
+      "label": "Vault / Strategy Product",
+      "description": "Delegated capital wrapper, yield vault, or investable strategy built on underlying venues."
+    },
+    {
+      "key": "oracle",
+      "label": "Oracle / Price Attestation",
+      "description": "Published reference price, index, or data attestation consumed by contracts or risk systems."
+    },
+    {
+      "key": "indexer",
+      "label": "Indexer / Subgraph",
+      "description": "Decoded chain, venue, or transaction state exposed as queryable data."
+    },
+    {
+      "key": "custody_network",
+      "label": "Custody / Settlement Network",
+      "description": "Key management, qualified custody, collateral movement, and settlement plumbing."
+    },
+    {
+      "key": "prime_brokerage",
+      "label": "Prime Brokerage / Financing",
+      "description": "Institutional trading, credit, financing, collateral management, and multi-venue access."
+    },
+    {
+      "key": "reference_data",
+      "label": "Reference / Market Data",
+      "description": "Normalized market data, tick history, identifiers, and benchmark/reference products."
+    }
+  ],
+  "adapter_shapes": [
+    {
+      "key": "marketdata_adapter",
+      "label": "Market Data Adapter",
+      "description": "Books, trades, quotes, funding, chains, and historical data."
+    },
+    {
+      "key": "quote_adapter",
+      "label": "Quote Adapter",
+      "description": "Executable quote and route requests without necessarily owning canonical venue state."
+    },
+    {
+      "key": "public_read_adapter",
+      "label": "Public Read Adapter",
+      "description": "Read-only protocol state: pools, reserves, ticks, gauges, vaults, rates, and positions."
+    },
+    {
+      "key": "venue_adapter",
+      "label": "Venue Adapter",
+      "description": "Venue-native books, markets, funding, orders, fills, or execution surfaces."
+    },
+    {
+      "key": "oracle_adapter",
+      "label": "Oracle Adapter",
+      "description": "Price-feed IDs, update payloads, attestations, and oracle health."
+    },
+    {
+      "key": "lending_rate_adapter",
+      "label": "Lending Rate Adapter",
+      "description": "Supply/borrow rates, utilization, collateral factors, liquidations, and credit pool state."
+    },
+    {
+      "key": "custody_settlement_adapter",
+      "label": "Custody / Settlement Adapter",
+      "description": "Balances, transfers, wallets, collateral, settlement, and custody network state."
+    },
+    {
+      "key": "portfolio_adapter",
+      "label": "Portfolio / Vault Adapter",
+      "description": "Vault holdings, strategy NAV, shares, yield, and delegated strategy performance."
+    }
+  ]
+}

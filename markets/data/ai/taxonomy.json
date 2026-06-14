@@ -1,0 +1,596 @@
+{
+  "segments": [
+    {
+      "key": "compute_hardware",
+      "label": "Compute & Hardware",
+      "description": "GPU, accelerator, cluster, and low-level systems suppliers.",
+      "color": "#4f6ef7",
+      "flow": "supply"
+    },
+    {
+      "key": "semiconductor_supply",
+      "label": "Semiconductor Supply Chain",
+      "description": "Foundries, memory, advanced packaging, lithography, inspection, and semiconductor equipment upstream of AI accelerators.",
+      "color": "#2dd4bf",
+      "flow": "supply"
+    },
+    {
+      "key": "datacenter_power",
+      "label": "Datacenter, Power & Cooling",
+      "description": "Sites, interconnection, power distribution, backup generation, thermal management, and energy procurement for AI clusters.",
+      "color": "#f97316",
+      "flow": "supply"
+    },
+    {
+      "key": "industrial_materials",
+      "label": "Industrial Materials",
+      "description": "Wafers, specialty gases, copper, rare earths, water, chemicals, and other physical inputs that constrain AI buildout.",
+      "color": "#eab308",
+      "flow": "supply"
+    },
+    {
+      "key": "cloud_platforms",
+      "label": "Cloud AI Platforms",
+      "description": "Hyperscaler and neocloud platforms that package compute, storage, managed models, and deployment.",
+      "color": "#0ea5e9",
+      "flow": "supply"
+    },
+    {
+      "key": "model_labs",
+      "label": "Foundation Model Labs",
+      "description": "Closed and open frontier model suppliers across text, code, audio, image, and video.",
+      "color": "#a855f7",
+      "flow": "model"
+    },
+    {
+      "key": "open_model_ops",
+      "label": "Open Model Ops",
+      "description": "Open-weight distribution, local runtime, fine-tuning, quantization, and model packaging.",
+      "color": "#ec4899",
+      "flow": "model"
+    },
+    {
+      "key": "data_context",
+      "label": "Data, Context & Labeling",
+      "description": "Labeling, document parsing, synthetic data, ETL, and context preparation.",
+      "color": "#10b981",
+      "flow": "context"
+    },
+    {
+      "key": "retrieval_memory",
+      "label": "Retrieval & Memory",
+      "description": "Vector search, hybrid retrieval, knowledge graphs, memory, and personalization stores.",
+      "color": "#14b8a6",
+      "flow": "context"
+    },
+    {
+      "key": "orchestration_agents",
+      "label": "Agents & Orchestration",
+      "description": "Frameworks and runtimes for tool use, workflows, browser/computer use, and multi-agent systems.",
+      "color": "#f59e0b",
+      "flow": "runtime"
+    },
+    {
+      "key": "serving_inference",
+      "label": "Serving, Inference & Routing",
+      "description": "Inference servers, model gateways, routing, caching, batching, and cost/latency optimization.",
+      "color": "#ef4444",
+      "flow": "runtime"
+    },
+    {
+      "key": "eval_observability",
+      "label": "Evals, Observability & Testing",
+      "description": "Traces, evals, regression tests, red teams, feedback loops, and quality monitoring.",
+      "color": "#84cc16",
+      "flow": "control"
+    },
+    {
+      "key": "security_governance",
+      "label": "Security, Safety & Governance",
+      "description": "Prompt-injection defense, AI firewall, DLP, model risk, policy, audit, and compliance.",
+      "color": "#64748b",
+      "flow": "control"
+    },
+    {
+      "key": "app_infra",
+      "label": "Application Infrastructure",
+      "description": "Developer-facing platforms and vertical agent shells that turn AI components into deployable products.",
+      "color": "#06b6d4",
+      "flow": "app"
+    }
+  ],
+  "layers": [
+    {
+      "key": "industrial_inputs",
+      "label": "L0 - Industrial Inputs",
+      "description": "Power, fabs, packaging, cooling, sites, grid interconnects, materials, and other non-software bottlenecks."
+    },
+    {
+      "key": "physical_compute",
+      "label": "L1 - Physical Compute",
+      "description": "Chips, servers, accelerators, clusters, and scheduler primitives."
+    },
+    {
+      "key": "model_supply",
+      "label": "L2 - Model Supply",
+      "description": "Frontier models, open weights, fine-tuned models, embeddings, and multimodal models."
+    },
+    {
+      "key": "data_context",
+      "label": "L3 - Data / Context",
+      "description": "The data, retrieval, memory, and tool context models need to act usefully."
+    },
+    {
+      "key": "orchestration_runtime",
+      "label": "L4 - Orchestration / Runtime",
+      "description": "Agent loops, workflow graphs, tool calling, gateways, and application runtime."
+    },
+    {
+      "key": "serving_inference",
+      "label": "L5 - Serving / Inference",
+      "description": "Inference APIs, model servers, gateways, routing, caching, batching, and latency/cost controls."
+    },
+    {
+      "key": "eval_observability",
+      "label": "L6 - Evals / Observability",
+      "description": "Traces, evals, regression tests, feedback, experiments, and quality monitoring."
+    },
+    {
+      "key": "ops_governance",
+      "label": "L7 - Security / Governance",
+      "description": "Safety, policy, DLP, model risk, audit, compliance, and production controls."
+    },
+    {
+      "key": "application_layer",
+      "label": "L8 - Application Layer",
+      "description": "User-facing copilots, coding agents, voice agents, enterprise automation, and vertical workflows."
+    }
+  ],
+  "asset_classes": [
+    {
+      "key": "chat",
+      "label": "Chat"
+    },
+    {
+      "key": "coding",
+      "label": "Coding"
+    },
+    {
+      "key": "rag_search",
+      "label": "Enterprise Search / RAG"
+    },
+    {
+      "key": "agents",
+      "label": "Agents"
+    },
+    {
+      "key": "voice",
+      "label": "Voice"
+    },
+    {
+      "key": "audio",
+      "label": "Audio"
+    },
+    {
+      "key": "vision",
+      "label": "Vision"
+    },
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "robotics",
+      "label": "Robotics"
+    },
+    {
+      "key": "science_bio",
+      "label": "Science / Bio"
+    },
+    {
+      "key": "creative",
+      "label": "Creative Tools"
+    },
+    {
+      "key": "on_device",
+      "label": "On-device AI"
+    },
+    {
+      "key": "enterprise_automation",
+      "label": "Enterprise Automation"
+    },
+    {
+      "key": "multi_modal",
+      "label": "Multimodal"
+    },
+    {
+      "key": "multi_workload",
+      "label": "Multi-Workload"
+    }
+  ],
+  "verticals": [
+    {
+      "key": "finance_trading",
+      "label": "Finance / Trading",
+      "description": "Trading, markets, research, execution, risk, and portfolio workflows."
+    },
+    {
+      "key": "semiconductors",
+      "label": "Semiconductors",
+      "description": "Foundry, packaging, HBM, equipment, inspection, and chip production."
+    },
+    {
+      "key": "datacenters_compute",
+      "label": "Datacenters / Compute",
+      "description": "Cluster capacity, colocation, interconnect, cooling, and AI datacenter operations."
+    },
+    {
+      "key": "energy_power",
+      "label": "Energy / Power",
+      "description": "Power generation, grid interconnection, backup power, demand response, and energy procurement."
+    },
+    {
+      "key": "materials_industrials",
+      "label": "Materials / Industrials",
+      "description": "Metals, wafers, gases, chemicals, water, construction, and industrial inputs."
+    },
+    {
+      "key": "software_engineering",
+      "label": "Software Engineering",
+      "description": "Coding agents, code search, developer tools, and software delivery."
+    },
+    {
+      "key": "healthcare_bio",
+      "label": "Healthcare / Bio",
+      "description": "Scientific discovery, biotech, pharma, medical workflows, and lab automation."
+    },
+    {
+      "key": "legal_compliance",
+      "label": "Legal / Compliance",
+      "description": "Legal work, regulated review, audit, policy, and compliance-heavy workflows."
+    },
+    {
+      "key": "customer_ops",
+      "label": "Customer Ops",
+      "description": "Support, voice agents, sales operations, success, and service automation."
+    },
+    {
+      "key": "robotics_manufacturing",
+      "label": "Industrial Automation / Manufacturing",
+      "description": "Factory systems, machine vision, warehouse automation, industrial robots, and production automation."
+    },
+    {
+      "key": "robotics_embodied",
+      "label": "Robotics / Embodied AI",
+      "description": "General-purpose robots, humanoids, robot foundation models, manipulation, teleoperation, and embodied-agent deployment."
+    },
+    {
+      "key": "autonomous_mobility",
+      "label": "Autonomous Mobility",
+      "description": "Robotaxis, autonomous trucking, ADAS, delivery robots, mapping, fleet operations, and driverless vehicle software."
+    },
+    {
+      "key": "drones_aerospace",
+      "label": "Drones / Aerospace Autonomy",
+      "description": "Autonomous aircraft, drones, defense autonomy, inspection, delivery, and mission software."
+    },
+    {
+      "key": "evtol_air_mobility",
+      "label": "eVTOL / Advanced Air Mobility",
+      "description": "Electric aviation, autonomous air mobility, certification, fleet operations, and air-taxi infrastructure."
+    },
+    {
+      "key": "simulation_autonomy",
+      "label": "Simulation / Autonomy Tooling",
+      "description": "Simulation, synthetic data, scenario generation, validation, safety cases, and autonomy development tooling."
+    },
+    {
+      "key": "logistics_supply_chain",
+      "label": "Logistics / Supply Chain",
+      "description": "Freight, delivery, warehouse flow, fleet operations, routing, and supply-chain automation."
+    },
+    {
+      "key": "construction_real_estate",
+      "label": "Construction / Real Estate",
+      "description": "Construction automation, reality capture, asset inspection, property operations, and built-world workflows."
+    },
+    {
+      "key": "creative_media",
+      "label": "Creative / Media",
+      "description": "Generated images, video, audio, design, publishing, and media workflows."
+    },
+    {
+      "key": "defense_security",
+      "label": "Defense / Security",
+      "description": "National security, cybersecurity, model-weight protection, and critical infrastructure."
+    },
+    {
+      "key": "enterprise_ops",
+      "label": "Enterprise Ops",
+      "description": "Internal knowledge work, back-office automation, RAG, and workflow agents."
+    },
+    {
+      "key": "consumer",
+      "label": "Consumer",
+      "description": "Personal assistants, chat, on-device AI, and consumer-facing apps."
+    },
+    {
+      "key": "edge_device",
+      "label": "Edge / Device",
+      "description": "On-device, embedded, mobile, and local AI systems."
+    },
+    {
+      "key": "multi_vertical",
+      "label": "Multi-Vertical",
+      "description": "Horizontal infrastructure serving many buyer markets."
+    }
+  ],
+  "regions": [
+    {
+      "key": "americas",
+      "label": "Americas"
+    },
+    {
+      "key": "emea",
+      "label": "EMEA"
+    },
+    {
+      "key": "apac",
+      "label": "APAC"
+    },
+    {
+      "key": "global",
+      "label": "Global / Distributed"
+    }
+  ],
+  "access": [
+    {
+      "key": "api",
+      "label": "API"
+    },
+    {
+      "key": "sdk",
+      "label": "SDK"
+    },
+    {
+      "key": "cli",
+      "label": "CLI"
+    },
+    {
+      "key": "managed_cloud",
+      "label": "Managed Cloud"
+    },
+    {
+      "key": "self_hosted",
+      "label": "Self-hosted"
+    },
+    {
+      "key": "open_source",
+      "label": "Open Source"
+    },
+    {
+      "key": "gui",
+      "label": "GUI"
+    },
+    {
+      "key": "contract_supply",
+      "label": "Contract Supply"
+    },
+    {
+      "key": "marketplace",
+      "label": "Marketplace"
+    }
+  ],
+  "cost_tiers": [
+    {
+      "key": "free",
+      "label": "Free",
+      "description": "Useful no-cost tier or open-source project.",
+      "color": "#10b981"
+    },
+    {
+      "key": "freemium",
+      "label": "Freemium",
+      "description": "Free tier with paid scale, hosted usage, or team features.",
+      "color": "#84cc16"
+    },
+    {
+      "key": "paid",
+      "label": "Paid",
+      "description": "Self-serve paid product or usage-based API.",
+      "color": "#f59e0b"
+    },
+    {
+      "key": "enterprise",
+      "label": "Enterprise",
+      "description": "Negotiated pricing, committed capacity, or sales-led deployment.",
+      "color": "#ef4444"
+    }
+  ],
+  "data_depth": [
+    {
+      "key": "realtime",
+      "label": "Real-time"
+    },
+    {
+      "key": "batch",
+      "label": "Batch"
+    },
+    {
+      "key": "offline",
+      "label": "Offline"
+    },
+    {
+      "key": "training_only",
+      "label": "Training Only"
+    },
+    {
+      "key": "runtime",
+      "label": "Runtime"
+    }
+  ],
+  "statuses": [
+    {
+      "key": "active",
+      "label": "Active"
+    },
+    {
+      "key": "acquired",
+      "label": "Acquired"
+    },
+    {
+      "key": "defunct",
+      "label": "Defunct"
+    }
+  ],
+  "matrix_cells": {
+    "structural": [
+      {
+        "layer": "physical_compute",
+        "segment": "model_labs",
+        "reason": "Model labs consume clusters; when they own datacenters, the entity is still classified by model supply unless it sells compute."
+      },
+      {
+        "layer": "physical_compute",
+        "segment": "data_context",
+        "reason": "Labeling and context companies operate above storage/compute; their bottleneck is data rights and workflow, not accelerator supply."
+      },
+      {
+        "layer": "physical_compute",
+        "segment": "retrieval_memory",
+        "reason": "Retrieval systems run on compute, but they are not compute infrastructure."
+      },
+      {
+        "layer": "physical_compute",
+        "segment": "eval_observability",
+        "reason": "Evals and traces measure systems; they do not provide accelerator capacity."
+      },
+      {
+        "layer": "physical_compute",
+        "segment": "security_governance",
+        "reason": "Governance products sit in the control plane, not the hardware plane."
+      },
+      {
+        "layer": "model_supply",
+        "segment": "datacenter_power",
+        "reason": "Datacenter and power providers enable model supply but do not supply trained model weights or APIs."
+      },
+      {
+        "layer": "model_supply",
+        "segment": "industrial_materials",
+        "reason": "Materials companies supply fabs, grids, and construction; they do not package model capability."
+      },
+      {
+        "layer": "model_supply",
+        "segment": "compute_hardware",
+        "reason": "Chip and cluster suppliers enable model training but are not model suppliers unless they expose models as the product."
+      },
+      {
+        "layer": "model_supply",
+        "segment": "security_governance",
+        "reason": "Safety vendors may use models internally, but their product is policy/control, not model supply."
+      },
+      {
+        "layer": "data_context",
+        "segment": "compute_hardware",
+        "reason": "Hardware has no user-level context semantics."
+      },
+      {
+        "layer": "data_context",
+        "segment": "industrial_materials",
+        "reason": "Materials are physical supply constraints, not model context or memory systems."
+      },
+      {
+        "layer": "application_layer",
+        "segment": "semiconductor_supply",
+        "reason": "Semiconductor suppliers shape the physical frontier; they do not sell end-user AI applications."
+      },
+      {
+        "layer": "application_layer",
+        "segment": "datacenter_power",
+        "reason": "Power, cooling, and sites remain industrial infrastructure even when their buyers are AI applications."
+      },
+      {
+        "layer": "application_layer",
+        "segment": "industrial_materials",
+        "reason": "Wafers, gases, metals, and water are input markets, not application-layer products."
+      },
+      {
+        "layer": "application_layer",
+        "segment": "compute_hardware",
+        "reason": "Compute becomes visible through clouds or apps; chip vendors are not application infrastructure."
+      }
+    ],
+    "opportunity": [
+      {
+        "layer": "orchestration_runtime",
+        "segment": "security_governance",
+        "note": "Contested: Okta, Microsoft Agent 365, WorkOS, and enterprise IAM/security suites now cover agent identity, lifecycle, and scoped authorization. The remaining gap is cross-vendor signed action receipts and delegated-intent policy across Okta, Entra, MCP servers, browsers, and SaaS tools.",
+        "as_of": "2026-06"
+      },
+      {
+        "layer": "data_context",
+        "segment": "retrieval_memory",
+        "note": "Open: portable long-term memory that survives model/app switches, supports user consent, and avoids becoming another silo owned by one assistant vendor.",
+        "as_of": "2026-06"
+      },
+      {
+        "layer": "serving_inference",
+        "segment": "serving_inference",
+        "note": "Open: an inference broker with neutral routing, audit, fallback, and spend governance across closed, open, hosted, and self-hosted models.",
+        "as_of": "2026-06"
+      },
+      {
+        "layer": "application_layer",
+        "segment": "eval_observability",
+        "note": "Open: accepted eval standards for vertical agents. Coding has SWE-bench-style signals; support, sales, legal, finance, and ops agents still lack trusted task suites.",
+        "as_of": "2026-06"
+      },
+      {
+        "layer": "industrial_inputs",
+        "segment": "datacenter_power",
+        "note": "Partial: GridCARE is opening the utility-side time-to-power market, while IREN, Core Scientific, TeraWulf, Riot, CleanSpark, Bitfarms/Keel, and Hut 8 are converting power-rich mining sites into AI/HPC supply. Still open: neutral technical diligence, brokerage, and operating standards for miner-to-GPU cluster conversions.",
+        "as_of": "2026-06"
+      },
+      {
+        "layer": "industrial_inputs",
+        "segment": "industrial_materials",
+        "note": "Open: trusted demand and provenance rails for wafers, gases, copper, water, construction inputs, and critical minerals tied to AI cluster buildout.",
+        "as_of": "2026-06"
+      }
+    ]
+  },
+  "legend_flows": {
+    "flow_kinds": [
+      "supply",
+      "model",
+      "context",
+      "runtime",
+      "control",
+      "app"
+    ],
+    "description": "Two flows run through AI infrastructure. SUPPLY flows upward from chips and clusters to model providers, serving systems, and applications. CONTROL flows back down through context, evals, security, policy, routing, and observability. The durable companies tend to own a choke point in one flow and sell trust into the other.",
+    "capital_chain": [
+      "industrial_materials",
+      "semiconductor_supply",
+      "datacenter_power",
+      "compute_hardware",
+      "cloud_platforms",
+      "model_labs",
+      "serving_inference",
+      "app_infra"
+    ],
+    "data_chain": [
+      "data_context",
+      "retrieval_memory",
+      "orchestration_agents",
+      "eval_observability",
+      "security_governance"
+    ],
+    "scope_note": "Pure AI application categories remain out of scope unless they sell reusable infrastructure, but vertical-facing slices are tracked so finance, defense, healthcare, energy, semis, and industrial constraints can be inspected across the stack."
+  },
+  "field_notes": {
+    "country": "Optional ISO-3166 alpha-2 HQ country, shown on cards and searchable. Region remains the facet.",
+    "subcomponents": "Use tags and notes for sub-components; top-level matrix columns stay broad enough to remain readable."
+  }
+}

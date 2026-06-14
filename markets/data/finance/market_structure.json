@@ -1,0 +1,212 @@
+{
+  "description": "Market-structure scores are directional 1-5 reads for market-map strategy: attractiveness and growth are better when higher; competition, resource intensity, and distribution difficulty are harder when higher.",
+  "markets": [
+    {
+      "key": "prediction_market_prime_brokerage",
+      "name": "Prediction-Market Prime Brokerage",
+      "stage": "open / early",
+      "attractiveness": 5,
+      "growth": 5,
+      "competition": 2,
+      "resource_intensity": 4,
+      "buyer_power": 4,
+      "supplier_power": 4,
+      "differentiation": 5,
+      "distribution_difficulty": 4,
+      "profitability_path": 4,
+      "tam_per_winner": 4,
+      "summary": "Cross-venue APIs are emerging, but unified collateral, margin, custody, and settlement for event contracts remain underbuilt.",
+      "profit_wedge": "Start with funded-account orchestration, risk limits, and position/margin views before attempting true cross-venue clearing.",
+      "examples": ["PMXT", "Dome", "Interactive Brokers", "Stand"],
+      "maps_to": {
+        "segment": "prediction_event",
+        "layers": ["connectivity_execution", "infra_plumbing"],
+        "asset_classes": ["prediction_markets"]
+      }
+    },
+    {
+      "key": "event_market_data_vendor",
+      "name": "Neutral Event-Market Data Vendor",
+      "stage": "open / fragmented",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 2,
+      "resource_intensity": 2,
+      "buyer_power": 3,
+      "supplier_power": 4,
+      "differentiation": 4,
+      "distribution_difficulty": 3,
+      "profitability_path": 4,
+      "tam_per_winner": 3,
+      "summary": "Prediction markets need clean reference data, contract metadata, histories, resolution criteria, and cross-venue normalization.",
+      "profit_wedge": "The wedge is not prices alone; it is canonical contract identity, settlement/rules metadata, and historical curves suitable for backtesting.",
+      "examples": ["PMXT", "Kalshi", "Polymarket", "ForecastEx"],
+      "maps_to": {
+        "segment": "prediction_event",
+        "layers": ["data_feeds", "analytics_apps"],
+        "asset_classes": ["prediction_markets"]
+      }
+    },
+    {
+      "key": "retail_brokerage_execution",
+      "name": "Retail Brokerage & Execution",
+      "stage": "mature / scale game",
+      "attractiveness": 2,
+      "growth": 3,
+      "competition": 5,
+      "resource_intensity": 4,
+      "buyer_power": 5,
+      "supplier_power": 4,
+      "differentiation": 2,
+      "distribution_difficulty": 5,
+      "profitability_path": 3,
+      "tam_per_winner": 5,
+      "summary": "Huge pools of users and assets, but customer acquisition, regulation, payment-for-order-flow economics, and incumbent brands dominate.",
+      "profit_wedge": "Niche audiences, embedded brokerage, or a new asset class beat launching another generic equities broker.",
+      "examples": ["Robinhood", "Interactive Brokers", "Charles Schwab", "Webull"],
+      "maps_to": {
+        "segment": "brokers_execution",
+        "layers": ["connectivity_execution", "infra_plumbing"],
+        "asset_classes": ["equities", "options", "crypto_spot", "multi_asset"]
+      }
+    },
+    {
+      "key": "market_data_infrastructure",
+      "name": "Market Data Infrastructure",
+      "stage": "incumbent oligopoly",
+      "attractiveness": 3,
+      "growth": 3,
+      "competition": 4,
+      "resource_intensity": 4,
+      "buyer_power": 4,
+      "supplier_power": 5,
+      "differentiation": 3,
+      "distribution_difficulty": 5,
+      "profitability_path": 3,
+      "tam_per_winner": 5,
+      "summary": "Ticker plants, feed handlers, and low-latency market data are lucrative but dominated by incumbents, exchange licenses, and colocation economics.",
+      "profit_wedge": "Wedges exist around underserved asset classes, developer ergonomics, and derived analytics, not core exchange feed redistribution.",
+      "examples": ["Bloomberg", "LSEG", "ICE Data", "Exegy", "Pico"],
+      "maps_to": {
+        "segment": "market_data",
+        "layers": ["data_feeds", "infra_plumbing"],
+        "asset_classes": ["equities", "options", "futures", "multi_asset"]
+      }
+    },
+    {
+      "key": "alt_data_vendor",
+      "name": "Alternative Data Vendors",
+      "stage": "crowded / episodic alpha",
+      "attractiveness": 3,
+      "growth": 3,
+      "competition": 5,
+      "resource_intensity": 3,
+      "buyer_power": 5,
+      "supplier_power": 3,
+      "differentiation": 3,
+      "distribution_difficulty": 5,
+      "profitability_path": 3,
+      "tam_per_winner": 3,
+      "summary": "Funds will pay for alpha, but signal decay, data rights, compliance review, and procurement friction make repeatable scale hard.",
+      "profit_wedge": "Own a proprietary source with durable rights, or sell workflow/context instead of a one-off alpha feed.",
+      "examples": ["YipitData", "Similarweb", "Earnest", "M Science"],
+      "maps_to": {
+        "segment": "alt_data",
+        "layers": ["data_feeds", "analytics_apps"],
+        "asset_classes": ["equities", "private_alts", "multi_asset"]
+      }
+    },
+    {
+      "key": "crypto_market_infrastructure",
+      "name": "Institutional Crypto Market Infrastructure",
+      "stage": "post-consolidation growth",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 4,
+      "resource_intensity": 4,
+      "buyer_power": 4,
+      "supplier_power": 4,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 4,
+      "tam_per_winner": 4,
+      "summary": "Institutions want custody, execution, credit, settlement, and risk across venues, but trust and regulatory posture separate winners.",
+      "profit_wedge": "Prime brokerage, portfolio margin, collateral mobility, and compliance tooling are stronger wedges than another exchange connector.",
+      "examples": ["Talos", "FalconX", "Hidden Road", "Fireblocks", "Copper"],
+      "maps_to": {
+        "segment": "crypto_infra",
+        "layers": ["connectivity_execution", "infra_plumbing"],
+        "asset_classes": ["crypto_spot", "crypto_perp", "crypto_options"]
+      }
+    },
+    {
+      "key": "index_benchmark_provision",
+      "name": "Indices & Benchmarks",
+      "stage": "brand / licensing moat",
+      "attractiveness": 4,
+      "growth": 3,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 3,
+      "differentiation": 4,
+      "distribution_difficulty": 5,
+      "profitability_path": 5,
+      "tam_per_winner": 4,
+      "summary": "Benchmarks compound through brand, regulation, ETF assets, and licensing, but new entrants need a new asset class or distribution channel.",
+      "profit_wedge": "Build benchmarks for emerging markets, crypto, private assets, or prediction/event curves where incumbent index brands have not yet standardized the category.",
+      "examples": ["S&P Dow Jones", "MSCI", "FTSE Russell", "CoinDesk Indices"],
+      "maps_to": {
+        "segment": "indices_benchmarks",
+        "layers": ["data_feeds", "analytics_apps"],
+        "asset_classes": ["etfs", "rates_fixed_income", "crypto_spot", "multi_asset"]
+      }
+    },
+    {
+      "key": "clearing_custody_settlement",
+      "name": "Clearing, Custody & Settlement",
+      "stage": "regulated infrastructure",
+      "attractiveness": 3,
+      "growth": 3,
+      "competition": 3,
+      "resource_intensity": 5,
+      "buyer_power": 4,
+      "supplier_power": 4,
+      "differentiation": 4,
+      "distribution_difficulty": 5,
+      "profitability_path": 4,
+      "tam_per_winner": 5,
+      "summary": "Post-trade infrastructure can be extremely durable, but licenses, risk capital, regulation, and trust make it hard to enter.",
+      "profit_wedge": "The best new wedges are in new asset classes or interoperability, not directly competing with OCC/DTCC on mature instruments.",
+      "examples": ["DTCC", "OCC", "CME Clearing", "Apex Fintech"],
+      "maps_to": {
+        "segment": "clearing_custody",
+        "layers": ["infra_plumbing"],
+        "asset_classes": ["equities", "options", "futures", "prediction_markets"]
+      }
+    },
+    {
+      "key": "asset_management_strategy_markets",
+      "name": "Strategy & Asset-Management Platforms",
+      "stage": "crowded but expanding",
+      "attractiveness": 3,
+      "growth": 4,
+      "competition": 5,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 3,
+      "differentiation": 3,
+      "distribution_difficulty": 5,
+      "profitability_path": 3,
+      "tam_per_winner": 4,
+      "summary": "Model marketplaces, strategy wrappers, and managed products can scale, but trust, performance, regulation, and distribution dominate.",
+      "profit_wedge": "Start with a trusted niche or embedded distribution; generic strategy marketplaces tend to become performance-chasing churn machines.",
+      "examples": ["QuantConnect", "Composer", "Numerai", "AQR"],
+      "maps_to": {
+        "segment": "asset_mgmt",
+        "layers": ["analytics_apps", "connectivity_execution"],
+        "asset_classes": ["multi_asset", "private_alts", "equities", "crypto_spot"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "description": "Market-structure scores are directional 1-5 reads for deciding where to build: attractiveness and growth are better when higher; competition, resource intensity, and distribution difficulty are harder when higher. They are not investment advice or canonical TAM estimates.",
+  "markets": [
+    {
+      "key": "agent_identity_permissions",
+      "name": "Agent Identity & Permissions",
+      "stage": "incumbent absorption",
+      "attractiveness": 3,
+      "growth": 5,
+      "competition": 5,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 4,
+      "differentiation": 3,
+      "distribution_difficulty": 5,
+      "profitability_path": 2,
+      "tam_per_winner": 3,
+      "summary": "Strong demand, but IAM and security incumbents are absorbing the category quickly.",
+      "profit_wedge": "Avoid basic agent identity; look for cross-vendor signed action receipts, delegated-intent policy, and audit standards that plug into Okta, Entra, MCP, SIEM, and SaaS tools.",
+      "examples": [
+        "Okta for AI Agents",
+        "Microsoft Agent 365",
+        "WorkOS FGA",
+        "NIST NCCoE"
+      ],
+      "maps_to": {
+        "segment": "security_governance",
+        "layers": [
+          "orchestration_runtime",
+          "ops_governance"
+        ],
+        "verticals": [
+          "enterprise_ops",
+          "defense_security",
+          "legal_compliance"
+        ],
+        "asset_classes": [
+          "agents",
+          "enterprise_automation"
+        ]
+      }
+    },
+    {
+      "key": "miner_to_ai_datacenter_conversion",
+      "name": "Miner-to-AI Datacenter Conversion",
+      "stage": "land grab",
+      "attractiveness": 5,
+      "growth": 5,
+      "competition": 3,
+      "resource_intensity": 5,
+      "buyer_power": 5,
+      "supplier_power": 4,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 4,
+      "tam_per_winner": 5,
+      "summary": "Power-rich bitcoin miners are converting sites into GPU/HPC capacity; the value is in buyer-trustable megawatts plus operating credibility.",
+      "profit_wedge": "Technical diligence, retrofit engineering, SLA certification, and brokerage for power-rich sites can monetize before becoming a capital-intensive operator.",
+      "examples": [
+        "IREN",
+        "Core Scientific",
+        "TeraWulf",
+        "Riot Platforms",
+        "Hut 8"
+      ],
+      "maps_to": {
+        "segment": "datacenter_power",
+        "layers": [
+          "industrial_inputs",
+          "physical_compute",
+          "serving_inference"
+        ],
+        "verticals": [
+          "datacenters_compute",
+          "energy_power"
+        ],
+        "asset_classes": [
+          "multi_workload"
+        ]
+      }
+    },
+    {
+      "key": "model_routing_brokers",
+      "name": "Model Routing & Inference Brokers",
+      "stage": "contested platform layer",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 5,
+      "resource_intensity": 2,
+      "buyer_power": 3,
+      "supplier_power": 5,
+      "differentiation": 3,
+      "distribution_difficulty": 3,
+      "profitability_path": 3,
+      "tam_per_winner": 4,
+      "summary": "Developer demand is obvious, but model labs and clouds can squeeze margins unless routing, evals, spend controls, or governance become sticky.",
+      "profit_wedge": "The durable wedge is not a thin API wrapper; it is policy-aware routing, audit, fallback, eval feedback, and enterprise spend governance.",
+      "examples": [
+        "OpenRouter",
+        "LiteLLM",
+        "Portkey",
+        "Fireworks AI",
+        "Together AI"
+      ],
+      "maps_to": {
+        "segment": "serving_inference",
+        "layers": [
+          "serving_inference",
+          "ops_governance"
+        ],
+        "verticals": [
+          "software_engineering",
+          "enterprise_ops",
+          "multi_vertical"
+        ],
+        "asset_classes": [
+          "chat",
+          "coding",
+          "agents",
+          "multi_workload"
+        ]
+      }
+    },
+    {
+      "key": "healthcare_clinical_ai",
+      "name": "Clinical Workflow AI",
+      "stage": "stack-forming",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 4,
+      "resource_intensity": 4,
+      "buyer_power": 5,
+      "supplier_power": 4,
+      "differentiation": 4,
+      "distribution_difficulty": 5,
+      "profitability_path": 3,
+      "tam_per_winner": 5,
+      "summary": "Big workflow budgets and painful labor shortages, but EHR integration, compliance, procurement, and clinical risk make distribution the moat.",
+      "profit_wedge": "Specialize around high-ROI workflow bottlenecks with measurable time saved, coding uplift, or throughput gains rather than generic medical chat.",
+      "examples": [
+        "Abridge",
+        "Ambience Healthcare",
+        "Nabla",
+        "Hippocratic AI",
+        "OpenEvidence"
+      ],
+      "maps_to": {
+        "segment": "app_infra",
+        "layers": [
+          "application_layer",
+          "data_context",
+          "ops_governance"
+        ],
+        "verticals": [
+          "healthcare_bio"
+        ],
+        "asset_classes": [
+          "voice",
+          "rag_search",
+          "enterprise_automation"
+        ]
+      }
+    },
+    {
+      "key": "ai_drug_discovery_models",
+      "name": "AI Drug Discovery & Biology Models",
+      "stage": "capital-intensive frontier",
+      "attractiveness": 3,
+      "growth": 5,
+      "competition": 4,
+      "resource_intensity": 5,
+      "buyer_power": 4,
+      "supplier_power": 4,
+      "differentiation": 5,
+      "distribution_difficulty": 5,
+      "profitability_path": 2,
+      "tam_per_winner": 5,
+      "summary": "Potentially enormous outcomes, but wet-lab loops, clinical timelines, proprietary data, and pharma partnerships make it hard to bootstrap.",
+      "profit_wedge": "Best for proprietary data or platform partnerships; services-only AI biology usually lacks the upside of owning programs or validated assets.",
+      "examples": [
+        "Isomorphic Labs",
+        "Recursion",
+        "Owkin",
+        "EvolutionaryScale",
+        "Tempus AI"
+      ],
+      "maps_to": {
+        "segment": "model_labs",
+        "layers": [
+          "model_supply",
+          "data_context",
+          "application_layer"
+        ],
+        "verticals": [
+          "healthcare_bio"
+        ],
+        "asset_classes": [
+          "science_bio",
+          "multi_modal"
+        ]
+      }
+    },
+    {
+      "key": "autonomous_mobility",
+      "name": "Autonomous Mobility",
+      "stage": "late consolidation",
+      "attractiveness": 3,
+      "growth": 5,
+      "competition": 4,
+      "resource_intensity": 5,
+      "buyer_power": 4,
+      "supplier_power": 4,
+      "differentiation": 5,
+      "distribution_difficulty": 5,
+      "profitability_path": 2,
+      "tam_per_winner": 5,
+      "summary": "Robotaxis, trucking, and AV stacks have giant TAM but brutal capital, safety, insurance, regulation, and fleet operations requirements.",
+      "profit_wedge": "Infrastructure tooling, validation, maps, simulation, fleet ops, or narrow commercial autonomy is more reachable than launching a full robotaxi network.",
+      "examples": [
+        "Waymo",
+        "Zoox",
+        "Aurora",
+        "Wayve",
+        "Waabi"
+      ],
+      "maps_to": {
+        "segment": "app_infra",
+        "layers": [
+          "data_context",
+          "orchestration_runtime",
+          "application_layer",
+          "ops_governance"
+        ],
+        "verticals": [
+          "autonomous_mobility",
+          "simulation_autonomy"
+        ],
+        "asset_classes": [
+          "robotics",
+          "vision",
+          "agents"
+        ]
+      }
+    },
+    {
+      "key": "robot_foundation_models",
+      "name": "Robot Foundation Models",
+      "stage": "frontier land grab",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 4,
+      "resource_intensity": 5,
+      "buyer_power": 3,
+      "supplier_power": 4,
+      "differentiation": 5,
+      "distribution_difficulty": 4,
+      "profitability_path": 2,
+      "tam_per_winner": 5,
+      "summary": "Embodied models could become the control layer for many robots, but data collection, hardware integration, and safety loops are expensive.",
+      "profit_wedge": "Tooling, data collection, teleop, evals, and deployment infrastructure may monetize earlier than owning a general robot model.",
+      "examples": [
+        "Physical Intelligence",
+        "General Intuition",
+        "Figure",
+        "1X",
+        "Covariant"
+      ],
+      "maps_to": {
+        "segment": "model_labs",
+        "layers": [
+          "model_supply",
+          "data_context",
+          "orchestration_runtime",
+          "application_layer"
+        ],
+        "verticals": [
+          "robotics_embodied"
+        ],
+        "asset_classes": [
+          "robotics",
+          "vision",
+          "agents",
+          "multi_modal"
+        ]
+      }
+    },
+    {
+      "key": "drones_aerospace_autonomy",
+      "name": "Drones & Aerospace Autonomy",
+      "stage": "dual-use acceleration",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 4,
+      "resource_intensity": 4,
+      "buyer_power": 4,
+      "supplier_power": 4,
+      "differentiation": 5,
+      "distribution_difficulty": 5,
+      "profitability_path": 3,
+      "tam_per_winner": 5,
+      "summary": "Defense demand, autonomy, and fleet operations are pulling drones and aircraft autonomy forward, but certification and procurement remain hard.",
+      "profit_wedge": "Mission autonomy, simulation, autonomy safety cases, and dual-use fleet software are better wedges than commodity airframes.",
+      "examples": [
+        "Anduril",
+        "Shield AI",
+        "Skydio",
+        "Zipline",
+        "Merlin"
+      ],
+      "maps_to": {
+        "segment": "app_infra",
+        "layers": [
+          "orchestration_runtime",
+          "application_layer",
+          "ops_governance"
+        ],
+        "verticals": [
+          "drones_aerospace",
+          "defense_security"
+        ],
+        "asset_classes": [
+          "robotics",
+          "vision",
+          "agents"
+        ]
+      }
+    },
+    {
+      "key": "autonomy_simulation_tooling",
+      "name": "Autonomy Simulation & Validation Tooling",
+      "stage": "infrastructure winner-take-most pockets",
+      "attractiveness": 5,
+      "growth": 5,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 3,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 4,
+      "tam_per_winner": 4,
+      "summary": "Every physical autonomy company needs simulation, validation, synthetic data, safety cases, and scenario management before deployment.",
+      "profit_wedge": "This is the most atlas-native physical-AI wedge: sell tools to many autonomy programs instead of betting on one robot, car, or aircraft.",
+      "examples": [
+        "Applied Intuition",
+        "Foretellix",
+        "Parallel Domain",
+        "NVIDIA Isaac Sim",
+        "Ansys"
+      ],
+      "maps_to": {
+        "segment": "eval_observability",
+        "layers": [
+          "data_context",
+          "eval_observability",
+          "ops_governance"
+        ],
+        "verticals": [
+          "simulation_autonomy",
+          "autonomous_mobility",
+          "robotics_embodied",
+          "drones_aerospace"
+        ],
+        "asset_classes": [
+          "robotics",
+          "vision",
+          "multi_modal"
+        ]
+      }
+    },
+    {
+      "key": "vertical_agent_evals",
+      "name": "Vertical Agent Eval Standards",
+      "stage": "open infrastructure gap",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 2,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 3,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 4,
+      "summary": "Coding has benchmark gravity; finance, support, healthcare, legal, and ops agents still lack trusted executable task suites.",
+      "profit_wedge": "Start with a vertical where buyers already pay for quality assurance, then turn eval traces into procurement standards.",
+      "examples": [
+        "SWE-bench",
+        "AgentBench",
+        "RAGAS",
+        "Braintrust",
+        "Langfuse"
+      ],
+      "maps_to": {
+        "segment": "eval_observability",
+        "layers": [
+          "application_layer",
+          "eval_observability",
+          "ops_governance"
+        ],
+        "verticals": [
+          "enterprise_ops",
+          "finance_trading",
+          "healthcare_bio",
+          "legal_compliance"
+        ],
+        "asset_classes": [
+          "agents",
+          "enterprise_automation"
+        ]
+      }
+    },
+    {
+      "key": "on_device_ml_edge_ai_runtime",
+      "name": "On-device ML / Edge AI Runtime",
+      "stage": "platform-controlled growth",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 4,
+      "resource_intensity": 3,
+      "buyer_power": 3,
+      "supplier_power": 5,
+      "differentiation": 3,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 5,
+      "summary": "ODML is moving from classic mobile vision/audio models to local GenAI, but Apple, Google, Meta/PyTorch, Microsoft/ONNX, and Qualcomm own much of the runtime and hardware surface.",
+      "profit_wedge": "Best wedge is not another runtime; it is model optimization, device benchmarking, privacy-preserving evals, fleet deployment, or vertical SDKs for regulated/offline edge use cases.",
+      "examples": [
+        "Apple Core ML / MLX",
+        "Google AI Edge / LiteRT",
+        "PyTorch ExecuTorch",
+        "Qualcomm AI Hub",
+        "llama.cpp"
+      ],
+      "maps_to": {
+        "segment": "open_model_ops",
+        "layers": [
+          "serving_inference",
+          "application_layer"
+        ],
+        "verticals": [
+          "edge_device",
+          "consumer",
+          "robotics_embodied"
+        ],
+        "asset_classes": [
+          "on_device",
+          "vision",
+          "audio",
+          "chat"
+        ]
+      }
+    }
+  ]
+}

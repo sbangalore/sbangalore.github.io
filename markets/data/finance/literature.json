@@ -1,0 +1,186 @@
+{
+  "description": "A source watchlist plus recent working-paper signals for market-design, prediction-market, derivative-design, financial-innovation, and market-microstructure ideas. Historical lineage explains where built markets came from; recent signals show where new infrastructure and unbuilt-market candidates may emerge.",
+  "topics": [
+    "prediction markets",
+    "market design",
+    "financial innovation",
+    "derivatives and hedging",
+    "market microstructure",
+    "event contracts",
+    "information aggregation"
+  ],
+  "recent_signals": [
+    {
+      "id": "kalshi-rise-macro-markets",
+      "title": "Kalshi and the Rise of Macro Markets",
+      "authors": "Anthony M. Diercks, Jared Dean Katz & Jonathan H. Wright",
+      "year": 2026,
+      "venue": "NBER / Federal Reserve working paper",
+      "url": "https://www.nber.org/papers/w34702",
+      "signal": "Event contracts are becoming real-time macro expectation instruments, not just political forecasting toys.",
+      "map_implication": "Watch for macro-event data vendors, macro contract indices, and regulated event-contract analytics."
+    },
+    {
+      "id": "modern-prediction-price-discovery",
+      "title": "Price Discovery and Trading in Modern Prediction Markets",
+      "authors": "Hunter Ng, Lin Peng, Yubo Tao & Dexin Zhou",
+      "year": 2026,
+      "venue": "SSRN working paper",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5331995",
+      "signal": "Common contracts across Polymarket, Kalshi, PredictIt, and Robinhood show price disparities and platform-specific lead-lag effects.",
+      "map_implication": "Supports the prediction-market connectivity, routing, and cross-venue data cells."
+    },
+    {
+      "id": "institutional-liquidity-prediction-markets",
+      "title": "What Happens When Institutional Liquidity Enters Prediction Markets",
+      "authors": "Working paper",
+      "year": 2026,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2604.10005v2",
+      "signal": "Prediction markets are moving into an electronically intermediated microstructure regime.",
+      "map_implication": "Look for market-making, prime brokerage, maker incentives, and execution analytics businesses."
+    },
+    {
+      "id": "prediction-market-lifecycle-datasets",
+      "title": "Unlocking the Forecasting Economy: A Suite of Datasets for the Full Lifecycle of Prediction Market",
+      "authors": "Working paper",
+      "year": 2026,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2604.20421v1",
+      "signal": "Prediction-market data is fragmented across metadata, trading events, oracle interactions, disputes, and settlement.",
+      "map_implication": "Supports the neutral event-data vendor and lifecycle data-integration opportunity."
+    },
+    {
+      "id": "interest-bearing-long-horizon",
+      "title": "Can Interest-Bearing Positions Solve the Long-Horizon Problem in Prediction Markets?",
+      "authors": "Caleb Maresca",
+      "year": 2026,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2602.21091v1/",
+      "signal": "Interest on open positions may mitigate long-horizon liquidity and accuracy problems.",
+      "map_implication": "Look for collateral yield, margin, and capital-efficiency infrastructure around event contracts."
+    },
+    {
+      "id": "microstructure-perspective-prediction-markets",
+      "title": "A Microstructure Perspective on Prediction Markets",
+      "authors": "Working paper",
+      "year": 2026,
+      "venue": "SSRN working paper",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6325658",
+      "signal": "Event-contract liquidity provision may look more like underwriting terminal outcome risk than classic spread capture.",
+      "map_implication": "Screen for specialized risk engines, maker tooling, and event-contract clearing primitives."
+    }
+  ],
+  "sources": [
+    {
+      "id": "journal-prediction-markets",
+      "name": "Journal of Prediction Markets",
+      "type": "specialist journal",
+      "url": "https://www.ubplj.org/index.php/jpm",
+      "focus": [
+        "prediction markets",
+        "information aggregation",
+        "case studies"
+      ]
+    },
+    {
+      "id": "journal-portfolio-management",
+      "name": "The Journal of Portfolio Management",
+      "type": "practitioner journal",
+      "url": "https://www.pm-research.com/content/iijpormgmt",
+      "focus": [
+        "portfolio risk",
+        "derivative design",
+        "institutional implementation"
+      ]
+    },
+    {
+      "id": "review-economic-studies",
+      "name": "The Review of Economic Studies",
+      "type": "economics journal",
+      "url": "https://academic.oup.com/restud",
+      "focus": [
+        "market design",
+        "mechanism design",
+        "prediction-market evidence"
+      ]
+    },
+    {
+      "id": "quarterly-journal-economics",
+      "name": "Quarterly Journal of Economics",
+      "type": "economics journal",
+      "url": "https://academic.oup.com/qje",
+      "focus": [
+        "market design",
+        "microstructure",
+        "institution design"
+      ]
+    },
+    {
+      "id": "american-economic-review",
+      "name": "American Economic Review",
+      "type": "economics journal",
+      "url": "https://www.aeaweb.org/journals/aer",
+      "focus": [
+        "information aggregation",
+        "market institutions",
+        "experimental markets"
+      ]
+    },
+    {
+      "id": "journal-political-economy",
+      "name": "Journal of Political Economy",
+      "type": "economics journal",
+      "url": "https://www.journals.uchicago.edu/journals/jpe/about",
+      "focus": [
+        "asset pricing",
+        "market institutions",
+        "theory-to-market lineage"
+      ]
+    },
+    {
+      "id": "financial-analysts-journal",
+      "name": "Financial Analysts Journal",
+      "type": "practitioner journal",
+      "url": "https://www.tandfonline.com/journals/ufaj20",
+      "focus": [
+        "market structure",
+        "automated exchanges",
+        "institutional trading"
+      ]
+    },
+    {
+      "id": "public-choice",
+      "name": "Public Choice",
+      "type": "economics journal",
+      "url": "https://link.springer.com/journal/11127",
+      "focus": [
+        "policy markets",
+        "political economy",
+        "institutional incentives"
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "type": "general science journal",
+      "url": "https://www.science.org/journal/science",
+      "focus": [
+        "prediction-market policy",
+        "scientific forecasting",
+        "public legitimacy"
+      ]
+    },
+    {
+      "id": "journal-financial-markets",
+      "name": "Journal of Financial Markets",
+      "type": "finance journal",
+      "url": "https://www.sciencedirect.com/journal/journal-of-financial-markets",
+      "focus": [
+        "market microstructure",
+        "trading venues",
+        "liquidity design"
+      ]
+    }
+  ]
+}

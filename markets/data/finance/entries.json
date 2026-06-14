@@ -1,0 +1,4408 @@
+[
+  {
+    "id": "nyse",
+    "name": "New York Stock Exchange",
+    "url": "https://www.nyse.com",
+    "blurb": "The largest equities exchange in the world by listed market cap; hybrid electronic/floor auction model.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1792,
+    "status": "active",
+    "notable": [
+      "Opening/closing auctions",
+      "NYSE Pillar matching engine",
+      "Proprietary feeds (NYSE Integrated)"
+    ],
+    "tags": [
+      "stocks",
+      "listings",
+      "ipo",
+      "auction"
+    ],
+    "notes": "Owned by ICE since 2013. Consolidated tape (SIP) data is the cheap path; proprietary depth feeds are enterprise-priced.",
+    "country": "US"
+  },
+  {
+    "id": "nasdaq",
+    "name": "Nasdaq",
+    "url": "https://www.nasdaq.com",
+    "blurb": "First fully electronic stock market (1971); today an exchange operator, data vendor, and market-tech supplier.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1971,
+    "status": "active",
+    "origin": "Built to replace phone-based OTC quote sharing with screens — the original 'electronify the market' play.",
+    "notable": [
+      "TotalView ITCH feed",
+      "Nasdaq Data Link (ex-Quandl)",
+      "Exchange technology licensed to ~130 other markets"
+    ],
+    "tags": [
+      "stocks",
+      "itch",
+      "electronic",
+      "tech listings"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "cme",
+    "name": "CME Group",
+    "url": "https://www.cmegroup.com",
+    "blurb": "The dominant US derivatives exchange: rates, equity index, FX, energy, metals, ags, and regulated crypto futures.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "futures",
+      "options",
+      "rates_fixed_income",
+      "fx",
+      "commodities"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1898,
+    "status": "active",
+    "notable": [
+      "E-mini & Micro futures",
+      "SOFR futures",
+      "BTC/ETH futures & options",
+      "Owns its own clearinghouse"
+    ],
+    "tags": [
+      "derivatives",
+      "globex",
+      "rates",
+      "index futures"
+    ],
+    "notes": "Vertically integrated venue + clearing — the model Hyperliquid and Kalshi each re-implemented in their own domains. Crypto exposure is via dated, cash-settled BTC/ETH futures and options — not perpetuals (no funding-rate mechanism), hence no crypto_perp tag.",
+    "country": "US"
+  },
+  {
+    "id": "cboe",
+    "name": "Cboe Global Markets",
+    "url": "https://www.cboe.com",
+    "blurb": "Invented listed options trading (1973); home of SPX options and the VIX volatility complex.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "options",
+      "equities",
+      "futures",
+      "etfs"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1973,
+    "status": "active",
+    "origin": "Spun out of the Chicago Board of Trade to standardize what had been a bespoke OTC options market — standardization created the modern options industry.",
+    "notable": [
+      "SPX options",
+      "VIX index & derivatives",
+      "Cboe Data Shop (retail-priced historical)"
+    ],
+    "tags": [
+      "options",
+      "vix",
+      "volatility",
+      "spx"
+    ],
+    "lineage": [
+      {
+        "author": "Fischer Black & Myron Scholes",
+        "year": 1973,
+        "work": "The Pricing of Options and Corporate Liabilities",
+        "venue": "Journal of Political Economy",
+        "note": "Published the same year Cboe opened — the rare case of theory and venue arriving simultaneously; BSM gave the new exchange its pricing language."
+      }
+    ],
+    "country": "US"
+  },
+  {
+    "id": "ice",
+    "name": "Intercontinental Exchange (ICE)",
+    "url": "https://www.ice.com",
+    "blurb": "Energy-trading upstart (2000) that grew into a global exchange, clearing, data, and mortgage-tech conglomerate; owns NYSE.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "futures",
+      "commodities",
+      "rates_fixed_income",
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2000,
+    "status": "active",
+    "origin": "Founded to electronify opaque OTC energy markets after deregulation — a recurring pattern: digitize a phone/voice market, then buy the incumbents.",
+    "notable": [
+      "Brent crude benchmark",
+      "ICE Clear",
+      "ICE Data Services"
+    ],
+    "tags": [
+      "energy",
+      "brent",
+      "clearing",
+      "consolidation"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "lse",
+    "name": "London Stock Exchange (LSEG)",
+    "url": "https://www.lseg.com",
+    "blurb": "The UK's primary equities venue; parent LSEG is now as much a data company (Refinitiv) as an exchange.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "rates_fixed_income"
+    ],
+    "region": "emea",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1801,
+    "status": "active",
+    "tags": [
+      "uk",
+      "ftse",
+      "listings"
+    ],
+    "notes": "Illustrates the exchange-to-data pivot: LSEG's data & analytics revenue now exceeds its trading revenue.",
+    "country": "GB"
+  },
+  {
+    "id": "binance",
+    "name": "Binance",
+    "url": "https://www.binance.com",
+    "blurb": "Largest crypto exchange by volume globally; spot, perps, and options with a free, deep public API.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "crypto_options"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "websocket",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2017,
+    "status": "active",
+    "origin": "Launched mid-2017 ICO boom with a matching engine that simply didn't fall over when others did; listed fast, iterated faster.",
+    "notable": [
+      "Highest crypto liquidity globally",
+      "BNB ecosystem",
+      "2023 US DOJ/CFTC settlement reshaped its compliance posture"
+    ],
+    "tags": [
+      "cex",
+      "perps",
+      "altcoins",
+      "liquidity"
+    ],
+    "market_mechanisms": [
+      "clob",
+      "perp_venue"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "coinbase-exchange",
+    "name": "Coinbase Exchange",
+    "url": "https://www.coinbase.com",
+    "blurb": "The benchmark US-regulated crypto spot venue; institutional book (ex-GDAX) plus CFTC-regulated derivatives and, via the 2025 Deribit acquisition, options.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "crypto_options"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "fix",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2012,
+    "status": "active",
+    "in_our_stack": true,
+    "adapter_path": "infra/marketdata/adapters/coinbase",
+    "origin": "Bet that compliance-first would win the US market: get the licenses, get the bank rails, become the default fiat on-ramp.",
+    "notable": [
+      "Public listing (2021) — first major crypto exchange to IPO",
+      "BTC reference rate used by ETF issuers"
+    ],
+    "tags": [
+      "cex",
+      "us-regulated",
+      "fiat onramp",
+      "btc-usd"
+    ],
+    "country": "US",
+    "market_mechanisms": [
+      "clob",
+      "perp_venue",
+      "custody_network"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "marketdata_adapter",
+      "custody_settlement_adapter"
+    ]
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken",
+    "url": "https://www.kraken.com",
+    "blurb": "Long-running US-founded crypto exchange with spot, futures, and FX pairs; known for security record and free market-data API.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "fx"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "fix"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2011,
+    "status": "active",
+    "in_our_stack": true,
+    "adapter_path": "infra/marketdata/adapters/kraken",
+    "notable": [
+      "No major custodial breach in 14+ years of operation",
+      "Kraken Pro fee tiers",
+      "Expanding into equities brokerage"
+    ],
+    "tags": [
+      "cex",
+      "security",
+      "spot",
+      "futures"
+    ],
+    "country": "US",
+    "market_mechanisms": [
+      "clob",
+      "perp_venue"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "deribit",
+    "name": "Deribit",
+    "url": "https://www.deribit.com",
+    "blurb": "The dominant venue for BTC/ETH options (~80%+ of crypto options open interest); acquired by Coinbase in 2025.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_options",
+      "crypto_perp"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "websocket",
+      "fix"
+    ],
+    "cost_tier": "free",
+    "data_depth": "tick_history",
+    "founded": 2016,
+    "status": "acquired",
+    "in_our_stack": true,
+    "adapter_path": "infra/marketdata/adapters/deribit",
+    "origin": "Two Dutch founders saw that no venue offered a proper crypto options order book — built one before incumbents considered the asset class real.",
+    "notable": [
+      "DVOL volatility index",
+      "Options order book depth no competitor matches",
+      "Public API, no auth for market data"
+    ],
+    "tags": [
+      "options",
+      "vol",
+      "btc",
+      "eth",
+      "dvol"
+    ],
+    "notes": "Acquisition by Coinbase (announced May 2025, ~$2.9B) is itself a lesson: niche dominance in one instrument made it the must-buy asset.",
+    "country": "AE",
+    "market_mechanisms": [
+      "clob",
+      "perp_venue"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "hyperliquid",
+    "name": "Hyperliquid",
+    "url": "https://hyperliquid.xyz",
+    "blurb": "On-chain perpetuals exchange running its own purpose-built L1; CEX-grade order book performance without custody, now the dominant perp DEX by a wide margin.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_perp",
+      "crypto_spot",
+      "commodities",
+      "equities"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "websocket",
+      "on_chain",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2023,
+    "status": "active",
+    "in_our_stack": true,
+    "adapter_path": "infra/marketdata/adapters/hyperliquid",
+    "origin": "Post-FTX (2022): founder Jeff Yan (ex-Hudson River Trading) bet that traders wanted CEX speed without CEX custody risk — so he built a custom chain whose only job is running an order book. No VC; 31% of HYPE airdropped to users (Nov 2024).",
+    "notable": [
+      "~70%+ of perp DEX volume in 2026",
+      "HyperCore on-chain order book + HyperEVM",
+      "RWA perps (oil, gold, equity indices)",
+      "HYPE airdrop as distribution strategy",
+      "Vaults & HLP: protocol-native delegated trading — anyone can run or back a strategy with an unfakeable on-chain track record; HLP crowdsources the market-making and liquidation book"
+    ],
+    "tags": [
+      "perp dex",
+      "on-chain",
+      "l1",
+      "hype",
+      "self-custody",
+      "vaults",
+      "hlp",
+      "copy trading"
+    ],
+    "lineage": [
+      {
+        "author": "Robert Shiller",
+        "year": 1993,
+        "work": "Measuring Asset Values for Cash Settlement in Derivative Markets: Cash Settled Futures Contracts",
+        "note": "Proposed perpetual, cash-settled futures tethered to an index by a periodic payment — the funding-rate perp, 23 years before BitMEX implemented it and 30 before Hyperliquid scaled it."
+      },
+      {
+        "author": "Fischer Black",
+        "year": 1971,
+        "work": "Toward a Fully Automated Stock Exchange",
+        "venue": "Financial Analysts Journal",
+        "note": "Described the exchange as pure software around a public limit order book — a fair spec for HyperCore, 52 years early."
+      },
+      {
+        "author": "Sanford Grossman & Merton Miller",
+        "year": 1988,
+        "work": "Liquidity and Market Structure",
+        "venue": "Journal of Finance",
+        "note": "Framed liquidity provision as risk-bearing capacity supplied by capital. HLP crowdsources that capacity — the market-maker P&L (and tail risk) that on a CEX accrues to firms like Citadel Securities goes to a public vault."
+      }
+    ],
+    "market_mechanisms": [
+      "clob",
+      "perp_venue",
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "marketdata_adapter",
+      "public_read_adapter"
+    ]
+  },
+  {
+    "id": "bybit",
+    "name": "Bybit",
+    "url": "https://www.bybit.com",
+    "blurb": "Top-tier crypto derivatives CEX (Dubai HQ) with deep perp liquidity; survived a record $1.4B hack in Feb 2025.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_perp",
+      "crypto_spot",
+      "crypto_options"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2018,
+    "status": "active",
+    "tags": [
+      "cex",
+      "perps",
+      "derivatives"
+    ],
+    "country": "AE"
+  },
+  {
+    "id": "okx",
+    "name": "OKX",
+    "url": "https://www.okx.com",
+    "blurb": "Major global crypto exchange spanning spot, perps, and options, plus a large web3 wallet/DEX-aggregation arm.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "crypto_options"
+    ],
+    "region": "apac",
+    "access": [
+      "rest_api",
+      "websocket",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2017,
+    "status": "active",
+    "tags": [
+      "cex",
+      "perps",
+      "wallet"
+    ]
+  },
+  {
+    "id": "interactive-brokers",
+    "name": "Interactive Brokers",
+    "url": "https://www.interactivebrokers.com",
+    "blurb": "The broadest retail/pro multi-asset broker: equities, options, futures, FX, bonds across 150+ markets, with full API access.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "multi_asset",
+      "equities",
+      "options",
+      "futures",
+      "fx",
+      "rates_fixed_income",
+      "prediction_markets",
+      "sports_events"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "fix",
+      "terminal_gui",
+      "sdk"
+    ],
+    "cost_tier": "paid",
+    "founded": 1978,
+    "status": "active",
+    "origin": "Thomas Peterffy automated options market-making before screens existed; the brokerage is the automation stack sold outward.",
+    "notable": [
+      "TWS API",
+      "SMART order routing",
+      "Lowest margin rates among retail brokers"
+    ],
+    "tags": [
+      "broker",
+      "api",
+      "multi-asset",
+      "tws"
+    ],
+    "notes": "Launched a unified prediction-markets interface (May 2026) aggregating Kalshi, CME, and ForecastEx with best-net-price routing — the first regulated cross-venue event-contract router. Also owns the ForecastEx venue.",
+    "country": "US"
+  },
+  {
+    "id": "alpaca",
+    "name": "Alpaca",
+    "url": "https://alpaca.markets",
+    "blurb": "API-first, commission-free US equities and options broker built for developers and embedded-finance partners.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options",
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "data_depth": "realtime",
+    "founded": 2015,
+    "status": "active",
+    "origin": "Treated brokerage as an API product, not an app — the Stripe playbook applied to trading.",
+    "notable": [
+      "Paper-trading sandbox",
+      "Broker-as-a-service API for fintechs"
+    ],
+    "tags": [
+      "broker",
+      "api-first",
+      "algo",
+      "paper trading"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "tradier",
+    "name": "Tradier",
+    "url": "https://tradier.com",
+    "blurb": "Brokerage-as-an-API with flat-fee options pricing; popular backend for third-party trading frontends.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "options",
+      "etfs"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "paid",
+    "founded": 2012,
+    "status": "active",
+    "tags": [
+      "broker",
+      "options",
+      "api"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "tastytrade",
+    "name": "tastytrade",
+    "url": "https://www.tastytrade.com",
+    "blurb": "Options-centric retail broker built by the thinkorswim founders; capped commissions and an education-led model.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "options",
+      "futures",
+      "equities",
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2017,
+    "status": "acquired",
+    "notable": [
+      "Acquired by IG Group (2021)",
+      "Open API launched 2024"
+    ],
+    "tags": [
+      "options",
+      "retail",
+      "derivatives"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "robinhood",
+    "name": "Robinhood",
+    "url": "https://robinhood.com",
+    "blurb": "Forced the entire US retail industry to zero commissions (2019) via the payment-for-order-flow model; now expanding into futures, crypto, and event contracts.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "equities",
+      "options",
+      "etfs",
+      "crypto_spot",
+      "futures",
+      "prediction_markets",
+      "sports_events"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2013,
+    "status": "active",
+    "origin": "Insight: the commission was never the real cost structure — PFOF + mobile-first UX could make trading 'free' and massively widen the funnel. Incumbents matched within 6 years.",
+    "notable": [
+      "Zero-commission catalyst",
+      "Event contracts hub (with Kalshi)",
+      "2021 meme-stock episode"
+    ],
+    "tags": [
+      "retail",
+      "pfof",
+      "mobile",
+      "zero commission"
+    ],
+    "country": "US",
+    "notes": "Geography is part of this story: Robinhood's absence from Canada created the opening Wealthsimple filled — the 'Robinhood-of-X' pattern (Zerodha, Trade Republic) exists because retail brokerage access is nationally licensed and doesn't travel."
+  },
+  {
+    "id": "charles-schwab",
+    "name": "Charles Schwab",
+    "url": "https://www.schwab.com",
+    "blurb": "The original discount broker (1975 deregulation) and now the largest US retail brokerage; absorbed TD Ameritrade and thinkorswim.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options",
+      "futures",
+      "rates_fixed_income"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "free",
+    "founded": 1971,
+    "status": "active",
+    "origin": "Born from the 1975 'May Day' deregulation of fixed commissions — proof that each repricing wave (discount → online → zero) mints a new leader.",
+    "notable": [
+      "thinkorswim platform",
+      "Schwab Trader API"
+    ],
+    "tags": [
+      "retail",
+      "discount",
+      "thinkorswim"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "polygon-io",
+    "name": "Polygon.io",
+    "url": "https://polygon.io",
+    "blurb": "Developer-first US market data: stocks, options, indices, FX, crypto via clean REST/WebSocket APIs and flat-file history.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "options",
+      "fx",
+      "crypto_spot",
+      "etfs"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "bulk_file"
+    ],
+    "cost_tier": "freemium",
+    "data_depth": "realtime",
+    "founded": 2017,
+    "status": "active",
+    "notable": [
+      "Full US options chain (OPRA)",
+      "S3 flat files for backtesting"
+    ],
+    "tags": [
+      "api",
+      "stocks",
+      "options data",
+      "developer"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "databento",
+    "name": "Databento",
+    "url": "https://databento.com",
+    "blurb": "Usage-priced, exchange-direct market data (CME, OPRA, equities) with normalized schemas down to MBO/tick level.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "futures",
+      "options",
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "bulk_file",
+      "sdk"
+    ],
+    "cost_tier": "paid",
+    "data_depth": "tick_history",
+    "founded": 2019,
+    "status": "active",
+    "origin": "Bet that quants would pay per-byte for raw, lossless, exchange-direct data instead of enterprise contracts — unbundling the Refinitiv model.",
+    "notable": [
+      "Pay-as-you-go pricing",
+      "MBO (full order book) history",
+      "DBN binary format"
+    ],
+    "tags": [
+      "tick data",
+      "cme",
+      "quant",
+      "usage pricing"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "lseg-refinitiv",
+    "name": "LSEG Data & Analytics (Refinitiv)",
+    "url": "https://www.lseg.com/en/data-analytics",
+    "blurb": "One of the two global enterprise data giants (with Bloomberg): cross-asset real-time feeds, reference data, and the Workspace terminal.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "terminal_gui",
+      "bulk_file",
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "data_depth": "realtime",
+    "status": "active",
+    "notable": [
+      "Elektron real-time feeds",
+      "WM/R FX benchmark fixes",
+      "Workspace (ex-Eikon)"
+    ],
+    "tags": [
+      "enterprise",
+      "reference data",
+      "terminal"
+    ],
+    "country": "GB"
+  },
+  {
+    "id": "bloomberg-bpipe",
+    "name": "Bloomberg B-PIPE",
+    "url": "https://www.bloomberg.com/professional/products/data/enterprise-catalog/",
+    "blurb": "Bloomberg's enterprise market-data feed — the Terminal's data firehose sold for programmatic consumption.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "sdk",
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "data_depth": "realtime",
+    "status": "active",
+    "tags": [
+      "enterprise",
+      "feed",
+      "blpapi"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "intrinio",
+    "name": "Intrinio",
+    "url": "https://intrinio.com",
+    "blurb": "Mid-market US data vendor: equities, options, ETFs, and fundamentals with developer-friendly licensing.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "options",
+      "etfs"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "paid",
+    "data_depth": "realtime",
+    "founded": 2012,
+    "status": "active",
+    "tags": [
+      "fundamentals",
+      "fintech",
+      "api"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "tiingo",
+    "name": "Tiingo",
+    "url": "https://www.tiingo.com",
+    "blurb": "Low-cost EOD and intraday equities/ETF/crypto data plus curated news; a quant-hobbyist staple.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "crypto_spot",
+      "fx"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "freemium",
+    "data_depth": "eod",
+    "founded": 2014,
+    "status": "active",
+    "tags": [
+      "eod",
+      "cheap",
+      "news"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "alpha-vantage",
+    "name": "Alpha Vantage",
+    "url": "https://www.alphavantage.co",
+    "blurb": "Free-tier API for equities, FX, and crypto time series; rate-limited but ubiquitous in tutorials and prototypes.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "fx",
+      "crypto_spot",
+      "commodities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "data_depth": "delayed",
+    "founded": 2017,
+    "status": "active",
+    "tags": [
+      "free",
+      "prototyping",
+      "time series"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "eodhd",
+    "name": "EODHD",
+    "url": "https://eodhd.com",
+    "blurb": "Broad-coverage (60+ exchanges) end-of-day and fundamentals data at retail prices.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "fx",
+      "crypto_spot"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "paid",
+    "data_depth": "eod",
+    "status": "active",
+    "tags": [
+      "eod",
+      "global coverage",
+      "fundamentals"
+    ],
+    "country": "FR"
+  },
+  {
+    "id": "twelve-data",
+    "name": "Twelve Data",
+    "url": "https://twelvedata.com",
+    "blurb": "Unified API across equities, FX, and crypto with WebSocket streaming on a freemium model.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "fx",
+      "crypto_spot",
+      "etfs"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "freemium",
+    "data_depth": "realtime",
+    "status": "active",
+    "tags": [
+      "api",
+      "streaming",
+      "multi-asset"
+    ]
+  },
+  {
+    "id": "finnhub",
+    "name": "Finnhub",
+    "url": "https://finnhub.io",
+    "blurb": "Freemium equities/FX/crypto API notable for bundling alternative datasets (earnings-call transcripts, insider activity, sentiment).",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "fx",
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "freemium",
+    "data_depth": "realtime",
+    "status": "active",
+    "tags": [
+      "sentiment",
+      "transcripts",
+      "api"
+    ]
+  },
+  {
+    "id": "orats",
+    "name": "ORATS",
+    "url": "https://orats.com",
+    "blurb": "Options-research specialist: smoothed implied-vol surfaces, greeks, earnings effects, and backtesting APIs.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "options"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "paid",
+    "data_depth": "historical_only",
+    "founded": 2001,
+    "status": "active",
+    "tags": [
+      "options",
+      "iv surface",
+      "backtest"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "theta-data",
+    "name": "Theta Data",
+    "url": "https://www.thetadata.net",
+    "blurb": "Low-cost full OPRA options tick history and streaming aimed at retail quants priced out of enterprise vendors.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "options",
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "paid",
+    "data_depth": "tick_history",
+    "founded": 2020,
+    "status": "active",
+    "origin": "Same unbundling thesis as Databento, aimed one tier down-market: make the full options tape affordable to individuals.",
+    "tags": [
+      "options",
+      "opra",
+      "tick",
+      "retail quant"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "iex-cloud",
+    "name": "IEX Cloud",
+    "url": "https://iexexchange.io",
+    "blurb": "IEX Exchange's retail-priced data API — shut down in August 2024; kept here as a cautionary entry on vendor longevity.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2017,
+    "status": "defunct",
+    "tags": [
+      "defunct",
+      "migration",
+      "vendor risk"
+    ],
+    "notes": "Its shutdown stranded thousands of apps; most migrated to Polygon, Tiingo, or Finnhub. Vendor risk is real even for exchange-backed products.",
+    "country": "US"
+  },
+  {
+    "id": "nasdaq-data-link",
+    "name": "Nasdaq Data Link (ex-Quandl)",
+    "url": "https://data.nasdaq.com",
+    "blurb": "Marketplace for curated financial and alternative datasets; the pioneer of the 'data marketplace' model, acquired by Nasdaq in 2018.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2011,
+    "status": "acquired",
+    "tags": [
+      "marketplace",
+      "datasets",
+      "quandl"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "ravenpack",
+    "name": "RavenPack (Bigdata.com)",
+    "url": "https://www.ravenpack.com",
+    "blurb": "News and text analytics for systematic trading — entity-tagged sentiment and event detection from global news flow.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "fx",
+      "commodities"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2003,
+    "status": "active",
+    "tags": [
+      "nlp",
+      "sentiment",
+      "news analytics"
+    ]
+  },
+  {
+    "id": "thinknum",
+    "name": "Thinknum Alternative Data",
+    "url": "https://www.thinknum.com",
+    "blurb": "Web-scraped company operating metrics — job postings, store counts, app rankings — sold as investable signals.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "active",
+    "tags": [
+      "web scraping",
+      "kpis",
+      "job postings"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "estimize",
+    "name": "Estimize",
+    "url": "https://www.estimize.com",
+    "blurb": "Crowdsourced earnings estimates that historically beat sell-side consensus; acquired by ExtractAlpha in 2021.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "paid",
+    "founded": 2011,
+    "status": "acquired",
+    "origin": "Same wisdom-of-crowds thesis as prediction markets, applied to earnings — a useful bridge case between alt data and event markets.",
+    "tags": [
+      "crowdsourced",
+      "earnings",
+      "consensus"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "bloomberg-terminal",
+    "name": "Bloomberg Terminal",
+    "url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
+    "blurb": "The default institutional workstation since the 1980s — data, analytics, news, and the IB chat network that is its real moat.",
+    "segment": "analytics_research",
+    "layers": [
+      "analytics_apps",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1981,
+    "status": "active",
+    "origin": "Michael Bloomberg's insight: bond traders had no shared analytic layer — sell them the calculator, then the data, then the network. The network (chat) became the lock-in.",
+    "notable": [
+      "~$30k/yr/seat",
+      "IB chat network effect",
+      "BQL/BLPAPI for programmatic access"
+    ],
+    "tags": [
+      "terminal",
+      "institutional",
+      "moat"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "koyfin",
+    "name": "Koyfin",
+    "url": "https://www.koyfin.com",
+    "blurb": "Web-based analytics terminal ('Bloomberg-lite') for fundamental investors at consumer SaaS prices.",
+    "segment": "analytics_research",
+    "layers": [
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "fx",
+      "rates_fixed_income"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2016,
+    "status": "active",
+    "tags": [
+      "terminal",
+      "charting",
+      "fundamentals"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "tradingview",
+    "name": "TradingView",
+    "url": "https://www.tradingview.com",
+    "blurb": "The dominant retail charting platform and social network; Pine Script strategies and broker integrations for execution.",
+    "segment": "analytics_research",
+    "layers": [
+      "analytics_apps",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "emea",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2011,
+    "status": "active",
+    "origin": "Made institutional-grade charting free and social — distribution-first, monetize later; now the retail front door to most asset classes.",
+    "notable": [
+      "Pine Script",
+      "100M+ users",
+      "Broker execution integrations"
+    ],
+    "tags": [
+      "charting",
+      "social",
+      "pine script"
+    ]
+  },
+  {
+    "id": "alphasense",
+    "name": "AlphaSense",
+    "url": "https://www.alpha-sense.com",
+    "blurb": "AI-powered search over filings, transcripts, and broker research; absorbed Sentieo in 2022 and Tegus in 2024.",
+    "segment": "analytics_research",
+    "layers": [
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "private_alts"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2011,
+    "status": "active",
+    "tags": [
+      "search",
+      "transcripts",
+      "expert calls",
+      "sentieo"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "quantconnect",
+    "name": "QuantConnect",
+    "url": "https://www.quantconnect.com",
+    "blurb": "Open-source algorithmic trading platform (LEAN engine): backtest and deploy across equities, options, futures, FX, and crypto.",
+    "segment": "analytics_research",
+    "layers": [
+      "analytics_apps",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "sdk",
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2012,
+    "status": "active",
+    "notable": [
+      "LEAN open-source engine",
+      "Integrated data library",
+      "Live deployment to brokers"
+    ],
+    "tags": [
+      "backtesting",
+      "algo",
+      "lean",
+      "open source"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "numerai",
+    "name": "Numerai",
+    "url": "https://numer.ai",
+    "blurb": "Hedge fund run on crowdsourced ML models trained on obfuscated data; data scientists stake NMR crypto on their predictions.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2015,
+    "status": "active",
+    "origin": "Inverted the quant-fund model: instead of hiring quants, pay a global tournament of anonymous ones, with crypto staking as the incentive-alignment mechanism.",
+    "tags": [
+      "crowdsourced",
+      "ml",
+      "tournament",
+      "nmr"
+    ],
+    "notes": "Reclassified from Analytics: Numerai's primary role is running a hedge fund on crowdsourced models — the strategy-marketplace pattern, pre-crypto-vaults.",
+    "country": "US"
+  },
+  {
+    "id": "kalshi",
+    "name": "Kalshi",
+    "url": "https://kalshi.com",
+    "blurb": "The first CFTC-regulated event-contract exchange — turned 'betting on outcomes' into a federally regulated asset class; now an $11B company clearing billions/month.",
+    "segment": "prediction_event",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "prediction_markets",
+      "sports_events"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "fix"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2018,
+    "status": "active",
+    "in_our_stack": true,
+    "adapter_path": "infra/marketdata/adapters/kalshi",
+    "origin": "Founders Tarek Mansour and Luana Lopes Lara saw that event risk (elections, Fed decisions, weather) is real economic exposure with no regulated hedge. Predecessors died of regulation (Intrade) or lived under restrictive no-action caps (PredictIt). Kalshi's bet: spend years going through the CFTC front door (DCM license, 2020) so the product could scale legally. The 2024 court win over the CFTC unlocked election markets.",
+    "notable": [
+      "CFTC DCM + own clearinghouse",
+      "2024 election-markets court victory",
+      "CNN/CNBC data partnerships (2026)",
+      "~80% of its volume is sports event contracts"
+    ],
+    "tags": [
+      "event contracts",
+      "cftc",
+      "elections",
+      "regulated"
+    ],
+    "lineage": [
+      {
+        "author": "Friedrich Hayek",
+        "year": 1945,
+        "work": "The Use of Knowledge in Society",
+        "venue": "American Economic Review",
+        "note": "Prices as aggregators of dispersed information — the philosophical charter of every prediction market."
+      },
+      {
+        "author": "Justin Wolfers & Eric Zitzewitz",
+        "year": 2004,
+        "work": "Prediction Markets",
+        "venue": "Journal of Economic Perspectives",
+        "note": "The survey that made the field academically respectable."
+      },
+      {
+        "author": "Kenneth Arrow, Robin Hanson, et al.",
+        "year": 2008,
+        "work": "The Promise of Prediction Markets",
+        "venue": "Science",
+        "note": "Explicitly asked regulators for a safe harbor for event contracts. Kalshi (founded 2018) is this letter's policy ask, executed — a 10-year paper-to-license gap."
+      }
+    ],
+    "country": "US"
+  },
+  {
+    "id": "polymarket",
+    "name": "Polymarket",
+    "url": "https://polymarket.com",
+    "blurb": "The largest crypto-rails prediction market (USDC on Polygon); after a 2022 CFTC settlement barred US users, it bought a CFTC-licensed exchange (QCEX, 2025) and relaunched a regulated US arm.",
+    "segment": "prediction_event",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "prediction_markets",
+      "sports_events"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "on_chain"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2020,
+    "status": "active",
+    "in_our_stack": true,
+    "adapter_path": "infra/marketdata/adapters/polymarket",
+    "origin": "Shayne Coplan took the opposite path from Kalshi: launch globally on crypto rails first (no broker, no banking stack, permissionless settlement), build liquidity and brand, then buy regulatory legitimacy later. The 2024 US election made it a household name as a probability source.",
+    "notable": [
+      "On-chain order settlement (Polygon/USDC)",
+      "Polymarket US via QCEX acquisition",
+      "Politics + crypto-heavy volume mix vs Kalshi's sports tilt"
+    ],
+    "tags": [
+      "prediction",
+      "on-chain",
+      "usdc",
+      "elections"
+    ],
+    "lineage": [
+      {
+        "author": "Robin Hanson",
+        "year": 1995,
+        "work": "Could Gambling Save Science? Encouraging an Honest Consensus",
+        "venue": "Social Epistemology",
+        "note": "The 'idea futures' program: betting as a truth-finding institution, 25 years before crypto rails made it permissionless."
+      }
+    ],
+    "country": "US"
+  },
+  {
+    "id": "predictit",
+    "name": "PredictIt",
+    "url": "https://www.predictit.org",
+    "blurb": "Academic-rooted (Victoria University of Wellington) political prediction market that operated for a decade under a restrictive CFTC no-action letter with $850 position caps.",
+    "segment": "prediction_event",
+    "layers": [
+      "venue_liquidity"
+    ],
+    "asset_classes": [
+      "prediction_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "free",
+    "founded": 2014,
+    "status": "active",
+    "origin": "The 'permission slip' era of prediction markets: legal only as a capped research project. Its constraints are precisely what Kalshi was founded to escape.",
+    "tags": [
+      "politics",
+      "no-action",
+      "academic"
+    ],
+    "lineage": [
+      {
+        "author": "Forsythe, Nelson, Neumann & Wright",
+        "year": 1992,
+        "work": "Anatomy of an Experimental Political Stock Market",
+        "venue": "American Economic Review",
+        "note": "The Iowa Electronic Markets results that justified running political markets as capped academic experiments — the regulatory template PredictIt inherited."
+      }
+    ],
+    "country": "US"
+  },
+  {
+    "id": "manifold",
+    "name": "Manifold",
+    "url": "https://manifold.markets",
+    "blurb": "Play-money prediction market where anyone can create a question; the community sandbox of the forecasting world.",
+    "segment": "prediction_event",
+    "layers": [
+      "venue_liquidity"
+    ],
+    "asset_classes": [
+      "prediction_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2021,
+    "status": "active",
+    "tags": [
+      "play money",
+      "user-created",
+      "forecasting"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "metaculus",
+    "name": "Metaculus",
+    "url": "https://www.metaculus.com",
+    "blurb": "Forecasting platform (not a market — no trading) that aggregates calibrated predictions on science, tech, and geopolitics.",
+    "segment": "prediction_event",
+    "layers": [
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "prediction_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2015,
+    "status": "active",
+    "notes": "Included as a contrast: aggregated judgmental forecasting vs. money-at-stake markets. Useful as a benchmark data source.",
+    "tags": [
+      "forecasting",
+      "calibration",
+      "no money"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "uniswap",
+    "name": "Uniswap",
+    "url": "https://uniswap.org",
+    "blurb": "The protocol that made permissionless market-making real: the automated market maker (AMM) replaced order books with a pricing formula anyone can supply liquidity to.",
+    "segment": "crypto_infra",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "sdk",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2018,
+    "status": "active",
+    "origin": "Hayden Adams (laid-off mechanical engineer) implemented Vitalik's AMM sketch: x*y=k. The insight — you don't need market makers if a formula will quote — created DeFi's core primitive and the long-tail token market no order book could serve.",
+    "notable": [
+      "x*y=k constant-product AMM",
+      "Concentrated liquidity (v3)",
+      "Largest DEX by integration footprint"
+    ],
+    "tags": [
+      "amm",
+      "dex",
+      "defi",
+      "liquidity pools"
+    ],
+    "lineage": [
+      {
+        "author": "Robin Hanson",
+        "year": 2007,
+        "work": "Logarithmic Market Scoring Rules for Modular Combinatorial Information Aggregation",
+        "venue": "Journal of Prediction Markets",
+        "note": "LMSR is mathematically a constant-function market maker — the AMM family's ancestor, built for prediction markets."
+      },
+      {
+        "author": "Vitalik Buterin",
+        "year": 2016,
+        "work": "Let's run on-chain decentralized exchanges the way we run prediction markets",
+        "note": "The forum post sketching x*y=k that Hayden Adams implemented as Uniswap."
+      }
+    ],
+    "market_mechanisms": [
+      "amm_pool",
+      "quote_router"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "quote_adapter"
+    ]
+  },
+  {
+    "id": "aave",
+    "name": "Aave",
+    "url": "https://aave.com",
+    "blurb": "The blue-chip DeFi money market: users supply collateral, borrow assets, and discover floating borrow/supply rates directly on-chain.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_lending",
+      "crypto_spot",
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2017,
+    "status": "active",
+    "origin": "Turned crypto lending from bilateral OTC and exchange margin into a transparent pooled balance sheet: collateral, utilization, liquidation thresholds, and rates are protocol state.",
+    "notable": [
+      "Overcollateralized borrow/lend pools",
+      "Variable borrow and supply rates",
+      "GHO stablecoin"
+    ],
+    "tags": [
+      "defi lending",
+      "money market",
+      "collateral",
+      "liquidations"
+    ],
+    "market_mechanisms": [
+      "lending_pool"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter"
+    ]
+  },
+  {
+    "id": "compound",
+    "name": "Compound",
+    "url": "https://compound.finance",
+    "blurb": "Algorithmic money-market protocol where interest rates update from utilization, creating one of DeFi's original public rate curves.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_lending",
+      "crypto_spot",
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2017,
+    "status": "active",
+    "origin": "Made utilization-based interest-rate models a crypto primitive: instead of a dealer quote, the smart contract publishes the marginal price of leverage.",
+    "notable": [
+      "cTokens",
+      "Utilization-based rate curves",
+      "Compound III / Comet"
+    ],
+    "tags": [
+      "defi lending",
+      "rates",
+      "money market"
+    ],
+    "market_mechanisms": [
+      "lending_pool"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter"
+    ]
+  },
+  {
+    "id": "morpho",
+    "name": "Morpho",
+    "url": "https://morpho.org",
+    "blurb": "Open credit infrastructure for launching isolated lending markets and curated vaults; separates credit-market primitives from risk curation.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_lending",
+      "stablecoins",
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2021,
+    "status": "active",
+    "origin": "Unbundled the lending protocol from the allocator: Morpho Blue supplies the primitive, while vault curators decide which collateral/loan markets deserve capital.",
+    "notable": [
+      "Isolated lending markets",
+      "Curated vaults",
+      "Coinbase integration for USDC lending"
+    ],
+    "tags": [
+      "defi lending",
+      "vaults",
+      "credit curation",
+      "coinbase"
+    ],
+    "market_mechanisms": [
+      "lending_pool",
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter",
+      "portfolio_adapter"
+    ]
+  },
+  {
+    "id": "sky",
+    "name": "Sky / Maker",
+    "url": "https://sky.money",
+    "blurb": "The MakerDAO/Sky stablecoin-credit system: users lock collateral and borrow dollar-linked stablecoins, turning collateral policy into monetary infrastructure.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "stablecoins",
+      "crypto_lending",
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2014,
+    "status": "active",
+    "origin": "The original DeFi central bank: a collateralized debt system where governance sets collateral types, stability fees, savings rates, and liquidation rules.",
+    "notable": [
+      "DAI / USDS",
+      "Collateralized vaults",
+      "Savings-rate primitive"
+    ],
+    "tags": [
+      "stablecoin",
+      "makerdao",
+      "collateral",
+      "savings rate"
+    ],
+    "market_mechanisms": [
+      "lending_pool",
+      "oracle"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter"
+    ]
+  },
+  {
+    "id": "spark",
+    "name": "Spark",
+    "url": "https://spark.fi",
+    "blurb": "Sky-linked stablecoin savings and lending layer, routing capital between DeFi markets and real-world yield sources.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "stablecoins",
+      "crypto_lending",
+      "cash_money_markets"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2023,
+    "status": "active",
+    "origin": "Bridges the Maker/Sky balance sheet into a user-facing savings and lending product: stablecoin deposits, protocol credit, and off-chain yield pipes in one surface.",
+    "notable": [
+      "SparkLend",
+      "Savings products",
+      "Sky ecosystem"
+    ],
+    "tags": [
+      "stablecoin yield",
+      "defi lending",
+      "rwa yield"
+    ],
+    "market_mechanisms": [
+      "lending_pool",
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter",
+      "portfolio_adapter"
+    ]
+  },
+  {
+    "id": "kamino",
+    "name": "Kamino",
+    "url": "https://kamino.com",
+    "blurb": "Solana credit and liquidity protocol combining lending, leverage, and automated liquidity strategies.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_lending",
+      "crypto_spot",
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2022,
+    "status": "active",
+    "origin": "Solana's version of the balance-sheet layer: borrow/lend, leverage, and LP automation sit close together because fast, cheap settlement collapses product boundaries.",
+    "notable": [
+      "K-Lend",
+      "Multiply leverage",
+      "Automated liquidity vaults"
+    ],
+    "tags": [
+      "solana",
+      "defi lending",
+      "leverage",
+      "vaults"
+    ],
+    "market_mechanisms": [
+      "lending_pool",
+      "amm_pool",
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter",
+      "portfolio_adapter"
+    ]
+  },
+  {
+    "id": "euler",
+    "name": "Euler",
+    "url": "https://www.euler.finance",
+    "blurb": "Modular lending infrastructure for creating custom vaults and markets, with collateral links between vaults.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_lending",
+      "crypto_spot",
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2020,
+    "status": "active",
+    "origin": "Pushes lending from one shared pool toward a market factory: define collateral, oracle, interest model, and vault connections as composable credit infrastructure.",
+    "notable": [
+      "Euler Vault Kit",
+      "Ethereum Vault Connector",
+      "Custom lending markets"
+    ],
+    "tags": [
+      "modular lending",
+      "vaults",
+      "credit factory"
+    ],
+    "market_mechanisms": [
+      "lending_pool"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter"
+    ]
+  },
+  {
+    "id": "maple-finance",
+    "name": "Maple Finance",
+    "url": "https://maple.finance",
+    "blurb": "Institutional on-chain credit marketplace: pool delegates originate and manage lending pools for professional borrowers and yield allocators.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "analytics_apps",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_lending",
+      "private_credit",
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "terminal_gui"
+    ],
+    "cost_tier": "free",
+    "founded": 2019,
+    "status": "active",
+    "origin": "Brought private-credit underwriting language on-chain: lenders allocate to pools, delegates underwrite borrowers, and credit performance becomes visible in protocol rails.",
+    "notable": [
+      "Institutional lending pools",
+      "Pool delegates",
+      "On-chain credit products"
+    ],
+    "tags": [
+      "institutional credit",
+      "private credit",
+      "stablecoin lending"
+    ],
+    "market_mechanisms": [
+      "lending_pool",
+      "rfq"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter",
+      "portfolio_adapter"
+    ]
+  },
+  {
+    "id": "centrifuge",
+    "name": "Centrifuge",
+    "url": "https://centrifuge.io",
+    "blurb": "Tokenized real-world-asset infrastructure connecting private credit, treasuries, and structured assets to on-chain investors.",
+    "segment": "lending_credit",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "private_credit",
+      "securitized",
+      "stablecoins",
+      "crypto_lending"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2017,
+    "status": "active",
+    "origin": "Treats real-world credit as a protocol object: tokenize the asset, expose reporting, route stablecoin capital, and make private-credit settlement programmable.",
+    "notable": [
+      "RWA tokenization",
+      "Private-credit pools",
+      "On-chain asset reporting"
+    ],
+    "tags": [
+      "rwa",
+      "private credit",
+      "tokenization",
+      "structured credit"
+    ],
+    "market_mechanisms": [
+      "lending_pool",
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "lending_rate_adapter",
+      "portfolio_adapter"
+    ]
+  },
+  {
+    "id": "dune",
+    "name": "Dune",
+    "url": "https://dune.com",
+    "blurb": "SQL-queryable decoded blockchain data with community-shared dashboards — the de facto analytics layer for on-chain markets.",
+    "segment": "crypto_infra",
+    "layers": [
+      "analytics_apps",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp"
+    ],
+    "region": "emea",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2018,
+    "status": "active",
+    "tags": [
+      "sql",
+      "dashboards",
+      "on-chain analytics"
+    ],
+    "country": "NO",
+    "market_mechanisms": [
+      "indexer",
+      "reference_data"
+    ],
+    "adapter_shapes": [
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "the-graph",
+    "name": "The Graph",
+    "url": "https://thegraph.com",
+    "blurb": "Decentralized indexing protocol — 'subgraphs' turn raw chain events into queryable APIs that DEX frontends and analytics depend on.",
+    "segment": "crypto_infra",
+    "layers": [
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "on_chain"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2018,
+    "status": "active",
+    "tags": [
+      "indexing",
+      "graphql",
+      "subgraphs"
+    ],
+    "market_mechanisms": [
+      "indexer"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "glassnode",
+    "name": "Glassnode",
+    "url": "https://glassnode.com",
+    "blurb": "On-chain metrics and market intelligence for BTC/ETH — supply distribution, holder behavior, realized cap and friends.",
+    "segment": "crypto_infra",
+    "layers": [
+      "analytics_apps",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2018,
+    "status": "active",
+    "tags": [
+      "on-chain",
+      "metrics",
+      "btc"
+    ],
+    "country": "CH",
+    "market_mechanisms": [
+      "reference_data",
+      "indexer"
+    ],
+    "adapter_shapes": [
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "coingecko",
+    "name": "CoinGecko",
+    "url": "https://www.coingecko.com",
+    "blurb": "Broadest crypto price/reference aggregator (~17k+ assets) with a generous free API; the long-tail data backbone for crypto apps.",
+    "segment": "crypto_infra",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "apac",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "data_depth": "realtime",
+    "founded": 2014,
+    "status": "active",
+    "tags": [
+      "aggregator",
+      "prices",
+      "free api"
+    ],
+    "country": "MY",
+    "market_mechanisms": [
+      "reference_data"
+    ],
+    "adapter_shapes": [
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "coinmarketcap",
+    "name": "CoinMarketCap",
+    "url": "https://coinmarketcap.com",
+    "blurb": "The original crypto price aggregator and still the most-trafficked; acquired by Binance in 2020.",
+    "segment": "crypto_infra",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2013,
+    "status": "acquired",
+    "tags": [
+      "aggregator",
+      "prices",
+      "binance"
+    ],
+    "market_mechanisms": [
+      "reference_data"
+    ],
+    "adapter_shapes": [
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "amberdata",
+    "name": "Amberdata",
+    "url": "https://www.amberdata.io",
+    "blurb": "Institutional digital-asset data: unified CEX + DEX + on-chain coverage with derivatives analytics.",
+    "segment": "crypto_infra",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "crypto_options"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "data_depth": "tick_history",
+    "founded": 2017,
+    "status": "active",
+    "tags": [
+      "institutional",
+      "derivatives data",
+      "defi data"
+    ],
+    "country": "US",
+    "market_mechanisms": [
+      "reference_data",
+      "indexer"
+    ],
+    "adapter_shapes": [
+      "marketdata_adapter",
+      "public_read_adapter"
+    ]
+  },
+  {
+    "id": "kaiko",
+    "name": "Kaiko",
+    "url": "https://www.kaiko.com",
+    "blurb": "Institutional crypto market data and benchmark rates; deep historical tick coverage across hundreds of venues.",
+    "segment": "crypto_infra",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "websocket",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "data_depth": "tick_history",
+    "founded": 2014,
+    "status": "active",
+    "tags": [
+      "institutional",
+      "tick data",
+      "benchmarks"
+    ],
+    "country": "FR",
+    "market_mechanisms": [
+      "reference_data"
+    ],
+    "adapter_shapes": [
+      "marketdata_adapter"
+    ]
+  },
+  {
+    "id": "fireblocks",
+    "name": "Fireblocks",
+    "url": "https://www.fireblocks.com",
+    "blurb": "MPC-based custody and transfer network that most institutional crypto desks route through — the plumbing layer between venues.",
+    "segment": "crypto_infra",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "origin": "Post-2018 exchange hacks: institutions wouldn't touch crypto without bank-grade key management. MPC custody + a settlement network between counterparties was the unlock for institutional flow.",
+    "tags": [
+      "custody",
+      "mpc",
+      "settlement network"
+    ],
+    "country": "US",
+    "market_mechanisms": [
+      "custody_network"
+    ],
+    "adapter_shapes": [
+      "custody_settlement_adapter"
+    ]
+  },
+  {
+    "id": "dtcc",
+    "name": "DTCC",
+    "url": "https://www.dtcc.com",
+    "blurb": "The central plumbing of US securities: clears and settles essentially all US equity trades and custodies tens of trillions in assets.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "rates_fixed_income"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1973,
+    "status": "active",
+    "origin": "Born from the 1960s 'paperwork crisis' — Wall Street literally drowned in paper certificates and had to close on Wednesdays. Immobilize the certificates centrally, net the obligations. Every settlement innovation since (T+1, on-chain settlement) is a footnote to this.",
+    "notable": [
+      "NSCC netting",
+      "T+1 settlement (2024)"
+    ],
+    "tags": [
+      "clearing",
+      "settlement",
+      "cusip",
+      "t+1"
+    ],
+    "notes": " DTCC Data Services sells reference/repository data — it sits on L3 as well as L5. Founded date refers to DTC (1973); NSCC 1976; the DTCC holding structure dates to 1999.",
+    "country": "US"
+  },
+  {
+    "id": "occ",
+    "name": "OCC (Options Clearing Corporation)",
+    "url": "https://www.theocc.com",
+    "blurb": "Central counterparty for all US listed options — the reason you can trade options on 16 exchanges with one fungible contract.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "options",
+      "futures"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1973,
+    "status": "active",
+    "tags": [
+      "ccp",
+      "options",
+      "fungibility"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "coinbase-prime",
+    "name": "Coinbase Prime / Custody",
+    "url": "https://www.coinbase.com/prime",
+    "blurb": "Qualified custodian and prime broker for institutional crypto; custodian for the majority of US spot BTC/ETH ETFs.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "notable": [
+      "Custodian to most spot BTC ETFs",
+      "NY trust charter"
+    ],
+    "tags": [
+      "custody",
+      "etf",
+      "prime"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "bitgo",
+    "name": "BitGo",
+    "url": "https://www.bitgo.com",
+    "blurb": "Digital-asset custody and prime-services platform combining qualified custody, settlement, trading, financing, and wallet infrastructure.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_lending",
+      "stablecoins"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "active",
+    "tags": [
+      "custody",
+      "prime services",
+      "settlement"
+    ],
+    "country": "US",
+    "market_mechanisms": [
+      "custody_network",
+      "prime_brokerage"
+    ],
+    "adapter_shapes": [
+      "custody_settlement_adapter",
+      "venue_adapter"
+    ],
+    "notable": [
+      "Qualified custody",
+      "Prime services",
+      "Wallet infrastructure"
+    ],
+    "origin": "Multi-sig custody was the wedge; the product expanded into the institutional operating layer around custody, settlement, financing, and trading."
+  },
+  {
+    "id": "spdji",
+    "name": "S&P Dow Jones Indices",
+    "url": "https://www.spglobal.com/spdji",
+    "blurb": "Operator of the S&P 500 and Dow — the benchmarks that trillions in passive assets and the deepest derivatives complexes track.",
+    "segment": "indices_benchmarks",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "commodities"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "Indices are the quiet power center: whoever defines the benchmark collects licensing rent on every fund and derivative that references it.",
+    "tags": [
+      "sp500",
+      "benchmark",
+      "licensing"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "msci",
+    "name": "MSCI",
+    "url": "https://www.msci.com",
+    "blurb": "Global equity index family (EM, World, ACWI) plus risk analytics (Barra); index inclusion decisions move billions in flows.",
+    "segment": "indices_benchmarks",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "real_estate",
+      "private_alts"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1969,
+    "status": "active",
+    "tags": [
+      "em",
+      "benchmark",
+      "barra",
+      "flows"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "ftse-russell",
+    "name": "FTSE Russell",
+    "url": "https://www.lseg.com/en/ftse-russell",
+    "blurb": "LSEG's index arm: FTSE 100, Russell 2000/3000, and the annual Russell reconstitution — one of the largest trading days of the year.",
+    "segment": "indices_benchmarks",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "rates_fixed_income"
+    ],
+    "region": "emea",
+    "access": [
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "tags": [
+      "russell",
+      "ftse",
+      "reconstitution"
+    ],
+    "country": "GB"
+  },
+  {
+    "id": "coindesk-indices",
+    "name": "CoinDesk Indices",
+    "url": "https://indices.coindesk.com",
+    "blurb": "Crypto reference rates and indices (XBX Bitcoin Price Index, CoinDesk 20) used for fund benchmarks and settlement.",
+    "segment": "indices_benchmarks",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "tags": [
+      "reference rate",
+      "benchmark",
+      "crypto index"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "citadel-securities",
+    "name": "Citadel Securities",
+    "url": "https://www.citadelsecurities.com",
+    "blurb": "The largest US equities wholesaler/market maker — executes roughly a quarter of US equity volume and a dominant share of retail order flow.",
+    "segment": "brokers_execution",
+    "layers": [
+      "venue_liquidity",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "equities",
+      "options",
+      "etfs",
+      "rates_fixed_income"
+    ],
+    "region": "americas",
+    "access": [
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2002,
+    "status": "active",
+    "origin": "Internalization: pay brokers for retail order flow, fill it off-exchange at or inside the spread. This is the economic engine that made Robinhood-style zero commissions possible — the venue most retail trades actually hit without knowing it.",
+    "tags": [
+      "market maker",
+      "wholesaler",
+      "pfof",
+      "internalization"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "jane-street",
+    "name": "Jane Street",
+    "url": "https://www.janestreet.com",
+    "blurb": "Quant trading firm that is the de facto liquidity backbone of the global ETF ecosystem via creation/redemption arbitrage.",
+    "segment": "brokers_execution",
+    "layers": [
+      "venue_liquidity"
+    ],
+    "asset_classes": [
+      "etfs",
+      "equities",
+      "options",
+      "rates_fixed_income",
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2000,
+    "status": "active",
+    "origin": "ETFs only track their NAV because someone arbitrages the basket — Jane Street made that its core franchise, becoming invisible infrastructure for the passive-investing era.",
+    "tags": [
+      "market maker",
+      "etf",
+      "arbitrage",
+      "ocaml"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "tradeweb",
+    "name": "Tradeweb",
+    "url": "https://www.tradeweb.com",
+    "blurb": "Leading electronic venue for rates: treasuries, swaps, and ETFs traded via RFQ and streaming protocols.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "rates_fixed_income",
+      "etfs",
+      "cash_money_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1996,
+    "status": "active",
+    "origin": "Bonds resisted order books because issues are heterogeneous and dealer-intermediated — Tradeweb electronified the RFQ (ask several dealers at once) instead of forcing the equity model onto debt.",
+    "tags": [
+      "rates",
+      "rfq",
+      "treasuries",
+      "swaps"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "marketaxess",
+    "name": "MarketAxess",
+    "url": "https://www.marketaxess.com",
+    "blurb": "Dominant electronic venue for corporate credit; its Open Trading network lets any participant trade with any other, not just dealers.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "rates_fixed_income"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2000,
+    "status": "active",
+    "origin": "All-to-all trading in credit: when dealer balance sheets shrank post-2008, MarketAxess let buy-side firms provide liquidity to each other — a structural change disguised as a protocol feature.",
+    "tags": [
+      "credit",
+      "bonds",
+      "all-to-all",
+      "cp+"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "ebs",
+    "name": "EBS (CME Group)",
+    "url": "https://www.cmegroup.com/markets/fx/ebs.html",
+    "blurb": "The institutional spot-FX central limit order book — the primary venue where EUR/USD and USD/JPY reference prices form.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "fx"
+    ],
+    "region": "americas",
+    "access": [
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1990,
+    "status": "acquired",
+    "origin": "Built by a consortium of banks specifically to break Reuters' monopoly on FX matching — a reminder that venues are sometimes founded as defensive coalitions, not startups.",
+    "tags": [
+      "fx",
+      "spot",
+      "clob",
+      "interbank"
+    ],
+    "notes": "Acquired by CME (via NEX, 2018). The institutional half of the FX answer; OANDA is the retail half.",
+    "country": "US"
+  },
+  {
+    "id": "oanda",
+    "name": "OANDA",
+    "url": "https://www.oanda.com",
+    "blurb": "Retail FX and CFD broker whose exchange-rate API became a de facto reference source for developers and treasurers.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "fx",
+      "commodities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 1996,
+    "status": "active",
+    "tags": [
+      "fx",
+      "retail",
+      "rates api",
+      "cfd"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "cls",
+    "name": "CLS Group",
+    "url": "https://www.cls-group.com",
+    "blurb": "Settles the majority of global FX volume payment-versus-payment, eliminating the settlement risk that once collapsed banks.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "fx"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2002,
+    "status": "active",
+    "origin": "Herstatt risk: in 1974 a German bank failed after receiving one leg of FX trades but before paying the other. CLS exists so both legs settle simultaneously or not at all — the FX analogue of DTCC's paperwork-crisis origin.",
+    "tags": [
+      "fx",
+      "settlement",
+      "pvp",
+      "herstatt"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "dydx",
+    "name": "dYdX",
+    "url": "https://dydx.trade",
+    "blurb": "The first credible perpetuals DEX; migrated from an Ethereum L2 to its own Cosmos app-chain, but lost the category lead to Hyperliquid.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_perp"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "websocket",
+      "on_chain"
+    ],
+    "cost_tier": "free",
+    "data_depth": "realtime",
+    "founded": 2017,
+    "status": "active",
+    "origin": "Proved on-chain perps could work at all (off-chain matching, on-chain settlement) — and then proved that being first matters less than execution quality: it held ~30% of DEX volume in early 2024 before Hyperliquid compressed it to single digits.",
+    "tags": [
+      "perp dex",
+      "cosmos",
+      "app-chain",
+      "incumbent-displaced"
+    ],
+    "market_mechanisms": [
+      "clob",
+      "perp_venue"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "marketdata_adapter",
+      "public_read_adapter"
+    ]
+  },
+  {
+    "id": "chainlink",
+    "name": "Chainlink",
+    "url": "https://chain.link",
+    "blurb": "The dominant oracle network — the price-feed plumbing that DeFi protocols (lending, perps, stablecoins) settle and liquidate against.",
+    "segment": "crypto_infra",
+    "layers": [
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "fx",
+      "commodities"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2017,
+    "status": "active",
+    "origin": "Blockchains can't see off-chain prices; whoever feeds them prices becomes critical infrastructure. Oracles are the crypto equivalent of index providers — quiet, boring, and everything depends on them.",
+    "tags": [
+      "oracle",
+      "price feeds",
+      "defi plumbing",
+      "ccip"
+    ],
+    "market_mechanisms": [
+      "oracle"
+    ],
+    "adapter_shapes": [
+      "oracle_adapter",
+      "public_read_adapter"
+    ]
+  },
+  {
+    "id": "alchemy",
+    "name": "Alchemy",
+    "url": "https://www.alchemy.com",
+    "blurb": "Node/RPC infrastructure provider — the AWS-like layer most crypto apps use to read and write blockchains instead of running their own nodes.",
+    "segment": "crypto_infra",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2017,
+    "status": "active",
+    "tags": [
+      "rpc",
+      "nodes",
+      "developer infra"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "forge-global",
+    "name": "Forge Global",
+    "url": "https://forgeglobal.com",
+    "blurb": "Marketplace for trading shares of private companies pre-IPO, plus Forge Price reference data for private-market valuations.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "private_alts",
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2014,
+    "status": "active",
+    "origin": "Companies staying private for a decade created a stranded-equity problem (employees rich on paper, illiquid in fact) — secondary marketplaces are the venue response to the IPO drought.",
+    "tags": [
+      "private markets",
+      "pre-ipo",
+      "secondaries"
+    ]
+  },
+  {
+    "id": "factset",
+    "name": "FactSet",
+    "url": "https://www.factset.com",
+    "blurb": "The third major institutional workstation (with Bloomberg and LSEG Workspace), strongest in buy-side portfolio analytics and concordant data feeds.",
+    "segment": "analytics_research",
+    "layers": [
+      "analytics_apps",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1978,
+    "status": "active",
+    "tags": [
+      "terminal",
+      "buy-side",
+      "portfolio analytics"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "lme",
+    "name": "London Metal Exchange",
+    "url": "https://www.lme.com",
+    "blurb": "The global venue for base-metals price formation (copper, aluminium, nickel) — physical delivery, warehouse network, and a surviving open-outcry ring.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "commodities",
+      "futures"
+    ],
+    "region": "emea",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1877,
+    "status": "acquired",
+    "notable": [
+      "LME Official Prices used in physical contracts worldwide",
+      "2022 nickel-squeeze trade cancellations",
+      "Owned by HKEX since 2012"
+    ],
+    "tags": [
+      "metals",
+      "copper",
+      "physical delivery",
+      "ring"
+    ],
+    "country": "GB"
+  },
+  {
+    "id": "brokertec",
+    "name": "BrokerTec (CME Group)",
+    "url": "https://www.cmegroup.com/markets/fixed-income/brokertec.html",
+    "blurb": "The central limit order book for on-the-run US Treasuries and the dominant electronic repo venue — where the risk-free rate actually trades.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "rates_fixed_income",
+      "cash_money_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1999,
+    "status": "acquired",
+    "origin": "Like EBS, born as a dealer-bank consortium to electronify an interdealer voice market; both ended up inside CME via the NEX acquisition (2018).",
+    "tags": [
+      "treasuries",
+      "repo",
+      "clob",
+      "interdealer"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "intex",
+    "name": "Intex Solutions",
+    "url": "https://www.intex.com",
+    "blurb": "The near-monopoly cashflow-modeling library for securitized products — virtually every CMBS/RMBS/ABS/CLO deal is analyzed through Intex's deal models.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "securitized"
+    ],
+    "region": "americas",
+    "access": [
+      "sdk",
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1985,
+    "status": "active",
+    "origin": "Structured products are contracts, not tickers — their 'price data' is a waterfall model of who gets paid in what order. Whoever encodes every deal's waterfall becomes unavoidable infrastructure. Quiet, private, and one of the deepest moats in market data.",
+    "tags": [
+      "cmbs",
+      "rmbs",
+      "clo",
+      "waterfall",
+      "monopoly"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "trepp",
+    "name": "Trepp",
+    "url": "https://www.trepp.com",
+    "blurb": "The benchmark data and surveillance provider for CMBS and commercial real estate finance — delinquency rates, loan-level performance, deal pipelines.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "securitized",
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1979,
+    "status": "active",
+    "tags": [
+      "cmbs",
+      "cre",
+      "delinquency",
+      "surveillance"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "pitchbook",
+    "name": "PitchBook",
+    "url": "https://pitchbook.com",
+    "blurb": "The default database for private-market deal data: VC rounds, PE buyouts, valuations, and fund performance; owned by Morningstar.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "private_alts",
+      "private_credit"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2007,
+    "status": "acquired",
+    "tags": [
+      "vc",
+      "pe",
+      "deals",
+      "valuations"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "preqin",
+    "name": "Preqin (BlackRock)",
+    "url": "https://www.preqin.com",
+    "blurb": "Alternatives data spanning private equity, private credit, hedge funds, infrastructure, and real estate funds; acquired by BlackRock in 2025 to power its private-markets push.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "private_alts",
+      "private_credit",
+      "real_estate"
+    ],
+    "region": "emea",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2003,
+    "status": "acquired",
+    "origin": "Private markets have no tape — no prices print anywhere. Data here is assembled from FOIA requests, fund filings, and surveys, which is why it commands enterprise pricing and why BlackRock bought the asset rather than the workflow.",
+    "tags": [
+      "alternatives",
+      "hedge funds",
+      "fund performance",
+      "blackrock"
+    ],
+    "country": "GB"
+  },
+  {
+    "id": "costar",
+    "name": "CoStar Group",
+    "url": "https://www.costargroup.com",
+    "blurb": "The dominant commercial real estate data platform (comps, leases, vacancies); also owns LoopNet, Apartments.com, and Homes.com.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1987,
+    "status": "active",
+    "origin": "Built by physically surveying buildings before the web existed — proprietary collection of data that exists nowhere else is the original alt-data playbook, applied to CRE.",
+    "tags": [
+      "cre",
+      "comps",
+      "loopnet"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "zillow",
+    "name": "Zillow",
+    "url": "https://www.zillow.com",
+    "blurb": "Consumer residential real-estate marketplace whose Zestimate made home-price data a public good; research data feeds (ZHVI) are a standard for housing analysis.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "bulk_file",
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2006,
+    "status": "active",
+    "tags": [
+      "housing",
+      "zestimate",
+      "zhvi"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "betfair",
+    "name": "Betfair Exchange",
+    "url": "https://www.betfair.com/exchange",
+    "blurb": "The original betting exchange (2000): a peer-to-peer order book for sports outcomes where users set the odds — the structural ancestor of Kalshi and Polymarket.",
+    "segment": "prediction_event",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "sports_events",
+      "prediction_markets"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "free",
+    "founded": 2000,
+    "status": "acquired",
+    "origin": "Andrew Black's insight: a bookmaker is just a market maker with a wide spread — replace him with a limit order book and let backers and layers match directly. It proved, two decades early, that an exchange model works for event outcomes; US regulation, not market design, is what delayed Kalshi until 2020. Now part of Flutter.",
+    "tags": [
+      "betting exchange",
+      "lay betting",
+      "order book",
+      "flutter"
+    ],
+    "country": "GB"
+  },
+  {
+    "id": "masterworks",
+    "name": "Masterworks",
+    "url": "https://www.masterworks.com",
+    "blurb": "Fractionalized blue-chip art: SEC-qualified shares in individual paintings with an internal secondary market.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity"
+    ],
+    "asset_classes": [
+      "collectibles"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2017,
+    "status": "active",
+    "origin": "The securitization playbook applied to a Picasso: wrap an illiquid tangible in a Reg A offering, mint shares, run a bulletin-board secondary. Proves the 'everything becomes a market' thesis extends past financial assets.",
+    "tags": [
+      "art",
+      "fractional",
+      "reg a"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "platts",
+    "name": "S&P Global Commodity Insights (Platts)",
+    "url": "https://www.spglobal.com/commodityinsights",
+    "blurb": "Price-reporting agency whose assessments (Dated Brent, JKM LNG) are the benchmarks physical commodity contracts settle against.",
+    "segment": "indices_benchmarks",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "commodities"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1909,
+    "status": "active",
+    "origin": "Physical commodities mostly trade OTC with no tape, so a journalist's price assessment became the contract benchmark — the commodity world's equivalent of an index provider, with the same quiet pricing power.",
+    "tags": [
+      "dated brent",
+      "jkm",
+      "price reporting",
+      "benchmarks"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "exegy",
+    "name": "Exegy",
+    "url": "https://www.exegy.com",
+    "blurb": "Hardware-accelerated feed handlers and managed market-data infrastructure — the ticker-plant layer between exchange feeds and trading systems.",
+    "segment": "market_data",
+    "layers": [
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "sdk",
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "Normalizing dozens of proprietary exchange feeds at microsecond latency is brutal undifferentiated work every trading firm needs — so it became an outsourced layer, like CDNs for the web.",
+    "tags": [
+      "feed handler",
+      "ticker plant",
+      "fpga",
+      "low latency"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "pico",
+    "name": "Pico",
+    "url": "https://www.pico.net",
+    "blurb": "Trading-infrastructure-as-a-service: colocation, exchange connectivity, market data delivery, and network analytics (Corvil) across 50+ venues.",
+    "segment": "market_data",
+    "layers": [
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2009,
+    "status": "active",
+    "tags": [
+      "colocation",
+      "connectivity",
+      "corvil",
+      "managed infrastructure"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "apex-fintech",
+    "name": "Apex Fintech Solutions",
+    "url": "https://www.apexfintechsolutions.com",
+    "blurb": "Clearing and custody as an API — the invisible back office behind a generation of fintech brokers (early Robinhood, Webull, SoFi, Stash).",
+    "segment": "brokers_execution",
+    "layers": [
+      "infra_plumbing",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options",
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "fix"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2012,
+    "status": "active",
+    "origin": "Every new broker used to need years of self-clearing buildout; Apex turned that into an onboarding API. It is to brokerage startups what Citadel Securities is to their order flow — the layer nobody sees.",
+    "tags": [
+      "clearing",
+      "custody",
+      "brokerage-as-a-service",
+      "fintech"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "talos",
+    "name": "Talos",
+    "url": "https://www.talos.com",
+    "blurb": "Institutional crypto OEMS: one API for price discovery, smart order routing, and settlement across dozens of crypto venues and OTC desks.",
+    "segment": "crypto_infra",
+    "layers": [
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "fix",
+      "websocket"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "tags": [
+      "oems",
+      "smart order routing",
+      "institutional"
+    ],
+    "notes": "CoinRoutes plays in the same cell. Notably, no equivalent exists yet for event-contract venues.",
+    "country": "US",
+    "market_mechanisms": [
+      "quote_router",
+      "rfq",
+      "prime_brokerage"
+    ],
+    "adapter_shapes": [
+      "quote_adapter",
+      "venue_adapter",
+      "custody_settlement_adapter"
+    ]
+  },
+  {
+    "id": "forecastex",
+    "name": "ForecastEx",
+    "url": "https://forecastex.com",
+    "blurb": "Interactive Brokers' CFTC-regulated event-contract exchange and clearinghouse — the incumbent-broker response to Kalshi.",
+    "segment": "prediction_event",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "prediction_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "fix",
+      "terminal_gui"
+    ],
+    "cost_tier": "free",
+    "founded": 2024,
+    "status": "active",
+    "origin": "Once Kalshi proved the regulatory path, fast followers came from inside the industry: IBKR stood up its own DCM+DCO rather than route to a competitor — the CME playbook of owning venue plus clearing.",
+    "tags": [
+      "event contracts",
+      "cftc",
+      "ibkr",
+      "dcm",
+      "dco"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "dome",
+    "name": "Dome (Polymarket)",
+    "url": "https://domeapi.io",
+    "blurb": "YC-backed unified API for prediction-market data and trading across Polymarket and Kalshi — acquired by Polymarket in February 2026, months after launch.",
+    "segment": "prediction_event",
+    "layers": [
+      "connectivity_execution",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "prediction_markets",
+      "sports_events"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2025,
+    "status": "acquired",
+    "origin": "A case study in how fast a flagged white-space cell can close: ex-Alchemy founders built the neutral cross-venue layer, and the largest venue bought it within months — vertical integration of the developer layer, the Bloomberg/CME pattern replaying in real time. The *neutral* version of the cell reopened the day the deal closed.",
+    "tags": [
+      "unified api",
+      "yc",
+      "acquired",
+      "polymarket"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "pmxt",
+    "name": "PMXT",
+    "url": "https://www.pmxt.dev",
+    "blurb": "Open-source 'CCXT for prediction markets': one SDK for data and trading across 10+ venues (Polymarket, Kalshi, Limitless, Smarkets...), with cross-venue market matching, multi-year OHLCV history, and a best-price order router.",
+    "segment": "prediction_event",
+    "layers": [
+      "connectivity_execution",
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "prediction_markets",
+      "sports_events"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2025,
+    "status": "active",
+    "origin": "The open-source commodification response: where Dome got acquired into a venue, PMXT replays the CCXT playbook — neutral by construction because the code is public, with hosted convenience on top. Ships Dome-migration tools and MCP support for AI agents.",
+    "tags": [
+      "open source",
+      "ccxt",
+      "order router",
+      "cross-venue",
+      "mcp"
+    ],
+    "notes": "Routing still requires funded accounts and credentials at each venue — it unifies the API surface, not the capital."
+  },
+  {
+    "id": "blackrock",
+    "name": "BlackRock",
+    "url": "https://www.blackrock.com",
+    "blurb": "The largest asset manager (~$12T AUM); iShares dominates ETFs and Aladdin is the buy-side's de facto risk and portfolio operating system, licensed across the industry.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "analytics_apps",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1988,
+    "status": "active",
+    "origin": "Aladdin began as BlackRock's internal risk system after the 1980s mortgage desk era; selling your internal infrastructure to competitors is the quiet second business model of finance (cf. Nasdaq's exchange tech). The 2025 Preqin acquisition extends it into private markets.",
+    "tags": [
+      "aladdin",
+      "ishares",
+      "etf",
+      "buy-side"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "etoro",
+    "name": "eToro",
+    "url": "https://www.etoro.com",
+    "blurb": "Retail multi-asset broker that invented mainstream copy trading (CopyTrader, 2010) — follow a trader and your account mirrors theirs automatically.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "crypto_spot",
+      "fx",
+      "commodities"
+    ],
+    "region": "emea",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2007,
+    "status": "active",
+    "origin": "Turned delegated management into a social feed: the 'manager' is a leaderboard profile, the mandate is one tap. The template every crypto copy-vault descends from.",
+    "tags": [
+      "copy trading",
+      "social trading",
+      "retail"
+    ],
+    "country": "IL"
+  },
+  {
+    "id": "darwinex",
+    "name": "Darwinex",
+    "url": "https://www.darwinex.com",
+    "blurb": "FCA-regulated marketplace that wraps individual traders' track records into investable index assets (DARWINs) with independent risk management overlaid.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "analytics_apps",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "fx",
+      "equities",
+      "futures"
+    ],
+    "region": "emea",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2012,
+    "status": "active",
+    "origin": "The regulated-rails version of what Hyperliquid vaults do permissionlessly: securitize a trader's skill so outside capital can buy it.",
+    "tags": [
+      "strategy marketplace",
+      "darwin",
+      "fca"
+    ],
+    "country": "GB"
+  },
+  {
+    "id": "collective2",
+    "name": "Collective2",
+    "url": "https://collective2.com",
+    "blurb": "The original online strategy marketplace (2001): subscribe to a trading strategy and auto-trade it in your own brokerage account.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "futures",
+      "fx",
+      "options"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2001,
+    "status": "active",
+    "tags": [
+      "strategy marketplace",
+      "autotrading",
+      "subscription"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "enzyme",
+    "name": "Enzyme (ex-Melon)",
+    "url": "https://enzyme.finance",
+    "blurb": "On-chain asset-management infrastructure: launch a fund as a smart contract with enforced rules, transparent holdings, and tokenized shares.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "emea",
+    "access": [
+      "on_chain",
+      "sdk",
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2016,
+    "status": "active",
+    "origin": "The first serious attempt at the thesis vaults later proved: replace the fund admin, auditor, and prospectus with code, making the track record unfakeable by construction.",
+    "tags": [
+      "on-chain funds",
+      "melon",
+      "tokenized shares"
+    ],
+    "country": "CH"
+  },
+  {
+    "id": "yearn",
+    "name": "Yearn Finance",
+    "url": "https://yearn.fi",
+    "blurb": "Automated yield-strategy vaults (2020): deposit assets, strategies rotate them across DeFi for yield — the protocol that made 'vault' the standard DeFi noun.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2020,
+    "status": "active",
+    "tags": [
+      "vaults",
+      "yield",
+      "defi",
+      "ycrv"
+    ],
+    "market_mechanisms": [
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "portfolio_adapter",
+      "public_read_adapter"
+    ]
+  },
+  {
+    "id": "wealthsimple",
+    "name": "Wealthsimple",
+    "url": "https://www.wealthsimple.com",
+    "blurb": "Canada's retail investing champion: robo-advisor turned commission-free broker (Trade, 2019), crypto, and issuer of its own ETFs.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options",
+      "crypto_spot"
+    ],
+    "region": "americas",
+    "country": "CA",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2014,
+    "status": "active",
+    "origin": "Regulatory geography as moat: Robinhood never launched in Canada (CIRO licensing, TFSA/RRSP tax wrappers, local payment rails), so the zero-commission wave arrived via a domestic champion instead. Then it integrated upward — launching its own ETFs (2020-21), the broker-to-issuer move Schwab and Vanguard made decades earlier.",
+    "tags": [
+      "canada",
+      "zero commission",
+      "robo-advisor",
+      "tfsa",
+      "etf issuer"
+    ]
+  },
+  {
+    "id": "zerodha",
+    "name": "Zerodha",
+    "url": "https://zerodha.com",
+    "blurb": "India's discount-broking pioneer (2010) and one of its largest brokers — bootstrapped, no outside capital, with the Kite platform and open Kite Connect API.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options",
+      "futures",
+      "commodities"
+    ],
+    "region": "apac",
+    "country": "IN",
+    "access": [
+      "terminal_gui",
+      "rest_api",
+      "websocket"
+    ],
+    "cost_tier": "paid",
+    "founded": 2010,
+    "status": "active",
+    "origin": "Same pattern, different geography: SEBI licensing means US brokers cannot passport into India, so the discount-repricing wave (flat ₹20 trades, 2010 — three years before Robinhood) was captured domestically. Bootstrapped to dominance; its founders' refusal of VC echoes Hyperliquid's.",
+    "tags": [
+      "india",
+      "discount broking",
+      "kite",
+      "bootstrapped"
+    ]
+  },
+  {
+    "id": "trade-republic",
+    "name": "Trade Republic",
+    "url": "https://traderepublic.com",
+    "blurb": "Berlin neobroker (2015) that brought one-euro mobile trading to Europe; now holds a full banking license and serves 10+ EU markets.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "equities",
+      "etfs",
+      "options",
+      "crypto_spot"
+    ],
+    "region": "emea",
+    "country": "DE",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "free",
+    "founded": 2015,
+    "status": "active",
+    "origin": "Europe's Robinhood — with a twist that proves rails are national: its PFOF-funded model was outlawed under the EU's MiFIR review (member-state phase-out by 2026), forcing a business-model rebuild the US original never faced. Same product, different regulatory physics.",
+    "tags": [
+      "germany",
+      "neobroker",
+      "pfof ban",
+      "banking license"
+    ]
+  },
+  {
+    "id": "stand",
+    "name": "Stand",
+    "url": "https://stand.trade",
+    "blurb": "Custodial cross-venue terminal for prediction markets (Polymarket + Kalshi): copy trading, counter-trading, whale alerts, and order automation for 'pro-tail' traders.",
+    "segment": "prediction_event",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "prediction_markets",
+      "sports_events"
+    ],
+    "region": "global",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2025,
+    "status": "active",
+    "origin": "First mover on event-market copy trading — built custodial (users deposit funds, enabling automations account-connectors can't do) and offshore (geo-blocked from the US). That architecture choice is the strategic fork in this cell: it bought feature velocity at the price of the US market.",
+    "tags": [
+      "terminal",
+      "copy trading",
+      "custodial",
+      "offshore",
+      "whale tracking"
+    ],
+    "notes": "Competitors in the same lane: Verso (US-only), Betmoar (Polymarket skin), Predictions Terminal (leaderboards/signals). The non-custodial, US-regulated, manager-grade-records corner of this cell remains unoccupied as of June 2026."
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "url": "https://jup.ag",
+    "blurb": "Solana liquidity router and DeFi front door: swap aggregation, quote routing, limit orders, perps, and lending surfaces around Solana liquidity.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "crypto_lending"
+    ],
+    "market_mechanisms": [
+      "quote_router",
+      "perp_venue",
+      "lending_pool"
+    ],
+    "adapter_shapes": [
+      "quote_adapter",
+      "venue_adapter",
+      "marketdata_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "sdk",
+      "terminal_gui"
+    ],
+    "cost_tier": "free",
+    "founded": 2021,
+    "status": "active",
+    "origin": "Solana fragmented liquidity made the router the user interface: Jupiter became the default way to ask every venue what a swap should cost.",
+    "notable": [
+      "Solana quote routing",
+      "Developer API",
+      "Jupiter Terminal"
+    ],
+    "tags": [
+      "solana",
+      "dex aggregator",
+      "quote router",
+      "routing"
+    ]
+  },
+  {
+    "id": "one-inch",
+    "name": "1inch",
+    "url": "https://1inch.com",
+    "blurb": "EVM DEX aggregator and API suite routing swaps across liquidity sources and chains for wallets, apps, and traders.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "market_mechanisms": [
+      "quote_router"
+    ],
+    "adapter_shapes": [
+      "quote_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "sdk",
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2019,
+    "status": "active",
+    "origin": "Turned fragmented AMM liquidity into an execution problem: split the trade across pools and chains so users do not have to pick a venue.",
+    "notable": [
+      "Swap aggregation",
+      "Cross-chain swaps",
+      "Business API products"
+    ],
+    "tags": [
+      "dex aggregator",
+      "quote router",
+      "evm"
+    ]
+  },
+  {
+    "id": "zero-x",
+    "name": "0x",
+    "url": "https://0x.org",
+    "blurb": "Crypto trading API layer powering swap routing, liquidity aggregation, and embedded exchange in wallets and fintech apps.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "market_mechanisms": [
+      "quote_router",
+      "rfq"
+    ],
+    "adapter_shapes": [
+      "quote_adapter"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2016,
+    "status": "active",
+    "origin": "Started as a protocol for decentralized exchange; the enduring product became the API that hides venue fragmentation from app developers.",
+    "notable": [
+      "Swap API",
+      "Matcha",
+      "Embedded crypto trading"
+    ],
+    "tags": [
+      "dex aggregator",
+      "api",
+      "embedded trading"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "curve-finance",
+    "name": "Curve Finance",
+    "url": "https://curve.finance",
+    "blurb": "Specialized AMM for stable, pegged, and correlated assets; one of DeFi’s core liquidity venues for stablecoins and liquid-staking assets.",
+    "segment": "crypto_infra",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "stablecoins",
+      "staking_yield"
+    ],
+    "market_mechanisms": [
+      "amm_pool"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "marketdata_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2020,
+    "status": "active",
+    "origin": "StableSwap made AMMs useful for assets that should trade near parity, where constant-product pools waste too much liquidity around the peg.",
+    "notable": [
+      "StableSwap invariant",
+      "veCRV gauge system",
+      "Stablecoin and LST liquidity"
+    ],
+    "tags": [
+      "amm",
+      "stablecoins",
+      "curve",
+      "gauges"
+    ]
+  },
+  {
+    "id": "balancer",
+    "name": "Balancer",
+    "url": "https://balancer.fi",
+    "blurb": "Generalized AMM protocol with weighted, stable, and composable pools; liquidity pools can behave like self-rebalancing portfolios.",
+    "segment": "crypto_infra",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "staking_yield"
+    ],
+    "market_mechanisms": [
+      "amm_pool",
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "portfolio_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2020,
+    "status": "active",
+    "origin": "Extended AMMs from two-token 50/50 pools into programmable portfolio weights, turning index-like baskets into tradable liquidity.",
+    "notable": [
+      "Weighted pools",
+      "Vault architecture",
+      "Composable liquidity"
+    ],
+    "tags": [
+      "amm",
+      "weighted pools",
+      "vault"
+    ]
+  },
+  {
+    "id": "raydium",
+    "name": "Raydium",
+    "url": "https://raydium.io",
+    "blurb": "Solana AMM and liquidity-pool protocol, historically important as a core Solana spot-liquidity venue and pool creation layer.",
+    "segment": "crypto_infra",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "market_mechanisms": [
+      "amm_pool"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "marketdata_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2021,
+    "status": "active",
+    "origin": "Solana’s low fees made pool creation and small-ticket trading cheap enough for a different long-tail spot market than Ethereum AMMs.",
+    "notable": [
+      "Solana liquidity pools",
+      "AMM + CLMM surfaces",
+      "Pool creation"
+    ],
+    "tags": [
+      "solana",
+      "amm",
+      "liquidity pools"
+    ]
+  },
+  {
+    "id": "orca",
+    "name": "Orca",
+    "url": "https://www.orca.so",
+    "blurb": "Solana AMM known for Whirlpools concentrated liquidity, giving LPs custom price ranges and traders deeper local liquidity.",
+    "segment": "crypto_infra",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot"
+    ],
+    "market_mechanisms": [
+      "amm_pool"
+    ],
+    "adapter_shapes": [
+      "public_read_adapter",
+      "marketdata_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2021,
+    "status": "active",
+    "origin": "Brought concentrated-liquidity AMM design into Solana’s UX-first DeFi stack.",
+    "notable": [
+      "Whirlpools concentrated liquidity",
+      "Solana AMM",
+      "Open-source SDKs"
+    ],
+    "tags": [
+      "solana",
+      "amm",
+      "concentrated liquidity"
+    ]
+  },
+  {
+    "id": "pyth-network",
+    "name": "Pyth Network",
+    "url": "https://www.pyth.network",
+    "blurb": "First-party oracle network delivering real-time market data from exchanges, trading firms, and institutions to smart contracts.",
+    "segment": "crypto_infra",
+    "layers": [
+      "data_feeds",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "fx",
+      "commodities",
+      "equities"
+    ],
+    "market_mechanisms": [
+      "oracle",
+      "reference_data"
+    ],
+    "adapter_shapes": [
+      "oracle_adapter",
+      "marketdata_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2021,
+    "status": "active",
+    "origin": "Oracle design optimized for low-latency publisher data: bring market-maker and exchange prices directly to apps that need fresh settlement inputs.",
+    "notable": [
+      "First-party price feeds",
+      "Hermes API",
+      "Multi-chain oracle distribution"
+    ],
+    "tags": [
+      "oracle",
+      "price feeds",
+      "pythnet"
+    ]
+  },
+  {
+    "id": "gmx",
+    "name": "GMX",
+    "url": "https://gmx.io",
+    "blurb": "Decentralized spot and perpetual exchange on Arbitrum and Avalanche, with pooled liquidity backing leveraged trading from wallets.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "crypto_perp",
+      "crypto_spot"
+    ],
+    "market_mechanisms": [
+      "perp_venue",
+      "amm_pool",
+      "vault_strategy"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "public_read_adapter",
+      "marketdata_adapter"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2021,
+    "status": "active",
+    "origin": "Took the opposite design from CLOB perps: pooled liquidity supplies the other side of trader flow, making LP inventory the market-making engine.",
+    "notable": [
+      "Arbitrum and Avalanche perps",
+      "Pool-backed leverage",
+      "Wallet-native trading"
+    ],
+    "tags": [
+      "perp dex",
+      "pooled liquidity",
+      "arbitrum",
+      "avalanche"
+    ]
+  },
+  {
+    "id": "falconx",
+    "name": "FalconX",
+    "url": "https://www.falconx.io",
+    "blurb": "Institutional digital-asset prime broker providing liquidity, financing, execution, and risk infrastructure for professional crypto traders.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "crypto_options",
+      "crypto_lending"
+    ],
+    "market_mechanisms": [
+      "prime_brokerage",
+      "rfq",
+      "quote_router"
+    ],
+    "adapter_shapes": [
+      "quote_adapter",
+      "venue_adapter",
+      "custody_settlement_adapter"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "origin": "Institutional crypto needed the same layer hedge funds expect in equities and FX: financing, credit, liquidity access, and operational risk in one counterparty relationship.",
+    "notable": [
+      "Prime brokerage",
+      "Financing",
+      "Institutional liquidity"
+    ],
+    "tags": [
+      "prime broker",
+      "crypto credit",
+      "institutional"
+    ],
+    "country": "US"
+  }
+]

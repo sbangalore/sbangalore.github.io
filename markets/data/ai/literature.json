@@ -1,0 +1,294 @@
+{
+  "description": "A source watchlist plus recent research signals for AI infrastructure: serving systems, agent benchmarks, RAG evaluation, tool protocols, observability, security, and programmable LM systems.",
+  "topics": [
+    "LLM serving",
+    "agents",
+    "RAG",
+    "evals",
+    "observability",
+    "AI security",
+    "model routing",
+    "tool protocols",
+    "datacenter power",
+    "semiconductor supply chain",
+    "industrial mobilization",
+    "agent identity",
+    "power-rich site conversion"
+  ],
+  "recent_signals": [
+    {
+      "id": "riot-amd-rockdale-2026",
+      "title": "Riot announces first data center lease with AMD at Rockdale",
+      "authors": "Riot Platforms",
+      "year": 2026,
+      "venue": "Riot Platforms",
+      "url": "https://www.riotplatforms.com/riot-announces-fee-simple-acquisition-of-land-and-first-data-center-lease-with-amd-at-the-rockdale-site/",
+      "signal": "Riot is converting bitcoin-mining power capacity into AI/HPC leasing, with AMD as an anchor tenant and expansion potential to 200 MW critical IT load.",
+      "map_implication": "The scarce input is buyer-trustable, GPU-ready, power-secured capacity, not only raw megawatts."
+    },
+    {
+      "id": "iren-microsoft-ai-cloud-2025",
+      "title": "IREN signs $9.7 billion agreement with Microsoft to deploy AI cloud infrastructure",
+      "authors": "IREN",
+      "year": 2025,
+      "venue": "IREN",
+      "url": "https://iren.com/resources/blog/iren-signs97-billion-agreement-with-microsoft-to-deploy-ai-cloud-infrastructure",
+      "signal": "Bitcoin-miner-style power assets can convert into hyperscaler AI cloud capacity when they can supply liquid-cooled GPU infrastructure at scale.",
+      "map_implication": "Miner-to-AI conversion should be represented as a supply-side subcategory inside Datacenter, Power & Cooling."
+    },
+    {
+      "id": "gridcare-power-acceleration-2026",
+      "title": "GridCARE speed to power for AI",
+      "authors": "GridCARE",
+      "year": 2026,
+      "venue": "GridCARE",
+      "url": "https://www.gridcare.ai/",
+      "signal": "Power acceleration for AI data centers is becoming software-enabled utility infrastructure rather than generic site brokerage.",
+      "map_implication": "The power-capacity opportunity is partial: utility-side latent-capacity discovery has a visible player, while site diligence and miner conversion remain less standardized."
+    },
+    {
+      "id": "microsoft-agent-365-2026",
+      "title": "Microsoft Agent 365",
+      "authors": "Microsoft",
+      "year": 2026,
+      "venue": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/microsoft-agent-365",
+      "signal": "Microsoft is packaging agent observability, governance, and security into a control plane tied to Microsoft 365 and Microsoft Security.",
+      "map_implication": "Agent governance is being absorbed by platform IAM/security incumbents, which lowers the standalone startup wedge."
+    },
+    {
+      "id": "okta-ai-agents-2026",
+      "title": "Okta for AI Agents",
+      "authors": "Okta",
+      "year": 2026,
+      "venue": "Okta",
+      "url": "https://www.okta.com/products/govern-ai-agent-identity/",
+      "signal": "Agent identity is becoming an enterprise IAM product category: registration, ownership, credential rotation, access policies, and retirement are now first-class controls.",
+      "map_implication": "The agent-permission layer should be marked contested, not open; the remaining white space is cross-vendor action receipts and delegated-intent policy."
+    },
+    {
+      "id": "situational-awareness-counting-ooms",
+      "title": "From GPT-4 to AGI: Counting the OOMs",
+      "authors": "Leopold Aschenbrenner",
+      "year": 2024,
+      "venue": "Situational Awareness",
+      "url": "https://situational-awareness.ai/from-gpt-4-to-agi/",
+      "signal": "Progress is framed as the compound effect of raw compute, algorithmic efficiency, and unhobbling from chatbot to agent.",
+      "map_implication": "The atlas needs separate surfaces for physical compute, model supply, orchestration/runtime, and vertical applications."
+    },
+    {
+      "id": "situational-awareness-trillion-cluster",
+      "title": "Racing to the Trillion-Dollar Cluster",
+      "authors": "Leopold Aschenbrenner",
+      "year": 2024,
+      "venue": "Situational Awareness",
+      "url": "https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/",
+      "signal": "AI buildout is constrained by energized datacenter capacity, power, advanced packaging, HBM, fabs, and other physical supply chains.",
+      "map_implication": "Semiconductor supply, datacenter power, and industrial materials deserve first-class cells, not just tags under compute."
+    },
+    {
+      "id": "situational-awareness-lock-down-labs",
+      "title": "Lock Down the Labs: Security for AGI",
+      "authors": "Leopold Aschenbrenner",
+      "year": 2024,
+      "venue": "Situational Awareness",
+      "url": "https://situational-awareness.ai/lock-down-the-labs/",
+      "signal": "Model weights, algorithmic secrets, hardware supply chains, and datacenter operations become national-security assets as capabilities rise.",
+      "map_implication": "Security/governance should span software policy, weights, people, hardware provenance, and physical datacenter protection."
+    },
+    {
+      "id": "situational-awareness-the-project",
+      "title": "The Project",
+      "authors": "Leopold Aschenbrenner",
+      "year": 2024,
+      "venue": "Situational Awareness",
+      "url": "https://situational-awareness.ai/the-project/",
+      "signal": "The frontier AI stack may become a government-scale mobilization involving labs, clouds, chips, power, and secure facilities.",
+      "map_implication": "Defense/security is a vertical-facing slice across compute, cloud, model labs, governance, and industrial inputs."
+    },
+    {
+      "id": "vllm-pagedattention",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "authors": "Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang & Ion Stoica",
+      "year": 2023,
+      "venue": "SOSP / arXiv",
+      "url": "https://arxiv.org/abs/2309.06180",
+      "signal": "KV-cache management became a first-class serving bottleneck, making inference infra look more like an operating-systems market.",
+      "map_implication": "Serving and routing companies should be judged on memory, batching, latency, and utilization, not just model coverage."
+    },
+    {
+      "id": "agentbench",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "authors": "Xiao Liu et al.",
+      "year": 2023,
+      "venue": "arXiv / ICLR",
+      "url": "https://arxiv.org/abs/2308.03688",
+      "signal": "Agents need multi-turn interactive benchmarks, not only static language tasks.",
+      "map_implication": "Agent runtime winners will need eval loops and environment-specific traces baked in."
+    },
+    {
+      "id": "swe-bench",
+      "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+      "authors": "Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press & Karthik Narasimhan",
+      "year": 2023,
+      "venue": "ICLR / arXiv",
+      "url": "https://arxiv.org/abs/2310.06770",
+      "signal": "Software engineering became a durable, executable benchmark for long-context, multi-file agent work.",
+      "map_implication": "Coding has the clearest eval-to-product bridge; other vertical agents still need similar task suites."
+    },
+    {
+      "id": "ragas",
+      "title": "RAGAS: Automated Evaluation of Retrieval Augmented Generation",
+      "authors": "Shahul Es, Jithin James, Luis Espinosa-Anke & Steven Schockaert",
+      "year": 2023,
+      "venue": "EACL Demo / arXiv",
+      "url": "https://arxiv.org/abs/2309.15217",
+      "signal": "RAG quality decomposes into retrieval relevance, faithfulness, and answer quality.",
+      "map_implication": "Retrieval, eval, and observability are converging into one product surface for enterprise RAG."
+    },
+    {
+      "id": "dspy",
+      "title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+      "authors": "Omar Khattab et al.",
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2310.03714",
+      "signal": "Prompting is being recast as a programmable, optimizable system.",
+      "map_implication": "The orchestration layer may look less like prompt templates and more like compilers, optimizers, and typed programs."
+    },
+    {
+      "id": "model-context-protocol",
+      "title": "Introducing the Model Context Protocol",
+      "authors": "Anthropic",
+      "year": 2024,
+      "venue": "Anthropic",
+      "url": "https://www.anthropic.com/news/model-context-protocol",
+      "signal": "Tool and data integrations are becoming a protocol layer.",
+      "map_implication": "Agent infrastructure will need registries, auth, permissions, and security scanning around tool protocols."
+    },
+    {
+      "id": "agentops-taxonomy",
+      "title": "A Taxonomy of AgentOps for Enabling Observability of Foundation Model based Agents",
+      "authors": "Research paper",
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/html/2411.05285v1",
+      "signal": "AgentOps needs traceable artifacts across the agent production lifecycle.",
+      "map_implication": "Observability for agents is not just logs: it includes tool calls, plans, memory, evaluations, policies, and human review."
+    },
+    {
+      "id": "mcp-security-landscape",
+      "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+      "authors": "Research paper",
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/pdf/2503.23278",
+      "signal": "Protocol standardization creates a new attack surface around tools, servers, clients, and permission boundaries.",
+      "map_implication": "The AI firewall category will move from prompt filters toward tool authorization, runtime policy, and supply-chain security."
+    }
+  ],
+  "sources": [
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI / cs.CL / cs.LG",
+      "type": "preprint server",
+      "url": "https://arxiv.org",
+      "focus": [
+        "agents",
+        "model systems",
+        "evals",
+        "serving"
+      ]
+    },
+    {
+      "id": "mlsys",
+      "name": "MLSys",
+      "type": "systems conference",
+      "url": "https://mlsys.org",
+      "focus": [
+        "training systems",
+        "serving systems",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "sosp-osdi",
+      "name": "SOSP / OSDI",
+      "type": "systems conferences",
+      "url": "https://sigops.org",
+      "focus": [
+        "distributed systems",
+        "memory",
+        "serving"
+      ]
+    },
+    {
+      "id": "neurips",
+      "name": "NeurIPS",
+      "type": "machine learning conference",
+      "url": "https://neurips.cc",
+      "focus": [
+        "models",
+        "benchmarks",
+        "learning systems"
+      ]
+    },
+    {
+      "id": "iclr",
+      "name": "ICLR",
+      "type": "machine learning conference",
+      "url": "https://iclr.cc",
+      "focus": [
+        "agents",
+        "benchmarks",
+        "model methods"
+      ]
+    },
+    {
+      "id": "acl",
+      "name": "ACL Anthology",
+      "type": "NLP venue index",
+      "url": "https://aclanthology.org",
+      "focus": [
+        "language systems",
+        "RAG",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "openreview",
+      "name": "OpenReview",
+      "type": "paper review platform",
+      "url": "https://openreview.net",
+      "focus": [
+        "conference papers",
+        "workshops",
+        "benchmarks"
+      ]
+    },
+    {
+      "id": "official-specs",
+      "name": "Official Specs & SDK Repos",
+      "type": "primary source",
+      "url": "https://github.com",
+      "focus": [
+        "protocols",
+        "SDKs",
+        "runtime behavior"
+      ]
+    },
+    {
+      "id": "situational-awareness",
+      "name": "Situational Awareness",
+      "type": "essay series",
+      "url": "https://situational-awareness.ai",
+      "focus": [
+        "compute scaleup",
+        "datacenter power",
+        "semiconductors",
+        "security",
+        "national security"
+      ]
+    }
+  ]
+}

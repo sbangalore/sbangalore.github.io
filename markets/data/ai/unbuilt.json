@@ -1,0 +1,288 @@
+{
+  "description": "Open AI-infrastructure gaps: ideas visible in papers, protocols, and product pain, but not yet settled as default categories with obvious winners.",
+  "items": [
+    {
+      "id": "agent-permission-layer",
+      "name": "Agent Identity & Permission Layer",
+      "blurb": "A control plane that tells tools what an agent is allowed to do, on whose behalf, with what scope, for how long, and under what audit trail.",
+      "literature": [
+        {
+          "author": "Anthropic",
+          "year": 2024,
+          "work": "Introducing the Model Context Protocol",
+          "venue": "Anthropic"
+        },
+        {
+          "author": "Research paper",
+          "year": 2025,
+          "work": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+          "venue": "arXiv"
+        },
+        {
+          "author": "Okta",
+          "year": 2026,
+          "work": "Okta for AI Agents",
+          "venue": "Okta"
+        },
+        {
+          "author": "Microsoft",
+          "year": 2026,
+          "work": "Microsoft Agent 365",
+          "venue": "Microsoft"
+        },
+        {
+          "author": "WorkOS",
+          "year": 2026,
+          "work": "WorkOS FGA: The authorization layer for AI agents",
+          "venue": "WorkOS"
+        },
+        {
+          "author": "NIST NCCoE",
+          "year": 2026,
+          "work": "Accelerating the Adoption of Software and AI Agent Identity and Authorization",
+          "venue": "NIST NCCoE"
+        }
+      ],
+      "status": "contested",
+      "nearest_attempts": "Okta for AI Agents, Microsoft Agent 365/Entra/Purview/Defender controls, WorkOS Fine-Grained Authorization, OAuth/MCP auth, SPIFFE/SPIRE patterns, and NIST NCCoE agent identity work now cover important slices.",
+      "wall": "Platform vendors own the identity plane and are moving quickly. The unresolved wedge is not basic agent identity; it is cross-vendor delegated intent, signed action receipts, revocation, and audit that survives across IAM systems, MCP servers, browsers, and SaaS tools.",
+      "unlock": "A portable action-receipt and delegated-policy standard that plugs into Okta, Entra, WorkOS, MCP, SIEM, and workflow tools without requiring enterprises to replace their existing IAM stack.",
+      "maps_to": {
+        "segment": "security_governance",
+        "layers": [
+          "orchestration_runtime",
+          "ops_governance"
+        ],
+        "asset_class": "agents"
+      }
+    },
+    {
+      "id": "portable-ai-memory",
+      "name": "Portable Long-Term AI Memory",
+      "blurb": "A user- or enterprise-controlled memory substrate that moves across assistants, agent runtimes, and model providers.",
+      "literature": [
+        {
+          "author": "Shahul Es et al.",
+          "year": 2023,
+          "work": "RAGAS: Automated Evaluation of Retrieval Augmented Generation",
+          "venue": "arXiv / EACL"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "Assistant-specific memories, vector DBs, CRM profiles, browser profiles, and RAG knowledge bases.",
+      "wall": "Memory is identity, privacy, personalization, retrieval, and product lock-in at once. Vendors prefer owning it.",
+      "unlock": "Permissioned memory APIs, provenance, expiration, user editability, and portable schemas that are useful enough for apps to adopt.",
+      "maps_to": {
+        "segment": "retrieval_memory",
+        "layers": [
+          "data_context"
+        ],
+        "asset_class": "agents"
+      }
+    },
+    {
+      "id": "neutral-inference-broker",
+      "name": "Neutral Inference Broker",
+      "blurb": "A broker that routes requests across model providers and self-hosted fleets by price, latency, quality, policy, and data boundary.",
+      "literature": [
+        {
+          "author": "Woosuk Kwon et al.",
+          "year": 2023,
+          "work": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+          "venue": "SOSP / arXiv"
+        }
+      ],
+      "status": "partial",
+      "nearest_attempts": "LiteLLM, Portkey, Helicone, Bedrock, Azure AI Foundry, OpenRouter, and in-house gateways.",
+      "wall": "Routing quality is hard to verify online, enterprise procurement wants fewer vendors, and frontier labs resist becoming interchangeable commodities.",
+      "unlock": "Trusted eval feedback loops, policy-aware routing, spend controls, auditability, and neutral commercial terms across closed and open models.",
+      "maps_to": {
+        "segment": "serving_inference",
+        "layers": [
+          "serving_inference",
+          "ops_governance"
+        ],
+        "asset_class": "enterprise_automation"
+      }
+    },
+    {
+      "id": "vertical-agent-eval-standards",
+      "name": "Vertical Agent Eval Standards",
+      "blurb": "Executable task suites for support, sales, finance, legal, healthcare ops, and back-office agents, analogous to what SWE-bench did for coding.",
+      "literature": [
+        {
+          "author": "Carlos E. Jimenez et al.",
+          "year": 2023,
+          "work": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+          "venue": "ICLR / arXiv"
+        },
+        {
+          "author": "Xiao Liu et al.",
+          "year": 2023,
+          "work": "AgentBench: Evaluating LLMs as Agents",
+          "venue": "arXiv / ICLR"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "SWE-bench for coding, AgentBench for general interactive tasks, customer-specific eval harnesses, and vendor demo benchmarks.",
+      "wall": "Real vertical tasks contain private data, ambiguous success criteria, tool side effects, compliance constraints, and human escalation.",
+      "unlock": "Synthetic but faithful task environments, accepted rubrics, replayable tool traces, and benchmark governance trusted by buyers.",
+      "maps_to": {
+        "segment": "eval_observability",
+        "layers": [
+          "application_layer",
+          "ops_governance"
+        ],
+        "asset_class": "enterprise_automation"
+      }
+    },
+    {
+      "id": "agent-clearinghouse",
+      "name": "Agent Action Clearinghouse",
+      "blurb": "A neutral log and settlement layer for high-risk agent actions: who approved, what ran, what changed, what rolled back.",
+      "literature": [
+        {
+          "author": "Research paper",
+          "year": 2024,
+          "work": "A Taxonomy of AgentOps for Enabling Observability of Foundation Model based Agents",
+          "venue": "arXiv"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "Observability traces, SIEM logs, workflow audit trails, browser session replay, and ITSM approval flows.",
+      "wall": "Agent actions cross tools, identities, policies, and vendors. Each system sees only its own slice.",
+      "unlock": "Cross-tool signed action receipts, replayable traces, approval metadata, reversible operations, and integration with enterprise audit systems.",
+      "maps_to": {
+        "segment": "security_governance",
+        "layers": [
+          "ops_governance"
+        ],
+        "asset_class": "agents"
+      }
+    },
+    {
+      "id": "rag-data-rights-market",
+      "name": "RAG Data Rights & Provenance Market",
+      "blurb": "Infrastructure for licensing, metering, and attributing enterprise or publisher data used inside retrieval and agent systems.",
+      "literature": [
+        {
+          "author": "Shahul Es et al.",
+          "year": 2023,
+          "work": "RAGAS: Automated Evaluation of Retrieval Augmented Generation",
+          "venue": "arXiv / EACL"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "Data marketplaces, publisher licensing deals, vector DB metadata, and internal data catalogs.",
+      "wall": "RAG pulls snippets into workflows, not clean rows into a database. Attribution, freshness, revocation, and per-answer licensing are unresolved.",
+      "unlock": "Provenance-aware retrieval, revocable embeddings, usage metering, and commercial terms that survive chunking, caching, and agent reuse.",
+      "maps_to": {
+        "segment": "data_context",
+        "layers": [
+          "data_context",
+          "ops_governance"
+        ],
+        "asset_class": "rag_search"
+      }
+    },
+    {
+      "id": "ai-power-capacity-broker",
+      "name": "AI Power Capacity Broker",
+      "blurb": "A market and operating layer for matching AI clusters with energized, permitted megawatts, cooling capacity, grid interconnects, and flexible load.",
+      "literature": [
+        {
+          "author": "Leopold Aschenbrenner",
+          "year": 2024,
+          "work": "Racing to the Trillion-Dollar Cluster",
+          "venue": "Situational Awareness"
+        },
+        {
+          "author": "GridCARE",
+          "year": 2025,
+          "work": "PGE and GridCARE accelerate hundreds of megawatts of data center power",
+          "venue": "GridCARE"
+        },
+        {
+          "author": "IREN",
+          "year": 2025,
+          "work": "IREN signs $9.7 billion agreement with Microsoft to deploy AI cloud infrastructure",
+          "venue": "IREN"
+        },
+        {
+          "author": "Riot Platforms",
+          "year": 2026,
+          "work": "Riot announces first data center lease with AMD at Rockdale",
+          "venue": "Riot Platforms"
+        }
+      ],
+      "status": "partial",
+      "nearest_attempts": "GridCARE on utility-side latent capacity and time-to-power; IREN, Core Scientific, TeraWulf, Riot, CleanSpark, Bitfarms/Keel, and Hut 8 on power-rich site conversion; hyperscaler and neocloud procurement desks on bilateral deals.",
+      "wall": "The utility side, miner side, GPU buyer side, and operations side are different markets. Miners often have power and land but must prove liquid cooling, network fabric, SRE, security, and hyperscaler-grade SLAs before large buyers trust the site.",
+      "unlock": "A neutral diligence and brokerage layer for power-rich sites: interconnect status, MW deliverability, cooling retrofit, fiber, network design, GPU-cluster ops readiness, capex path, and buyer-grade SLA certification.",
+      "maps_to": {
+        "segment": "datacenter_power",
+        "layers": [
+          "industrial_inputs",
+          "physical_compute"
+        ],
+        "asset_class": "multi_workload"
+      }
+    },
+    {
+      "id": "ai-supply-chain-risk-index",
+      "name": "AI Supply Chain Risk Index",
+      "blurb": "A neutral index of AI buildout bottlenecks across HBM, CoWoS, EUV, wafers, gases, copper, transformers, cooling, and power equipment.",
+      "literature": [
+        {
+          "author": "Leopold Aschenbrenner",
+          "year": 2024,
+          "work": "Racing to the Trillion-Dollar Cluster",
+          "venue": "Situational Awareness"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "Semiconductor analyst notes, datacenter supply-chain trackers, energy interconnection queues, and bespoke hyperscaler procurement dashboards.",
+      "wall": "The bottleneck moves every few quarters and sits across private procurement contracts, public utilities, geopolitical export controls, and supplier capex plans.",
+      "unlock": "A shared taxonomy, source-weighted indicators, delivery-lag estimates, supplier exposure maps, and rights-cleared data that investors and operators trust.",
+      "maps_to": {
+        "segment": "industrial_materials",
+        "layers": [
+          "industrial_inputs",
+          "ops_governance"
+        ],
+        "asset_class": "multi_workload"
+      }
+    },
+    {
+      "id": "secure-frontier-cluster-ops",
+      "name": "Secure Frontier Cluster Operations",
+      "blurb": "A SCIF-grade operational stack for protecting model weights, algorithmic secrets, datacenter access, developer workflows, and hardware supply chains.",
+      "literature": [
+        {
+          "author": "Leopold Aschenbrenner",
+          "year": 2024,
+          "work": "Lock Down the Labs: Security for AGI",
+          "venue": "Situational Awareness"
+        },
+        {
+          "author": "Leopold Aschenbrenner",
+          "year": 2024,
+          "work": "The Project",
+          "venue": "Situational Awareness"
+        }
+      ],
+      "status": "partial",
+      "nearest_attempts": "Cloud confidential computing, classified facility practices, export controls, model-weight access controls, supply-chain security, and lab-specific security programs.",
+      "wall": "Frontier AI security spans people, weights, source code, datacenters, supply chains, hardware, internal research, and national-security threat models. No ordinary SaaS control plane owns all of that.",
+      "unlock": "Joint cloud/lab/government operating standards for personnel vetting, signed model artifacts, hardware provenance, secure training runs, monitored inference, and physical datacenter protection.",
+      "maps_to": {
+        "segment": "security_governance",
+        "layers": [
+          "industrial_inputs",
+          "ops_governance"
+        ],
+        "asset_class": "multi_workload"
+      }
+    }
+  ]
+}

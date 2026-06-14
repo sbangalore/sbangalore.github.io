@@ -1,0 +1,5004 @@
+[
+  {
+    "id": "1x-technologies",
+    "name": "1X Technologies",
+    "url": "https://www.1x.tech",
+    "blurb": "Humanoid robotics company developing consumer and workplace robots powered by learned autonomy and teleoperation data.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "robotics_embodied",
+      "consumer"
+    ],
+    "region": "emea",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2014,
+    "status": "active",
+    "country": "NO",
+    "tags": [
+      "humanoid robots",
+      "teleoperation",
+      "home robots"
+    ]
+  },
+  {
+    "id": "abridge",
+    "name": "Abridge",
+    "url": "https://www.abridge.com",
+    "blurb": "Generative AI platform for clinical conversations, ambient documentation, and EHR-integrated notes at the point of care.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "voice",
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "healthcare_bio",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ambient scribe",
+      "clinical documentation",
+      "ehr"
+    ]
+  },
+  {
+    "id": "agility-robotics",
+    "name": "Agility Robotics",
+    "url": "https://agilityrobotics.com",
+    "blurb": "Humanoid robot company behind Digit, focused on warehouse, logistics, and industrial labor automation.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision"
+    ],
+    "verticals": [
+      "robotics_embodied",
+      "robotics_manufacturing",
+      "logistics_supply_chain"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2015,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "digit",
+      "warehouse robots",
+      "humanoid labor"
+    ]
+  },
+  {
+    "id": "ambience-healthcare",
+    "name": "Ambience Healthcare",
+    "url": "https://www.ambiencehealthcare.com",
+    "blurb": "AI platform for clinical documentation, coding, referrals, patient summaries, and point-of-care healthcare workflows.",
+    "segment": "app_infra",
+    "layers": [
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "voice",
+      "enterprise_automation",
+      "agents"
+    ],
+    "verticals": [
+      "healthcare_bio",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2020,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ambient ai",
+      "clinical documentation",
+      "coding",
+      "ehr"
+    ]
+  },
+  {
+    "id": "anduril",
+    "name": "Anduril",
+    "url": "https://www.anduril.com",
+    "blurb": "Defense technology company building autonomous systems, sensing, command-and-control software, and AI-enabled defense products.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "defense_security",
+      "robotics_embodied"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "defense autonomy",
+      "drones",
+      "lattice",
+      "autonomous systems"
+    ]
+  },
+  {
+    "id": "archer-aviation",
+    "name": "Archer Aviation",
+    "url": "https://www.archer.com",
+    "blurb": "eVTOL aircraft and air-taxi company focused on electric aircraft certification, operations, and urban air mobility networks.",
+    "segment": "app_infra",
+    "layers": [
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics"
+    ],
+    "verticals": [
+      "evtol_air_mobility",
+      "drones_aerospace"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "evtol",
+      "air taxi",
+      "electric aviation"
+    ]
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "url": "https://aurora.tech",
+    "blurb": "Autonomous trucking and driverless freight company building the Aurora Driver and commercial highway autonomy network.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "autonomous_mobility",
+      "logistics_supply_chain"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "autonomous trucking",
+      "freight",
+      "aurora driver"
+    ]
+  },
+  {
+    "id": "beta-technologies",
+    "name": "BETA Technologies",
+    "url": "https://www.beta.team",
+    "blurb": "Electric aviation company building eVTOL/eCTOL aircraft, charging infrastructure, and advanced air mobility operations.",
+    "segment": "app_infra",
+    "layers": [
+      "industrial_inputs",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics"
+    ],
+    "verticals": [
+      "evtol_air_mobility",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "electric aviation",
+      "charging infrastructure",
+      "advanced air mobility"
+    ]
+  },
+  {
+    "id": "built-robotics",
+    "name": "Built Robotics",
+    "url": "https://www.builtrobotics.com",
+    "blurb": "Autonomous construction equipment company building robotic systems for heavy equipment and solar/energy infrastructure construction.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision"
+    ],
+    "verticals": [
+      "robotics_manufacturing",
+      "construction_real_estate",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "autonomous construction",
+      "heavy equipment",
+      "solar construction"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "blurb": "AI-native coding environment that packages model access, codebase context, agent workflows, and editor UX.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "coding",
+      "agents"
+    ],
+    "region": "global",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "coding agent",
+      "ide",
+      "codebase context"
+    ]
+  },
+  {
+    "id": "dust",
+    "name": "Dust",
+    "url": "https://dust.tt",
+    "blurb": "Enterprise agent platform for building internal assistants over company data and workflows.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "emea",
+    "access": [
+      "gui",
+      "api",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "FR",
+    "tags": [
+      "enterprise agents",
+      "assistants",
+      "workflows"
+    ]
+  },
+  {
+    "id": "exyn",
+    "name": "Exyn Technologies",
+    "url": "https://www.exyn.com",
+    "blurb": "Autonomous aerial robotics and 3D mapping platform for GPS-denied industrial environments such as mining, infrastructure, and construction.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "robotics_manufacturing",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2014,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "gps-denied autonomy",
+      "3d mapping",
+      "mining inspection"
+    ]
+  },
+  {
+    "id": "figure-ai",
+    "name": "Figure AI",
+    "url": "https://www.figure.ai",
+    "blurb": "Humanoid robotics company building general-purpose robots and AI systems for labor in homes and workplaces.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "robotics_embodied",
+      "robotics_manufacturing",
+      "consumer"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "humanoid robots",
+      "general purpose robots",
+      "embodied ai"
+    ]
+  },
+  {
+    "id": "gecko-robotics",
+    "name": "Gecko Robotics",
+    "url": "https://www.geckorobotics.com",
+    "blurb": "Robotics and AI inspection platform for critical infrastructure, power, manufacturing, defense, and industrial asset health.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "robotics_manufacturing",
+      "energy_power",
+      "defense_security",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "inspection robots",
+      "critical infrastructure",
+      "asset health"
+    ]
+  },
+  {
+    "id": "hebbia",
+    "name": "Hebbia",
+    "url": "https://www.hebbia.com",
+    "blurb": "AI platform for finance, legal, and professional-services teams doing high-stakes synthesis across large document sets.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "legal_compliance",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "finance ai",
+      "document intelligence",
+      "investment research"
+    ]
+  },
+  {
+    "id": "hippocratic-ai",
+    "name": "Hippocratic AI",
+    "url": "https://hippocraticai.com",
+    "blurb": "Healthcare generative AI agent platform for patient engagement, care management, intake, scheduling, and non-diagnostic clinical workflows.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "voice",
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "healthcare_bio",
+      "customer_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api",
+      "marketplace"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "healthcare agents",
+      "patient engagement",
+      "voice agents",
+      "safety"
+    ]
+  },
+  {
+    "id": "hudson-labs",
+    "name": "Hudson Labs",
+    "url": "https://www.hudson-labs.com",
+    "blurb": "Finance-specific AI research platform built around filings, transcripts, market intelligence, citations, and investment workflows.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "finance ai",
+      "equity research",
+      "filings",
+      "market intelligence"
+    ]
+  },
+  {
+    "id": "intrinsic",
+    "name": "Intrinsic",
+    "url": "https://www.intrinsic.ai",
+    "blurb": "Alphabet robotics software platform for making industrial robots easier to program, simulate, deploy, and operate.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision"
+    ],
+    "verticals": [
+      "robotics_manufacturing",
+      "robotics_embodied",
+      "simulation_autonomy"
+    ],
+    "region": "global",
+    "access": [
+      "gui",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "industrial robotics",
+      "robot programming",
+      "alphabet"
+    ]
+  },
+  {
+    "id": "joby-aviation",
+    "name": "Joby Aviation",
+    "url": "https://www.jobyaviation.com",
+    "blurb": "eVTOL aircraft and air-taxi company building electric aviation, certification, fleet operations, and advanced air mobility infrastructure.",
+    "segment": "app_infra",
+    "layers": [
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics"
+    ],
+    "verticals": [
+      "evtol_air_mobility",
+      "drones_aerospace"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2009,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "evtol",
+      "air taxi",
+      "advanced air mobility"
+    ]
+  },
+  {
+    "id": "langgraph-platform",
+    "name": "LangGraph Platform",
+    "url": "https://www.langchain.com/langgraph",
+    "blurb": "Deployment and runtime layer for long-running, stateful agent graphs.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "managed_cloud",
+      "self_hosted"
+    ],
+    "cost_tier": "paid",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "stateful agents",
+      "deployment",
+      "graphs"
+    ]
+  },
+  {
+    "id": "merlin",
+    "name": "Merlin",
+    "url": "https://merlinlabs.com",
+    "blurb": "Autonomous flight company building certifiable aviation autonomy and pilot-assist systems for fixed-wing aircraft.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "agents"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "evtol_air_mobility",
+      "defense_security"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "autonomous flight",
+      "certification",
+      "aviation autonomy"
+    ]
+  },
+  {
+    "id": "mujin",
+    "name": "Mujin",
+    "url": "https://www.mujin-corp.com",
+    "blurb": "Intelligent robotics control platform for industrial robots, logistics automation, and robot motion planning.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision"
+    ],
+    "verticals": [
+      "robotics_manufacturing",
+      "logistics_supply_chain"
+    ],
+    "region": "global",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2011,
+    "status": "active",
+    "country": "JP",
+    "tags": [
+      "robot controller",
+      "motion planning",
+      "warehouse automation"
+    ]
+  },
+  {
+    "id": "nabla",
+    "name": "Nabla",
+    "url": "https://www.nabla.com",
+    "blurb": "Ambient AI assistant for clinical documentation, dictation, coding intelligence, and real-time care-team workflows.",
+    "segment": "app_infra",
+    "layers": [
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "voice",
+      "enterprise_automation",
+      "agents"
+    ],
+    "verticals": [
+      "healthcare_bio",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "FR",
+    "tags": [
+      "ambient ai",
+      "clinical notes",
+      "dictation",
+      "coding"
+    ]
+  },
+  {
+    "id": "nuro",
+    "name": "Nuro",
+    "url": "https://www.nuro.ai",
+    "blurb": "Autonomous delivery and goods-movement company building driverless vehicle technology for local commerce and logistics.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "autonomous_mobility",
+      "logistics_supply_chain"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "autonomous delivery",
+      "last mile",
+      "local commerce"
+    ]
+  },
+  {
+    "id": "openevidence",
+    "name": "OpenEvidence",
+    "url": "https://www.openevidence.com",
+    "blurb": "Medical AI search and clinical decision-support product for verified clinicians, grounded in medical literature and guidelines.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "chat",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "healthcare_bio"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "freemium",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "medical search",
+      "clinical decision support",
+      "citations"
+    ]
+  },
+  {
+    "id": "paige-ai",
+    "name": "Paige",
+    "url": "https://www.paige.ai",
+    "blurb": "AI-assisted cancer pathology applications and biomarker AI for diagnostic decision support and pathology workflows.",
+    "segment": "app_infra",
+    "layers": [
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "vision",
+      "science_bio",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "healthcare_bio"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "pathology",
+      "cancer diagnostics",
+      "biomarker ai"
+    ]
+  },
+  {
+    "id": "pathai",
+    "name": "PathAI",
+    "url": "https://www.pathai.com",
+    "blurb": "AI-powered pathology platform and digital pathology infrastructure for diagnostics, biomarker discovery, and lab workflows.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "vision",
+      "science_bio",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "healthcare_bio"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "pathology",
+      "diagnostics",
+      "digital pathology",
+      "biomarkers"
+    ]
+  },
+  {
+    "id": "reliable-robotics",
+    "name": "Reliable Robotics",
+    "url": "https://reliable.co",
+    "blurb": "Autonomous aviation company developing remotely operated and increasingly autonomous flight systems for cargo aircraft.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "agents"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "evtol_air_mobility",
+      "logistics_supply_chain"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "autonomous aviation",
+      "cargo aircraft",
+      "remote operation"
+    ]
+  },
+  {
+    "id": "rogo",
+    "name": "Rogo",
+    "url": "https://rogo.ai",
+    "blurb": "Finance-focused AI platform for research, banker workflows, meeting prep, pitch work, and model-assisted analysis.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "finance ai",
+      "investment banking",
+      "research workflows"
+    ]
+  },
+  {
+    "id": "sanctuary-ai",
+    "name": "Sanctuary AI",
+    "url": "https://www.sanctuary.ai",
+    "blurb": "General-purpose humanoid robotics company building Phoenix robots and cognitive architecture for physical work.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "robotics_embodied",
+      "robotics_manufacturing"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "CA",
+    "tags": [
+      "humanoid robots",
+      "general purpose robots",
+      "phoenix"
+    ]
+  },
+  {
+    "id": "shield-ai",
+    "name": "Shield AI",
+    "url": "https://shield.ai",
+    "blurb": "Defense autonomy company building Hivemind AI pilot software and autonomous aircraft for contested environments.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "defense_security"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2015,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "hivemind",
+      "ai pilot",
+      "autonomous aircraft",
+      "defense"
+    ]
+  },
+  {
+    "id": "skydio",
+    "name": "Skydio",
+    "url": "https://www.skydio.com",
+    "blurb": "Autonomous drone company focused on inspection, public safety, defense, and AI-piloted drone operations.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "defense_security",
+      "robotics_manufacturing"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2014,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "autonomous drones",
+      "inspection",
+      "public safety"
+    ]
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "url": "https://sourcegraph.com/cody",
+    "blurb": "Code intelligence and coding-assistant infrastructure grounded in large-codebase search and context.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "coding",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "gui",
+      "api",
+      "self_hosted"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "coding",
+      "code search",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "tesla-autonomy",
+    "name": "Tesla Autonomy",
+    "url": "https://www.tesla.com/AI",
+    "blurb": "Tesla autonomy stack spanning FSD, fleet data, onboard inference, robotaxi ambitions, and embodied AI work across vehicles and robots.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents",
+      "on_device"
+    ],
+    "verticals": [
+      "autonomous_mobility",
+      "robotics_embodied",
+      "edge_device",
+      "consumer"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2014,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "fsd",
+      "fleet data",
+      "on-device inference",
+      "robotaxi"
+    ]
+  },
+  {
+    "id": "vercel-ai-sdk",
+    "name": "Vercel AI SDK",
+    "url": "https://sdk.vercel.ai",
+    "blurb": "TypeScript toolkit for building AI applications with provider abstraction, streaming UI, tool calls, and agents.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "agents",
+      "coding"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "typescript",
+      "streaming ui",
+      "provider abstraction"
+    ]
+  },
+  {
+    "id": "waabi",
+    "name": "Waabi",
+    "url": "https://waabi.ai",
+    "blurb": "Autonomous trucking company built around AI-first simulation, a virtual-driver system, and trucking autonomy deployment.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "autonomous_mobility",
+      "simulation_autonomy"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "CA",
+    "tags": [
+      "autonomous trucking",
+      "simulation",
+      "virtual driver"
+    ]
+  },
+  {
+    "id": "waymo",
+    "name": "Waymo",
+    "url": "https://waymo.com",
+    "blurb": "Alphabet autonomous-driving company operating commercial robotaxi services and developing driverless vehicle technology, safety cases, and fleet operations.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "autonomous_mobility",
+      "simulation_autonomy"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2009,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "robotaxi",
+      "autonomous driving",
+      "fleet operations",
+      "safety case"
+    ]
+  },
+  {
+    "id": "wisk",
+    "name": "Wisk Aero",
+    "url": "https://wisk.aero",
+    "blurb": "Boeing-backed autonomous eVTOL air-taxi company developing self-flying aircraft and certification path for advanced air mobility.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "agents"
+    ],
+    "verticals": [
+      "evtol_air_mobility",
+      "drones_aerospace"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2019,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "autonomous evtol",
+      "air taxi",
+      "boeing"
+    ]
+  },
+  {
+    "id": "zipline",
+    "name": "Zipline",
+    "url": "https://www.flyzipline.com",
+    "blurb": "Autonomous delivery and logistics company using drones and fleet operations for healthcare, retail, and public-sector delivery.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "healthcare_bio",
+      "logistics_supply_chain"
+    ],
+    "region": "global",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2014,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "drone delivery",
+      "healthcare logistics",
+      "fleet operations"
+    ]
+  },
+  {
+    "id": "zoox",
+    "name": "Zoox",
+    "url": "https://zoox.com",
+    "blurb": "Amazon-owned autonomous mobility company building purpose-built robotaxis, autonomy stack, fleet operations, and rider service infrastructure.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "autonomous_mobility"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2014,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "robotaxi",
+      "purpose-built vehicle",
+      "amazon"
+    ]
+  },
+  {
+    "id": "aws-bedrock",
+    "name": "AWS Bedrock",
+    "url": "https://aws.amazon.com/bedrock/",
+    "blurb": "Managed foundation-model platform inside AWS, with model choice, agents, guardrails, knowledge bases, and enterprise controls.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "orchestration_runtime",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "legal_compliance",
+      "enterprise_ops",
+      "defense_security"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "hyperscaler",
+      "managed models",
+      "guardrails"
+    ]
+  },
+  {
+    "id": "azure-ai",
+    "name": "Azure AI Foundry",
+    "url": "https://azure.microsoft.com/en-us/products/ai-foundry",
+    "blurb": "Microsoft's enterprise AI platform for model access, agent building, evaluation, deployment, and governance.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "model_supply",
+      "orchestration_runtime",
+      "serving_inference",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "software_engineering",
+      "enterprise_ops",
+      "defense_security"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "hyperscaler",
+      "enterprise",
+      "azure"
+    ]
+  },
+  {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "url": "https://www.coreweave.com",
+    "blurb": "GPU-specialized neocloud selling large AI clusters and managed Kubernetes-style infrastructure.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "physical_compute",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "video",
+      "science_bio"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "neocloud",
+      "gpu cloud",
+      "clusters"
+    ]
+  },
+  {
+    "id": "google-vertex-ai",
+    "name": "Google Vertex AI",
+    "url": "https://cloud.google.com/vertex-ai",
+    "blurb": "Google Cloud's managed AI platform for Gemini, model garden, RAG, agents, tuning, deployment, and MLOps.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "serving_inference",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "rag_search",
+      "agents",
+      "multi_modal",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "enterprise_ops",
+      "consumer"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "hyperscaler",
+      "gemini",
+      "mlops"
+    ]
+  },
+  {
+    "id": "lambda",
+    "name": "Lambda",
+    "url": "https://lambda.ai",
+    "blurb": "GPU cloud and workstations focused on ML training and inference workloads.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud",
+      "api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2012,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "gpu cloud",
+      "training",
+      "inference"
+    ]
+  },
+  {
+    "id": "modal",
+    "name": "Modal",
+    "url": "https://modal.com",
+    "blurb": "Serverless compute platform popular for AI jobs, batch inference, fine-tuning, and GPU-backed functions.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "physical_compute",
+      "orchestration_runtime",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "agents",
+      "multi_workload"
+    ],
+    "region": "americas",
+    "access": [
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2021,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "serverless",
+      "batch",
+      "gpu functions"
+    ]
+  },
+  {
+    "id": "runpod",
+    "name": "RunPod",
+    "url": "https://www.runpod.io",
+    "blurb": "Self-serve GPU cloud and serverless GPU platform for training, fine-tuning, and inference.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "physical_compute",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "creative",
+      "video"
+    ],
+    "region": "global",
+    "access": [
+      "managed_cloud",
+      "api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "serverless gpu",
+      "gpu marketplace",
+      "inference"
+    ]
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "url": "https://www.together.ai",
+    "blurb": "AI-native cloud for open-model inference, fine-tuning, batch inference, dedicated endpoints, and accelerated compute.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "physical_compute",
+      "model_supply",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "vision",
+      "video",
+      "audio",
+      "multi_workload"
+    ],
+    "verticals": [
+      "software_engineering",
+      "creative_media",
+      "enterprise_ops",
+      "multi_vertical"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "paid",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "open models",
+      "serverless inference",
+      "fine tuning",
+      "gpu cloud"
+    ]
+  },
+  {
+    "id": "amd",
+    "name": "AMD",
+    "url": "https://www.amd.com",
+    "blurb": "Second-source AI accelerator supplier with Instinct GPUs, ROCm, and growing cloud availability.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "region": "americas",
+    "access": [
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1969,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "gpu",
+      "rocm",
+      "accelerators"
+    ]
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "url": "https://www.cerebras.net",
+    "blurb": "Wafer-scale AI systems and hosted inference/training, positioned around very large chips and fast inference.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "multi_workload"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "managed_cloud"
+    ],
+    "cost_tier": "paid",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "wafer-scale",
+      "inference",
+      "accelerators"
+    ]
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "url": "https://groq.com",
+    "blurb": "LPU inference cloud optimized for low-latency language-model serving.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "chat",
+      "agents",
+      "coding"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "inference",
+      "accelerator",
+      "low latency"
+    ]
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "url": "https://www.nvidia.com",
+    "blurb": "The dominant AI accelerator and systems supplier: GPUs, networking, CUDA, DGX, and full-stack training/inference software.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "vision",
+      "video",
+      "robotics",
+      "science_bio"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1993,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "gpu",
+      "cuda",
+      "networking",
+      "accelerators"
+    ]
+  },
+  {
+    "id": "dronedeploy",
+    "name": "DroneDeploy",
+    "url": "https://www.dronedeploy.com",
+    "blurb": "Reality-capture and drone data platform for construction, energy, agriculture, facilities, and inspection workflows.",
+    "segment": "data_context",
+    "layers": [
+      "data_context",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "vision",
+      "robotics",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "drones_aerospace",
+      "robotics_manufacturing",
+      "energy_power",
+      "construction_real_estate"
+    ],
+    "region": "global",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "drone data",
+      "reality capture",
+      "inspection"
+    ]
+  },
+  {
+    "id": "parallel-domain",
+    "name": "Parallel Domain",
+    "url": "https://paralleldomain.com",
+    "blurb": "Synthetic data and simulation platform for computer vision, autonomous vehicles, robotics, and perception model development.",
+    "segment": "data_context",
+    "layers": [
+      "data_context",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "vision",
+      "robotics",
+      "multi_modal"
+    ],
+    "verticals": [
+      "simulation_autonomy",
+      "autonomous_mobility",
+      "robotics_embodied"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "synthetic data",
+      "simulation",
+      "perception"
+    ]
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "url": "https://scale.com",
+    "blurb": "Data labeling, RLHF, evaluation, and data-engineering services for frontier labs, enterprises, and government users.",
+    "segment": "data_context",
+    "layers": [
+      "data_context",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "vision",
+      "robotics",
+      "enterprise_automation"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "labeling",
+      "rlhf",
+      "data engine"
+    ]
+  },
+  {
+    "id": "snorkel",
+    "name": "Snorkel AI",
+    "url": "https://snorkel.ai",
+    "blurb": "Programmatic data labeling and enterprise data development platform for building AI training and evaluation sets.",
+    "segment": "data_context",
+    "layers": [
+      "data_context",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "enterprise_automation",
+      "rag_search",
+      "multi_workload"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2019,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "programmatic labeling",
+      "data development"
+    ]
+  },
+  {
+    "id": "tempus-ai",
+    "name": "Tempus AI",
+    "url": "https://www.tempus.com",
+    "blurb": "AI-enabled precision medicine platform built around clinical, molecular, genomic, and multimodal healthcare data.",
+    "segment": "data_context",
+    "layers": [
+      "data_context",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "science_bio",
+      "enterprise_automation",
+      "multi_modal"
+    ],
+    "verticals": [
+      "healthcare_bio"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2015,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "precision medicine",
+      "genomics",
+      "clinical data",
+      "oncology"
+    ]
+  },
+  {
+    "id": "unstructured",
+    "name": "Unstructured",
+    "url": "https://unstructured.io",
+    "blurb": "Document parsing and ETL layer for turning PDFs, slides, emails, and enterprise files into model-ready context.",
+    "segment": "data_context",
+    "layers": [
+      "data_context"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "sdk",
+      "open_source"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "document parsing",
+      "etl",
+      "rag"
+    ]
+  },
+  {
+    "id": "bitfarms-keel",
+    "name": "Bitfarms / Keel Infrastructure",
+    "url": "https://bitfarms.com",
+    "blurb": "Bitcoin-mining operator pivoting toward AI/HPC data-center development, including Panther Creek and other power-secured sites.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "CA",
+    "tags": [
+      "bitcoin miner conversion",
+      "hpc development",
+      "panther creek",
+      "power-secured sites"
+    ],
+    "notes": "Partnered with T5 to advance HPC/AI development at Panther Creek and announced a broader pivot toward AI data-center infrastructure."
+  },
+  {
+    "id": "cleanspark",
+    "name": "CleanSpark",
+    "url": "https://www.cleanspark.com",
+    "blurb": "Energy-backed bitcoin miner repositioning as a next-generation data-center developer for AI workloads across a multi-gigawatt U.S. campus portfolio.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1987,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "bitcoin miner conversion",
+      "ai data centers",
+      "energy-backed compute"
+    ]
+  },
+  {
+    "id": "core-scientific",
+    "name": "Core Scientific",
+    "url": "https://corescientific.com",
+    "blurb": "Digital infrastructure operator that converted bitcoin-mining sites into contracted HPC hosting capacity for CoreWeave and other AI workloads.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "bitcoin miner conversion",
+      "hpc hosting",
+      "coreweave",
+      "energized capacity"
+    ],
+    "notes": "A core example of miner-to-HPC conversion: 200 MW plus optioned capacity for CoreWeave-style AI compute hosting."
+  },
+  {
+    "id": "crusoe",
+    "name": "Crusoe",
+    "url": "https://www.crusoe.ai",
+    "blurb": "AI cloud and datacenter operator built around energy-first site selection and large-scale GPU capacity.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ai cloud",
+      "energy",
+      "datacenters",
+      "gpu capacity"
+    ]
+  },
+  {
+    "id": "digital-realty",
+    "name": "Digital Realty",
+    "url": "https://www.digitalrealty.com",
+    "blurb": "Large-scale datacenter real estate and interconnection provider serving cloud, enterprise, and AI infrastructure demand.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2004,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "datacenter real estate",
+      "colocation",
+      "interconnection"
+    ]
+  },
+  {
+    "id": "equix",
+    "name": "Equinix",
+    "url": "https://www.equinix.com",
+    "blurb": "Global datacenter and interconnection platform increasingly exposed to dense AI infrastructure demand.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1998,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "colocation",
+      "interconnection",
+      "datacenters"
+    ]
+  },
+  {
+    "id": "gridcare",
+    "name": "GridCARE",
+    "url": "https://www.gridcare.ai/",
+    "blurb": "AI power-acceleration platform that helps utilities and data-center developers find latent grid capacity and reduce time-to-power for AI infrastructure.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "energy_power",
+      "datacenters_compute"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "time-to-power",
+      "grid capacity",
+      "utilities",
+      "large load interconnection"
+    ],
+    "notes": "Utility-side power acceleration: partnerships with PGE and National Grid point to latent-capacity discovery as a new AI infrastructure category."
+  },
+  {
+    "id": "hut-8",
+    "name": "Hut 8",
+    "url": "https://www.hut8.com",
+    "blurb": "Energy and digital infrastructure platform commercializing large AI data-center campuses while retaining bitcoin-mining heritage and power-market expertise.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "bitcoin miner conversion",
+      "ai data center campus",
+      "beacon point",
+      "power infrastructure"
+    ],
+    "notes": "Commercialized the first phase of a 1 GW Beacon Point AI data-center campus with a long-term 352 MW IT lease announced in 2026."
+  },
+  {
+    "id": "iren",
+    "name": "IREN",
+    "url": "https://iren.com",
+    "blurb": "Former bitcoin-mining-heavy digital infrastructure company now selling AI cloud capacity and liquid-cooled GPU infrastructure from power-secured campuses.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud",
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "AU",
+    "tags": [
+      "bitcoin miner conversion",
+      "gpu cloud",
+      "liquid cooling",
+      "power-secured campus"
+    ],
+    "notes": "Signed a multi-year Microsoft agreement in 2025 to deliver NVIDIA GB300 GPU cloud infrastructure from its Childress, Texas campus."
+  },
+  {
+    "id": "riot-platforms",
+    "name": "Riot Platforms",
+    "url": "https://www.riotplatforms.com",
+    "blurb": "Bitcoin miner and power-rich site operator converting Texas capacity into AI/HPC data-center leasing, with AMD as an anchor tenant at Rockdale.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2000,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "amd lease",
+      "rockdale",
+      "bitcoin miner conversion",
+      "power capacity"
+    ],
+    "notes": "January 2026 AMD data-center lease starts at 25 MW critical IT load with expansion potential up to 200 MW at the Rockdale site."
+  },
+  {
+    "id": "schneider-electric",
+    "name": "Schneider Electric",
+    "url": "https://www.se.com",
+    "blurb": "Electrical distribution, energy management, and datacenter infrastructure supplier for high-density AI facilities.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "energy_power",
+      "datacenters_compute",
+      "materials_industrials"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1836,
+    "status": "active",
+    "country": "FR",
+    "tags": [
+      "power distribution",
+      "energy management",
+      "datacenter infrastructure"
+    ]
+  },
+  {
+    "id": "terawulf",
+    "name": "TeraWulf",
+    "url": "https://www.terawulf.com",
+    "blurb": "Power-secured digital infrastructure operator expanding from bitcoin mining into AI and high-performance-computing data centers.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "hpc campus",
+      "power-secured infrastructure",
+      "bitcoin miner conversion"
+    ],
+    "notes": "Announced a 1+ GW Eastern Kentucky HPC campus in May 2026 and earlier GPU-cluster infrastructure delivery for Core42/G42."
+  },
+  {
+    "id": "vertiv",
+    "name": "Vertiv",
+    "url": "https://www.vertiv.com",
+    "blurb": "Power, thermal management, racks, and infrastructure systems for high-density datacenters.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "energy_power",
+      "materials_industrials"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "cooling",
+      "power distribution",
+      "racks",
+      "thermal"
+    ]
+  },
+  {
+    "id": "applied-intuition",
+    "name": "Applied Intuition",
+    "url": "https://www.appliedintuition.com",
+    "blurb": "Physical AI and autonomy development platform for simulation, vehicle OS, validation, defense autonomy, mining, construction, trucking, and automotive programs.",
+    "segment": "eval_observability",
+    "layers": [
+      "data_context",
+      "eval_observability",
+      "ops_governance",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "multi_modal"
+    ],
+    "verticals": [
+      "simulation_autonomy",
+      "autonomous_mobility",
+      "drones_aerospace",
+      "robotics_embodied",
+      "robotics_manufacturing",
+      "defense_security"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "simulation",
+      "validation",
+      "vehicle os",
+      "physical ai"
+    ]
+  },
+  {
+    "id": "arize-phoenix",
+    "name": "Arize Phoenix",
+    "url": "https://phoenix.arize.com",
+    "blurb": "Open-source observability and eval platform for LLM traces, retrieval analysis, experiments, and monitoring.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "observability",
+      "tracing",
+      "evals"
+    ]
+  },
+  {
+    "id": "braintrust",
+    "name": "Braintrust",
+    "url": "https://www.braintrust.dev",
+    "blurb": "Evaluation, prompt iteration, logging, and data platform for AI product teams shipping LLM systems.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "rag_search",
+      "enterprise_automation",
+      "coding"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "evals",
+      "experiments",
+      "prompt iteration"
+    ]
+  },
+  {
+    "id": "foretellix",
+    "name": "Foretellix",
+    "url": "https://www.foretellix.com",
+    "blurb": "Scenario-based verification and validation platform for automated driving and ADAS safety cases.",
+    "segment": "eval_observability",
+    "layers": [
+      "data_context",
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision"
+    ],
+    "verticals": [
+      "simulation_autonomy",
+      "autonomous_mobility"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "IL",
+    "tags": [
+      "scenario generation",
+      "adas validation",
+      "safety case"
+    ]
+  },
+  {
+    "id": "helicone",
+    "name": "Helicone",
+    "url": "https://www.helicone.ai",
+    "blurb": "Open-source LLM observability and gateway product for logs, costs, latency, caching, and prompt analytics.",
+    "segment": "eval_observability",
+    "layers": [
+      "serving_inference",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "api",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "observability",
+      "gateway",
+      "cost"
+    ]
+  },
+  {
+    "id": "humanloop",
+    "name": "Humanloop",
+    "url": "https://humanloop.com",
+    "blurb": "Prompt management, evals, experimentation, and governance platform for LLM applications.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "emea",
+    "access": [
+      "api",
+      "gui",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2020,
+    "status": "active",
+    "country": "GB",
+    "tags": [
+      "prompt management",
+      "evals",
+      "governance"
+    ]
+  },
+  {
+    "id": "langfuse",
+    "name": "Langfuse",
+    "url": "https://langfuse.com",
+    "blurb": "Open-source LLM engineering platform for tracing, prompt management, evals, datasets, and observability.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "country": "DE",
+    "tags": [
+      "tracing",
+      "evals",
+      "prompt management"
+    ]
+  },
+  {
+    "id": "nvidia-isaac",
+    "name": "NVIDIA Isaac / Omniverse",
+    "url": "https://developer.nvidia.com/isaac",
+    "blurb": "NVIDIA robotics simulation, synthetic-data, digital-twin, and robot-learning stack built around Isaac, Omniverse, and accelerated robotics tooling.",
+    "segment": "eval_observability",
+    "layers": [
+      "data_context",
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "multi_modal"
+    ],
+    "verticals": [
+      "simulation_autonomy",
+      "robotics_embodied",
+      "autonomous_mobility",
+      "robotics_manufacturing"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "isaac sim",
+      "omniverse",
+      "robotics simulation",
+      "synthetic data"
+    ]
+  },
+  {
+    "id": "promptfoo",
+    "name": "promptfoo",
+    "url": "https://www.promptfoo.dev",
+    "blurb": "Open-source testing and red-team framework for prompts, agents, RAG, jailbreaks, and model regressions.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "cli",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "tags": [
+      "testing",
+      "red team",
+      "evals"
+    ]
+  },
+  {
+    "id": "freeport-mcmoran",
+    "name": "Freeport-McMoRan",
+    "url": "https://fcx.com",
+    "blurb": "Copper producer exposed to grid, datacenter, power transmission, and electrification demand from AI buildout.",
+    "segment": "industrial_materials",
+    "layers": [
+      "industrial_inputs"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "materials_industrials",
+      "energy_power",
+      "datacenters_compute"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1987,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "copper",
+      "mining",
+      "grid buildout"
+    ]
+  },
+  {
+    "id": "linde",
+    "name": "Linde",
+    "url": "https://www.linde.com",
+    "blurb": "Industrial gases supplier whose specialty gases and onsite systems feed semiconductor manufacturing and advanced industrial production.",
+    "segment": "industrial_materials",
+    "layers": [
+      "industrial_inputs"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "materials_industrials",
+      "semiconductors"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1879,
+    "status": "active",
+    "country": "IE",
+    "tags": [
+      "industrial gases",
+      "specialty gases",
+      "semiconductor inputs"
+    ]
+  },
+  {
+    "id": "shin-etsu",
+    "name": "Shin-Etsu Chemical",
+    "url": "https://www.shinetsu.co.jp/en/",
+    "blurb": "Major supplier of silicon wafers and specialty materials used in semiconductor manufacturing.",
+    "segment": "industrial_materials",
+    "layers": [
+      "industrial_inputs"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "materials_industrials",
+      "semiconductors"
+    ],
+    "region": "apac",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1926,
+    "status": "active",
+    "country": "JP",
+    "tags": [
+      "silicon wafers",
+      "semiconductor materials",
+      "chemicals"
+    ]
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com",
+    "blurb": "Claude model lab, enterprise API provider, and finance-agent supplier; originated the Model Context Protocol for tool/data integration.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "orchestration_runtime",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "legal_compliance",
+      "software_engineering",
+      "enterprise_ops",
+      "defense_security"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "sdk",
+      "gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2021,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "frontier models",
+      "claude",
+      "mcp"
+    ],
+    "lineage": [
+      {
+        "author": "Anthropic",
+        "year": 2024,
+        "work": "Introducing the Model Context Protocol",
+        "venue": "Anthropic",
+        "url": "https://www.anthropic.com/news/model-context-protocol",
+        "note": "MCP reframed tool/data integrations as a protocol problem rather than bespoke connectors."
+      }
+    ]
+  },
+  {
+    "id": "black-forest-labs",
+    "name": "Black Forest Labs",
+    "url": "https://bfl.ai",
+    "blurb": "Frontier visual-intelligence lab behind FLUX models for image generation, editing, and multimodal creative workflows.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "vision",
+      "creative",
+      "multi_modal"
+    ],
+    "verticals": [
+      "creative_media",
+      "enterprise_ops",
+      "multi_vertical"
+    ],
+    "region": "emea",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2024,
+    "status": "active",
+    "country": "DE",
+    "tags": [
+      "flux",
+      "image generation",
+      "visual intelligence"
+    ]
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "url": "https://cohere.com",
+    "blurb": "Enterprise model platform focused on secure language models, embeddings, retrieval, and private deployments.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "chat",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "enterprise_ops",
+      "legal_compliance"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2019,
+    "status": "active",
+    "country": "CA",
+    "tags": [
+      "enterprise",
+      "embeddings",
+      "rerank"
+    ]
+  },
+  {
+    "id": "covariant",
+    "name": "Covariant",
+    "url": "https://covariant.ai",
+    "blurb": "Robotics AI company building robotic foundation-model software for warehouse automation and manipulation.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents"
+    ],
+    "verticals": [
+      "robotics_embodied",
+      "robotics_manufacturing",
+      "logistics_supply_chain"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "robot foundation model",
+      "warehouse automation",
+      "manipulation"
+    ]
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://api-docs.deepseek.com",
+    "blurb": "Chinese model lab and API provider known for open-weight reasoning and coding models with OpenAI-compatible API access.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents"
+    ],
+    "verticals": [
+      "software_engineering",
+      "enterprise_ops"
+    ],
+    "region": "apac",
+    "access": [
+      "api",
+      "open_source"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "CN",
+    "tags": [
+      "reasoning models",
+      "open weights",
+      "coding"
+    ]
+  },
+  {
+    "id": "evolutionaryscale",
+    "name": "EvolutionaryScale",
+    "url": "https://www.evolutionaryscale.ai",
+    "blurb": "Frontier AI biology lab behind ESM models for protein generation and scientific discovery.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "science_bio",
+      "multi_modal"
+    ],
+    "verticals": [
+      "healthcare_bio",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "open_source"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "biology models",
+      "protein generation",
+      "esm3"
+    ]
+  },
+  {
+    "id": "general-intuition",
+    "name": "General Intuition",
+    "url": "https://www.generalintuition.com",
+    "blurb": "Frontier research lab building foundation models and general agents for deep spatial and temporal reasoning, world models, and video understanding.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "agents",
+      "vision",
+      "video",
+      "robotics",
+      "multi_modal"
+    ],
+    "verticals": [
+      "robotics_manufacturing",
+      "creative_media",
+      "consumer",
+      "multi_vertical"
+    ],
+    "region": "americas",
+    "cost_tier": "enterprise",
+    "founded": 2025,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "world models",
+      "spatial reasoning",
+      "agents",
+      "video understanding"
+    ]
+  },
+  {
+    "id": "google-deepmind",
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google",
+    "blurb": "Frontier AI lab behind Gemini and major research systems across language, multimodal, scientific, and robotics domains.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply"
+    ],
+    "asset_classes": [
+      "chat",
+      "vision",
+      "science_bio",
+      "robotics",
+      "multi_modal"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "managed_cloud",
+      "gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2010,
+    "status": "active",
+    "country": "GB",
+    "tags": [
+      "frontier models",
+      "gemini",
+      "research"
+    ]
+  },
+  {
+    "id": "isomorphic-labs",
+    "name": "Isomorphic Labs",
+    "url": "https://www.isomorphiclabs.com",
+    "blurb": "Alphabet drug-discovery lab building frontier AI and a unified drug design engine on top of and beyond AlphaFold.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "science_bio",
+      "multi_modal"
+    ],
+    "verticals": [
+      "healthcare_bio"
+    ],
+    "region": "emea",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "GB",
+    "tags": [
+      "drug design",
+      "alphafold",
+      "biology models"
+    ]
+  },
+  {
+    "id": "meta-ai",
+    "name": "Meta AI",
+    "url": "https://ai.meta.com",
+    "blurb": "Research lab and open-weight model supplier behind the Llama family.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "multi_modal",
+      "multi_workload"
+    ],
+    "region": "global",
+    "access": [
+      "open_source"
+    ],
+    "cost_tier": "free",
+    "founded": 2013,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "llama",
+      "open weights",
+      "research"
+    ]
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "url": "https://mistral.ai",
+    "blurb": "European model lab offering frontier APIs and open-weight models, with a strong enterprise and sovereignty angle.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "emea",
+    "access": [
+      "api",
+      "open_source",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "FR",
+    "tags": [
+      "open weights",
+      "europe",
+      "frontier models"
+    ]
+  },
+  {
+    "id": "moonshot-kimi",
+    "name": "Moonshot AI / Kimi",
+    "url": "https://www.moonshot.ai",
+    "blurb": "Chinese model lab behind Kimi, with long-context, multimodal, coding, and agent-oriented model products.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "multi_modal"
+    ],
+    "verticals": [
+      "consumer",
+      "software_engineering",
+      "enterprise_ops"
+    ],
+    "region": "apac",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "CN",
+    "tags": [
+      "kimi",
+      "long context",
+      "agents"
+    ]
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com",
+    "blurb": "Frontier model platform spanning text, code, image, audio, realtime, embeddings, agents, and tool use.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "orchestration_runtime",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "voice",
+      "vision",
+      "agents",
+      "multi_modal"
+    ],
+    "verticals": [
+      "finance_trading",
+      "software_engineering",
+      "customer_ops",
+      "enterprise_ops",
+      "consumer"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "sdk",
+      "gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2015,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "frontier models",
+      "agents",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "owkin",
+    "name": "Owkin",
+    "url": "https://www.owkin.com",
+    "blurb": "AI biotech platform working on autonomous AI scientist capabilities, multimodal patient data, precision medicine, and biopharma R&D.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "science_bio",
+      "multi_modal",
+      "agents"
+    ],
+    "verticals": [
+      "healthcare_bio"
+    ],
+    "region": "emea",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "country": "FR",
+    "tags": [
+      "ai scientist",
+      "precision medicine",
+      "drug discovery",
+      "multimodal patient data"
+    ]
+  },
+  {
+    "id": "physical-intelligence",
+    "name": "Physical Intelligence",
+    "url": "https://www.pi.website",
+    "blurb": "Robot foundation-model lab developing learning algorithms for models that can control many robots across tasks.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "orchestration_runtime"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents",
+      "multi_modal"
+    ],
+    "verticals": [
+      "robotics_embodied",
+      "simulation_autonomy"
+    ],
+    "region": "americas",
+    "access": [
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "robot foundation models",
+      "general robot control",
+      "embodied ai"
+    ]
+  },
+  {
+    "id": "qwen",
+    "name": "Qwen / Alibaba",
+    "url": "https://qwen.ai",
+    "blurb": "Alibaba's Qwen model family spanning chat, coding, multimodal, and open-weight releases, distributed through Qwen and Alibaba Cloud.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "vision",
+      "multi_modal",
+      "agents"
+    ],
+    "verticals": [
+      "consumer",
+      "software_engineering",
+      "enterprise_ops"
+    ],
+    "region": "apac",
+    "access": [
+      "api",
+      "open_source",
+      "gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "CN",
+    "tags": [
+      "qwen",
+      "open weights",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "recursion",
+    "name": "Recursion",
+    "url": "https://www.recursion.com",
+    "blurb": "TechBio company using the Recursion OS, large biological datasets, automated experiments, and AI models for drug discovery and development.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "science_bio",
+      "vision",
+      "multi_modal"
+    ],
+    "verticals": [
+      "healthcare_bio"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ai drug discovery",
+      "biology models",
+      "automated experiments"
+    ]
+  },
+  {
+    "id": "reflection-ai",
+    "name": "Reflection AI",
+    "url": "https://reflection.ai",
+    "blurb": "Frontier open-intelligence lab building accessible open models with large-scale pretraining and reinforcement learning.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "multi_workload"
+    ],
+    "verticals": [
+      "software_engineering",
+      "enterprise_ops",
+      "defense_security",
+      "multi_vertical"
+    ],
+    "region": "americas",
+    "cost_tier": "enterprise",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "open intelligence",
+      "open models",
+      "reinforcement learning"
+    ]
+  },
+  {
+    "id": "thinking-machines-lab",
+    "name": "Thinking Machines Lab",
+    "url": "https://thinkingmachines.ai",
+    "blurb": "AI research and product company focused on interaction models and human-AI collaboration.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "agents",
+      "voice",
+      "vision",
+      "multi_modal",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "enterprise_ops",
+      "consumer",
+      "software_engineering",
+      "multi_vertical"
+    ],
+    "region": "americas",
+    "cost_tier": "enterprise",
+    "founded": 2025,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "interaction models",
+      "human-ai collaboration",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "wayve",
+    "name": "Wayve",
+    "url": "https://wayve.ai",
+    "blurb": "Embodied AI company building end-to-end autonomous driving models trained from driving data across vehicles and environments.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "robotics",
+      "vision",
+      "agents",
+      "multi_modal"
+    ],
+    "verticals": [
+      "autonomous_mobility",
+      "robotics_embodied"
+    ],
+    "region": "emea",
+    "access": [
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "GB",
+    "tags": [
+      "end-to-end driving",
+      "embodied ai",
+      "autonomous driving models"
+    ]
+  },
+  {
+    "id": "world-labs",
+    "name": "World Labs",
+    "url": "https://www.worldlabs.ai",
+    "blurb": "Spatial-intelligence lab building frontier models that perceive, generate, reason, and interact with the 3D world.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "vision",
+      "video",
+      "robotics",
+      "creative",
+      "multi_modal"
+    ],
+    "verticals": [
+      "robotics_manufacturing",
+      "creative_media",
+      "edge_device",
+      "multi_vertical"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "spatial intelligence",
+      "world models",
+      "3d generation"
+    ]
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "url": "https://x.ai",
+    "blurb": "Frontier model lab behind Grok, with API access across reasoning, code, voice, image, and video capabilities.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "voice",
+      "vision",
+      "video",
+      "multi_modal"
+    ],
+    "verticals": [
+      "consumer",
+      "software_engineering",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "grok",
+      "frontier models",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "apple-core-ml-mlx",
+    "name": "Apple Core ML / MLX",
+    "url": "https://developer.apple.com/machine-learning/",
+    "blurb": "Apple on-device ML stack spanning Core ML model deployment, Core ML Tools conversion, and MLX for Apple silicon model development and local inference.",
+    "segment": "open_model_ops",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "on_device",
+      "vision",
+      "audio",
+      "chat",
+      "multi_modal"
+    ],
+    "verticals": [
+      "edge_device",
+      "consumer",
+      "software_engineering"
+    ],
+    "region": "global",
+    "access": [
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "core ml",
+      "mlx",
+      "apple silicon",
+      "on-device ml",
+      "local inference"
+    ]
+  },
+  {
+    "id": "google-ai-edge-litert",
+    "name": "Google AI Edge / LiteRT",
+    "url": "https://developers.google.com/edge",
+    "blurb": "Google on-device AI stack for deploying ML and GenAI across Android, iOS, web, desktop, and edge platforms, including LiteRT and MediaPipe.",
+    "segment": "open_model_ops",
+    "layers": [
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "on_device",
+      "vision",
+      "audio",
+      "chat",
+      "multi_modal"
+    ],
+    "verticals": [
+      "edge_device",
+      "consumer",
+      "software_engineering"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "open_source"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "litert",
+      "tensorflow lite",
+      "mediapipe",
+      "android aicore",
+      "on-device ai"
+    ]
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "blurb": "Open model hub, dataset hub, hosted inference, collaboration layer, and distribution backbone for open AI.",
+    "segment": "open_model_ops",
+    "layers": [
+      "model_supply",
+      "data_context",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "chat",
+      "vision",
+      "audio",
+      "creative"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "api",
+      "gui",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2016,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "model hub",
+      "datasets",
+      "spaces"
+    ]
+  },
+  {
+    "id": "llama-cpp",
+    "name": "llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "blurb": "Local LLM inference runtime and quantization ecosystem for running open-weight models on CPUs, GPUs, laptops, phones, and edge devices.",
+    "segment": "open_model_ops",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "on_device",
+      "chat",
+      "coding"
+    ],
+    "verticals": [
+      "edge_device",
+      "consumer",
+      "software_engineering"
+    ],
+    "region": "global",
+    "access": [
+      "cli",
+      "open_source",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "tags": [
+      "local llm",
+      "gguf",
+      "quantization",
+      "cpu inference"
+    ]
+  },
+  {
+    "id": "mlc-llm",
+    "name": "MLC LLM",
+    "url": "https://llm.mlc.ai/",
+    "blurb": "Machine-learning compilation stack for deploying LLMs natively across mobile, browser, desktop, and GPU backends.",
+    "segment": "open_model_ops",
+    "layers": [
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "on_device",
+      "chat",
+      "coding"
+    ],
+    "verticals": [
+      "edge_device",
+      "consumer",
+      "software_engineering"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "open_source"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "tags": [
+      "ml compilation",
+      "webgpu",
+      "mobile llm",
+      "local inference"
+    ]
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "url": "https://ollama.com",
+    "blurb": "Local model runtime and packaging layer that made running open-weight models on laptops and workstations mainstream.",
+    "segment": "open_model_ops",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "on_device"
+    ],
+    "region": "global",
+    "access": [
+      "cli",
+      "open_source"
+    ],
+    "cost_tier": "free",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "local models",
+      "runtime",
+      "open weights"
+    ]
+  },
+  {
+    "id": "pytorch-executorch",
+    "name": "PyTorch ExecuTorch",
+    "url": "https://pytorch.org/projects/executorch/",
+    "blurb": "PyTorch Edge runtime for deploying models on mobile, embedded, wearable, and microcontroller devices with portable on-device inference.",
+    "segment": "open_model_ops",
+    "layers": [
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "on_device",
+      "vision",
+      "audio",
+      "chat",
+      "multi_modal"
+    ],
+    "verticals": [
+      "edge_device",
+      "consumer",
+      "software_engineering",
+      "robotics_embodied"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "open_source"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "executorch",
+      "pytorch edge",
+      "mobile inference",
+      "embedded ai"
+    ]
+  },
+  {
+    "id": "browserbase",
+    "name": "Browserbase",
+    "url": "https://www.browserbase.com",
+    "blurb": "Hosted browser infrastructure for web automation, agent browsing, scraping, and computer-use workflows.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "paid",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "browser use",
+      "automation",
+      "agents"
+    ]
+  },
+  {
+    "id": "composio",
+    "name": "Composio",
+    "url": "https://composio.dev",
+    "blurb": "Tool and integration layer for agents: auth, app connectors, actions, and managed tool execution.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "tool calling",
+      "connectors",
+      "auth"
+    ]
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "url": "https://www.crewai.com",
+    "blurb": "Multi-agent orchestration framework and platform for role-based agent workflows.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "multi-agent",
+      "workflow",
+      "agents"
+    ]
+  },
+  {
+    "id": "dspy",
+    "name": "DSPy",
+    "url": "https://dspy.ai",
+    "blurb": "Programming model for declarative LM pipelines, prompt/program optimization, and maintainable AI systems.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents",
+      "multi_workload"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2023,
+    "status": "active",
+    "tags": [
+      "programming model",
+      "optimization",
+      "prompts"
+    ],
+    "lineage": [
+      {
+        "author": "Omar Khattab et al.",
+        "year": 2023,
+        "work": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+        "venue": "arXiv",
+        "url": "https://arxiv.org/abs/2310.03714",
+        "note": "DSPy made prompt/program optimization feel like a compiler problem."
+      }
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "url": "https://www.langchain.com",
+    "blurb": "Agent/RAG framework and platform spanning chains, tools, LangGraph, LangSmith, deployment, tracing, and evals.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "data_context",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "agents",
+      "rag",
+      "langgraph",
+      "langsmith"
+    ]
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "url": "https://www.llamaindex.ai",
+    "blurb": "Data framework for LLM applications: connectors, indexes, retrieval workflows, agents, and managed cloud services.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "data_context",
+      "orchestration_runtime"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "rag",
+      "connectors",
+      "agents"
+    ]
+  },
+  {
+    "id": "microsoft-autogen",
+    "name": "Microsoft AutoGen",
+    "url": "https://microsoft.github.io/autogen/",
+    "blurb": "Open-source framework for multi-agent conversation, tool use, and agent orchestration.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime"
+    ],
+    "asset_classes": [
+      "agents",
+      "coding",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "multi-agent",
+      "research",
+      "framework"
+    ]
+  },
+  {
+    "id": "model-context-protocol",
+    "name": "Model Context Protocol",
+    "url": "https://modelcontextprotocol.io",
+    "blurb": "Open protocol for connecting AI applications to external tools, data sources, and workflows.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "data_context",
+      "orchestration_runtime",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "coding",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2024,
+    "status": "active",
+    "tags": [
+      "mcp",
+      "tool protocol",
+      "context"
+    ],
+    "lineage": [
+      {
+        "author": "Anthropic",
+        "year": 2024,
+        "work": "Introducing the Model Context Protocol",
+        "venue": "Anthropic",
+        "url": "https://www.anthropic.com/news/model-context-protocol",
+        "note": "The protocol attacks the N x M connector problem for models and tools."
+      }
+    ]
+  },
+  {
+    "id": "openai-agents-sdk",
+    "name": "OpenAI Agents SDK",
+    "url": "https://github.com/openai/openai-agents-python",
+    "blurb": "Provider-agnostic SDK for building agent workflows with handoffs, tools, guardrails, and tracing.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "agents",
+      "coding",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2025,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "agents",
+      "handoffs",
+      "tracing"
+    ]
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma",
+    "url": "https://www.trychroma.com",
+    "blurb": "Open-source embedding database and hosted retrieval layer for AI-native applications.",
+    "segment": "retrieval_memory",
+    "layers": [
+      "data_context"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "embedding database",
+      "rag",
+      "memory"
+    ]
+  },
+  {
+    "id": "neo4j",
+    "name": "Neo4j",
+    "url": "https://neo4j.com",
+    "blurb": "Graph database increasingly used as knowledge-graph context for RAG and agentic systems.",
+    "segment": "retrieval_memory",
+    "layers": [
+      "data_context"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "managed_cloud",
+      "self_hosted",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2007,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "knowledge graph",
+      "graph database",
+      "rag"
+    ]
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "url": "https://www.pinecone.io",
+    "blurb": "Managed vector database for semantic search, RAG, recommendations, and long-context retrieval.",
+    "segment": "retrieval_memory",
+    "layers": [
+      "data_context",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2019,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "vector database",
+      "semantic search",
+      "rag"
+    ]
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "url": "https://weaviate.io",
+    "blurb": "Open-source and managed vector database with hybrid search and RAG-focused developer workflows.",
+    "segment": "retrieval_memory",
+    "layers": [
+      "data_context",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "agents"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2019,
+    "status": "active",
+    "country": "NL",
+    "tags": [
+      "vector database",
+      "hybrid search",
+      "rag"
+    ]
+  },
+  {
+    "id": "zilliz-milvus",
+    "name": "Zilliz / Milvus",
+    "url": "https://milvus.io",
+    "blurb": "Milvus open-source vector database and Zilliz managed cloud for large-scale vector search.",
+    "segment": "retrieval_memory",
+    "layers": [
+      "data_context",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "multi_workload"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "vector database",
+      "milvus",
+      "search"
+    ]
+  },
+  {
+    "id": "giskard",
+    "name": "Giskard",
+    "url": "https://www.giskard.ai",
+    "blurb": "Testing and risk-management platform for AI models, RAG systems, and LLM applications.",
+    "segment": "security_governance",
+    "layers": [
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "region": "emea",
+    "access": [
+      "open_source",
+      "managed_cloud",
+      "sdk"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2021,
+    "status": "active",
+    "country": "FR",
+    "tags": [
+      "testing",
+      "risk",
+      "governance"
+    ]
+  },
+  {
+    "id": "lakera",
+    "name": "Lakera",
+    "url": "https://www.lakera.ai",
+    "blurb": "AI security platform focused on prompt-injection defense, content safety, and application-layer guardrails.",
+    "segment": "security_governance",
+    "layers": [
+      "ops_governance",
+      "orchestration_runtime"
+    ],
+    "asset_classes": [
+      "chat",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "emea",
+    "access": [
+      "api",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "CH",
+    "tags": [
+      "prompt injection",
+      "guardrails",
+      "security"
+    ]
+  },
+  {
+    "id": "microsoft-agent-365",
+    "name": "Microsoft Agent 365",
+    "url": "https://www.microsoft.com/en-us/microsoft-agent-365",
+    "blurb": "Microsoft control plane for observing, governing, and securing AI agents across Microsoft 365 and Microsoft Security controls.",
+    "segment": "security_governance",
+    "layers": [
+      "orchestration_runtime",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "enterprise_ops",
+      "legal_compliance",
+      "defense_security"
+    ],
+    "region": "global",
+    "access": [
+      "gui",
+      "managed_cloud",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2026,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "agent registry",
+      "entra",
+      "purview",
+      "defender",
+      "agent governance"
+    ],
+    "notes": "Build 2026-era Microsoft agent governance surface spanning identity, audit, DLP, and security controls."
+  },
+  {
+    "id": "noma-security",
+    "name": "Noma Security",
+    "url": "https://noma.security",
+    "blurb": "Enterprise AI security posture management for discovering, governing, and securing AI usage across organizations.",
+    "segment": "security_governance",
+    "layers": [
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "enterprise_automation"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "security posture",
+      "governance",
+      "shadow ai"
+    ]
+  },
+  {
+    "id": "okta-ai-agents",
+    "name": "Okta for AI Agents",
+    "url": "https://www.okta.com/products/govern-ai-agent-identity/",
+    "blurb": "Agentic identity governance product for registering agents, assigning ownership, rotating secrets, enforcing granular access, and retiring non-human identities.",
+    "segment": "security_governance",
+    "layers": [
+      "orchestration_runtime",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "enterprise_ops",
+      "legal_compliance",
+      "defense_security"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "gui",
+      "managed_cloud"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2026,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "agent identity",
+      "non-human identity",
+      "permissions",
+      "lifecycle governance"
+    ],
+    "notes": "Generally available April 30, 2026; turns agents into first-class identities inside the Okta governance surface."
+  },
+  {
+    "id": "protect-ai",
+    "name": "Protect AI",
+    "url": "https://protectai.com",
+    "blurb": "AI/ML security platform covering model scanning, supply-chain risk, ML bill of materials, and AI vulnerability management.",
+    "segment": "security_governance",
+    "layers": [
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "enterprise_automation",
+      "multi_workload"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud",
+      "self_hosted",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ai security",
+      "supply chain",
+      "model scanning"
+    ]
+  },
+  {
+    "id": "workos-fga",
+    "name": "WorkOS Fine-Grained Authorization",
+    "url": "https://workos.com/blog/agents-need-authorization-not-just-authentication",
+    "blurb": "Fine-grained authorization layer for AI agents, with resource-scoped permissions and enterprise-ready policy checks for B2B SaaS agent products.",
+    "segment": "security_governance",
+    "layers": [
+      "orchestration_runtime",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "enterprise_ops",
+      "software_engineering",
+      "legal_compliance"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "sdk"
+    ],
+    "cost_tier": "paid",
+    "founded": 2026,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "fine-grained authorization",
+      "agent permissions",
+      "oauth",
+      "mcp"
+    ]
+  },
+  {
+    "id": "applied-materials",
+    "name": "Applied Materials",
+    "url": "https://www.appliedmaterials.com",
+    "blurb": "Semiconductor manufacturing equipment supplier across deposition, inspection, materials engineering, and process control.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1967,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "semicap",
+      "deposition",
+      "process equipment"
+    ]
+  },
+  {
+    "id": "asml",
+    "name": "ASML",
+    "url": "https://www.asml.com",
+    "blurb": "EUV lithography and semiconductor equipment supplier that gates leading-edge chip manufacturing capacity.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "materials_industrials",
+      "defense_security"
+    ],
+    "region": "emea",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1984,
+    "status": "active",
+    "country": "NL",
+    "tags": [
+      "euv",
+      "lithography",
+      "semiconductor equipment"
+    ]
+  },
+  {
+    "id": "micron",
+    "name": "Micron",
+    "url": "https://www.micron.com",
+    "blurb": "Memory and storage manufacturer supplying HBM, DRAM, and NAND for AI servers and accelerators.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "datacenters_compute"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1978,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "hbm",
+      "dram",
+      "memory"
+    ]
+  },
+  {
+    "id": "sk-hynix",
+    "name": "SK hynix",
+    "url": "https://www.skhynix.com",
+    "blurb": "HBM and memory supplier central to AI accelerator throughput and packaging constraints.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "datacenters_compute"
+    ],
+    "region": "apac",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1983,
+    "status": "active",
+    "country": "KR",
+    "tags": [
+      "hbm",
+      "memory",
+      "dram"
+    ]
+  },
+  {
+    "id": "tsmc",
+    "name": "TSMC",
+    "url": "https://www.tsmc.com",
+    "blurb": "Leading-edge foundry and advanced-packaging supplier behind much of the AI accelerator supply chain.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "datacenters_compute",
+      "defense_security"
+    ],
+    "region": "apac",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1987,
+    "status": "active",
+    "country": "TW",
+    "tags": [
+      "foundry",
+      "advanced packaging",
+      "cowos",
+      "leading-edge logic"
+    ]
+  },
+  {
+    "id": "baseten",
+    "name": "Baseten",
+    "url": "https://www.baseten.co",
+    "blurb": "Inference deployment platform for hosting, optimizing, and scaling custom and open models.",
+    "segment": "serving_inference",
+    "layers": [
+      "serving_inference",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "chat",
+      "vision"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "managed_cloud",
+      "self_hosted"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2019,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "deployment",
+      "inference",
+      "model serving"
+    ]
+  },
+  {
+    "id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "url": "https://fireworks.ai",
+    "blurb": "Frontier inference platform for running, tuning, and scaling open and specialized generative AI models in production.",
+    "segment": "serving_inference",
+    "layers": [
+      "serving_inference",
+      "model_supply",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "vision",
+      "multi_workload"
+    ],
+    "verticals": [
+      "software_engineering",
+      "creative_media",
+      "enterprise_ops",
+      "multi_vertical"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "managed_cloud"
+    ],
+    "cost_tier": "paid",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "open models",
+      "inference",
+      "fine tuning",
+      "specialized intelligence"
+    ]
+  },
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "url": "https://www.litellm.ai",
+    "blurb": "Open-source model gateway and proxy for routing requests across many model providers with budgets, keys, and logging.",
+    "segment": "serving_inference",
+    "layers": [
+      "orchestration_runtime",
+      "serving_inference",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "self_hosted",
+      "api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "model gateway",
+      "routing",
+      "proxy"
+    ]
+  },
+  {
+    "id": "onnx-runtime-mobile",
+    "name": "ONNX Runtime Mobile",
+    "url": "https://onnxruntime.ai/",
+    "blurb": "Cross-platform inference runtime with mobile and edge deployment paths for ONNX models across device hardware backends.",
+    "segment": "serving_inference",
+    "layers": [
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "on_device",
+      "vision",
+      "audio",
+      "multi_modal"
+    ],
+    "verticals": [
+      "edge_device",
+      "software_engineering",
+      "consumer"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "open_source"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "onnx",
+      "mobile inference",
+      "edge runtime",
+      "hardware backends"
+    ]
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "blurb": "Unified API and marketplace for accessing hundreds of AI models with routing, fallbacks, provider abstraction, and usage controls.",
+    "segment": "serving_inference",
+    "layers": [
+      "serving_inference",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "multi_modal",
+      "multi_workload"
+    ],
+    "verticals": [
+      "software_engineering",
+      "enterprise_ops",
+      "consumer",
+      "multi_vertical"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "sdk"
+    ],
+    "cost_tier": "paid",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "model router",
+      "unified api",
+      "fallbacks",
+      "model marketplace"
+    ]
+  },
+  {
+    "id": "portkey",
+    "name": "Portkey",
+    "url": "https://portkey.ai",
+    "blurb": "AI gateway for routing, retries, caching, observability, guardrails, and cost controls across model providers.",
+    "segment": "serving_inference",
+    "layers": [
+      "orchestration_runtime",
+      "serving_inference",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "chat",
+      "agents",
+      "enterprise_automation"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ai gateway",
+      "routing",
+      "guardrails"
+    ]
+  },
+  {
+    "id": "qualcomm-ai-hub",
+    "name": "Qualcomm AI Hub",
+    "url": "https://aihub.qualcomm.com/",
+    "blurb": "On-device AI platform for optimizing, validating, profiling, and deploying models on Qualcomm devices and runtimes.",
+    "segment": "serving_inference",
+    "layers": [
+      "physical_compute",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "on_device",
+      "vision",
+      "audio",
+      "chat",
+      "multi_modal"
+    ],
+    "verticals": [
+      "edge_device",
+      "consumer",
+      "robotics_embodied",
+      "drones_aerospace"
+    ],
+    "region": "global",
+    "access": [
+      "sdk",
+      "managed_cloud"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "qualcomm ai stack",
+      "snapdragon",
+      "hexagon npu",
+      "device profiling",
+      "model optimization"
+    ]
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "url": "https://replicate.com",
+    "blurb": "Hosted API and marketplace for running open-source models, especially image, video, and multimodal models.",
+    "segment": "serving_inference",
+    "layers": [
+      "model_supply",
+      "serving_inference",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "creative",
+      "vision",
+      "video",
+      "multi_modal"
+    ],
+    "region": "global",
+    "access": [
+      "api",
+      "marketplace",
+      "managed_cloud"
+    ],
+    "cost_tier": "paid",
+    "founded": 2019,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "model marketplace",
+      "hosted inference",
+      "creative"
+    ]
+  },
+  {
+    "id": "tensorrt-llm",
+    "name": "TensorRT-LLM",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "blurb": "NVIDIA inference optimization stack for compiling and serving LLMs efficiently on NVIDIA GPUs.",
+    "segment": "serving_inference",
+    "layers": [
+      "serving_inference",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "multi_workload"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "self_hosted",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "nvidia",
+      "inference optimization",
+      "serving"
+    ]
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "url": "https://vllm.ai",
+    "blurb": "Open-source LLM serving engine built around PagedAttention, batching, and high-throughput inference.",
+    "segment": "serving_inference",
+    "layers": [
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "chat",
+      "coding",
+      "agents",
+      "multi_workload"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "self_hosted",
+      "api"
+    ],
+    "cost_tier": "free",
+    "data_depth": "runtime",
+    "founded": 2023,
+    "status": "active",
+    "tags": [
+      "pagedattention",
+      "serving",
+      "kv cache"
+    ],
+    "lineage": [
+      {
+        "author": "Woosuk Kwon et al.",
+        "year": 2023,
+        "work": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "venue": "SOSP / arXiv",
+        "url": "https://arxiv.org/abs/2309.06180",
+        "note": "PagedAttention turned KV-cache management into a systems primitive for high-throughput inference."
+      }
+    ]
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "description": "Markets proposed in the academic literature that do not (yet) exist as liquid venues. Status pipeline: unbuilt -> attempted -> embryonic -> built_late. 'built_late' items are kept as calibration: they prove this list is a forward indicator, not a graveyard. Each item names the wall keeping it vacant; per the matrix-cell logic, contingent walls (liquidity bootstrap, regulation, computation) are opportunities, essential walls (one-sided flow, adverse selection) are warnings.",
+  "items": [
+    {
+      "id": "gdp-linked-markets",
+      "name": "GDP-Linked Securities & Macro Markets",
+      "blurb": "Standing markets in claims on national income \u2014 countries issue equity in themselves; investors and firms hedge recession risk directly.",
+      "literature": [
+        {
+          "author": "Robert Shiller",
+          "year": 1993,
+          "work": "Macro Markets: Creating Institutions for Managing Society's Largest Economic Risks",
+          "venue": "Oxford University Press"
+        },
+        {
+          "author": "Mark Kamstra & Robert Shiller",
+          "year": 2009,
+          "work": "The Case for Trills: Pricing the Government's New Debt Instrument"
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "GDP warrants issued in sovereign restructurings (Argentina 2005, Greece 2012, Ukraine 2015) \u2014 one-off, illiquid, litigated.",
+      "wall": "Requires sovereign issuance (governments resist selling upside); index revision risk; thin natural long side outside crises.",
+      "unlock": "A G7 treasury issuing trills as standard debt management, or perp DEXs listing synthetic GDP perps (Hyperliquid's RWA perps are the closest live rail).",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "macro_gdp"
+      }
+    },
+    {
+      "id": "livelihood-insurance",
+      "name": "Lifetime Income / Occupational Hedging Markets",
+      "blurb": "Markets in occupational income indices, letting a software engineer or radiologist hedge the secular decline of their profession.",
+      "literature": [
+        {
+          "author": "Robert Shiller",
+          "year": 1993,
+          "work": "Macro Markets",
+          "venue": "Oxford University Press"
+        },
+        {
+          "author": "Robert Shiller",
+          "year": 2003,
+          "work": "The New Financial Order: Risk in the 21st Century",
+          "venue": "Princeton University Press"
+        }
+      ],
+      "status": "unbuilt",
+      "nearest_attempts": "Nothing tradeable. AI-displacement anxiety has revived the idea in essays but no venue lists occupational income contracts.",
+      "wall": "Moral hazard, index construction (whose income?), decades-long tenor, and everyone wants the same side of the trade.",
+      "unlock": "Credible high-frequency occupational income indices (payroll-data vendors now have the raw material) plus an insurer or event-contract venue willing to warehouse the other side.",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "income_risk"
+      }
+    },
+    {
+      "id": "household-house-price-hedging",
+      "name": "Household House-Price Hedging",
+      "blurb": "Retail-accessible instruments to short your own city's housing index \u2014 insurance for the largest undiversified position most households hold.",
+      "literature": [
+        {
+          "author": "Karl Case, Robert Shiller & Allan Weiss",
+          "year": 1993,
+          "work": "Index-Based Futures and Options Markets in Real Estate",
+          "venue": "Journal of Portfolio Management"
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "CME Case-Shiller housing futures (2006) \u2014 listed into the housing bubble's peak and languished at near-zero volume; home-equity-sharing fintechs hedge the level, not the index.",
+      "wall": "Structurally one-sided: every homeowner is long and wants protection, no natural short of size; heavy basis risk between a metro index and your block.",
+      "unlock": "Event-contract framing (monthly 'will the index print above X' markets) may bootstrap where futures failed \u2014 Kalshi already lists some housing markets; liquidity is the open question.",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "real_estate"
+      }
+    },
+    {
+      "id": "futarchy",
+      "name": "Futarchy / Decision Markets",
+      "blurb": "Governance by conditional markets: trade 'value-if-policy-A' vs 'value-if-policy-B' and enact whichever the market prices higher.",
+      "literature": [
+        {
+          "author": "Robin Hanson",
+          "year": 1999,
+          "work": "Decision Markets",
+          "venue": "IEEE Intelligent Systems"
+        },
+        {
+          "author": "Robin Hanson",
+          "year": 2013,
+          "work": "Shall We Vote on Values, But Bet on Beliefs?",
+          "venue": "Journal of Political Philosophy"
+        },
+        {
+          "author": "Bo Cowgill & Eric Zitzewitz",
+          "year": 2015,
+          "work": "Corporate Prediction Markets: Evidence from Google, Ford, and Firm X",
+          "venue": "Review of Economic Studies",
+          "note": "Internal corporate markets were accurate \u2014 and were abandoned anyway. The wall is political, not informational."
+        }
+      ],
+      "status": "embryonic",
+      "nearest_attempts": "MetaDAO (Solana) runs real futarchy for DAO treasury decisions; corporate internal markets (HP, Google, Ford) worked and were shut down.",
+      "wall": "Conditional markets are thin; conditioning is not causation; and decision-makers dislike institutions that overrule them \u2014 a legitimacy wall, partly essential.",
+      "unlock": "DAO governance is the natural sandbox: decisions are frequent, on-chain, and enforceable by code. Watch whether MetaDAO-style mechanisms survive their first adversarial epoch.",
+      "maps_to": {
+        "segment": "prediction_event",
+        "layers": [
+          "venue_liquidity",
+          "infra_plumbing"
+        ],
+        "asset_class": "prediction_markets"
+      }
+    },
+    {
+      "id": "frequent-batch-auctions",
+      "name": "Frequent Batch Auction Venue",
+      "blurb": "A major exchange that replaces continuous trading with uniform-price auctions every ~100ms, ending the latency arms race by design.",
+      "literature": [
+        {
+          "author": "Eric Budish, Peter Cramton & John Shim",
+          "year": 2015,
+          "work": "The High-Frequency Trading Arms Race: Frequent Batch Auctions as a Market Design Response",
+          "venue": "Quarterly Journal of Economics"
+        }
+      ],
+      "status": "unbuilt",
+      "nearest_attempts": "IEX's speed bump (a cousin, not the design); EBS latency floors; closing auctions prove batch mechanics work at scale once a day.",
+      "wall": "Incumbent venue economics: exchanges monetize the arms race (colocation, proprietary feeds), so the parties who could adopt it profit from its absence \u2014 plus liquidity chicken-and-egg for any entrant.",
+      "unlock": "A crypto or event-contract venue with no legacy colo revenue adopting FBA natively; on-chain block times already quantize trading, making DEXs the most plausible first movers.",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "multi_asset"
+      }
+    },
+    {
+      "id": "combinatorial-markets",
+      "name": "Combinatorial Prediction Markets",
+      "blurb": "Trade any logical combination of events ('Fed cuts AND recession by Q2') against one unified order book over the full joint distribution.",
+      "literature": [
+        {
+          "author": "Robin Hanson",
+          "year": 2003,
+          "work": "Combinatorial Information Market Design",
+          "venue": "Information Systems Frontiers"
+        },
+        {
+          "author": "Yiling Chen, Lance Fortnow, Nicolas Lambert, David Pennock & Jennifer Wortman",
+          "year": 2008,
+          "work": "Complexity of Combinatorial Market Makers",
+          "note": "Pricing general combinatorial markets is #P-hard \u2014 the wall, stated precisely."
+        }
+      ],
+      "status": "unbuilt",
+      "nearest_attempts": "Sportsbook same-game parlays are priced combinatorially but house-banked, not exchange-traded; current event venues list each market independently, leaving cross-market coherence to arbitrageurs.",
+      "wall": "Computation (#P-hard in general) and UX; tractable restricted structures exist in the literature but no venue has shipped them.",
+      "unlock": "Restricted combinatorial structures (trees, small Bayes nets) are tractable per the same literature; an AI-agent-heavy venue is the natural adopter since bots, not humans, would quote the book.",
+      "maps_to": {
+        "segment": "prediction_event",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "prediction_markets"
+      }
+    },
+    {
+      "id": "longevity-market",
+      "name": "Liquid Longevity Risk Market",
+      "blurb": "Standardized, exchange-traded mortality/longevity instruments letting pensions lay off the risk that retirees live longer than expected.",
+      "literature": [
+        {
+          "author": "David Blake & William Burrows",
+          "year": 2001,
+          "work": "Survivor Bonds: Helping to Hedge Mortality Risk",
+          "venue": "Journal of Risk and Insurance"
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "EIB/BNP longevity bond (2004) withdrawn for lack of demand; OTC longevity swaps and q-forwards trade between pensions and reinsurers \u2014 bespoke, illiquid, dealer-bound.",
+      "wall": "One-sided flow again: pensions, annuity writers, and individuals all want the same protection; only reinsurers naturally take the other side, and they prefer bespoke deals.",
+      "unlock": "Capital-markets investors treating longevity as an uncorrelated carry asset class (the cat-bond playbook, which took 15 years to liquefy hurricane risk).",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "longevity"
+      }
+    },
+    {
+      "id": "human-capital-equity",
+      "name": "Human Capital Equity / Income-Share Markets",
+      "blurb": "Equity-like financing of education and careers \u2014 investors fund training for a fraction of future income, with a secondary market in the claims.",
+      "literature": [
+        {
+          "author": "Milton Friedman",
+          "year": 1955,
+          "work": "The Role of Government in Education",
+          "note": "Proposed equity finance for human capital and named the wall in the same essay: 'the analogue of indentured servitude' optics plus adverse selection."
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "Income-share agreements: Purdue's Back-a-Boiler (paused), coding-bootcamp ISAs (collapsed amid regulatory action); no secondary market ever formed.",
+      "wall": "Adverse selection (high earners refuse the deal), servicing costs, and consumer-protection regulation treating ISAs as disguised loans.",
+      "unlock": "Probably arrives, if ever, as pooled/securitized exposure rather than per-person claims \u2014 the same de-personalization that made mortgages tradeable.",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "income_risk"
+      }
+    },
+    {
+      "id": "policy-analysis-market",
+      "name": "Geopolitical / Policy Risk Markets (DARPA PAM)",
+      "blurb": "Markets on geopolitical events and policy outcomes for forecasting and hedging \u2014 the 'terrorism futures' DARPA cancelled in 48 hours of headlines.",
+      "literature": [
+        {
+          "author": "Robin Hanson",
+          "year": 2006,
+          "work": "Designing Real Terrorism Futures",
+          "venue": "Public Choice"
+        }
+      ],
+      "status": "built_late",
+      "nearest_attempts": "Built, ~22 years after cancellation: Kalshi and Polymarket now run deep markets on strikes, ceasefires, elections, and policy decisions, cited by newsrooms as probability sources.",
+      "wall": "Was purely political legitimacy \u2014 which is why it fell the moment venues with their own licenses (rather than a government sponsor) listed the contracts.",
+      "unlock": "Done. Kept here as calibration: the list you are reading is a forward indicator with multi-decade lead times, not a graveyard.",
+      "maps_to": {
+        "segment": "prediction_event",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "prediction_markets"
+      }
+    },
+    {
+      "id": "true-data-markets",
+      "name": "True Exchanges for Data",
+      "blurb": "A real two-sided market where datasets price-discover like commodities, rather than catalog-style stores with posted prices.",
+      "literature": [
+        {
+          "author": "Kenneth Arrow",
+          "year": 1962,
+          "work": "Economic Welfare and the Allocation of Resources for Invention",
+          "note": "The information paradox: a buyer can't value information without receiving it, and having received it, needn't pay \u2014 the essential wall, stated 60 years ago."
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "Ocean Protocol and a decade of 'data marketplace' startups; Nasdaq Data Link is a successful store, which is exactly the point \u2014 stores work, exchanges don't.",
+      "wall": "Likely essential, not contingent: non-rival goods with Arrow's paradox and severe adverse selection resist double-auction price formation. Mirrors the structural matrix cell at Alt Data x Venue.",
+      "unlock": "Possibly none. Included as the control case \u2014 the literature also tells you which empty cells to leave alone.",
+      "maps_to": {
+        "segment": "alt_data",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "multi_asset"
+      }
+    }
+  ]
+}
