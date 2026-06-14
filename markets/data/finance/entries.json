@@ -3331,6 +3331,42 @@
     "country": "US"
   },
   {
+    "id": "reonomy",
+    "name": "Reonomy (Altus Group)",
+    "url": "https://www.altusgroup.com/solutions/reonomy/",
+    "blurb": "Commercial real-estate property and ownership intelligence platform for off-market deal sourcing, entity resolution, and CRE market research.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "acquired",
+    "origin": "CRE ownership is hidden behind LLCs, shell entities, and county records; Reonomy stitched property, ownership, transaction, debt, geospatial, and occupant data into a property-intelligence graph before Altus acquired it in 2021.",
+    "notable": [
+      "Altus acquired Reonomy for $201.5M in 2021",
+      "CRE property and ownership intelligence",
+      "Entity resolution across commercial assets"
+    ],
+    "tags": [
+      "cre",
+      "property intelligence",
+      "ownership data",
+      "off-market sourcing",
+      "entity resolution"
+    ],
+    "country": "US"
+  },
+  {
     "id": "crane-data",
     "name": "Crane Data",
     "url": "https://cranedata.com",
