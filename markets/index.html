@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Instrument+Sans:ital,wght@0,400..800;1,400..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260614-atlas-controls" />
+    <link rel="stylesheet" href="./styles.css?v=20260614-research-ledger" />
   </head>
   <body>
     <a class="skip-link" href="#directoryMain">Skip to directory</a>
@@ -168,6 +168,16 @@
       <section class="literature-shell" data-view-section="research" aria-labelledby="literatureTitle">
         <div class="section-heading">
           <div>
+            <p class="context-label">Research ledger</p>
+            <h2 id="ledgerTitle">Hypothesis, test, update</h2>
+          </div>
+          <p id="ledgerCount" class="section-count"></p>
+        </div>
+        <p id="ledgerDescription" class="section-copy"></p>
+        <div id="ledgerGrid" class="ledger-grid"></div>
+
+        <div class="section-heading">
+          <div>
             <p class="context-label">Literature feed</p>
             <h2 id="literatureTitle">Research feed and paper-to-product lineage</h2>
           </div>
@@ -198,6 +208,6 @@
       <div id="detailRoot"></div>
     </dialog>
 
-    <script src="./app.js?v=mechanisms-1"></script>
+    <script src="./app.js?v=research-ledger-1"></script>
   </body>
 </html>

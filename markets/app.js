@@ -28,6 +28,7 @@ const MAPS = {
       unbuilt: "./data/ai/unbuilt.json",
       literature: "./data/ai/literature.json",
       marketStructure: "./data/ai/market_structure.json",
+      researchLedger: "./data/ai/research_ledger.json",
     },
   },
   finance: {
@@ -59,6 +60,7 @@ const MAPS = {
       unbuilt: "./data/finance/unbuilt.json",
       literature: "./data/finance/literature.json",
       marketStructure: "./data/finance/market_structure.json",
+      researchLedger: "./data/finance/research_ledger.json",
     },
   },
 };
@@ -87,6 +89,7 @@ let entries = [];
 let unbuilt = { items: [] };
 let literature = { sources: [], recent_signals: [] };
 let marketStructure = { markets: [] };
+let researchLedger = { items: [] };
 let lookup = {};
 
 const $ = (id) => document.getElementById(id);
@@ -870,6 +873,65 @@ function renderLiterature() {
     .join("");
 }
 
+function ledgerMatchesState(item) {
+  const mapsTo = item.maps_to || {};
+  if (state.filters.segment.size && !state.filters.segment.has(mapsTo.segment)) return false;
+  if (state.filters.layer.size && !intersects(mapsTo.layers || [], state.filters.layer)) return false;
+  if (state.filters.asset.size && !intersects(mapsTo.asset_classes || [], state.filters.asset)) return false;
+  if (taxonomy.verticals?.length && state.filters.vertical.size && !intersects(mapsTo.verticals || [], state.filters.vertical)) return false;
+  if (!state.query) return true;
+  const blob = [
+    item.problem,
+    item.why_now,
+    item.forecast,
+    item.falsifier,
+    item.cheap_test,
+    item.result,
+    item.belief_update,
+    item.public_artifact,
+    ...(item.prior_art || []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  return blob.includes(state.query.toLowerCase());
+}
+
+function renderResearchLedger() {
+  const items = (researchLedger.items || []).filter(ledgerMatchesState);
+  $("ledgerDescription").textContent = researchLedger.description || "";
+  $("ledgerCount").textContent = `${items.length} ${items.length === 1 ? "loop" : "loops"}`;
+  $("ledgerGrid").innerHTML = items
+    .map((item) => {
+      const mapsTo = item.maps_to || {};
+      const tags = [
+        mapsTo.segment ? badge(itemLabel("segment", mapsTo.segment)) : "",
+        ...(mapsTo.layers || []).slice(0, 2).map((key) => badge(itemLabel("layer", key))),
+        ...(mapsTo.asset_classes || []).slice(0, 2).map((key) => badge(itemLabel("asset", key))),
+        ...(mapsTo.verticals || []).slice(0, 2).map((key) => badge(itemLabel("vertical", key), "badge--vertical")),
+      ].join("");
+      return `
+        <article class="ledger-card">
+          <div class="ledger-card__top">
+            <span class="status-badge">${escapeHtml(item.status || "open")}</span>
+            <strong>${escapeHtml(item.problem)}</strong>
+          </div>
+          <dl>
+            <dt>Why now</dt><dd>${escapeHtml(item.why_now || "")}</dd>
+            <dt>Forecast</dt><dd>${escapeHtml(item.forecast || "")}</dd>
+            <dt>Falsifier</dt><dd>${escapeHtml(item.falsifier || "")}</dd>
+            <dt>Cheap test</dt><dd>${escapeHtml(item.cheap_test || "")}</dd>
+            <dt>Update</dt><dd>${escapeHtml([item.result, item.belief_update].filter(Boolean).join(" "))}</dd>
+          </dl>
+          ${(item.prior_art || []).length ? `<ul>${item.prior_art.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>` : ""}
+          ${item.public_artifact ? `<p class="ledger-card__artifact">${escapeHtml(item.public_artifact)}</p>` : ""}
+          ${tags ? `<div class="badge-row">${tags}</div>` : ""}
+        </article>
+      `;
+    })
+    .join("");
+}
+
 function renderUnbuilt() {
   const items = unbuilt.items || [];
   $("unbuiltDescription").textContent = unbuilt.description || "";
@@ -915,6 +977,7 @@ function renderAll() {
   renderVerticalMaturity();
   renderMarketStructure();
   renderDirectory();
+  renderResearchLedger();
   renderLiterature();
   renderUnbuilt();
   updateViewVisibility();
@@ -1031,12 +1094,13 @@ function bindEvents() {
 
 async function loadActiveDataset() {
   const paths = activeMap().paths;
-  [taxonomy, entries, unbuilt, literature, marketStructure] = await Promise.all([
+  [taxonomy, entries, unbuilt, literature, marketStructure, researchLedger] = await Promise.all([
     loadJson(paths.taxonomy),
     loadJson(paths.entries),
     loadJson(paths.unbuilt),
     loadJson(paths.literature),
     loadJson(paths.marketStructure),
+    loadJson(paths.researchLedger),
   ]);
   buildLookup();
 }

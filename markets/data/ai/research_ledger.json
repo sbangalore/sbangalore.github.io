@@ -1,0 +1,129 @@
+{
+  "description": "A working log for research taste: each row starts with a problem, names the prior art, makes a forecast, defines what would falsify it, and points to the cheapest next test.",
+  "items": [
+    {
+      "id": "cluster-substrate",
+      "status": "updated",
+      "problem": "AI infra maps often jump from GPUs to model serving, skipping the cluster substrate: fabrics, collectives, schedulers, and distributed runtimes.",
+      "why_now": "Bigger training and inference clusters make networking, scheduling, and runtime behavior first-order constraints, not implementation details.",
+      "prior_art": [
+        "Ray and Anyscale expose distributed Python and AI workloads.",
+        "NCCL, InfiniBand, RoCE, Slurm, Run:ai, KubeRay, SkyPilot, Broadcom, and Arista define the practical cluster surface."
+      ],
+      "forecast": "The next useful AI infrastructure map needs explicit cluster substrate entries, but not a new taxonomy axis yet.",
+      "falsifier": "Users still cannot place concrete bottlenecks like all-reduce, GPU allocation, or east-west fabric after the additions.",
+      "cheap_test": "Ask three infra people to classify a failed training run by bottleneck: model, data, scheduler, collective, or fabric.",
+      "result": "Added 12 cluster-substrate entries.",
+      "belief_update": "Better coverage; next gap is workload economics by bottleneck.",
+      "public_artifact": "Atlas data update.",
+      "maps_to": {
+        "segment": "compute_hardware",
+        "layers": [
+          "physical_compute",
+          "orchestration_runtime",
+          "serving_inference"
+        ],
+        "asset_classes": [
+          "multi_workload"
+        ],
+        "verticals": [
+          "datacenters_compute",
+          "software_engineering"
+        ]
+      }
+    },
+    {
+      "id": "miner-to-hpc-underwriting",
+      "status": "live hypothesis",
+      "problem": "Public miners advertise gross MW, but AI buyers and credit funds need critical-IT MW, retrofit cost, delivery risk, and financeability.",
+      "why_now": "AI capacity demand is colliding with bitcoin-mining power campuses, while public filings reveal enough fragments to build named-site derates.",
+      "prior_art": [
+        "Independent Engineer reports and rating-agency diligence exist, but arrive late and are not public.",
+        "SemiAnalysis-style public teardowns show that technical infrastructure research can become a distribution wedge."
+      ],
+      "forecast": "A named public derate, not a generic landing page, is the credibility engine for a paid research wedge.",
+      "falsifier": "Credit funds and capacity buyers say existing IE, broker, and internal engineering workflows already answer the question cheaply.",
+      "cheap_test": "Publish one named teardown and send it to 30 funds, analysts, operators, and technical advisors.",
+      "result": "Open.",
+      "belief_update": "Still attractive, but only if distribution starts before more polishing.",
+      "public_artifact": "Derate #001.",
+      "maps_to": {
+        "segment": "datacenter_power",
+        "layers": [
+          "industrial_inputs",
+          "physical_compute"
+        ],
+        "asset_classes": [
+          "multi_workload"
+        ],
+        "verticals": [
+          "datacenters_compute",
+          "energy_power"
+        ]
+      }
+    },
+    {
+      "id": "eval-observability-taste",
+      "status": "open",
+      "problem": "Most eval products sell dashboards, but the research skill is reading failures, sorting them into piles, and updating the benchmark.",
+      "why_now": "Agent products are leaving demo land, and teams need eval loops that catch regressions, tool misuse, prompt drift, and unsafe actions.",
+      "prior_art": [
+        "LangSmith, Patronus AI, OpenAI tracing, Arize/Phoenix, and Braintrust cover parts of the loop.",
+        "Andrew Ng and Karpathy both emphasize reading raw failures before optimizing metrics."
+      ],
+      "forecast": "The durable wedge is workflow around failure taxonomies and review queues, not another aggregate score.",
+      "falsifier": "Teams will not pay for explicit failure review workflows because they prefer existing observability dashboards and custom spreadsheets.",
+      "cheap_test": "Take 100 failures from one agent workflow, classify them manually, then see whether the top two piles suggest product changes.",
+      "result": "Open.",
+      "belief_update": "Good fit for public writing and small tooling, not yet a standalone startup thesis.",
+      "public_artifact": "Failure-taxonomy post.",
+      "maps_to": {
+        "segment": "eval_observability",
+        "layers": [
+          "eval_observability",
+          "ops_governance"
+        ],
+        "asset_classes": [
+          "agents",
+          "enterprise_automation"
+        ],
+        "verticals": [
+          "enterprise_ops",
+          "software_engineering"
+        ]
+      }
+    },
+    {
+      "id": "edge-odml",
+      "status": "open",
+      "problem": "On-device ML is split across runtimes, chips, operating systems, model formats, app constraints, and distribution channels.",
+      "why_now": "Apple, Google, Qualcomm, PyTorch ExecuTorch, LiteRT, Core ML, MLX, and local LLM tooling are making edge inference a real deployment path.",
+      "prior_art": [
+        "Core ML, MLX, LiteRT, ONNX Runtime Mobile, ExecuTorch, llama.cpp, MLC LLM, and Qualcomm AI Hub.",
+        "Mobile and embedded developers care about latency, battery, privacy, package size, and hardware-specific acceleration."
+      ],
+      "forecast": "The best opportunity is a compatibility/evaluation layer for edge deployment, not another runtime.",
+      "falsifier": "Platform-native tooling solves enough of the workflow that cross-platform edge AI tooling is only useful to consultants.",
+      "cheap_test": "Deploy the same small model across Core ML, LiteRT, ONNX Runtime Mobile, and ExecuTorch; compare latency, size, accuracy drift, and integration pain.",
+      "result": "Open.",
+      "belief_update": "Needs a benchmark artifact before judging opportunity quality.",
+      "public_artifact": "Edge deployment comparison.",
+      "maps_to": {
+        "segment": "open_model_ops",
+        "layers": [
+          "serving_inference",
+          "application_layer"
+        ],
+        "asset_classes": [
+          "on_device",
+          "vision",
+          "chat"
+        ],
+        "verticals": [
+          "edge_device",
+          "consumer"
+        ]
+      }
+    }
+  ]
+}

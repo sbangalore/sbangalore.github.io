@@ -1,0 +1,113 @@
+{
+  "description": "A working log for research taste: each row starts with a problem, names the prior art, makes a forecast, defines what would falsify it, and points to the cheapest next test.",
+  "items": [
+    {
+      "id": "prediction-market-prime-brokerage",
+      "status": "live hypothesis",
+      "problem": "Prediction-market APIs are improving, but professional flow still lacks unified collateral, margin, custody, settlement, and cross-venue risk views.",
+      "why_now": "Kalshi, Polymarket, ForecastEx, IBKR, PMXT, and venue aggregators are making the trading surface legible; the capital layer is now the bottleneck.",
+      "prior_art": [
+        "Crypto followed the same path: CCXT unified APIs before FalconX, Hidden Road, and Coinbase Prime professionalized the capital layer.",
+        "Options became one market only after OCC-style clearing made contracts fungible across venues."
+      ],
+      "forecast": "The first durable wedge is funded-account orchestration plus position, exposure, and resolution-risk monitoring, not full cross-venue clearing.",
+      "falsifier": "Funds say venue-level accounts are fine, or the largest venues ship native portfolio margin and cross-venue reporting before independents gain trust.",
+      "cheap_test": "Interview 10 prediction-market desks and ask what they reconcile daily by spreadsheet: balances, margin, resolution criteria, or venue limits.",
+      "result": "Open.",
+      "belief_update": "Strong until disproven by buyer calls.",
+      "public_artifact": "Atlas opportunity note and target outreach list.",
+      "maps_to": {
+        "segment": "crypto_infra",
+        "layers": [
+          "connectivity_execution",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "prediction_markets"
+        ]
+      }
+    },
+    {
+      "id": "cmbs-collateral-normalization",
+      "status": "open",
+      "problem": "CMBS analysis requires deal waterfalls, loan-level IRP data, property fundamentals, and market pricing, but the workflow remains expensive and specialist-heavy.",
+      "why_now": "CRE stress and refinancing walls make loan-level collateral truth more valuable, while public EDGAR and trustee data are still messy enough to reward normalization.",
+      "prior_art": [
+        "Intex models the waterfall.",
+        "Trepp, CRED iQ, Bloomberg, KBRA, Moody's CRE, CoStar, MSCI-RCA, and Green Street cover pieces of the stack."
+      ],
+      "forecast": "A narrow public-data teardown for one real deal can expose enough edge to support paid collateral surveillance memos.",
+      "falsifier": "The free filings are too incomplete to produce useful property-level variance, or every useful field requires enterprise licenses.",
+      "cheap_test": "Pick one recent public CMBS deal, parse the prospectus and one IRP file, then reconcile top-10 loan DSCR and occupancy against property-market comps.",
+      "result": "Open.",
+      "belief_update": "Worth one deal before any product build.",
+      "public_artifact": "Single-deal teardown.",
+      "maps_to": {
+        "segment": "analytics_research",
+        "layers": [
+          "data_feeds",
+          "analytics_apps"
+        ],
+        "asset_classes": [
+          "securitized",
+          "real_estate"
+        ]
+      }
+    },
+    {
+      "id": "crypto-execution-stack",
+      "status": "updated",
+      "problem": "Crypto execution is not one market: routers, AMMs, perp venues, prime brokers, custody networks, and data surfaces are different adapter shapes.",
+      "why_now": "The atlas had only Talos in Crypto Infrastructure × L2, which hid the institutional execution and prime-brokerage layer.",
+      "prior_art": [
+        "Talos and CoinRoutes are OEMS/SOR layers.",
+        "FalconX, Coinbase Prime, Hidden Road, Copper ClearLoop, and Fireblocks bridge execution with custody, financing, and settlement."
+      ],
+      "forecast": "The best map is not a flat DEX list; it separates quote routers, pool protocols, perp venues, custody networks, and prime brokerage.",
+      "falsifier": "Users cannot explain decisions better with adapter shapes than with ordinary company categories.",
+      "cheap_test": "Use the updated matrix to classify 20 more crypto venues without adding any taxonomy keys.",
+      "result": "Crypto-Native Infrastructure × L2 moved from 1 to 7 entries.",
+      "belief_update": "Framework improved; still needs lending-rate adapters and router/pool coverage.",
+      "public_artifact": "Atlas data update.",
+      "maps_to": {
+        "segment": "crypto_infra",
+        "layers": [
+          "connectivity_execution",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "crypto_spot",
+          "crypto_perp",
+          "crypto_lending"
+        ]
+      }
+    },
+    {
+      "id": "county-real-estate-data-graph",
+      "status": "open",
+      "problem": "Parcel, tax delinquency, title/lien, permits/code, crime, CMBS exposure, and local market comps are fragmented across public agencies and vendors.",
+      "why_now": "Investors and operators want hyperlocal risk screens, but most products stop at parcel or listing data instead of area-level joined decision data.",
+      "prior_art": [
+        "Reonomy, LightBox, Cherre, CompStak, CoStar, Crexi, and county assessor systems each cover fragments.",
+        "CMBS workflows prove the value of linking asset-level facts to financing structures."
+      ],
+      "forecast": "The wedge is not another property database; it is county-level anomaly and diligence packs around distressed or financeable areas.",
+      "falsifier": "County data quality and rights make automated joining too brittle outside a few pilot counties.",
+      "cheap_test": "Build one county pack by hand for parcel + delinquency + liens + permits + crime around 50 properties and measure how many records reconcile cleanly.",
+      "result": "Open.",
+      "belief_update": "High friction, but good research artifact if scoped county-by-county.",
+      "public_artifact": "County data-stack memo.",
+      "maps_to": {
+        "segment": "alt_data",
+        "layers": [
+          "data_feeds",
+          "analytics_apps"
+        ],
+        "asset_classes": [
+          "real_estate",
+          "private_credit"
+        ]
+      }
+    }
+  ]
+}

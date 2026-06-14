@@ -335,7 +335,8 @@
       "coding agent",
       "ide",
       "codebase context"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "dust",
@@ -367,7 +368,8 @@
       "enterprise agents",
       "assistants",
       "workflows"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "exyn",
@@ -675,7 +677,8 @@
       "stateful agents",
       "deployment",
       "graphs"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "merlin",
@@ -1116,7 +1119,8 @@
       "coding",
       "code search",
       "enterprise"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "tesla-autonomy",
@@ -1185,7 +1189,8 @@
       "typescript",
       "streaming ui",
       "provider abstraction"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "waabi",
@@ -1470,7 +1475,8 @@
       "neocloud",
       "gpu cloud",
       "clusters"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "google-vertex-ai",
@@ -1537,7 +1543,8 @@
       "gpu cloud",
       "training",
       "inference"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "modal",
@@ -1567,7 +1574,8 @@
       "serverless",
       "batch",
       "gpu functions"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "runpod",
@@ -1597,7 +1605,8 @@
       "serverless gpu",
       "gpu marketplace",
       "inference"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "together-ai",
@@ -1665,7 +1674,8 @@
       "gpu",
       "rocm",
       "accelerators"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "cerebras",
@@ -1695,7 +1705,8 @@
       "wafer-scale",
       "inference",
       "accelerators"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "groq",
@@ -1725,7 +1736,8 @@
       "inference",
       "accelerator",
       "low latency"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "nvidia",
@@ -1758,7 +1770,8 @@
       "cuda",
       "networking",
       "accelerators"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "dronedeploy",
@@ -1862,7 +1875,8 @@
       "labeling",
       "rlhf",
       "data engine"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "snorkel",
@@ -1891,7 +1905,8 @@
     "tags": [
       "programmatic labeling",
       "data development"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "tempus-ai",
@@ -1955,7 +1970,8 @@
       "document parsing",
       "etl",
       "rag"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "bitfarms-keel",
@@ -2460,7 +2476,8 @@
       "observability",
       "tracing",
       "evals"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "braintrust",
@@ -2492,7 +2509,8 @@
       "evals",
       "experiments",
       "prompt iteration"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "foretellix",
@@ -2557,7 +2575,8 @@
       "observability",
       "gateway",
       "cost"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "humanloop",
@@ -2588,7 +2607,8 @@
       "prompt management",
       "evals",
       "governance"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "langfuse",
@@ -2619,7 +2639,8 @@
       "tracing",
       "evals",
       "prompt management"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "nvidia-isaac",
@@ -2687,7 +2708,8 @@
       "testing",
       "red team",
       "evals"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "freeport-mcmoran",
@@ -3074,7 +3096,8 @@
       "frontier models",
       "gemini",
       "research"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "isomorphic-labs",
@@ -3134,7 +3157,8 @@
       "llama",
       "open weights",
       "research"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "mistral",
@@ -3166,7 +3190,8 @@
       "open weights",
       "europe",
       "frontier models"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "moonshot-kimi",
@@ -3683,7 +3708,8 @@
       "model hub",
       "datasets",
       "spaces"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "llama-cpp",
@@ -3784,7 +3810,8 @@
       "local models",
       "runtime",
       "open weights"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "pytorch-executorch",
@@ -3852,7 +3879,8 @@
       "browser use",
       "automation",
       "agents"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "composio",
@@ -3882,7 +3910,8 @@
       "tool calling",
       "connectors",
       "auth"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "crewai",
@@ -3912,7 +3941,8 @@
       "multi-agent",
       "workflow",
       "agents"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "dspy",
@@ -3951,7 +3981,8 @@
         "url": "https://arxiv.org/abs/2310.03714",
         "note": "DSPy made prompt/program optimization feel like a compiler problem."
       }
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "langchain",
@@ -3984,7 +4015,8 @@
       "rag",
       "langgraph",
       "langsmith"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "llamaindex",
@@ -4015,7 +4047,8 @@
       "rag",
       "connectors",
       "agents"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "microsoft-autogen",
@@ -4044,7 +4077,8 @@
       "multi-agent",
       "research",
       "framework"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "model-context-protocol",
@@ -4084,7 +4118,8 @@
         "url": "https://www.anthropic.com/news/model-context-protocol",
         "note": "The protocol attacks the N x M connector problem for models and tools."
       }
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "openai-agents-sdk",
@@ -4114,7 +4149,8 @@
       "agents",
       "handoffs",
       "tracing"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "chroma",
@@ -4143,7 +4179,8 @@
       "embedding database",
       "rag",
       "memory"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "neo4j",
@@ -4172,7 +4209,8 @@
       "knowledge graph",
       "graph database",
       "rag"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "pinecone",
@@ -4203,7 +4241,8 @@
       "vector database",
       "semantic search",
       "rag"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "weaviate",
@@ -4233,7 +4272,8 @@
       "vector database",
       "hybrid search",
       "rag"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "zilliz-milvus",
@@ -4263,7 +4303,8 @@
       "vector database",
       "milvus",
       "search"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "giskard",
@@ -4293,7 +4334,8 @@
       "testing",
       "risk",
       "governance"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "lakera",
@@ -4323,7 +4365,8 @@
       "prompt injection",
       "guardrails",
       "security"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "microsoft-agent-365",
@@ -4387,7 +4430,8 @@
       "security posture",
       "governance",
       "shadow ai"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "okta-ai-agents",
@@ -4453,7 +4497,8 @@
       "ai security",
       "supply chain",
       "model scanning"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "workos-fga",
@@ -4675,7 +4720,8 @@
       "deployment",
       "inference",
       "model serving"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "fireworks-ai",
@@ -4748,7 +4794,8 @@
       "model gateway",
       "routing",
       "proxy"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "onnx-runtime-mobile",
@@ -4854,7 +4901,8 @@
       "ai gateway",
       "routing",
       "guardrails"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "qualcomm-ai-hub",
@@ -4927,7 +4975,8 @@
       "model marketplace",
       "hosted inference",
       "creative"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "tensorrt-llm",
@@ -4958,7 +5007,8 @@
       "nvidia",
       "inference optimization",
       "serving"
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "vllm",
@@ -4999,7 +5049,8 @@
         "url": "https://arxiv.org/abs/2309.06180",
         "note": "PagedAttention turned KV-cache management into a systems primitive for high-throughput inference."
       }
-    ]
+    ],
+    "verticals": []
   },
   {
     "id": "synopsys",
@@ -5416,6 +5467,427 @@
       "jobsite capture",
       "computer vision",
       "progress tracking"
+    ]
+  },
+  {
+    "id": "ray",
+    "name": "Ray",
+    "url": "https://www.ray.io/",
+    "blurb": "Open-source distributed compute runtime for scaling Python and AI workloads across clusters, including data processing, training, tuning, and serving.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "serving_inference"
+    ],
+    "asset_classes": [
+      "agents",
+      "multi_workload",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "software_engineering",
+      "datacenters_compute",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk",
+      "cli"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "distributed runtime",
+      "cluster orchestration",
+      "training",
+      "serving",
+      "python"
+    ]
+  },
+  {
+    "id": "anyscale",
+    "name": "Anyscale",
+    "url": "https://www.anyscale.com/",
+    "blurb": "Managed Ray platform for production-scale AI workloads, including distributed training, batch inference, embeddings, fine-tuning, and model serving.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "orchestration_runtime",
+      "serving_inference",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "software_engineering",
+      "datacenters_compute",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "managed_cloud",
+      "api",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2019,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ray",
+      "managed compute",
+      "distributed training",
+      "batch inference",
+      "serving"
+    ]
+  },
+  {
+    "id": "nvidia-triton",
+    "name": "NVIDIA Triton Inference Server",
+    "url": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html",
+    "blurb": "Open-source inference server for deploying models from TensorRT, PyTorch, ONNX, OpenVINO, Python, and other backends across cloud, datacenter, edge, and embedded targets.",
+    "segment": "serving_inference",
+    "layers": [
+      "serving_inference",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "vision",
+      "audio",
+      "video",
+      "chat"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "edge_device",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "api",
+      "self_hosted"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "inference server",
+      "model serving",
+      "nvidia",
+      "dynamic batching",
+      "multi-framework"
+    ]
+  },
+  {
+    "id": "nvidia-nccl",
+    "name": "NVIDIA NCCL",
+    "url": "https://developer.nvidia.com/nccl",
+    "blurb": "Collective-communication library implementing optimized multi-GPU and multi-node primitives for distributed training and HPC workloads.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute",
+      "orchestration_runtime"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "semiconductors",
+      "software_engineering"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "collectives",
+      "all-reduce",
+      "distributed training",
+      "gpu communication",
+      "networking"
+    ]
+  },
+  {
+    "id": "nvidia-quantum-infiniband",
+    "name": "NVIDIA Quantum InfiniBand",
+    "url": "https://www.nvidia.com/en-us/networking/products/infiniband/",
+    "blurb": "End-to-end high-performance InfiniBand networking platform for AI, scientific computing, and cloud supercomputing clusters.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "semiconductors",
+      "energy_power"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "infiniband",
+      "mellanox",
+      "rdma",
+      "cluster fabric",
+      "gpu networking"
+    ]
+  },
+  {
+    "id": "nvidia-spectrum-roce",
+    "name": "NVIDIA Spectrum-X / RoCE Ethernet",
+    "url": "https://www.nvidia.com/en-us/networking/spectrumx/",
+    "blurb": "AI Ethernet platform using Spectrum switches, ConnectX SuperNICs, BlueField DPUs, and RoCE networking for hyperscale GPU clusters.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "semiconductors",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "roce",
+      "ethernet fabric",
+      "supernic",
+      "bluefield",
+      "ai networking"
+    ]
+  },
+  {
+    "id": "slurm",
+    "name": "Slurm Workload Manager",
+    "url": "https://slurm.schedmd.com/overview.html",
+    "blurb": "Open-source cluster management and job-scheduling system for Linux HPC and AI clusters, allocating compute nodes and launching distributed jobs.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "science_bio"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "healthcare_bio",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "cli",
+      "self_hosted"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "tags": [
+      "scheduler",
+      "hpc",
+      "cluster management",
+      "batch jobs",
+      "gpu allocation"
+    ]
+  },
+  {
+    "id": "nvidia-run-ai",
+    "name": "NVIDIA Run:ai",
+    "url": "https://www.nvidia.com/en-us/software/run-ai/",
+    "blurb": "Kubernetes-based AI workload management platform for GPU scheduling, resource sharing, utilization, monitoring, and multi-team cluster operations.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "orchestration_runtime",
+      "ops_governance",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "enterprise_ops",
+      "software_engineering"
+    ],
+    "region": "global",
+    "access": [
+      "managed_cloud",
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "acquired",
+    "country": "IL",
+    "tags": [
+      "gpu scheduling",
+      "kubernetes",
+      "cluster management",
+      "utilization",
+      "workload orchestration"
+    ]
+  },
+  {
+    "id": "kuberay",
+    "name": "KubeRay",
+    "url": "https://github.com/ray-project/kuberay",
+    "blurb": "Kubernetes operator for deploying, autoscaling, and managing Ray clusters and Ray applications on Kubernetes.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime"
+    ],
+    "asset_classes": [
+      "agents",
+      "multi_workload",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "software_engineering",
+      "datacenters_compute",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "cli",
+      "self_hosted"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "tags": [
+      "ray",
+      "kubernetes",
+      "operator",
+      "autoscaling",
+      "cluster management"
+    ]
+  },
+  {
+    "id": "skypilot",
+    "name": "SkyPilot",
+    "url": "https://docs.skypilot.co/",
+    "blurb": "Open-source system for running, managing, and scaling AI workloads across clouds, Kubernetes, Slurm clusters, and on-prem infrastructure.",
+    "segment": "orchestration_agents",
+    "layers": [
+      "orchestration_runtime",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload",
+      "agents"
+    ],
+    "verticals": [
+      "software_engineering",
+      "datacenters_compute",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "open_source",
+      "cli",
+      "self_hosted"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "tags": [
+      "multi-cloud",
+      "job launcher",
+      "gpu compute",
+      "kubernetes",
+      "slurm"
+    ]
+  },
+  {
+    "id": "broadcom-ai-networking",
+    "name": "Broadcom AI Networking",
+    "url": "https://www.broadcom.com/products/ethernet-connectivity/switching/strataxgs/bcm78910-series",
+    "blurb": "Ethernet switching silicon for AI scale-up and scale-out fabrics, including Tomahawk and Jericho families optimized for high-bandwidth GPU clusters.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "datacenters_compute"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ethernet switching",
+      "tomahawk",
+      "jericho",
+      "roce",
+      "ai networking"
+    ]
+  },
+  {
+    "id": "arista-ai-networking",
+    "name": "Arista AI Networking",
+    "url": "https://www.arista.com/en/solutions/ai-networking",
+    "blurb": "Ethernet networking platforms and software for AI clusters, from smaller accelerator pods to large multi-tier GPU fabrics.",
+    "segment": "compute_hardware",
+    "layers": [
+      "physical_compute",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute",
+      "enterprise_ops"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ethernet fabric",
+      "ai networking",
+      "switching",
+      "cluster load balancing",
+      "gpu clusters"
     ]
   }
 ]

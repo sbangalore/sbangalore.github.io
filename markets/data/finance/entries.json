@@ -2435,6 +2435,7 @@
     "blurb": "MPC-based custody and transfer network that most institutional crypto desks route through — the plumbing layer between venues.",
     "segment": "crypto_infra",
     "layers": [
+      "connectivity_execution",
       "infra_plumbing"
     ],
     "asset_classes": [
@@ -2452,11 +2453,13 @@
     "tags": [
       "custody",
       "mpc",
-      "settlement network"
+      "settlement network",
+      "off-exchange settlement"
     ],
     "country": "US",
     "market_mechanisms": [
-      "custody_network"
+      "custody_network",
+      "prime_brokerage"
     ],
     "adapter_shapes": [
       "custody_settlement_adapter"
@@ -2529,21 +2532,26 @@
   },
   {
     "id": "coinbase-prime",
-    "name": "Coinbase Prime / Custody",
+    "name": "Coinbase Prime",
     "url": "https://www.coinbase.com/prime",
-    "blurb": "Qualified custodian and prime broker for institutional crypto; custodian for the majority of US spot BTC/ETH ETFs.",
-    "segment": "clearing_custody",
+    "blurb": "Integrated institutional crypto prime brokerage platform spanning custody, trading, financing, staking, and portfolio workflows.",
+    "segment": "crypto_infra",
     "layers": [
       "infra_plumbing",
-      "connectivity_execution"
+      "connectivity_execution",
+      "venue_liquidity"
     ],
     "asset_classes": [
-      "crypto_spot"
+      "crypto_spot",
+      "crypto_perp",
+      "staking_yield",
+      "crypto_lending"
     ],
     "region": "americas",
     "access": [
       "rest_api",
-      "fix"
+      "fix",
+      "terminal_gui"
     ],
     "cost_tier": "enterprise",
     "founded": 2018,
@@ -2555,9 +2563,24 @@
     "tags": [
       "custody",
       "etf",
-      "prime"
+      "exchange",
+      "financing",
+      "prime",
+      "prime brokerage",
+      "staking"
     ],
-    "country": "US"
+    "country": "US",
+    "market_mechanisms": [
+      "prime_brokerage",
+      "custody_network",
+      "clob"
+    ],
+    "adapter_shapes": [
+      "venue_adapter",
+      "custody_settlement_adapter",
+      "portfolio_adapter"
+    ],
+    "origin": "Coinbase bundled exchange, custody, financing, and staking into a single institutional workflow instead of forcing funds to assemble the stack themselves."
   },
   {
     "id": "bitgo",
@@ -4789,7 +4812,7 @@
     "name": "FalconX",
     "url": "https://www.falconx.io",
     "blurb": "Institutional digital-asset prime broker providing liquidity, financing, execution, and risk infrastructure for professional crypto traders.",
-    "segment": "brokers_execution",
+    "segment": "crypto_infra",
     "layers": [
       "connectivity_execution",
       "infra_plumbing",
@@ -4809,7 +4832,8 @@
     "adapter_shapes": [
       "quote_adapter",
       "venue_adapter",
-      "custody_settlement_adapter"
+      "custody_settlement_adapter",
+      "portfolio_adapter"
     ],
     "region": "americas",
     "access": [
@@ -4826,9 +4850,12 @@
       "Institutional liquidity"
     ],
     "tags": [
-      "prime broker",
       "crypto credit",
-      "institutional"
+      "execution",
+      "financing",
+      "institutional",
+      "prime broker",
+      "prime brokerage"
     ],
     "country": "US"
   },
@@ -5081,6 +5108,131 @@
       "inventories",
       "maritime",
       "energy"
+    ]
+  },
+  {
+    "id": "coinroutes",
+    "name": "CoinRoutes",
+    "url": "https://coinroutes.com/",
+    "blurb": "Crypto execution platform for institutional order management, smart order routing, and multi-venue trading across centralized and decentralized liquidity.",
+    "segment": "crypto_infra",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "fix",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "origin": "Crypto liquidity fragmented across venues early; CoinRoutes built the execution layer that normalizes routing, orders, and venue access.",
+    "tags": [
+      "smart order routing",
+      "oems",
+      "execution",
+      "multi-venue"
+    ],
+    "market_mechanisms": [
+      "quote_router",
+      "prime_brokerage"
+    ],
+    "adapter_shapes": [
+      "quote_adapter",
+      "venue_adapter",
+      "portfolio_adapter"
+    ]
+  },
+  {
+    "id": "copper-clearloop",
+    "name": "Copper ClearLoop",
+    "url": "https://copper.co/en/products/clearloop",
+    "blurb": "Off-exchange settlement network that lets institutional traders access exchange liquidity while assets remain in Copper custody.",
+    "segment": "crypto_infra",
+    "layers": [
+      "connectivity_execution",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "GB",
+    "origin": "After FTX, the institutional ask was simple: trade on venues without leaving collateral exposed on venues. ClearLoop made that a network product.",
+    "tags": [
+      "off-exchange settlement",
+      "custody",
+      "counterparty risk",
+      "institutional"
+    ],
+    "market_mechanisms": [
+      "custody_network",
+      "prime_brokerage"
+    ],
+    "adapter_shapes": [
+      "custody_settlement_adapter",
+      "venue_adapter"
+    ]
+  },
+  {
+    "id": "hidden-road",
+    "name": "Hidden Road / Ripple Prime",
+    "url": "https://ripple.com/solutions/prime-brokerage/",
+    "blurb": "Multi-asset prime brokerage and credit network with digital-asset clearing, financing, margin, swaps, and institutional prime services.",
+    "segment": "crypto_infra",
+    "layers": [
+      "connectivity_execution",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "crypto_spot",
+      "crypto_perp",
+      "crypto_options",
+      "crypto_lending",
+      "fx",
+      "rates_fixed_income"
+    ],
+    "region": "global",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "acquired",
+    "country": "GB",
+    "origin": "Hidden Road is the clearest bridge from traditional prime brokerage into digital assets: credit intermediation, margin, swaps, and clearing rather than just exchange connectivity.",
+    "tags": [
+      "prime brokerage",
+      "credit network",
+      "margin",
+      "financing",
+      "digital assets"
+    ],
+    "market_mechanisms": [
+      "prime_brokerage",
+      "rfq",
+      "custody_network"
+    ],
+    "adapter_shapes": [
+      "portfolio_adapter",
+      "custody_settlement_adapter",
+      "venue_adapter"
     ]
   }
 ]

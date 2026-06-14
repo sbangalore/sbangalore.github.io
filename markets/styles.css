@@ -1168,7 +1168,8 @@ button.cell:active {
 }
 
 .source-list,
-.paper-feed {
+.paper-feed,
+.ledger-grid {
   display: grid;
   gap: var(--space-2);
   align-content: start;
@@ -1176,6 +1177,7 @@ button.cell:active {
 
 .source-card,
 .paper-card,
+.ledger-card,
 .unbuilt-card {
   border: 1px solid var(--rule);
   border-radius: var(--radius);
@@ -1225,6 +1227,56 @@ button.cell:active {
   display: block;
   max-width: 72ch;
   font-style: normal;
+}
+
+.ledger-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-bottom: var(--space-6);
+}
+
+.ledger-card {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.ledger-card__top {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.ledger-card__top strong {
+  font-size: 1rem;
+  line-height: 1.32;
+}
+
+.ledger-card dl {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+}
+
+.ledger-card dt {
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+}
+
+.ledger-card dd,
+.ledger-card li,
+.ledger-card__artifact {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.45;
+}
+
+.ledger-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.ledger-card__artifact {
+  border-left: 2px solid var(--accent);
+  padding-left: var(--space-2);
 }
 
 .unbuilt-card {
