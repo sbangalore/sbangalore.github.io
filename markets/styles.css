@@ -105,12 +105,16 @@ main,
   padding: var(--space-6) 0 var(--space-5);
 }
 
-.topbar::before {
-  content: "Sean Bangalore";
+.brand-link {
   grid-column: 1 / -1;
   width: fit-content;
   color: var(--text);
   font-weight: 800;
+  text-decoration: none;
+}
+
+.brand-link:hover {
+  color: var(--accent);
 }
 
 .topbar__side {
