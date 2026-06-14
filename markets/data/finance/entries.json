@@ -916,13 +916,15 @@
     "id": "bloomberg-bpipe",
     "name": "Bloomberg B-PIPE",
     "url": "https://www.bloomberg.com/professional/products/data/enterprise-catalog/",
-    "blurb": "Bloomberg's enterprise market-data feed — the Terminal's data firehose sold for programmatic consumption.",
+    "blurb": "Bloomberg's enterprise market-data feed — the Terminal's data firehose sold for programmatic consumption, including rates, credit, securitized, and CMBS pricing surfaces.",
     "segment": "market_data",
     "layers": [
       "data_feeds"
     ],
     "asset_classes": [
-      "multi_asset"
+      "multi_asset",
+      "rates_fixed_income",
+      "securitized"
     ],
     "region": "americas",
     "access": [
@@ -935,7 +937,10 @@
     "tags": [
       "enterprise",
       "feed",
-      "blpapi"
+      "blpapi",
+      "cmbs",
+      "securitized",
+      "pricing"
     ],
     "country": "US"
   },
@@ -1321,14 +1326,16 @@
     "id": "bloomberg-terminal",
     "name": "Bloomberg Terminal",
     "url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
-    "blurb": "The default institutional workstation since the 1980s — data, analytics, news, and the IB chat network that is its real moat.",
+    "blurb": "The default institutional workstation since the 1980s — data, analytics, news, CMBS functions, dealer marks, CMBX screens, and the IB chat network that is its real moat.",
     "segment": "analytics_research",
     "layers": [
       "analytics_apps",
       "data_feeds"
     ],
     "asset_classes": [
-      "multi_asset"
+      "multi_asset",
+      "rates_fixed_income",
+      "securitized"
     ],
     "region": "americas",
     "access": [
@@ -1347,7 +1354,11 @@
     "tags": [
       "terminal",
       "institutional",
-      "moat"
+      "moat",
+      "cmbs",
+      "cmbx",
+      "trace",
+      "dealer marks"
     ],
     "country": "US"
   },
@@ -2625,7 +2636,7 @@
     "id": "msci",
     "name": "MSCI",
     "url": "https://www.msci.com",
-    "blurb": "Global equity index family (EM, World, ACWI) plus risk analytics (Barra); index inclusion decisions move billions in flows.",
+    "blurb": "Global equity index family (EM, World, ACWI), Barra risk analytics, and real-estate transaction intelligence via Real Capital Analytics; index inclusion decisions move billions in flows.",
     "segment": "indices_benchmarks",
     "layers": [
       "data_feeds",
@@ -2648,7 +2659,10 @@
       "em",
       "benchmark",
       "barra",
-      "flows"
+      "flows",
+      "real capital analytics",
+      "rca",
+      "cre comps"
     ],
     "country": "US"
   },
@@ -3208,6 +3222,170 @@
       "cre",
       "delinquency",
       "surveillance"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "crefc-irp",
+    "name": "CREFC Investor Reporting Package",
+    "url": "https://www.crefc.org/cre/cre/content/learn/irp/irp-home.aspx",
+    "blurb": "The standardized CMBS investor-reporting package: loan, property, bond, and deal-level monthly reporting formats used across commercial mortgage securitizations.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "securitized",
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file"
+    ],
+    "cost_tier": "free",
+    "status": "active",
+    "origin": "CMBS is unusually analyzable because servicers report through a standard package; the IRP is the schema that lets loan, property, bond, and deal fields travel from trustee portals into Trepp, Intex, and investor models.",
+    "notable": [
+      "Loan, property, bond, and deal-level reporting",
+      "Versioned industry standard maintained by CREFC",
+      "Source format behind many normalized CMBS datasets"
+    ],
+    "tags": [
+      "cmbs",
+      "crefc",
+      "irp",
+      "loan level",
+      "servicer reporting",
+      "trustee data"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "cred-iq",
+    "name": "CRED iQ",
+    "url": "https://www.cred-iq.com",
+    "blurb": "CRE debt and CMBS surveillance platform for loan-level data, property search, valuation, refinance models, comps, and portfolio monitoring.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "securitized",
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "Sits between raw CMBS trustee files and analyst workflow: normalize loan/property data, layer valuation and refinance assumptions, then expose surveillance screens for CRE credit investors.",
+    "tags": [
+      "cmbs",
+      "cre debt",
+      "loan surveillance",
+      "valuation",
+      "refinance risk",
+      "property search"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "kbra-credit-profile",
+    "name": "KBRA Credit Profile",
+    "url": "https://www.kbra.com/analytics/products/kcp",
+    "blurb": "KBRA Analytics' monthly CMBS and CRE CLO surveillance platform, paired with KBRA ratings, publications, and credit research.",
+    "segment": "analytics_research",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "securitized",
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "Rating agencies are also surveillance vendors: KCP packages the monthly CMBS monitoring layer that investors use to compare deal performance, watchlist migration, and credit deterioration.",
+    "tags": [
+      "cmbs",
+      "cre clo",
+      "ratings",
+      "surveillance",
+      "kbra",
+      "credit profile"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "moodys-cre-reis",
+    "name": "Moody's CRE / Reis",
+    "url": "https://www.moodys.com",
+    "blurb": "Commercial real-estate market, property, and credit analytics from Moody's, including the Reis market-fundamentals lineage used in CRE and CMBS underwriting.",
+    "segment": "analytics_research",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate",
+      "securitized"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "CMBS loan assumptions need property-market context; Moody's CRE/Reis supplies market fundamentals, credit analytics, and rating-agency surveillance around rent, vacancy, cap-rate, and refinance stress.",
+    "tags": [
+      "cre",
+      "reis",
+      "cmbs",
+      "ratings",
+      "market fundamentals",
+      "surveillance"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "cmbx",
+    "name": "CMBX",
+    "url": "https://www.spglobal.com/spdji/en/landing/topic/cmbx/",
+    "blurb": "Synthetic tradable index family referencing baskets of 25 commercial mortgage-backed securities, used for CMBS hedging, pricing, and relative-value views.",
+    "segment": "indices_benchmarks",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "securitized",
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "CMBX makes CMBS market sentiment tradable: instead of sourcing bonds one by one, investors can buy or short standardized synthetic exposure by vintage and rating bucket.",
+    "tags": [
+      "cmbs",
+      "cmbx",
+      "synthetic index",
+      "credit index",
+      "hedging",
+      "relative value"
     ],
     "country": "US"
   },
