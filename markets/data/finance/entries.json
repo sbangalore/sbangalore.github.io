@@ -4831,5 +4831,256 @@
       "institutional"
     ],
     "country": "US"
+  },
+  {
+    "id": "ficc-gsd",
+    "name": "FICC Government Securities Division",
+    "url": "https://www.dtcc.com/about/businesses-and-subsidiaries/ficc",
+    "blurb": "DTCC's central clearing and netting utility for US government securities and repo, including Treasuries, agencies, and GCF-style financing flows.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing",
+      "venue_liquidity"
+    ],
+    "asset_classes": [
+      "rates_fixed_income",
+      "cash_money_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "fix",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "origin": "Cash and Treasury markets depend on clearing plumbing as much as venues; FICC/GSD is the balance-sheet compression and counterparty-risk layer behind the US government-securities market.",
+    "tags": [
+      "treasuries",
+      "repo",
+      "clearing",
+      "netting",
+      "gsd",
+      "dtcc"
+    ]
+  },
+  {
+    "id": "bny-triparty",
+    "name": "BNY Tri-Party Repo",
+    "url": "https://www.bny.com/corporate/global/en/solutions/collateral-management.html",
+    "blurb": "Tri-party collateral-management infrastructure for repo, securities lending, margin segregation, and collateral optimization.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "cash_money_markets",
+      "rates_fixed_income"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "origin": "Repo is operationally a collateral-management business; BNY's tri-party platform handles eligibility, valuation, margining, allocation, and settlement around the cash loan.",
+    "tags": [
+      "repo",
+      "tri-party",
+      "collateral",
+      "securities lending",
+      "margin"
+    ]
+  },
+  {
+    "id": "lincoln-international-valuations",
+    "name": "Lincoln International Valuations",
+    "url": "https://www.lincolninternational.com/services/valuations/",
+    "blurb": "Private-market valuation and opinion practice known for portfolio valuations, private-credit marks, and the Lincoln Private Market Index.",
+    "segment": "analytics_research",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "private_credit",
+      "private_alts"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "origin": "Private credit has no consolidated tape; independent valuation providers become the mark-to-market layer for lenders, funds, auditors, and LP reporting.",
+    "tags": [
+      "private credit",
+      "valuations",
+      "marks",
+      "middle market",
+      "lpmi"
+    ]
+  },
+  {
+    "id": "octus",
+    "name": "Octus",
+    "url": "https://octus.com/",
+    "blurb": "Credit intelligence, data, legal analysis, and workflow platform for sub-investment-grade, distressed, leveraged-finance, and private-credit markets.",
+    "segment": "analytics_research",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "private_credit",
+      "rates_fixed_income"
+    ],
+    "region": "global",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "origin": "Hard credit markets trade on document terms, creditor negotiations, and restructuring process knowledge; Octus packages that legal-financial intelligence as workflow.",
+    "tags": [
+      "credit intelligence",
+      "distressed debt",
+      "leveraged finance",
+      "private credit",
+      "restructuring"
+    ]
+  },
+  {
+    "id": "lido",
+    "name": "Lido",
+    "url": "https://lido.fi/",
+    "blurb": "Liquid staking protocol whose stETH token turns validator yield into a transferable, DeFi-composable asset.",
+    "segment": "crypto_infra",
+    "layers": [
+      "venue_liquidity",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "staking_yield",
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "free",
+    "founded": 2020,
+    "status": "active",
+    "origin": "Staking yield becomes market infrastructure when locked validator positions are wrapped into liquid tokens that can be traded, lent, and used as collateral.",
+    "tags": [
+      "liquid staking",
+      "steth",
+      "ethereum",
+      "staking",
+      "yield"
+    ]
+  },
+  {
+    "id": "eigenlayer",
+    "name": "EigenLayer",
+    "url": "https://www.eigenlayer.xyz/",
+    "blurb": "Ethereum restaking protocol that lets staked ETH and liquid staking tokens secure actively validated services beyond Ethereum itself.",
+    "segment": "crypto_infra",
+    "layers": [
+      "infra_plumbing",
+      "venue_liquidity"
+    ],
+    "asset_classes": [
+      "staking_yield",
+      "crypto_spot"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "sdk"
+    ],
+    "cost_tier": "free",
+    "founded": 2021,
+    "status": "active",
+    "origin": "Restaking financializes security itself: validator collateral is rehypothecated into new service guarantees, creating a market for shared cryptoeconomic security.",
+    "tags": [
+      "restaking",
+      "ethereum",
+      "avs",
+      "staking",
+      "shared security"
+    ]
+  },
+  {
+    "id": "argus-media",
+    "name": "Argus Media",
+    "url": "https://www.argusmedia.com/en",
+    "blurb": "Commodity price-reporting agency and analytics provider covering energy, fuels, bioenergy, agriculture, fertilizers, metals, and related indexes.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "commodities"
+    ],
+    "region": "global",
+    "access": [
+      "terminal_gui",
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1970,
+    "status": "active",
+    "country": "GB",
+    "origin": "Physical commodity markets often price off assessed benchmarks rather than exchange prints; Argus is one of the reference-price layers that contracts settle against.",
+    "tags": [
+      "commodities",
+      "price assessments",
+      "energy",
+      "benchmarks",
+      "physical markets"
+    ]
+  },
+  {
+    "id": "kpler",
+    "name": "Kpler",
+    "url": "https://www.kpler.com/",
+    "blurb": "Commodity and maritime trade-intelligence platform tracking flows, inventories, shipping, power, and physical-market fundamentals across global commodities.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "commodities"
+    ],
+    "region": "global",
+    "access": [
+      "terminal_gui",
+      "rest_api",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2014,
+    "status": "active",
+    "country": "BE",
+    "origin": "For commodities, alpha often comes from physical flow data before it appears in prices; Kpler turns vessel movements, inventories, and trade flows into a market-data product.",
+    "tags": [
+      "commodities",
+      "shipping",
+      "trade flows",
+      "inventories",
+      "maritime",
+      "energy"
+    ]
   }
 ]

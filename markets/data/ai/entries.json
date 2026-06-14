@@ -5000,5 +5000,422 @@
         "note": "PagedAttention turned KV-cache management into a systems primitive for high-throughput inference."
       }
     ]
+  },
+  {
+    "id": "synopsys",
+    "name": "Synopsys",
+    "url": "https://www.synopsys.com/ai.html",
+    "blurb": "Electronic design automation, IP, verification, and AI-assisted chip-design software used to design advanced semiconductors and AI accelerators.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "model_supply"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1986,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "eda",
+      "chip design",
+      "verification",
+      "ai chips",
+      "ip"
+    ]
+  },
+  {
+    "id": "cadence",
+    "name": "Cadence Design Systems",
+    "url": "https://www.cadence.com/",
+    "blurb": "EDA, verification, simulation, IP, and computational software platform for intelligent system and semiconductor design.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "model_supply"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1988,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "eda",
+      "chip design",
+      "verification",
+      "simulation",
+      "ip"
+    ]
+  },
+  {
+    "id": "lam-research",
+    "name": "Lam Research",
+    "url": "https://www.lamresearch.com/products/products-overview/",
+    "blurb": "Wafer fabrication equipment supplier for etch, deposition, cleaning, advanced packaging, and process steps needed for leading-edge chips.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1980,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "wafer fab equipment",
+      "etch",
+      "deposition",
+      "advanced packaging"
+    ]
+  },
+  {
+    "id": "kla",
+    "name": "KLA",
+    "url": "https://www.kla.com/",
+    "blurb": "Process-control, inspection, metrology, and yield-management equipment for semiconductor manufacturing.",
+    "segment": "semiconductor_supply",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "semiconductors",
+      "materials_industrials"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1975,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "metrology",
+      "inspection",
+      "yield management",
+      "process control"
+    ]
+  },
+  {
+    "id": "constellation-energy",
+    "name": "Constellation Energy",
+    "url": "https://www.constellation.com/solutions/for-your-commercial-business/emerging-technology/data-centers.html",
+    "blurb": "Large US clean-power and nuclear fleet owner supplying energy products, risk management, and data-center power solutions.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "energy_power",
+      "datacenters_compute"
+    ],
+    "region": "americas",
+    "access": [
+      "contract_supply"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "power",
+      "nuclear",
+      "data centers",
+      "energy procurement"
+    ]
+  },
+  {
+    "id": "ge-vernova",
+    "name": "GE Vernova",
+    "url": "https://www.gevernova.com/",
+    "blurb": "Grid, electrification, gas power, wind, and energy software supplier relevant to AI data-center grid upgrades and power infrastructure.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "energy_power",
+      "datacenters_compute"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "grid",
+      "electrification",
+      "power equipment",
+      "hvdc",
+      "microgrids"
+    ]
+  },
+  {
+    "id": "eaton",
+    "name": "Eaton",
+    "url": "https://www.eaton.com/us/en-us/markets/data-centers.html",
+    "blurb": "Power-management supplier for data centers, including UPS, switchgear, power distribution, monitoring, and electrical infrastructure.",
+    "segment": "datacenter_power",
+    "layers": [
+      "industrial_inputs",
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "energy_power",
+      "datacenters_compute"
+    ],
+    "region": "global",
+    "access": [
+      "contract_supply",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1911,
+    "status": "active",
+    "country": "IE",
+    "tags": [
+      "power management",
+      "ups",
+      "switchgear",
+      "data centers",
+      "electrical infrastructure"
+    ]
+  },
+  {
+    "id": "langsmith",
+    "name": "LangSmith",
+    "url": "https://www.langchain.com/langsmith/observability",
+    "blurb": "LLM and agent observability platform for tracing, debugging, monitoring, evaluation, cost, and latency analysis in production AI applications.",
+    "segment": "eval_observability",
+    "layers": [
+      "orchestration_runtime",
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "rag_search",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "software_engineering",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "sdk",
+      "gui"
+    ],
+    "cost_tier": "freemium",
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "observability",
+      "tracing",
+      "agents",
+      "rag",
+      "langchain"
+    ]
+  },
+  {
+    "id": "patronus-ai",
+    "name": "Patronus AI",
+    "url": "https://www.patronus.ai/",
+    "blurb": "AI evaluation and testing platform for LLM applications, including evaluator models, hallucination checks, safety tests, and monitoring workflows.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "rag_search",
+      "multi_modal"
+    ],
+    "verticals": [
+      "enterprise_ops",
+      "software_engineering"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "evals",
+      "llm judge",
+      "hallucination",
+      "testing",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "hiddenlayer",
+    "name": "HiddenLayer",
+    "url": "https://www.hiddenlayer.com/",
+    "blurb": "AI security platform for model scanning, AI discovery, red teaming, runtime defense, and AI supply-chain protection.",
+    "segment": "security_governance",
+    "layers": [
+      "ops_governance",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation",
+      "multi_workload"
+    ],
+    "verticals": [
+      "defense_security",
+      "enterprise_ops",
+      "legal_compliance"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2022,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ai security",
+      "model scanning",
+      "red teaming",
+      "runtime defense",
+      "supply chain"
+    ]
+  },
+  {
+    "id": "sierra",
+    "name": "Sierra",
+    "url": "https://sierra.ai/",
+    "blurb": "Customer-facing AI agent platform for building and deploying support, service, and workflow agents across chat, voice, email, SMS, and messaging channels.",
+    "segment": "app_infra",
+    "layers": [
+      "orchestration_runtime",
+      "application_layer",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "chat",
+      "voice",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "customer_ops",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "customer agents",
+      "support automation",
+      "voice",
+      "chat",
+      "enterprise agents"
+    ]
+  },
+  {
+    "id": "openspace",
+    "name": "OpenSpace",
+    "url": "https://www.openspace.ai/",
+    "blurb": "Construction visual-intelligence platform using jobsite image capture, computer vision, and AI workflows for progress tracking and field coordination.",
+    "segment": "app_infra",
+    "layers": [
+      "data_context",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "vision",
+      "enterprise_automation",
+      "robotics"
+    ],
+    "verticals": [
+      "construction_real_estate",
+      "robotics_manufacturing",
+      "logistics_supply_chain"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "construction",
+      "visual intelligence",
+      "jobsite capture",
+      "computer vision",
+      "progress tracking"
+    ]
   }
 ]
