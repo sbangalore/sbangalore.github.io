@@ -80,6 +80,20 @@
         background: color-mix(in srgb, var(--card) 78%, transparent);
       }
 
+      .nav-links .social-link {
+        display: inline-grid;
+        width: 40px;
+        height: 40px;
+        place-items: center;
+        padding: 0;
+      }
+
+      .social-link img {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+      }
+
       .button--primary {
         border-color: var(--signal);
         background: var(--signal);
@@ -253,9 +267,15 @@
           <a href="/markets/?map=finance">Atlas</a>
           <a href="/writing/">Writing</a>
           <a href="/about/">About</a>
-          <a href="https://github.com/sbangalore">GitHub</a>
-          <a href="https://www.linkedin.com/in/sbangalore">LinkedIn</a>
-          <a href="https://x.com/seanbangalore">X</a>
+          <a class="social-link" href="https://github.com/sbangalore" aria-label="GitHub">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" />
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/in/sbangalore" aria-label="LinkedIn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1280px-LinkedIn_icon.svg.png" alt="" />
+          </a>
+          <a class="social-link" href="https://x.com/seanbangalore" aria-label="X">
+            <img src="https://images.icon-icons.com/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png" alt="" />
+          </a>
         </div>
       </nav>
 
