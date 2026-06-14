@@ -15,6 +15,6 @@ Current public artifacts:
 
 - [Infrastructure Atlas](/markets/?map=finance)
 - [Writing archive](/writing/)
-- [Resume](/Resume-converted.pdf)
+- [Resume](/Sean_Bangalore_Resume.pdf)
 
 Contact: [bsudarshan@outlook.com](mailto:bsudarshan@outlook.com)
