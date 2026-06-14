@@ -3,12 +3,195 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="refresh" content="0; url=/markets/?map=finance" />
     <title>Infrastructure Atlas</title>
-    <link rel="canonical" href="/markets/?map=finance" />
+    <base href="/markets/" />
+    <link rel="stylesheet" href="./styles.css?v=20260611-merged-atlas" />
   </head>
   <body>
-    <p><a href="/markets/?map=finance">Open Infrastructure Atlas</a></p>
-    <script>location.replace("/markets/?map=finance");</script>
+    <a class="skip-link" href="#directoryMain">Skip to directory</a>
+    <header class="topbar">
+      <div class="topbar__copy">
+        <p id="mapKicker" class="context-label">AI infrastructure stack</p>
+        <h1 id="mapTitle">AI infra map</h1>
+        <p id="mapLede" class="lede">
+          A map of compute, models, data/context, agent runtimes, serving, evaluation, security, and application infrastructure.
+        </p>
+      </div>
+      <div class="topbar__side">
+        <div id="mapSwitcher" class="map-switcher" aria-label="Select map"></div>
+        <div class="stats" aria-label="Directory statistics">
+          <div><strong id="statEntries">0</strong><span>Entries</span></div>
+          <div><strong id="statSegments">0</strong><span>Segments</span></div>
+          <div><strong id="statAssets">0</strong><span id="statAssetsLabel">Workloads</span></div>
+          <div><strong id="statStack">0</strong><span id="statStackLabel">Open source</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main id="directoryMain">
+      <nav id="viewSwitcher" class="view-switcher" aria-label="Atlas view">
+        <button type="button" data-view-key="overview">Overview</button>
+        <button type="button" data-view-key="matrix">Matrix</button>
+        <button type="button" data-view-key="directory">Directory</button>
+        <button type="button" data-view-key="research">Research</button>
+      </nav>
+
+      <section class="legend-panel" aria-label="Reading the map">
+        <div>
+          <span class="legend-dot legend-dot--segment"></span>
+          <strong>Segment</strong>
+          <p>Which infrastructure business or component this is.</p>
+        </div>
+        <div>
+          <span class="legend-dot legend-dot--layer"></span>
+          <strong>Layer</strong>
+          <p>Where it sits in the AI stack, from hardware to application runtime.</p>
+        </div>
+        <div>
+          <span class="legend-dot legend-dot--asset"></span>
+          <strong id="assetLegendLabel">Workload</strong>
+          <p id="assetLegendCopy">Which AI application or deployment pattern the product touches.</p>
+        </div>
+        <div id="verticalLegend">
+          <span class="legend-dot legend-dot--vertical"></span>
+          <strong id="verticalLegendLabel">Vertical</strong>
+          <p id="verticalLegendCopy">Which buyer market or industrial constraint this touches.</p>
+        </div>
+      </section>
+
+      <section class="flow-strip" data-view-section="overview matrix" aria-label="Capital and data flows">
+        <div class="flow-card">
+          <div class="flow-card__head">
+            <span id="primaryFlowLabel">Supply flow</span>
+            <small id="primaryFlowSub">Hardware to apps</small>
+          </div>
+          <div id="capitalFlowRoot" class="flow-chain"></div>
+        </div>
+        <div class="flow-card">
+          <div class="flow-card__head">
+            <span id="secondaryFlowLabel">Control flow</span>
+            <small id="secondaryFlowSub">Context to governance</small>
+          </div>
+          <div id="dataFlowRoot" class="flow-chain"></div>
+        </div>
+        <p id="flowScopeNote" class="scope-note"></p>
+      </section>
+
+      <section id="verticalMaturityShell" class="vertical-maturity-shell" data-view-section="matrix" aria-labelledby="verticalMaturityTitle" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="context-label">Vertical maturity</p>
+            <h2 id="verticalMaturityTitle">Which vertical AI stacks are forming?</h2>
+          </div>
+          <div id="verticalMaturityLegend" class="maturity-legend"></div>
+        </div>
+        <div id="verticalMaturityGrid" class="vertical-maturity-grid"></div>
+      </section>
+
+      <section id="marketStructureShell" class="market-structure-shell" data-view-section="overview" aria-labelledby="marketStructureTitle" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="context-label">Market structure</p>
+            <h2 id="marketStructureTitle">Where the economics look attractive</h2>
+          </div>
+          <p id="marketStructureCount" class="section-count"></p>
+        </div>
+        <p id="marketStructureDescription" class="section-copy"></p>
+        <div id="marketStructureGrid" class="market-structure-grid"></div>
+      </section>
+
+      <section class="matrix-shell" data-view-section="overview matrix" aria-labelledby="matrixTitle">
+        <div class="section-heading">
+          <div>
+            <p class="context-label">Matrix view</p>
+            <h2 id="matrixTitle">Segments by stack layer</h2>
+          </div>
+          <div class="matrix-legend">
+            <span><i class="cell-sample cell-sample--lit"></i> populated</span>
+            <span><i class="cell-sample cell-sample--open"></i> open</span>
+            <span><i class="cell-sample cell-sample--flagged"></i> flagged gap</span>
+            <span><i class="cell-sample cell-sample--structural">x</i> structural absence</span>
+          </div>
+        </div>
+        <div id="matrixActiveFilters" class="active-filters matrix-active-filters"></div>
+        <div id="matrixRoot" class="matrix-root" role="grid"></div>
+        <div>
+          <div id="coverageHeading" class="rail-heading">Workload coverage</div>
+          <div id="matrixAssetRoot" class="matrix-asset-root"></div>
+          <div id="verticalRail" class="vertical-rail" hidden>
+            <div id="verticalHeading" class="rail-heading">Vertical-facing slice</div>
+            <div id="matrixVerticalRoot" class="matrix-asset-root"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="directory-layout" data-view-section="directory" aria-label="Directory">
+        <aside class="filters">
+          <div class="search-box">
+            <label for="searchInput">Search</label>
+            <input id="searchInput" type="search" placeholder="Name, tag, note..." autocomplete="off" />
+          </div>
+          <label class="checkbox-row">
+            <input id="stackOnly" type="checkbox" />
+            <span id="stackOnlyText">Open source only</span>
+          </label>
+          <div id="facetRoot"></div>
+        </aside>
+
+        <section class="directory">
+          <div class="directory__bar">
+            <div>
+              <p class="context-label">Directory</p>
+              <h2 id="resultTitle">All entries</h2>
+            </div>
+            <div class="directory__actions">
+              <select id="sortSelect" aria-label="Sort entries">
+              <option value="segment">Group by segment</option>
+                <option value="name">Name</option>
+                <option value="cost">Cost tier</option>
+                <option value="founded">Founded</option>
+              </select>
+              <button id="clearFilters" type="button">Clear</button>
+            </div>
+          </div>
+          <div id="activeFilters" class="active-filters"></div>
+          <div id="cardGrid" class="card-grid"></div>
+        </section>
+      </section>
+
+      <section class="literature-shell" data-view-section="research" aria-labelledby="literatureTitle">
+        <div class="section-heading">
+          <div>
+            <p class="context-label">Literature feed</p>
+            <h2 id="literatureTitle">Research feed and paper-to-product lineage</h2>
+          </div>
+          <p id="literatureCount" class="section-count"></p>
+        </div>
+        <p id="literatureDescription" class="section-copy"></p>
+        <div class="literature-layout">
+          <div id="literatureSources" class="source-list"></div>
+          <div id="literatureFeed" class="paper-feed"></div>
+        </div>
+      </section>
+
+      <section class="unbuilt-shell" data-view-section="overview research" aria-labelledby="unbuiltTitle">
+        <div class="section-heading">
+          <div>
+            <p id="unbuiltLabel" class="context-label">Open opportunities</p>
+            <h2 id="unbuiltTitle">Infrastructure gaps that have not hardened into default products yet</h2>
+          </div>
+          <p id="unbuiltCount" class="section-count"></p>
+        </div>
+        <p id="unbuiltDescription" class="section-copy"></p>
+        <div id="unbuiltGrid" class="unbuilt-grid"></div>
+      </section>
+    </main>
+
+    <dialog id="detailDialog" class="detail-dialog">
+      <button id="closeDialog" class="detail-close" type="button" aria-label="Close detail">×</button>
+      <div id="detailRoot"></div>
+    </dialog>
+
+    <script src="./app.js?v=mechanisms-1"></script>
   </body>
 </html>
