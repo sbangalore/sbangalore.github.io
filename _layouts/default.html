@@ -1,59 +1,143 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
     {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
+    <style>
+      :root {
+        --ink: #11110f;
+        --muted: #5e5a52;
+        --paper: #f4f0e8;
+        --card: #fffaf0;
+        --line: #d8cdb9;
+        --signal: #ff6a00;
       }
-    });
-    </script>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font: 17px/1.55 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: var(--signal);
+      }
+
+      .shell {
+        width: min(960px, calc(100% - 36px));
+        margin: 0 auto;
+      }
+
+      .site-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+        padding: 24px 0 58px;
+      }
+
+      .brand {
+        font-weight: 800;
+      }
+
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .nav-links a,
+      .read-more {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 9px 13px;
+        background: rgba(255, 250, 240, 0.66);
+      }
+
+      .page,
+      .post {
+        border-top: 1px solid var(--line);
+        padding: 34px 0;
+      }
+
+      h1 {
+        margin: 0 0 18px;
+        font-size: clamp(36px, 7vw, 82px);
+        line-height: 0.95;
+        letter-spacing: -0.055em;
+      }
+
+      h2,
+      h3 {
+        margin-top: 34px;
+        letter-spacing: -0.025em;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+      }
+
+      .entry {
+        max-width: 760px;
+      }
+
+      .posts .post h1 {
+        font-size: clamp(28px, 4vw, 48px);
+      }
+
+      .read-more {
+        display: inline-block;
+        margin-top: 6px;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        margin-top: 60px;
+        padding: 30px 0 54px;
+        color: var(--muted);
+      }
+
+      @media (max-width: 720px) {
+        .site-nav {
+          display: block;
+        }
+
+        .nav-links {
+          margin-top: 14px;
+        }
+      }
+    </style>
   </head>
-
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <div class="shell">
+      <nav class="site-nav">
+        <a class="brand" href="{{ site.baseurl }}/">Sean Bangalore</a>
+        <div class="nav-links">
+          <a href="{{ site.baseurl }}/markets/?map=finance">Atlas</a>
+          <a href="{{ site.baseurl }}/writing/">Writing</a>
+          <a href="{{ site.baseurl }}/about/">About</a>
+          <a href="https://github.com/sbangalore">GitHub</a>
+          <a href="https://www.linkedin.com/in/sbangalore">LinkedIn</a>
+        </div>
+      </nav>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+      <main>
+        {{ content }}
+      </main>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
+      <footer>Build the system. Map the market. Name the constraint.</footer>
     </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
     {% include analytics.html %}
   </body>
 </html>
