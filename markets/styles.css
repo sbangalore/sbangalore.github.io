@@ -710,7 +710,7 @@ body[data-view="overview"] .matrix-root {
 .matrix-layer,
 .cell {
   min-height: 58px;
-  border-radius: var(--radius-sm);
+  border-radius: 14px;
 }
 
 .matrix-seg,
@@ -808,8 +808,8 @@ button.cell:active {
 
 .matrix-asset-root {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: var(--space-2);
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  gap: 6px;
   max-height: none;
   overflow-y: visible;
   padding-right: 0;
@@ -817,17 +817,27 @@ button.cell:active {
 
 .asset-pill {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: var(--space-2);
-  min-height: 44px;
-  padding: 9px 10px;
+  min-height: 34px;
+  padding: 6px 9px;
   border: 1px solid var(--rule);
-  border-radius: var(--radius-sm);
+  border-radius: 12px;
   background: var(--surface-inset);
   color: var(--text);
+  font-size: 0.86rem;
+  line-height: 1.15;
+  text-align: left;
   transition:
     border-color 160ms var(--ease),
     background-color 160ms var(--ease);
+}
+
+.asset-pill strong {
+  flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
 }
 
 .asset-pill:hover,
@@ -860,6 +870,8 @@ button.cell:active {
 .filters {
   position: sticky;
   top: var(--space-3);
+  max-height: calc(100vh - var(--space-6));
+  overflow-y: auto;
   padding: var(--space-4);
 }
 
@@ -876,12 +888,13 @@ button.cell:active {
 .search-box input,
 .directory__actions select {
   width: 100%;
-  min-height: 44px;
+  min-height: 40px;
   border: 1px solid var(--rule);
-  border-radius: var(--radius-sm);
+  border-radius: 14px;
   background: var(--surface-inset);
   color: var(--text);
   padding: 0 var(--space-3);
+  font-size: 0.95rem;
   transition: border-color 160ms var(--ease);
 }
 
@@ -898,9 +911,10 @@ button.cell:active {
   display: flex;
   gap: var(--space-2);
   align-items: center;
-  min-height: 44px;
+  min-height: 36px;
   margin: var(--space-3) 0;
   color: var(--text-soft);
+  font-size: 0.95rem;
 }
 
 .checkbox-row input {
@@ -929,12 +943,14 @@ button.cell:active {
   grid-template-columns: minmax(0, 1fr) auto;
   gap: var(--space-2);
   align-items: center;
-  min-height: 40px;
-  padding: 7px 9px;
+  min-height: 34px;
+  padding: 6px 9px;
   border: 1px solid var(--rule);
-  border-radius: var(--radius-sm);
+  border-radius: 12px;
   background: var(--surface-inset);
   color: var(--text);
+  font-size: 0.88rem;
+  line-height: 1.2;
   text-align: left;
   transition:
     border-color 160ms var(--ease),
@@ -952,6 +968,7 @@ button.cell:active {
 .facet-option small {
   color: var(--text-faint);
   font-family: var(--font-mono);
+  font-size: 0.78rem;
 }
 
 .facet-option.is-active {
@@ -1403,6 +1420,8 @@ button.cell:active {
 
   .filters {
     position: static;
+    max-height: none;
+    overflow: visible;
   }
 }
 
