@@ -3367,6 +3367,160 @@
     "country": "US"
   },
   {
+    "id": "green-street",
+    "name": "Green Street",
+    "url": "https://www.greenstreet.com",
+    "blurb": "Commercial real estate intelligence, REIT research, market analytics, and predictive data for public and private real estate investors.",
+    "segment": "analytics_research",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "global",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1985,
+    "status": "active",
+    "origin": "Real estate has thin transaction tape and local opacity; Green Street turns sector research, REIT coverage, private-market analytics, and proprietary data into institutional CRE reference intelligence.",
+    "tags": [
+      "cre",
+      "reit research",
+      "market analytics",
+      "predictive analytics"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "compstak",
+    "name": "CompStak",
+    "url": "https://compstak.com",
+    "blurb": "Commercial real estate data platform for lease comps, sale comps, loan data, property data, and analytics.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "CRE comps are private, fragmented, and broker-held; CompStak crowdsourced and standardized lease, sale, loan, and property records into a usable transaction-data layer.",
+    "tags": [
+      "cre",
+      "lease comps",
+      "sale comps",
+      "loan data",
+      "property data"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "cherre",
+    "name": "Cherre",
+    "url": "https://cherre.com",
+    "blurb": "Real estate data management and knowledge-graph platform for ingesting, connecting, validating, and standardizing property data.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "sdk",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "The CRE data problem is entity resolution and schema mismatch; Cherre sits underneath analytics as the integration layer that maps addresses, geographies, vendors, and internal property records into a single usable fabric.",
+    "tags": [
+      "cre",
+      "data integration",
+      "knowledge graph",
+      "entity resolution",
+      "data fabric"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "lightbox",
+    "name": "LightBox",
+    "url": "https://www.lightboxre.com",
+    "blurb": "CRE data, location intelligence, environmental due-diligence, parcel, zoning, property, and geospatial data platform.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "bulk_file",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "status": "active",
+    "origin": "Commercial real estate decisions require parcel boundaries, zoning, environmental records, building footprints, and location context; LightBox packages those physical-property layers into data and workflow infrastructure.",
+    "tags": [
+      "cre",
+      "parcel data",
+      "zoning",
+      "geospatial",
+      "environmental due diligence"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "crexi",
+    "name": "Crexi",
+    "url": "https://www.crexi.com",
+    "blurb": "Commercial real estate marketplace for sale and lease listings, comps, records, and broker workflow tools.",
+    "segment": "exchanges_venues",
+    "layers": [
+      "venue_liquidity",
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "status": "active",
+    "origin": "CRE liquidity still starts as listings and broker workflow rather than a continuous exchange; Crexi is the marketplace surface where commercial properties, leases, comps, and buyer demand meet.",
+    "tags": [
+      "cre",
+      "marketplace",
+      "listings",
+      "sale lease",
+      "comps"
+    ],
+    "country": "US"
+  },
+  {
     "id": "crane-data",
     "name": "Crane Data",
     "url": "https://cranedata.com",
