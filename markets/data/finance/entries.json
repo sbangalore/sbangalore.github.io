@@ -3331,6 +3331,65 @@
     "country": "US"
   },
   {
+    "id": "crane-data",
+    "name": "Crane Data",
+    "url": "https://cranedata.com",
+    "blurb": "Specialist data provider for money-market mutual funds and cash investments: fund rankings, portfolio composition, yields, indexes, and monthly Money Fund Intelligence.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "cash_money_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "paid",
+    "status": "active",
+    "origin": "Cash looks boring until rates move — Crane is the niche reference layer for money-fund assets, flows, portfolio composition, and yields.",
+    "tags": [
+      "money market funds",
+      "cash",
+      "fund flows",
+      "yields"
+    ],
+    "country": "US"
+  },
+  {
+    "id": "cliffwater-direct-lending-index",
+    "name": "Cliffwater Direct Lending Index",
+    "url": "https://www.cliffwaterdirectlendingindex.com",
+    "blurb": "Benchmark index for US middle-market direct loans, measuring private-loan performance where no public tape exists.",
+    "segment": "indices_benchmarks",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "private_credit"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui",
+      "bulk_file"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2015,
+    "status": "active",
+    "origin": "Private credit needs synthetic benchmarks because loans are bilateral and marks are sparse; CDLI is a reference series for middle-market direct lending.",
+    "tags": [
+      "private credit",
+      "direct lending",
+      "middle market loans",
+      "benchmark"
+    ],
+    "country": "US"
+  },
+  {
     "id": "betfair",
     "name": "Betfair Exchange",
     "url": "https://www.betfair.com/exchange",
