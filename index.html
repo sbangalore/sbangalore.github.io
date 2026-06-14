@@ -1,26 +1,14 @@
----
-layout: default
----
-
-<article class="post">
-  <h1><a href="{{ site.baseurl }}/markets/?map=finance">Infrastructure Atlas</a></h1>
-  <div class="entry">
-    <p>AI and financial-market infrastructure maps: companies, layers, mechanisms, research feeds, and unbuilt opportunities.</p>
-  </div>
-  <a href="{{ site.baseurl }}/markets/?map=finance" class="read-more">Open Atlas</a>
-</article>
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=/markets/?map=finance" />
+    <title>Infrastructure Atlas</title>
+    <link rel="canonical" href="/markets/?map=finance" />
+  </head>
+  <body>
+    <p><a href="/markets/?map=finance">Open Infrastructure Atlas</a></p>
+    <script>location.replace("/markets/?map=finance");</script>
+  </body>
+</html>
