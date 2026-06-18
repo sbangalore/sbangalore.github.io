@@ -10,12 +10,46 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Instrument+Sans:ital,wght@0,400..800;1,400..800&display=swap"
       rel="stylesheet"
     />
+    <script>
+      (function () {
+        var key = "sbangalore-theme";
+        var saved = localStorage.getItem(key);
+        var theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day");
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme === "night" ? "dark" : "light";
+        window.setTheme = function (next) {
+          document.documentElement.dataset.theme = next;
+          document.documentElement.style.colorScheme = next === "night" ? "dark" : "light";
+          localStorage.setItem(key, next);
+          document.querySelectorAll("[data-theme-toggle]").forEach(function (button) {
+            button.querySelector("[data-theme-toggle-icon]").textContent = next === "night" ? "◐" : "☀";
+            button.querySelector("[data-theme-toggle-label]").textContent = next === "night" ? "Dark" : "Light";
+            button.setAttribute("aria-label", next === "night" ? "Dark theme, switch to light mode" : "Light theme, switch to dark mode");
+            button.setAttribute("aria-pressed", next === "night");
+          });
+        };
+        addEventListener("DOMContentLoaded", function () {
+          window.setTheme(document.documentElement.dataset.theme);
+          document.querySelectorAll("[data-theme-toggle]").forEach(function (button) {
+            button.addEventListener("click", function () {
+              window.setTheme(document.documentElement.dataset.theme === "night" ? "day" : "night");
+            });
+          });
+        });
+      })();
+    </script>
     <link rel="stylesheet" href="./styles.css?v=20260614-research-ledger" />
   </head>
   <body>
     <a class="skip-link" href="#directoryMain">Skip to directory</a>
     <header class="topbar">
-      <a class="brand-link" href="/">Sean Bangalore</a>
+      <div class="brand-row">
+        <a class="brand-link" href="/">Sean Bangalore</a>
+        <button class="theme-toggle" type="button" data-theme-toggle>
+          <span class="theme-toggle-icon" data-theme-toggle-icon aria-hidden="true">☀</span>
+          <span data-theme-toggle-label>Light</span>
+        </button>
+      </div>
       <div class="topbar__copy">
         <p id="mapKicker" class="context-label">AI infrastructure stack</p>
         <h1 id="mapTitle">AI infra map</h1>
