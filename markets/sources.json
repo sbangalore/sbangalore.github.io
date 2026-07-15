@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "policy": {
+    "publication_rule": "Collectors create evidence candidates only. Public atlas claims require review and a separate commit.",
+    "x_rule": "X is discovery-only and may not establish or update an atlas claim without a primary or research source.",
+    "freshness_days": 14,
+    "max_candidates_per_source": 8
+  },
+  "lanes": {
+    "ai": {
+      "keywords": ["inference", "serving", "on-device", "edge ai", "edge device", "local model", "quantization", "agent", "evaluation", "benchmark", "retrieval", "model context protocol", "llama.cpp"],
+      "targets": ["entries", "literature", "market_structure", "unbuilt"]
+    },
+    "finance": {
+      "keywords": ["prediction market", "event contract", "market structure", "market microstructure", "clearing", "settlement", "exchange", "derivative", "arbitrage", "benchmark", "market data", "collateral", "liquidity"],
+      "targets": ["entries", "literature", "market_structure", "unbuilt"]
+    }
+  },
+  "sources": [
+    {
+      "id": "openalex-ai",
+      "name": "OpenAlex: AI systems research",
+      "lane": "ai",
+      "kind": "openalex",
+      "source_class": "research_index",
+      "authority": "research",
+      "promotion_policy": "corroborate",
+      "endpoint": "https://api.openalex.org/works",
+      "query": "machine learning inference serving agents evaluation on-device",
+      "homepage": "https://openalex.org"
+    },
+    {
+      "id": "openalex-finance",
+      "name": "OpenAlex: market design research",
+      "lane": "finance",
+      "kind": "openalex",
+      "source_class": "research_index",
+      "authority": "research",
+      "promotion_policy": "corroborate",
+      "endpoint": "https://api.openalex.org/works",
+      "query": "prediction markets market microstructure clearing settlement market design",
+      "homepage": "https://openalex.org"
+    },
+    {
+      "id": "sec-press-releases",
+      "name": "U.S. Securities and Exchange Commission",
+      "lane": "finance",
+      "kind": "feed",
+      "source_class": "regulator",
+      "authority": "primary",
+      "promotion_policy": "eligible",
+      "endpoint": "https://www.sec.gov/news/pressreleases.rss",
+      "homepage": "https://www.sec.gov/newsroom/press-releases"
+    },
+    {
+      "id": "cftc-press-releases",
+      "name": "Commodity Futures Trading Commission",
+      "lane": "finance",
+      "kind": "feed",
+      "source_class": "regulator",
+      "authority": "primary",
+      "promotion_policy": "eligible",
+      "endpoint": "https://www.cftc.gov/RSS/RSSGP/rssgp.xml",
+      "homepage": "https://www.cftc.gov/RSS/index.htm"
+    },
+    {
+      "id": "github-llama-cpp",
+      "name": "llama.cpp releases",
+      "lane": "ai",
+      "kind": "github_releases",
+      "source_class": "official_product",
+      "authority": "primary",
+      "promotion_policy": "eligible",
+      "endpoint": "https://api.github.com/repos/ggml-org/llama.cpp/releases",
+      "homepage": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "id": "github-onnx-runtime",
+      "name": "ONNX Runtime releases",
+      "lane": "ai",
+      "kind": "github_releases",
+      "source_class": "official_product",
+      "authority": "primary",
+      "promotion_policy": "eligible",
+      "endpoint": "https://api.github.com/repos/microsoft/onnxruntime/releases",
+      "homepage": "https://github.com/microsoft/onnxruntime"
+    },
+    {
+      "id": "x-curated-portfolios",
+      "name": "Curated X account portfolios",
+      "lane": "ai,finance",
+      "kind": "external_discovery",
+      "source_class": "social",
+      "authority": "lead_only",
+      "promotion_policy": "discovery_only",
+      "endpoint": "https://operator.octomil.com/forge",
+      "homepage": "https://operator.octomil.com/forge"
+    }
+  ]
+}

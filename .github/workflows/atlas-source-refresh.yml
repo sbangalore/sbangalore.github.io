@@ -1,0 +1,52 @@
+name: Atlas source refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 13 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: atlas-source-refresh
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect evidence candidates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/collect_atlas_candidates.py
+      - name: Validate atlas JSON
+        run: |
+          python scripts/collect_atlas_candidates.py --validate-only
+          python -m json.tool .atlas/candidate_inbox.json >/dev/null
+          for file in markets/data/*/*.json markets/sources.json; do python -m json.tool "$file" >/dev/null; done
+      - name: Open or update review PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- .atlas/candidate_inbox.json; then
+            echo "No candidate changes"
+            exit 0
+          fi
+          branch="automation/atlas-source-refresh"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add .atlas/candidate_inbox.json
+          git commit -m "Refresh atlas evidence candidates"
+          git push --force-with-lease origin "$branch"
+          if ! gh pr view "$branch" >/dev/null 2>&1; then
+            gh pr create --base master --head "$branch" --title "Review weekly atlas evidence candidates" --body "Automated evidence inbox only. Review sources and claims before changing any public atlas dataset. X/social evidence is never sufficient on its own."
+          fi
