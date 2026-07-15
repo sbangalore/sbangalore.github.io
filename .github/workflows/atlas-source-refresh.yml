@@ -48,5 +48,5 @@ jobs:
           git commit -m "Refresh atlas evidence candidates"
           git push --force-with-lease origin "$branch"
           if ! gh pr view "$branch" >/dev/null 2>&1; then
-            gh pr create --base master --head "$branch" --title "Review weekly atlas evidence candidates" --body "Automated evidence inbox only. Review sources and claims before changing any public atlas dataset. X/social evidence is never sufficient on its own."
+            gh pr create --draft --base master --head "$branch" --title "Review weekly atlas evidence candidates" --body "Automated evidence inbox only. Review sources and claims before changing any public atlas dataset. X/social evidence is never sufficient on its own."
           fi
