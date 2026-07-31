@@ -4,7 +4,7 @@
     {
       "id": "gdp-linked-markets",
       "name": "GDP-Linked Securities & Macro Markets",
-      "blurb": "Standing markets in claims on national income \u2014 countries issue equity in themselves; investors and firms hedge recession risk directly.",
+      "blurb": "Standing markets in claims on national income — countries issue equity in themselves; investors and firms hedge recession risk directly.",
       "literature": [
         {
           "author": "Robert Shiller",
@@ -19,7 +19,7 @@
         }
       ],
       "status": "attempted",
-      "nearest_attempts": "GDP warrants issued in sovereign restructurings (Argentina 2005, Greece 2012, Ukraine 2015) \u2014 one-off, illiquid, litigated.",
+      "nearest_attempts": "GDP warrants issued in sovereign restructurings (Argentina 2005, Greece 2012, Ukraine 2015) — one-off, illiquid, litigated.",
       "wall": "Requires sovereign issuance (governments resist selling upside); index revision risk; thin natural long side outside crises.",
       "unlock": "A G7 treasury issuing trills as standard debt management, or perp DEXs listing synthetic GDP perps (Hyperliquid's RWA perps are the closest live rail).",
       "maps_to": {
@@ -63,7 +63,7 @@
     {
       "id": "household-house-price-hedging",
       "name": "Household House-Price Hedging",
-      "blurb": "Retail-accessible instruments to short your own city's housing index \u2014 insurance for the largest undiversified position most households hold.",
+      "blurb": "Retail-accessible instruments to short your own city's housing index — insurance for the largest undiversified position most households hold.",
       "literature": [
         {
           "author": "Karl Case, Robert Shiller & Allan Weiss",
@@ -73,9 +73,9 @@
         }
       ],
       "status": "attempted",
-      "nearest_attempts": "CME Case-Shiller housing futures (2006) \u2014 listed into the housing bubble's peak and languished at near-zero volume; home-equity-sharing fintechs hedge the level, not the index.",
+      "nearest_attempts": "CME Case-Shiller housing futures (2006) — listed into the housing bubble's peak and languished at near-zero volume; home-equity-sharing fintechs hedge the level, not the index.",
       "wall": "Structurally one-sided: every homeowner is long and wants protection, no natural short of size; heavy basis risk between a metro index and your block.",
-      "unlock": "Event-contract framing (monthly 'will the index print above X' markets) may bootstrap where futures failed \u2014 Kalshi already lists some housing markets; liquidity is the open question.",
+      "unlock": "Event-contract framing (monthly 'will the index print above X' markets) may bootstrap where futures failed — Kalshi already lists some housing markets; liquidity is the open question.",
       "maps_to": {
         "segment": "exchanges_venues",
         "layers": [
@@ -106,12 +106,12 @@
           "year": 2015,
           "work": "Corporate Prediction Markets: Evidence from Google, Ford, and Firm X",
           "venue": "Review of Economic Studies",
-          "note": "Internal corporate markets were accurate \u2014 and were abandoned anyway. The wall is political, not informational."
+          "note": "Internal corporate markets were accurate — and were abandoned anyway. The wall is political, not informational."
         }
       ],
       "status": "embryonic",
       "nearest_attempts": "MetaDAO (Solana) runs real futarchy for DAO treasury decisions; corporate internal markets (HP, Google, Ford) worked and were shut down.",
-      "wall": "Conditional markets are thin; conditioning is not causation; and decision-makers dislike institutions that overrule them \u2014 a legitimacy wall, partly essential.",
+      "wall": "Conditional markets are thin; conditioning is not causation; and decision-makers dislike institutions that overrule them — a legitimacy wall, partly essential.",
       "unlock": "DAO governance is the natural sandbox: decisions are frequent, on-chain, and enforceable by code. Watch whether MetaDAO-style mechanisms survive their first adversarial epoch.",
       "maps_to": {
         "segment": "prediction_event",
@@ -136,7 +136,7 @@
       ],
       "status": "unbuilt",
       "nearest_attempts": "IEX's speed bump (a cousin, not the design); EBS latency floors; closing auctions prove batch mechanics work at scale once a day.",
-      "wall": "Incumbent venue economics: exchanges monetize the arms race (colocation, proprietary feeds), so the parties who could adopt it profit from its absence \u2014 plus liquidity chicken-and-egg for any entrant.",
+      "wall": "Incumbent venue economics: exchanges monetize the arms race (colocation, proprietary feeds), so the parties who could adopt it profit from its absence — plus liquidity chicken-and-egg for any entrant.",
       "unlock": "A crypto or event-contract venue with no legacy colo revenue adopting FBA natively; on-chain block times already quantize trading, making DEXs the most plausible first movers.",
       "maps_to": {
         "segment": "exchanges_venues",
@@ -161,7 +161,7 @@
           "author": "Yiling Chen, Lance Fortnow, Nicolas Lambert, David Pennock & Jennifer Wortman",
           "year": 2008,
           "work": "Complexity of Combinatorial Market Makers",
-          "note": "Pricing general combinatorial markets is #P-hard \u2014 the wall, stated precisely."
+          "note": "Pricing general combinatorial markets is #P-hard — the wall, stated precisely."
         }
       ],
       "status": "unbuilt",
@@ -189,7 +189,7 @@
         }
       ],
       "status": "attempted",
-      "nearest_attempts": "EIB/BNP longevity bond (2004) withdrawn for lack of demand; OTC longevity swaps and q-forwards trade between pensions and reinsurers \u2014 bespoke, illiquid, dealer-bound.",
+      "nearest_attempts": "EIB/BNP longevity bond (2004) withdrawn for lack of demand; OTC longevity swaps and q-forwards trade between pensions and reinsurers — bespoke, illiquid, dealer-bound.",
       "wall": "One-sided flow again: pensions, annuity writers, and individuals all want the same protection; only reinsurers naturally take the other side, and they prefer bespoke deals.",
       "unlock": "Capital-markets investors treating longevity as an uncorrelated carry asset class (the cat-bond playbook, which took 15 years to liquefy hurricane risk).",
       "maps_to": {
@@ -203,7 +203,7 @@
     {
       "id": "human-capital-equity",
       "name": "Human Capital Equity / Income-Share Markets",
-      "blurb": "Equity-like financing of education and careers \u2014 investors fund training for a fraction of future income, with a secondary market in the claims.",
+      "blurb": "Equity-like financing of education and careers — investors fund training for a fraction of future income, with a secondary market in the claims.",
       "literature": [
         {
           "author": "Milton Friedman",
@@ -215,7 +215,7 @@
       "status": "attempted",
       "nearest_attempts": "Income-share agreements: Purdue's Back-a-Boiler (paused), coding-bootcamp ISAs (collapsed amid regulatory action); no secondary market ever formed.",
       "wall": "Adverse selection (high earners refuse the deal), servicing costs, and consumer-protection regulation treating ISAs as disguised loans.",
-      "unlock": "Probably arrives, if ever, as pooled/securitized exposure rather than per-person claims \u2014 the same de-personalization that made mortgages tradeable.",
+      "unlock": "Probably arrives, if ever, as pooled/securitized exposure rather than per-person claims — the same de-personalization that made mortgages tradeable.",
       "maps_to": {
         "segment": "exchanges_venues",
         "layers": [
@@ -227,7 +227,7 @@
     {
       "id": "policy-analysis-market",
       "name": "Geopolitical / Policy Risk Markets (DARPA PAM)",
-      "blurb": "Markets on geopolitical events and policy outcomes for forecasting and hedging \u2014 the 'terrorism futures' DARPA cancelled in 48 hours of headlines.",
+      "blurb": "Markets on geopolitical events and policy outcomes for forecasting and hedging — the 'terrorism futures' DARPA cancelled in 48 hours of headlines.",
       "literature": [
         {
           "author": "Robin Hanson",
@@ -238,7 +238,7 @@
       ],
       "status": "built_late",
       "nearest_attempts": "Built, ~22 years after cancellation: Kalshi and Polymarket now run deep markets on strikes, ceasefires, elections, and policy decisions, cited by newsrooms as probability sources.",
-      "wall": "Was purely political legitimacy \u2014 which is why it fell the moment venues with their own licenses (rather than a government sponsor) listed the contracts.",
+      "wall": "Was purely political legitimacy — which is why it fell the moment venues with their own licenses (rather than a government sponsor) listed the contracts.",
       "unlock": "Done. Kept here as calibration: the list you are reading is a forward indicator with multi-decade lead times, not a graveyard.",
       "maps_to": {
         "segment": "prediction_event",
@@ -257,19 +257,112 @@
           "author": "Kenneth Arrow",
           "year": 1962,
           "work": "Economic Welfare and the Allocation of Resources for Invention",
-          "note": "The information paradox: a buyer can't value information without receiving it, and having received it, needn't pay \u2014 the essential wall, stated 60 years ago."
+          "note": "The information paradox: a buyer can't value information without receiving it, and having received it, needn't pay — the essential wall, stated 60 years ago."
         }
       ],
       "status": "attempted",
-      "nearest_attempts": "Ocean Protocol and a decade of 'data marketplace' startups; Nasdaq Data Link is a successful store, which is exactly the point \u2014 stores work, exchanges don't.",
+      "nearest_attempts": "Ocean Protocol and a decade of 'data marketplace' startups; Nasdaq Data Link is a successful store, which is exactly the point — stores work, exchanges don't.",
       "wall": "Likely essential, not contingent: non-rival goods with Arrow's paradox and severe adverse selection resist double-auction price formation. Mirrors the structural matrix cell at Alt Data x Venue.",
-      "unlock": "Possibly none. Included as the control case \u2014 the literature also tells you which empty cells to leave alone.",
+      "unlock": "Possibly none. Included as the control case — the literature also tells you which empty cells to leave alone.",
       "maps_to": {
         "segment": "alt_data",
         "layers": [
           "venue_liquidity"
         ],
         "asset_class": "multi_asset"
+      }
+    },
+    {
+      "id": "water-futures",
+      "name": "Liquid Water Markets",
+      "blurb": "Standing financial markets in water scarcity: farmers, utilities, and municipalities hedging allocation prices the way they hedge grain.",
+      "literature": [
+        {
+          "author": "CME Group / Nasdaq Veles",
+          "year": 2020,
+          "work": "NQH2O California Water Index Futures"
+        }
+      ],
+      "status": "built_late",
+      "nearest_attempts": "CME's NQH2O futures launched Dec 2020 and stayed near-zero volume; Australia's Murray-Darling water entitlement market is the one liquid physical precedent.",
+      "wall": "Basis risk (a state index vs your irrigation district), thin natural short side, and political optics — 'betting on water' invites regulatory backlash the moment prices spike.",
+      "unlock": "Index construction tied to actual allocation transactions plus irrigation-district hedging programs that make the farmer the natural long, not a speculator target.",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "commodities"
+      }
+    },
+    {
+      "id": "tokenized-equity-perps",
+      "name": "Tokenized-Equity Perpetuals",
+      "blurb": "Perpetual futures on single stocks and indices, settled against fixings, tradable 24/7 outside the securities clearing stack.",
+      "literature": [
+        {
+          "author": "Hyperliquid",
+          "year": 2026,
+          "work": "HIP-3: builder-deployed perp markets (equity underlyings)"
+        }
+      ],
+      "status": "embryonic",
+      "nearest_attempts": "Hyperliquid HIP-3 equity perps (2026), earlier FTX tokenized stocks (killed by collapse + regulation), Synthetix-era synths (liquidity never arrived).",
+      "wall": "Securities-law perimeter (a stock perp is an equity derivative wherever the SEC looks), plus unproven microstructure: how funding behaves around fixings and closes is an open empirical question.",
+      "unlock": "Regulatory clarity (CFTC/SEC perimeter) or offshore volume large enough to force an onshore listed response; empirically, fixing-window behavior determines whether these price cleanly (active research: fixing-fade probe, first analysis 2026-10).",
+      "maps_to": {
+        "segment": "crypto_infra",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "crypto_perp"
+      }
+    },
+    {
+      "id": "litigation-finance-exchange",
+      "name": "Litigation-Finance Exchange",
+      "blurb": "A standing market where legal claims trade as an asset class: originators sell, investors price, portfolios tranche.",
+      "literature": [
+        {
+          "author": "Steven Garber",
+          "year": 2010,
+          "work": "Alternative Litigation Financing in the United States",
+          "venue": "RAND"
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "Burford/Omni listed as funds; LexShares ran retail deal-by-deal syndication and wound down; secondary trades happen bespoke between funders.",
+      "wall": "Adverse selection is near-essential: funders with case access cherry-pick, so an open venue gets the lemons; add decade-long duration, court-data opacity, and champerty/ethics rules varying by jurisdiction.",
+      "unlock": "Standardized portfolio tranches (diversify away single-case selection) plus court-record transparency good enough for third-party pricing — the PACER-data wall is quietly load-bearing.",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "private_credit"
+      }
+    },
+    {
+      "id": "royalty-ip-exchange",
+      "name": "Royalty & IP Cashflow Exchange",
+      "blurb": "Liquid secondary markets in royalty streams — music, pharma, media — priced off auditable cashflow histories.",
+      "literature": [
+        {
+          "author": "Royalty Exchange",
+          "year": 2016,
+          "work": "Online royalty auction marketplace"
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "Royalty Exchange (auction, not continuous), Hipgnosis (listed fund imploded on valuation opacity), pharma royalty funds (bespoke, institutional).",
+      "wall": "Extreme asset heterogeneity + private, unaudited cashflow reporting: every stream is a bespoke diligence project, so continuous price formation has nothing standard to price.",
+      "unlock": "Streaming-era royalty data is finally auditable at source (DSP feeds); standardized cashflow attestation could do for royalties what title records did for Carfax.",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_class": "collectibles"
       }
     }
   ]

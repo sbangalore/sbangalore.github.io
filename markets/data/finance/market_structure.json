@@ -17,11 +17,21 @@
       "tam_per_winner": 4,
       "summary": "Cross-venue APIs are emerging, but unified collateral, margin, custody, and settlement for event contracts remain underbuilt.",
       "profit_wedge": "Start with funded-account orchestration, risk limits, and position/margin views before attempting true cross-venue clearing.",
-      "examples": ["PMXT", "Dome", "Interactive Brokers", "Stand"],
+      "examples": [
+        "PMXT",
+        "Dome",
+        "Interactive Brokers",
+        "Stand"
+      ],
       "maps_to": {
         "segment": "prediction_event",
-        "layers": ["connectivity_execution", "infra_plumbing"],
-        "asset_classes": ["prediction_markets"]
+        "layers": [
+          "connectivity_execution",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "prediction_markets"
+        ]
       }
     },
     {
@@ -40,11 +50,21 @@
       "tam_per_winner": 3,
       "summary": "Prediction markets need clean reference data, contract metadata, histories, resolution criteria, and cross-venue normalization.",
       "profit_wedge": "The wedge is not prices alone; it is canonical contract identity, settlement/rules metadata, and historical curves suitable for backtesting.",
-      "examples": ["PMXT", "Kalshi", "Polymarket", "ForecastEx"],
+      "examples": [
+        "PMXT",
+        "Kalshi",
+        "Polymarket",
+        "ForecastEx"
+      ],
       "maps_to": {
         "segment": "prediction_event",
-        "layers": ["data_feeds", "analytics_apps"],
-        "asset_classes": ["prediction_markets"]
+        "layers": [
+          "data_feeds",
+          "analytics_apps"
+        ],
+        "asset_classes": [
+          "prediction_markets"
+        ]
       }
     },
     {
@@ -63,11 +83,24 @@
       "tam_per_winner": 5,
       "summary": "Huge pools of users and assets, but customer acquisition, regulation, payment-for-order-flow economics, and incumbent brands dominate.",
       "profit_wedge": "Niche audiences, embedded brokerage, or a new asset class beat launching another generic equities broker.",
-      "examples": ["Robinhood", "Interactive Brokers", "Charles Schwab", "Webull"],
+      "examples": [
+        "Robinhood",
+        "Interactive Brokers",
+        "Charles Schwab",
+        "Webull"
+      ],
       "maps_to": {
         "segment": "brokers_execution",
-        "layers": ["connectivity_execution", "infra_plumbing"],
-        "asset_classes": ["equities", "options", "crypto_spot", "multi_asset"]
+        "layers": [
+          "connectivity_execution",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "equities",
+          "options",
+          "crypto_spot",
+          "multi_asset"
+        ]
       }
     },
     {
@@ -86,11 +119,25 @@
       "tam_per_winner": 5,
       "summary": "Ticker plants, feed handlers, and low-latency market data are lucrative but dominated by incumbents, exchange licenses, and colocation economics.",
       "profit_wedge": "Wedges exist around underserved asset classes, developer ergonomics, and derived analytics, not core exchange feed redistribution.",
-      "examples": ["Bloomberg", "LSEG", "ICE Data", "Exegy", "Pico"],
+      "examples": [
+        "Bloomberg",
+        "LSEG",
+        "ICE Data",
+        "Exegy",
+        "Pico"
+      ],
       "maps_to": {
         "segment": "market_data",
-        "layers": ["data_feeds", "infra_plumbing"],
-        "asset_classes": ["equities", "options", "futures", "multi_asset"]
+        "layers": [
+          "data_feeds",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "equities",
+          "options",
+          "futures",
+          "multi_asset"
+        ]
       }
     },
     {
@@ -109,11 +156,23 @@
       "tam_per_winner": 3,
       "summary": "Funds will pay for alpha, but signal decay, data rights, compliance review, and procurement friction make repeatable scale hard.",
       "profit_wedge": "Own a proprietary source with durable rights, or sell workflow/context instead of a one-off alpha feed.",
-      "examples": ["YipitData", "Similarweb", "Earnest", "M Science"],
+      "examples": [
+        "YipitData",
+        "Similarweb",
+        "Earnest",
+        "M Science"
+      ],
       "maps_to": {
         "segment": "alt_data",
-        "layers": ["data_feeds", "analytics_apps"],
-        "asset_classes": ["equities", "private_alts", "multi_asset"]
+        "layers": [
+          "data_feeds",
+          "analytics_apps"
+        ],
+        "asset_classes": [
+          "equities",
+          "private_alts",
+          "multi_asset"
+        ]
       }
     },
     {
@@ -132,11 +191,24 @@
       "tam_per_winner": 4,
       "summary": "Institutions want custody, execution, credit, settlement, and risk across venues, but trust and regulatory posture separate winners.",
       "profit_wedge": "Prime brokerage, portfolio margin, collateral mobility, and compliance tooling are stronger wedges than another exchange connector.",
-      "examples": ["Talos", "FalconX", "Hidden Road", "Fireblocks", "Copper"],
+      "examples": [
+        "Talos",
+        "FalconX",
+        "Hidden Road",
+        "Fireblocks",
+        "Copper"
+      ],
       "maps_to": {
         "segment": "crypto_infra",
-        "layers": ["connectivity_execution", "infra_plumbing"],
-        "asset_classes": ["crypto_spot", "crypto_perp", "crypto_options"]
+        "layers": [
+          "connectivity_execution",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "crypto_spot",
+          "crypto_perp",
+          "crypto_options"
+        ]
       }
     },
     {
@@ -155,11 +227,24 @@
       "tam_per_winner": 4,
       "summary": "Benchmarks compound through brand, regulation, ETF assets, and licensing, but new entrants need a new asset class or distribution channel.",
       "profit_wedge": "Build benchmarks for emerging markets, crypto, private assets, or prediction/event curves where incumbent index brands have not yet standardized the category.",
-      "examples": ["S&P Dow Jones", "MSCI", "FTSE Russell", "CoinDesk Indices"],
+      "examples": [
+        "S&P Dow Jones",
+        "MSCI",
+        "FTSE Russell",
+        "CoinDesk Indices"
+      ],
       "maps_to": {
         "segment": "indices_benchmarks",
-        "layers": ["data_feeds", "analytics_apps"],
-        "asset_classes": ["etfs", "rates_fixed_income", "crypto_spot", "multi_asset"]
+        "layers": [
+          "data_feeds",
+          "analytics_apps"
+        ],
+        "asset_classes": [
+          "etfs",
+          "rates_fixed_income",
+          "crypto_spot",
+          "multi_asset"
+        ]
       }
     },
     {
@@ -178,11 +263,23 @@
       "tam_per_winner": 5,
       "summary": "Post-trade infrastructure can be extremely durable, but licenses, risk capital, regulation, and trust make it hard to enter.",
       "profit_wedge": "The best new wedges are in new asset classes or interoperability, not directly competing with OCC/DTCC on mature instruments.",
-      "examples": ["DTCC", "OCC", "CME Clearing", "Apex Fintech"],
+      "examples": [
+        "DTCC",
+        "OCC",
+        "CME Clearing",
+        "Apex Fintech"
+      ],
       "maps_to": {
         "segment": "clearing_custody",
-        "layers": ["infra_plumbing"],
-        "asset_classes": ["equities", "options", "futures", "prediction_markets"]
+        "layers": [
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "equities",
+          "options",
+          "futures",
+          "prediction_markets"
+        ]
       }
     },
     {
@@ -201,11 +298,163 @@
       "tam_per_winner": 4,
       "summary": "Model marketplaces, strategy wrappers, and managed products can scale, but trust, performance, regulation, and distribution dominate.",
       "profit_wedge": "Start with a trusted niche or embedded distribution; generic strategy marketplaces tend to become performance-chasing churn machines.",
-      "examples": ["QuantConnect", "Composer", "Numerai", "AQR"],
+      "examples": [
+        "QuantConnect",
+        "Composer",
+        "Numerai",
+        "AQR"
+      ],
       "maps_to": {
         "segment": "asset_mgmt",
-        "layers": ["analytics_apps", "connectivity_execution"],
-        "asset_classes": ["multi_asset", "private_alts", "equities", "crypto_spot"]
+        "layers": [
+          "analytics_apps",
+          "connectivity_execution"
+        ],
+        "asset_classes": [
+          "multi_asset",
+          "private_alts",
+          "equities",
+          "crypto_spot"
+        ]
+      }
+    },
+    {
+      "key": "stablecoin_fx_settlement",
+      "name": "Stablecoin FX & Settlement Rails",
+      "stage": "pedigree-gated land grab",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 5,
+      "resource_intensity": 5,
+      "buyer_power": 3,
+      "supplier_power": 4,
+      "differentiation": 3,
+      "distribution_difficulty": 5,
+      "profitability_path": 4,
+      "tam_per_winner": 5,
+      "summary": "The $200T FX settlement stack is unbundling onto stablecoin rails (GENIUS Act legitimized). Winners are licensing + banking + last-mile liquidity NETWORKS, not technology: OpenFX went $4B→$45B in a year on a FalconX-pedigree rolodex. Circle CPN and Stripe/Bridge are platformizing from above.",
+      "profit_wedge": "None for a non-pedigreed entrant. The play was only ever available to founders arriving with institutional liquidity networks and licensing war chests.",
+      "who_pays": "buyer (FX spread + float economics)",
+      "moat": "licenses + banking relationships + corridor liquidity",
+      "registry_id": "none — screened 2026-07: Zone A finance (balance sheet + licenses), no founder-fit path",
+      "examples": [
+        "OpenFX",
+        "Circle CPN",
+        "Bridge (Stripe)",
+        "BVNK",
+        "Conduit"
+      ],
+      "maps_to": {
+        "segment": "payments_settlement",
+        "layers": [
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "stablecoins",
+          "payments_fx_settlement"
+        ]
+      }
+    },
+    {
+      "key": "reserve_attestation_por",
+      "name": "Reserve Attestation & Proof-of-Reserves",
+      "stage": "mandate-created",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 3,
+      "supplier_power": 2,
+      "differentiation": 3,
+      "distribution_difficulty": 3,
+      "profitability_path": 4,
+      "tam_per_winner": 3,
+      "summary": "Voluntary post-FTX PoR died in ~6 weeks (Mazars exit); the GENIUS Act's monthly PCAOB-firm reserve examinations turned the same service into a mandated industry. The cleanest demonstration that scandal ignites verification demand but only a mandate converts it into a budget line.",
+      "profit_wedge": "Attestation tooling + real-time reserve feeds for the accounting firms holding the mandate; grows mechanically with stablecoin float (every OpenFX-style rail adds reserves to attest).",
+      "who_pays": "mandate (statutory, issuer-funded)",
+      "moat": "accreditation + regulator acceptance",
+      "registry_id": "independent-verification-thesis",
+      "examples": [
+        "The Network Firm (LedgerLens)",
+        "Chainlink PoR"
+      ],
+      "maps_to": {
+        "segment": "clearing_custody",
+        "layers": [
+          "infra_plumbing",
+          "data_feeds"
+        ],
+        "asset_classes": [
+          "stablecoins"
+        ]
+      }
+    },
+    {
+      "key": "fund_accounting_verification",
+      "name": "Independent Fund-Accounting Verification",
+      "stage": "open / team-gated",
+      "attractiveness": 4,
+      "growth": 3,
+      "competition": 2,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 2,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 3,
+      "summary": "Admins checking their own books is a conflicted-party structure (CIBC-Mellon pattern); Arcesium proves giants pay for independence; the sub-$1B tail is unserved. Trust-gated sale, and the seat requires a fund-accounting domain founder — the market is open, the team is the gate.",
+      "profit_wedge": "AI verification layer reading governing docs (LPA/side letters) against NAV/allocation/fee calcs, sold to fund CFOs as restatement insurance; continuous-NAV trend deepens the need (the checking tools are being built by the admins' own vendors).",
+      "who_pays": "buyer (fund CFO; reputational/operational risk budget)",
+      "moat": "clause-to-calc corpus + exam-cited evidence switching costs",
+      "registry_id": "ai-native-fund-administration (PAUSED 2026-07: domain co-founder stepped back)",
+      "examples": [
+        "Arcesium (incumbent benchmark)",
+        "FundGuard (the conflict, not the competitor)"
+      ],
+      "maps_to": {
+        "segment": "clearing_custody",
+        "layers": [
+          "analytics_apps",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "private_alts",
+          "multi_asset"
+        ]
+      }
+    },
+    {
+      "key": "pit_public_records_signals",
+      "name": "PIT-Rigorous Public-Records Signals",
+      "stage": "open wedge in a crowded category",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 1,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 3,
+      "summary": "Resolves the tension with the generic Alt Data row (crowded, comp=5): coverage IS crowded, but point-in-time/survivorship integrity is the unclaimed wedge — public records get amended and backdated, so backtests on today's copy embed lookahead. History only accrues forward from when you start snapshotting: a moat competitors cannot buy backward.",
+      "profit_wedge": "Provably lookahead-free signal feeds from municipal data (permits, deeds, crime) mapped to concentrated tradeable instruments (NYC pure-play REITs, CRE-heavy banks, CMBS). Integrity is the product; the deflation battery is the sales pitch.",
+      "who_pays": "buyer (systematic funds; alt-data budget)",
+      "moat": "forward-accruing PIT history + revision archives",
+      "registry_id": "re-alt-data-pit-signals (Promising; alpha backtest is the gate)",
+      "examples": [
+        "Cherre/ATTOM (coverage incumbents without the wedge)"
+      ],
+      "maps_to": {
+        "segment": "alt_data",
+        "layers": [
+          "data_feeds"
+        ],
+        "asset_classes": [
+          "real_estate",
+          "equities"
+        ]
       }
     }
   ]

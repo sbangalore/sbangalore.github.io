@@ -5889,5 +5889,283 @@
       "cluster load balancing",
       "gpu clusters"
     ]
+  },
+  {
+    "id": "moonvalley",
+    "name": "Moonvalley",
+    "url": "https://www.moonvalley.com",
+    "blurb": "Fully-licensed AI video model (Marey) for professional filmmakers — clean training data as the moat, built with the Asteria studio.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "video",
+      "creative"
+    ],
+    "verticals": [
+      "creative_media"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "licensed training data",
+      "video model",
+      "film production"
+    ],
+    "notable": [
+      "$154M raised (General Catalyst; CAA, Comcast, CoreWeave strategic)",
+      "Marey: 'first fully licensed' production video model"
+    ]
+  },
+  {
+    "id": "runway-ml",
+    "name": "Runway",
+    "url": "https://runwayml.com",
+    "blurb": "Frontier video generation and creative tooling; Lionsgate catalog partnership marked the licensed-training turn for studios.",
+    "segment": "model_labs",
+    "layers": [
+      "model_supply",
+      "application_layer"
+    ],
+    "asset_classes": [
+      "video",
+      "creative"
+    ],
+    "verticals": [
+      "creative_media"
+    ],
+    "region": "americas",
+    "access": [
+      "api",
+      "gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2018,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "video generation",
+      "film tools"
+    ],
+    "notable": [
+      "Gen model family",
+      "Lionsgate training partnership",
+      "AI Film Festival"
+    ]
+  },
+  {
+    "id": "lmarena",
+    "name": "LMArena",
+    "url": "https://lmarena.ai",
+    "blurb": "Crowdsourced pairwise model evaluation — the de facto public leaderboard for frontier models, now a company.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "chat",
+      "multi_modal"
+    ],
+    "verticals": [
+      "software_engineering"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2024,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "leaderboard",
+      "human preference eval"
+    ],
+    "notable": [
+      "$100M seed at $600M (a16z, UC Investments, 2025)",
+      "Structural conflict: the labs it ranks are its natural customers"
+    ]
+  },
+  {
+    "id": "validmind",
+    "name": "ValidMind",
+    "url": "https://validmind.ai",
+    "blurb": "Model-risk-management platform for banks: validation workflows, documentation automation, and evidence trails for the second line of defense.",
+    "segment": "security_governance",
+    "layers": [
+      "ops_governance",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "finance_trading",
+      "legal_compliance"
+    ],
+    "region": "americas",
+    "access": [
+      "gui",
+      "api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "model risk management",
+      "bank validation",
+      "SR 26-2"
+    ],
+    "notable": [
+      "Experian distribution partnership (2025)",
+      "Sells into the ~$6B mandated bank MRM budget"
+    ]
+  },
+  {
+    "id": "aiuc-ai",
+    "name": "AIUC",
+    "url": "https://www.aiuc.com",
+    "blurb": "Standards + audits + insurance for AI agents: AIUC-1 ('SOC 2 for AI agents'), premiums priced off accredited third-party audits.",
+    "segment": "security_governance",
+    "layers": [
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "agents",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "legal_compliance"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2025,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "ai insurance",
+      "certification",
+      "AIUC-1"
+    ],
+    "notable": [
+      "$15M seed led by Nat Friedman; founders ex-Anthropic/ex-METR",
+      "Schellman accredited as first external auditor"
+    ]
+  },
+  {
+    "id": "armilla-ai",
+    "name": "Armilla AI",
+    "url": "https://www.armilla.ai",
+    "blurb": "AI liability insurance (Lloyd's coverholder): independent model evaluation as a condition of coverage up to $25M.",
+    "segment": "security_governance",
+    "layers": [
+      "ops_governance",
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "legal_compliance"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2019,
+    "status": "active",
+    "country": "CA",
+    "tags": [
+      "ai insurance",
+      "model evaluation",
+      "lloyds"
+    ],
+    "notable": [
+      "Affirmative AI liability since Apr 2025",
+      "$25M raise (Jan 2026)"
+    ]
+  },
+  {
+    "id": "fairly-trained",
+    "name": "Fairly Trained",
+    "url": "https://www.fairlytrained.org",
+    "blurb": "Nonprofit certifying generative models trained only on licensed/consented data — declaration review, not corpus audit.",
+    "segment": "data_context",
+    "layers": [
+      "data_context",
+      "ops_governance"
+    ],
+    "asset_classes": [
+      "creative",
+      "audio"
+    ],
+    "verticals": [
+      "creative_media",
+      "legal_compliance"
+    ],
+    "region": "emea",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "free",
+    "founded": 2024,
+    "status": "active",
+    "country": "GB",
+    "tags": [
+      "training data",
+      "licensing certification"
+    ],
+    "notable": [
+      "Founded by Ed Newton-Rex (ex-Stability)",
+      "~dozen certified companies; $150-$6.5k fee tiers; trust-based review"
+    ]
+  },
+  {
+    "id": "vals-ai",
+    "name": "Vals AI",
+    "url": "https://www.vals.ai",
+    "blurb": "Independent domain benchmarks (legal, tax, finance) where vendors submit models against professional baselines — third-party evaluation with industry participation.",
+    "segment": "eval_observability",
+    "layers": [
+      "eval_observability"
+    ],
+    "asset_classes": [
+      "chat",
+      "enterprise_automation"
+    ],
+    "verticals": [
+      "legal_compliance",
+      "finance_trading"
+    ],
+    "region": "americas",
+    "access": [
+      "gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "domain benchmarks",
+      "legal AI"
+    ],
+    "notable": [
+      "VLAIR legal-AI report benchmarked Harvey/CoCounsel vs lawyer baselines"
+    ]
   }
 ]

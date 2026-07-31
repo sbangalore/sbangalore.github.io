@@ -283,6 +283,41 @@
         ],
         "asset_class": "multi_workload"
       }
+    },
+    {
+      "id": "training-data-licensing-attestation",
+      "name": "Training-Data Licensing Attestation",
+      "blurb": "Independent, corpus-level certification that a model's training data is actually licensed — the audit behind every 'fully licensed' marketing claim.",
+      "literature": [
+        {
+          "author": "TIME",
+          "year": 2024,
+          "work": "Fairly Trained certification launch coverage (declaration-based, no dataset inspection)"
+        },
+        {
+          "author": "US District Court (N.D. Cal.)",
+          "year": 2026,
+          "work": "Bartz v. Anthropic $1.5B settlement approval — corpus acquisition provenance priced in billions"
+        },
+        {
+          "author": "Longpre et al. (Data Provenance Initiative)",
+          "year": 2024,
+          "work": "A large-scale audit of dataset licensing & attribution in AI",
+          "venue": "Nature Machine Intelligence"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "Fairly Trained (nonprofit, trust-based declaration review at $150-$6.5k — no corpus inspection); rights-holder-owned detection (WMG/Sureel, Sony-backed Vermillio) is structurally conflicted; Big 4 'Assurance for AI' covers controls, not licensing truth.",
+      "wall": "Revealed willingness-to-pay ~zero: self-attestation closes studio deals (Moonvalley), hyperscaler indemnities substitute for verification, and infringe-then-settle proved profitable (Suno/Udio). Adversarial proof is technically bounded — membership inference collapses under paraphrase obfuscation — so the honest product is assurance-over-records, not a lie detector.",
+      "unlock": "An E&O carrier naming a certification that lifts AI-content exclusions (the UL moment), or EU AI Office enforcement of training-data summaries (fines up to 3% of turnover live from Aug 2026) making a false public summary a pre-auditable liability.",
+      "maps_to": {
+        "segment": "data_context",
+        "layers": [
+          "data_context",
+          "ops_governance"
+        ],
+        "asset_class": "creative"
+      }
     }
   ]
 }

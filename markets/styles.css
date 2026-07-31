@@ -740,6 +740,12 @@ body[data-view="overview"] .market-card {
   color: var(--text-faint);
 }
 
+.cell-sample--commodity {
+  border: 1px dotted var(--text-faint);
+  background: var(--surface-inset);
+  color: var(--text-faint);
+}
+
 .matrix-root {
   display: grid;
   grid-template-columns: 142px repeat(var(--matrix-columns), 104px);
@@ -816,6 +822,34 @@ button.cell:active {
 .cell.lit {
   border-color: color-mix(in oklch, var(--seg) 66%, var(--rule));
   background: color-mix(in oklch, var(--seg) 24%, var(--surface-inset));
+}
+
+.cell.lit.heat-1 {
+  background: color-mix(in oklch, var(--seg) 13%, var(--surface-inset));
+}
+
+.cell.lit.heat-2 {
+  background: color-mix(in oklch, var(--seg) 30%, var(--surface-inset));
+}
+
+.cell.lit.heat-3 {
+  background: color-mix(in oklch, var(--seg) 50%, var(--surface-inset));
+  border-color: color-mix(in oklch, var(--seg) 82%, var(--rule));
+}
+
+.cell.commodity {
+  position: relative;
+  border-style: dotted;
+  opacity: 0.88;
+}
+
+.cell.commodity::before {
+  position: absolute;
+  top: 3px;
+  right: 7px;
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  content: "\2248";
 }
 
 .cell.open {

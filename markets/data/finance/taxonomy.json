@@ -76,6 +76,20 @@
       "description": "The delegated-capital layer: funds, vault protocols, copy trading, and marketplaces that turn trading track records into investable products. Sits on top of the stack — this is the demand side of everything else on the map.",
       "color": "#14b8a6",
       "flow": "capital"
+    },
+    {
+      "key": "payments_settlement",
+      "label": "Payments & Settlement Rails",
+      "description": "Cross-border money movement: FX settlement networks, stablecoin rails, and correspondent-banking alternatives — where value moves between systems at agreed prices.",
+      "color": "#14b8a6",
+      "flow": "post_trade"
+    },
+    {
+      "key": "insurance_risk_transfer",
+      "label": "Insurance & Risk Transfer",
+      "description": "Markets that move risk instead of assets: ILS and cat bonds, parametric covers, reinsurance capital, and AI-era certified assurance priced off audits.",
+      "color": "#f59e0b",
+      "flow": "post_trade"
     }
   ],
   "layers": [
@@ -201,6 +215,14 @@
     {
       "key": "multi_asset",
       "label": "Multi-Asset"
+    },
+    {
+      "key": "payments_fx_settlement",
+      "label": "Payments & FX Settlement"
+    },
+    {
+      "key": "insurance_risk",
+      "label": "Insurance & Cat Risk"
     }
   ],
   "regions": [
@@ -377,6 +399,11 @@
         "layer": "infra_plumbing",
         "segment": "indices_benchmarks",
         "reason": "Benchmark administration is governance, not market plumbing."
+      },
+      {
+        "layer": "venue_liquidity",
+        "segment": "payments_settlement",
+        "reason": "A settlement rail that forms prices is an exchange by definition; payment rails move value at agreed prices, they don't discover them."
       }
     ],
     "opportunity": [
@@ -397,6 +424,11 @@
         "segment": "prediction_event",
         "note": "The deepest remaining gap: no cross-venue clearing or fungibility. The 'same' event on Kalshi vs Polymarket has different resolution criteria and can settle differently; no OCC-for-events nets positions across venues, so every arb carries settlement-mismatch risk and double capital. Whoever builds this owns the column.",
         "as_of": "2026-06"
+      },
+      {
+        "layer": "venue_liquidity",
+        "segment": "insurance_risk_transfer",
+        "note": "No liquid secondary venue for cat/ILS risk — Artemis tracks OTC deals. Walls look contingent (standardization, cashflow reporting), not essential; see unbuilt: longevity, water."
       }
     ]
   },

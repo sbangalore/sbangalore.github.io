@@ -390,9 +390,18 @@ function matrixCellInfo(layerKey, segmentKey, count) {
   const key = `${layerKey}|${segmentKey}`;
   const structural = new Map((cells.structural || []).map((cell) => [`${cell.layer}|${cell.segment}`, cell]));
   const opportunity = new Map((cells.opportunity || []).map((cell) => [`${cell.layer}|${cell.segment}`, cell]));
+  const commodity = new Map((cells.commodity || []).map((cell) => [`${cell.layer}|${cell.segment}`, cell]));
   const structCell = structural.get(key);
   const oppCell = opportunity.get(key);
-  if (count > 0) return { className: `cell lit ${oppCell ? "flagged" : ""}`, text: count, note: oppCell?.note };
+  const comCell = commodity.get(key);
+  if (count > 0) {
+    const heat = count >= 7 ? "heat-3" : count >= 3 ? "heat-2" : "heat-1";
+    return {
+      className: `cell lit ${heat}${comCell ? " commodity" : ""}${oppCell ? " flagged" : ""}`,
+      text: count,
+      note: comCell?.note || oppCell?.note,
+    };
+  }
   if (structCell) return { className: "cell structural", text: "x", note: structCell.reason };
   if (oppCell) return { className: "cell open flagged", text: "0", note: oppCell.note };
   return { className: "cell open", text: "0", note: "No curated entry in this cell yet." };

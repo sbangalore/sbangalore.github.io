@@ -5234,5 +5234,657 @@
       "custody_settlement_adapter",
       "venue_adapter"
     ]
+  },
+  {
+    "id": "openfx",
+    "name": "OpenFX",
+    "url": "https://www.openfx.com",
+    "blurb": "Stablecoin-intermediated institutional FX settlement: near-instant cross-border conversion for fintechs, remitters, and payroll platforms.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "fx",
+      "stablecoins",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2024,
+    "status": "active",
+    "notable": [
+      "$4B→$45B annualized volume in ~1yr",
+      "98% of transactions settle <60 min",
+      "$94M Series A (Accel, Atomico, Pantera, 2026)"
+    ],
+    "tags": [
+      "stablecoins",
+      "fx",
+      "cross-border",
+      "settlement"
+    ],
+    "notes": "Founded by FalconX co-founder Prabhakar Reddy — the moat is licenses + last-mile liquidity network, not code."
+  },
+  {
+    "id": "circle-cpn",
+    "name": "Circle (USDC / CPN)",
+    "url": "https://www.circle.com",
+    "blurb": "USDC issuer and the Circle Payments Network: a coordination layer for stablecoin settlement between regulated financial institutions.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "stablecoins",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "active",
+    "notable": [
+      "USDC reserve attestations (GENIUS Act regime)",
+      "CPN launched 2025 — platformizing stablecoin settlement"
+    ],
+    "tags": [
+      "stablecoins",
+      "usdc",
+      "settlement"
+    ],
+    "notes": "The bundling incumbent forming over stablecoin payments."
+  },
+  {
+    "id": "bridge-stripe",
+    "name": "Bridge (Stripe)",
+    "url": "https://www.bridge.xyz",
+    "blurb": "Stablecoin orchestration APIs: issuance, conversion, and cross-border movement — acquired by Stripe for ~$1.1B.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "stablecoins",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2022,
+    "status": "acquired",
+    "notable": [
+      "~$1.1B Stripe acquisition",
+      "Powers stablecoin flows inside Stripe's stack"
+    ],
+    "tags": [
+      "stablecoins",
+      "api",
+      "stripe"
+    ],
+    "notes": "The absorption datapoint: stablecoin infra folding into the payments giants."
+  },
+  {
+    "id": "bvnk",
+    "name": "BVNK",
+    "url": "https://www.bvnk.com",
+    "blurb": "Stablecoin payments infrastructure for enterprises: virtual accounts, on/off-ramps, and cross-border settlement rails.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "stablecoins",
+      "fx",
+      "payments_fx_settlement"
+    ],
+    "region": "emea",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "notable": [
+      "Licensed across UK/EU corridors",
+      "Serves PSPs and enterprises"
+    ],
+    "tags": [
+      "stablecoins",
+      "payments"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "conduit-pay",
+    "name": "Conduit",
+    "url": "https://www.conduit.financial",
+    "blurb": "Stablecoin-powered B2B cross-border payments focused on LatAm and Africa corridors where correspondent banking is slowest.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "stablecoins",
+      "fx",
+      "payments_fx_settlement"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2021,
+    "status": "active",
+    "notable": [
+      "EM-corridor focus (LatAm, Africa)"
+    ],
+    "tags": [
+      "stablecoins",
+      "cross-border",
+      "em-corridors"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "wise-platform",
+    "name": "Wise Platform",
+    "url": "https://wise.com/platform",
+    "blurb": "Wise's infrastructure arm: banks and enterprises plug into Wise's treasury network for cross-border payouts without building correspondent chains.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing",
+      "connectivity_execution"
+    ],
+    "asset_classes": [
+      "fx",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2011,
+    "status": "active",
+    "notable": [
+      "Direct integrations with domestic RTP schemes",
+      "Powers cross-border for banks/neobanks"
+    ],
+    "tags": [
+      "fx",
+      "payouts",
+      "remittance"
+    ],
+    "notes": "The fiat-native (non-stablecoin) benchmark the crypto rails compete against."
+  },
+  {
+    "id": "corpay-cross-border",
+    "name": "Corpay Cross-Border",
+    "url": "https://www.corpay.com",
+    "blurb": "Institutional B2B FX and cross-border payments (ex-Cambridge Global Payments): hedging, mass payouts, and currency risk for corporates.",
+    "segment": "payments_settlement",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "fx",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1992,
+    "status": "active",
+    "notable": [
+      "Canadian-origin B2B FX incumbent"
+    ],
+    "tags": [
+      "fx",
+      "b2b",
+      "hedging"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "url": "https://www.swift.com",
+    "blurb": "The correspondent-banking messaging network: the legacy rail every payments challenger benchmarks against.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "fx",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 1973,
+    "status": "active",
+    "notable": [
+      "ISO 20022 migration",
+      "Swift gpi tracking",
+      "11k+ member institutions"
+    ],
+    "tags": [
+      "correspondent-banking",
+      "messaging"
+    ],
+    "notes": "Messaging, not settlement — the distinction stablecoin rails exploit."
+  },
+  {
+    "id": "artemis-ils",
+    "name": "Artemis",
+    "url": "https://www.artemis.bm",
+    "blurb": "The market-data and news hub for insurance-linked securities: cat bond deal directory, pricing indices, and ILS fund tracking.",
+    "segment": "insurance_risk_transfer",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "insurance_risk",
+      "securitized"
+    ],
+    "region": "global",
+    "access": [
+      "bulk_file"
+    ],
+    "cost_tier": "freemium",
+    "founded": 1999,
+    "status": "active",
+    "notable": [
+      "Cat bond deal directory (the ILS record of note)"
+    ],
+    "tags": [
+      "ils",
+      "cat-bonds",
+      "reinsurance"
+    ],
+    "notes": "Data layer over an OTC market with no liquid secondary venue."
+  },
+  {
+    "id": "arbol",
+    "name": "Arbol",
+    "url": "https://www.arbol.io",
+    "blurb": "Parametric climate risk coverage: weather-indexed insurance for agriculture, energy, and shipping, settled on objective data triggers.",
+    "segment": "insurance_risk_transfer",
+    "layers": [
+      "analytics_apps",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "insurance_risk",
+      "commodities"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "notable": [
+      "Parametric triggers (no claims adjustment)",
+      "dClimate data network"
+    ],
+    "tags": [
+      "parametric",
+      "climate",
+      "weather"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ledger-investing",
+    "name": "Ledger Investing",
+    "url": "https://www.ledgerinvesting.com",
+    "blurb": "Casualty ILS: securitizes insurance program risk so capital-markets investors can hold books of casualty premium.",
+    "segment": "insurance_risk_transfer",
+    "layers": [
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "insurance_risk",
+      "securitized"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "notable": [
+      "Casualty securitization (beyond property cat)"
+    ],
+    "tags": [
+      "ils",
+      "casualty",
+      "securitization"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "munich-re-aisure",
+    "name": "Munich Re (aiSure)",
+    "url": "https://www.munichre.com/en/solutions/for-industry-clients/insure-ai.html",
+    "blurb": "AI performance insurance: underwrites model failure risk after technical due diligence — the underwriting IS an independent model assessment.",
+    "segment": "insurance_risk_transfer",
+    "layers": [
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "insurance_risk"
+    ],
+    "region": "emea",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2018,
+    "status": "active",
+    "notable": [
+      "Insuring AI performance since 2018",
+      "Mosaic distribution partnership"
+    ],
+    "tags": [
+      "ai-insurance",
+      "performance-guarantee"
+    ],
+    "notes": "The risk-bearer as verifier — the UL pattern applied to AI."
+  },
+  {
+    "id": "aiuc",
+    "name": "AIUC",
+    "url": "https://www.aiuc.com",
+    "blurb": "Standards + audits + insurance for AI agents: AIUC-1 ('SOC 2 for AI agents') with premiums priced off accredited third-party audits.",
+    "segment": "insurance_risk_transfer",
+    "layers": [
+      "analytics_apps",
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "insurance_risk"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2025,
+    "status": "active",
+    "notable": [
+      "$15M seed led by Nat Friedman",
+      "Schellman accredited as first external auditor",
+      "UiPath certified"
+    ],
+    "tags": [
+      "ai-insurance",
+      "certification",
+      "standards"
+    ],
+    "notes": "The cleanest live run of the UL playbook: risk-bearer anchors the standard."
+  },
+  {
+    "id": "armilla",
+    "name": "Armilla AI",
+    "url": "https://www.armilla.ai",
+    "blurb": "AI liability insurance (Lloyd's coverholder): affirmative coverage up to $25M, with independent model evaluation required before underwriting.",
+    "segment": "insurance_risk_transfer",
+    "layers": [
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "insurance_risk"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2019,
+    "status": "active",
+    "notable": [
+      "Lloyd's-backed AI liability to $25M",
+      "$25M raise (Jan 2026)"
+    ],
+    "tags": [
+      "ai-insurance",
+      "liability",
+      "lloyds"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "yipitdata",
+    "name": "YipitData",
+    "url": "https://www.yipitdata.com",
+    "blurb": "Aggregated transaction and web data productized into company-level KPIs for fundamental and systematic investors.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2010,
+    "status": "active",
+    "notable": [
+      "Email-receipt + card panels",
+      "Company KPI products"
+    ],
+    "tags": [
+      "transaction-data",
+      "consumer"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "m-science",
+    "name": "M Science",
+    "url": "https://www.mscience.com",
+    "blurb": "One of the oldest alt-data research shops: transaction and supply-chain data turned into analyst-mediated research for funds.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "notable": [
+      "Data + human-research hybrid model"
+    ],
+    "tags": [
+      "transaction-data",
+      "research"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "placer-ai",
+    "name": "Placer.ai",
+    "url": "https://www.placer.ai",
+    "blurb": "Foot-traffic intelligence from mobile location panels: store visits, trade areas, and chain comparisons for investors and operators.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "paid",
+    "founded": 2016,
+    "status": "active",
+    "notable": [
+      "Location panels at chain/store granularity"
+    ],
+    "tags": [
+      "foot-traffic",
+      "geolocation",
+      "retail"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "advan-research",
+    "name": "Advan",
+    "url": "https://www.advanresearch.com",
+    "blurb": "Location-data analytics for institutional investors: foot-traffic and workforce signals mapped to tickers.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities",
+      "real_estate"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2015,
+    "status": "active",
+    "notable": [
+      "Ticker-mapped location panels"
+    ],
+    "tags": [
+      "geolocation",
+      "institutional"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "earnest-analytics",
+    "name": "Earnest Analytics",
+    "url": "https://www.earnestanalytics.com",
+    "blurb": "Consumer transaction data (card + receipt panels) benchmarked into brand and company performance metrics.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file",
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2012,
+    "status": "active",
+    "notable": [
+      "Card-panel benchmarking"
+    ],
+    "tags": [
+      "transaction-data",
+      "consumer"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "consumer-edge",
+    "name": "Consumer Edge",
+    "url": "https://www.consumer-edge.com",
+    "blurb": "Global consumer transaction insights with brand-level mapping, sold to investors and corporates.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds"
+    ],
+    "asset_classes": [
+      "equities"
+    ],
+    "region": "americas",
+    "access": [
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2009,
+    "status": "active",
+    "notable": [
+      "Global card panels"
+    ],
+    "tags": [
+      "transaction-data"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "similarweb",
+    "name": "Similarweb",
+    "url": "https://www.similarweb.com",
+    "blurb": "Web and app traffic intelligence: digital demand signals for companies and tickers; public since 2021.",
+    "segment": "alt_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2007,
+    "status": "active",
+    "notable": [
+      "Public company (NYSE: SMWB)",
+      "Digital-traffic panels"
+    ],
+    "tags": [
+      "web-traffic",
+      "digital-demand"
+    ],
+    "notes": ""
   }
 ]

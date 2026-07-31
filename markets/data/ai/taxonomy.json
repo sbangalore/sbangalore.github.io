@@ -558,6 +558,13 @@
         "note": "Open: trusted demand and provenance rails for wafers, gases, copper, water, construction inputs, and critical minerals tied to AI cluster buildout.",
         "as_of": "2026-06"
       }
+    ],
+    "commodity": [
+      {
+        "layer": "application_layer",
+        "segment": "orchestration_agents",
+        "note": "Vertical AI voice/answering agents are commoditized: horizontal platforms carpet-bomb every vertical with $99-399/mo landing pages. Answering is baseline; the moat is workflow integration behind the call (PMS/DMS writes, scheduling)."
+      }
     ]
   },
   "legend_flows": {

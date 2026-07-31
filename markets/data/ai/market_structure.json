@@ -451,6 +451,184 @@
           "chat"
         ]
       }
+    },
+    {
+      "key": "rights_clean_media_models",
+      "name": "Rights-Clean Media Models & Creator-Credible AI",
+      "stage": "consolidating acqui-hire endgame",
+      "attractiveness": 3,
+      "growth": 4,
+      "competition": 4,
+      "resource_intensity": 4,
+      "buyer_power": 3,
+      "supplier_power": 3,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 3,
+      "summary": "When the binding constraint is rights/trust rather than model quality, winners are deliberately-created clean data + domain-credible founders — and exits come fast because incumbents must buy what they can't build (Wonder→Autodesk, Metaphysic→DNEG, InterPositive→Netflix, Google×A24, CAA inside Moonvalley). Most credible seats already taken or bought.",
+      "profit_wedge": "None for outsiders: the credibility IS the company. The moat wasn't the model — it was the soundstage and the name.",
+      "who_pays": "acquirer (legitimacy premium)",
+      "moat": "rights-clean corpora + creator/guild credibility",
+      "registry_id": "none — screened 2026-07: credibility-reserved seats",
+      "examples": [
+        "Moonvalley",
+        "Runway",
+        "Flawless",
+        "InterPositive (acq. Netflix)"
+      ],
+      "maps_to": {
+        "segment": "model_labs",
+        "layers": [
+          "model_supply"
+        ],
+        "asset_classes": [
+          "video",
+          "creative"
+        ]
+      }
+    },
+    {
+      "key": "ai_insurance_certified_assurance",
+      "name": "AI Insurance & Certified Assurance",
+      "stage": "UL playbook forming",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 2,
+      "resource_intensity": 3,
+      "buyer_power": 3,
+      "supplier_power": 2,
+      "differentiation": 4,
+      "distribution_difficulty": 3,
+      "profitability_path": 4,
+      "tam_per_winner": 4,
+      "summary": "The one lane where third-party AI verification demonstrably gets PAID: insurers require assessment before coverage and price premiums off audits (Armilla, Munich Re aiSure, AIUC-1 with accredited auditors). The risk-bearer anchors the standard — the same structure that built UL in 1894. Verisk's CGL exclusions are the forcing function pushing AI risk into standalone cover.",
+      "profit_wedge": "Accredited-auditor and assessment-tooling positions under the emerging standards (AIUC-1 template); coverage-linked certification for AI vendors selling into enterprises whose own indemnities are worthless paper.",
+      "who_pays": "mandate-equivalent (insurance-gated market access)",
+      "moat": "standard authorship + accreditation network",
+      "registry_id": "independent-verification-thesis",
+      "examples": [
+        "AIUC",
+        "Armilla",
+        "Munich Re aiSure",
+        "Testudo"
+      ],
+      "maps_to": {
+        "segment": "security_governance",
+        "layers": [
+          "ops_governance"
+        ],
+        "asset_classes": [
+          "agents",
+          "enterprise_automation"
+        ]
+      }
+    },
+    {
+      "key": "regulated_model_validation",
+      "name": "Regulated Model Validation (Bank MRM)",
+      "stage": "guidance-vacuum window",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 4,
+      "supplier_power": 2,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 3,
+      "summary": "Bank model-risk management is a ~$6B mandated budget with standing second-line headcount. April 2026's SR 26-2 explicitly carved GenAI OUT of scope while examiners enforce it by analogy and an AI RFI is queued — LLM validation methodology is momentarily unowned by guidance. Regulatory independence blocks producer bundling: the first line cannot validate itself.",
+      "profit_wedge": "GenAI-native validation batteries (eval suites, drift/version-change detection for API models, examiner-ready effective-challenge documentation) sold to mid-size banks' MRM teams — or through the AI vendors selling into banks.",
+      "who_pays": "mandate (regulatory second-line budget)",
+      "moat": "exam-cited evidence switching costs + cross-bank methodology corpus",
+      "registry_id": "independent-verification-thesis",
+      "examples": [
+        "ValidMind",
+        "SAS MRM",
+        "IBM watsonx.governance"
+      ],
+      "maps_to": {
+        "segment": "security_governance",
+        "layers": [
+          "ops_governance",
+          "eval_observability"
+        ],
+        "asset_classes": [
+          "enterprise_automation"
+        ]
+      }
+    },
+    {
+      "key": "vertical_voice_agents",
+      "name": "Vertical AI Voice & Answering Agents",
+      "stage": "commoditized answering layer",
+      "attractiveness": 2,
+      "growth": 4,
+      "competition": 5,
+      "resource_intensity": 2,
+      "buyer_power": 5,
+      "supplier_power": 3,
+      "differentiation": 2,
+      "distribution_difficulty": 4,
+      "profitability_path": 2,
+      "tam_per_winner": 2,
+      "summary": "'AI receptionist for X' is dead as a wedge class for every X: horizontal voice platforms carpet-bomb verticals with programmatic landing pages at $99-399/mo, and buyers' guides call AI answering 'baseline expectation'. Survivors (Rondah, Toma) win on deep workflow integration behind the call — PMS/DMS writes, scheduling, insurance — not on answering.",
+      "profit_wedge": "Voice is the commodity mouth; the moat is the hands. Only enter with a vertical workflow-integration story, never an answering story.",
+      "who_pays": "buyer (SMB subscription)",
+      "moat": "workflow/system-of-record integration depth",
+      "registry_id": "none — lesson banked 2026-07 (funeral-homes sweep: 8+ vendors incumbent)",
+      "examples": [
+        "Rondah AI",
+        "Toma",
+        "Goodcall",
+        "Numa"
+      ],
+      "maps_to": {
+        "segment": "orchestration_agents",
+        "layers": [
+          "application_layer"
+        ],
+        "asset_classes": [
+          "voice",
+          "agents"
+        ]
+      }
+    },
+    {
+      "key": "distributed_consumer_inference",
+      "name": "Distributed Consumer-Hardware Inference",
+      "stage": "two-sided mismatch",
+      "attractiveness": 2,
+      "growth": 3,
+      "competition": 3,
+      "resource_intensity": 4,
+      "buyer_power": 4,
+      "supplier_power": 3,
+      "differentiation": 3,
+      "distribution_difficulty": 5,
+      "profitability_path": 2,
+      "tam_per_winner": 2,
+      "summary": "Marketplaces routing inference to idle consumer hardware (Apple Silicon DePIN): elegant response to the power constraint, but the buyers who value the privacy pitch can't accept consumer hardware, and the price-sensitive buyers won't pay for privacy — open-model tokens are already a knife-fight. Supply retention runs on token subsidy (the DePIN pattern).",
+      "profit_wedge": "Technically real (attestation stacks are serious — MDA, APNs code-identity), commercially mismatched. The durable insight: operator-blind is not platform-blind; hop-by-hop encryption + team-key trust is not E2E.",
+      "who_pays": "none proven (subsidy-funded supply, thin demand)",
+      "moat": "none durable (access + model quality both revocable)",
+      "registry_id": "none — screened 2026-07 (Darkbloom analysis)",
+      "examples": [
+        "Darkbloom (Eigen Labs)",
+        "Akash",
+        "io.net"
+      ],
+      "maps_to": {
+        "segment": "serving_inference",
+        "layers": [
+          "serving_inference"
+        ],
+        "asset_classes": [
+          "on_device",
+          "chat"
+        ]
+      }
     }
   ]
 }
