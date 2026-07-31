@@ -420,6 +420,61 @@
         "A DSP-level royalty attestation standard is adopted",
         "A continuous-trading royalty venue sustains listings"
       ]
+    },
+    {
+      "id": "escheatment-recovery",
+      "name": "Unclaimed-Property Recovery Rails",
+      "blurb": "Systematic reunification of owners with the $70B+ escheated to state unclaimed-property funds — a state-law-gated boundary crossed today by fee-capped manual locators.",
+      "literature": [
+        {
+          "author": "NAUPA",
+          "year": 2024,
+          "work": "Unclaimed property program statistics (national)"
+        }
+      ],
+      "status": "attempted",
+      "nearest_attempts": "State claim portals (MissingMoney), fee-capped professional locators, one-off fintech features surfacing matches.",
+      "wall": "State-by-state law caps finder fees and requires notarized paper claims; identity-matching at scale trips privacy and fraud walls; states have no incentive to accelerate outflows.",
+      "unlock": "State APIs + verified-identity rails (mDL/IDV) making claims digital, or a fintech with existing KYC'd users matching at account scale (the who-pays fix: the platform, for engagement, not the claimant).",
+      "tripwires": [
+        "A top-5 state ships a claims API with digital identity verification",
+        "A major bank/fintech launches in-app unclaimed-property matching at scale"
+      ],
+      "maps_to": {
+        "segment": "clearing_custody",
+        "layers": [
+          "infra_plumbing"
+        ],
+        "asset_class": "cash_money_markets"
+      }
+    },
+    {
+      "id": "acats-instant-transfer",
+      "name": "Instant Brokerage Account Transfer",
+      "blurb": "ACATS crossings take ~a week by design — transfer friction is the incumbents' retention moat. An instant, standardized account-portability rail remains unbuilt.",
+      "literature": [
+        {
+          "author": "SEC / FINRA",
+          "year": 2023,
+          "work": "ACATS modernization commentary and account-transfer rulemaking discussions"
+        }
+      ],
+      "status": "unbuilt",
+      "nearest_attempts": "DTCC ACATS (the slow incumbent rail), Plaid-style auth for balances (read-only, not transfer), broker-side transfer bonuses papering over the friction.",
+      "wall": "The friction IS the moat: every incumbent loses from portability, so the parties who could build it profit from its absence — the frequent-batch-auction wall in brokerage clothing. Only a mandate moves it.",
+      "unlock": "An SEC/FINRA transfer-speed rule (the UK's pension-transfer and current-account-switch regimes are the precedent), creating a compliance category overnight.",
+      "tripwires": [
+        "SEC proposes account-transfer speed requirements",
+        "A major broker breaks ranks and markets instant-in transfers"
+      ],
+      "maps_to": {
+        "segment": "brokers_execution",
+        "layers": [
+          "infra_plumbing",
+          "connectivity_execution"
+        ],
+        "asset_class": "multi_asset"
+      }
     }
   ]
 }

@@ -562,6 +562,40 @@
           "private_alts"
         ]
       }
+    },
+    {
+      "key": "muni_retail_access",
+      "name": "Muni Retail Access & Markup Unbundling",
+      "stage": "dealer-gated inefficiency",
+      "attractiveness": 3,
+      "growth": 2,
+      "competition": 3,
+      "resource_intensity": 4,
+      "buyer_power": 2,
+      "supplier_power": 4,
+      "differentiation": 3,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 3,
+      "summary": "Retail muni investors pay ~1%+ dealer markups crossing into a fragmented OTC market gated by dealer inventory networks. Electronic venues (MarketAxess, Tradeweb) unbundled the institutional side; the retail boundary toll persists on ~$4T of outstandings held heavily by households.",
+      "profit_wedge": "Direct-access or markup-transparency products for RIAs and retail platforms; SEC/MSRB transparency rules are the tripwire that would crack the gate.",
+      "who_pays": "buyer (embedded markups today; explicit fees post-unbundling)",
+      "moat": "dealer inventory networks + fragmentation (50k issuers, 1M CUSIPs)",
+      "examples": [
+        "MarketAxess",
+        "Tradeweb",
+        "ICE Bonds"
+      ],
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity",
+          "connectivity_execution"
+        ],
+        "asset_classes": [
+          "rates_fixed_income"
+        ]
+      }
     }
   ]
 }

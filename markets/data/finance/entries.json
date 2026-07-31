@@ -6137,5 +6137,68 @@
       "infrastructure"
     ],
     "notes": ""
+  },
+  {
+    "id": "srs-acquiom",
+    "name": "SRS Acquiom",
+    "url": "https://www.srsacquiom.com",
+    "blurb": "The toll booth at the M&A closing boundary: shareholder representation, paying agent, escrow, and post-closing payments for private deals.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "private_alts"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2007,
+    "status": "active",
+    "notable": [
+      "Thousands of private M&A deals administered",
+      "Trust-charter-gated escrow + payments"
+    ],
+    "tags": [
+      "m&a",
+      "escrow",
+      "paying-agent"
+    ],
+    "notes": "Quiet giant proving deal-closing boundaries mint toll keepers."
+  },
+  {
+    "id": "rwa-xyz",
+    "name": "rwa.xyz",
+    "url": "https://www.rwa.xyz",
+    "blurb": "Analytics layer for tokenized real-world assets: supply, holders, and issuance across tokenized treasuries, credit, and funds.",
+    "segment": "market_data",
+    "layers": [
+      "data_feeds",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "securitized",
+      "rates_fixed_income",
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api",
+      "terminal_gui"
+    ],
+    "cost_tier": "freemium",
+    "founded": 2022,
+    "status": "active",
+    "notable": [
+      "The dashboard of record for tokenized RWAs"
+    ],
+    "tags": [
+      "rwa",
+      "tokenization",
+      "analytics"
+    ],
+    "notes": "Owns the dashboard layer; the PIT archive + NAV-basis research layer above it remains open."
   }
 ]

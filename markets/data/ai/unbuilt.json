@@ -417,6 +417,34 @@
         ],
         "asset_class": "multi_workload"
       }
+    },
+    {
+      "id": "inference-metering-audit",
+      "name": "Independent Inference Metering & Bill Audit",
+      "blurb": "Enterprises pay opaque per-token invoices from model providers with no independent metering — the conflicted-self-attestation pattern applied to AI billing.",
+      "literature": [
+        {
+          "author": "FinOps Foundation",
+          "year": 2025,
+          "work": "AI cost management framework additions"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "FinOps platforms (Vantage, CloudZero) adding AI cost modules — spend dashboards over provider-reported usage, not independent verification of the meter itself.",
+      "wall": "Who-pays is weak: billing disputes are small relative to contract value, providers are trusted brands, and client-side token counting only approximates server-side accounting. Likely a feature of FinOps platforms, not a company — flagged here to record the verdict, not to invite entry.",
+      "unlock": "A public mis-metering scandal at a major provider (the Facebook-video-metrics moment for AI billing), or enterprise AI spend growing to where procurement demands metered-usage attestation in contracts.",
+      "tripwires": [
+        "A mis-metering scandal at a major model provider",
+        "Enterprise contracts begin requiring third-party usage attestation"
+      ],
+      "maps_to": {
+        "segment": "serving_inference",
+        "layers": [
+          "serving_inference",
+          "ops_governance"
+        ],
+        "asset_class": "enterprise_automation"
+      }
     }
   ]
 }
