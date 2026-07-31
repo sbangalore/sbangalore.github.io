@@ -359,6 +359,64 @@
         "First EU AI Office enforcement on a false training summary",
         "Big 4 extends assurance scope to licensing truth (absorption kill)"
       ]
+    },
+    {
+      "id": "model-weights-escrow",
+      "name": "Model Weights Escrow & Custody",
+      "blurb": "Neutral custody for model weights crossing organizational boundaries: vendor-failure escrow for enterprises, licensing escrow between labs, audited government access.",
+      "literature": [
+        {
+          "author": "Nevo et al.",
+          "year": 2024,
+          "work": "Securing AI Model Weights",
+          "venue": "RAND"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "Legacy software-escrow practices (Iron Mountain, NCC Group) extended ad hoc to model artifacts in enterprise contracts; no AI-native custodian with attested storage, access policy, and continuity guarantees.",
+      "wall": "Enterprises haven't been burned yet — no major vendor-death has stranded a critical deployed model, so escrow clauses stay boilerplate instead of budgeted product. Labs also resist any third custody of frontier weights (security-level requirements).",
+      "unlock": "First high-profile AI vendor failure that strands enterprise deployments, or procurement standards making weight-escrow a required clause (the way source-code escrow became standard in the 90s).",
+      "tripwires": [
+        "A major AI vendor failure strands deployed enterprise models",
+        "Enterprise procurement templates add weight-escrow as a standard clause",
+        "A lab licenses weights to a government under third-party custody"
+      ],
+      "maps_to": {
+        "segment": "security_governance",
+        "layers": [
+          "ops_governance"
+        ],
+        "asset_class": "enterprise_automation"
+      }
+    },
+    {
+      "id": "chip-export-attestation",
+      "name": "Chip Location Verification & Export Attestation",
+      "blurb": "Hardware-attested tracking of where advanced accelerators physically are and what they run — the compliance layer for export-controlled compute.",
+      "literature": [
+        {
+          "author": "Fist & Grunewald",
+          "year": 2023,
+          "work": "Preventing AI Chip Smuggling to China",
+          "venue": "CNAS"
+        }
+      ],
+      "status": "open",
+      "nearest_attempts": "BIS paper-based licensing and end-use checks; academic/policy proposals for on-chip location verification and hardware-enabled governance; no commercial attestation network.",
+      "wall": "Requires cooperation from the chip oligopoly (NVIDIA has little incentive to make its product harder to resell) and government mandate; without a mandate, nobody pays to prove where their chips are.",
+      "unlock": "BIS mandating hardware-attested location verification for export-licensed accelerators, or a licensed secondary market that requires provenance to trade — either converts smuggling risk into a compliance budget.",
+      "tripwires": [
+        "BIS mandates on-chip or attested location verification for export-licensed GPUs",
+        "A licensed accelerator secondary market launches with provenance requirements"
+      ],
+      "maps_to": {
+        "segment": "semiconductor_supply",
+        "layers": [
+          "physical_compute",
+          "ops_governance"
+        ],
+        "asset_class": "multi_workload"
+      }
     }
   ]
 }

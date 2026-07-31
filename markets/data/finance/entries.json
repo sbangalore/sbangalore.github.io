@@ -5886,5 +5886,256 @@
       "digital-demand"
     ],
     "notes": ""
+  },
+  {
+    "id": "securitize",
+    "name": "Securitize",
+    "url": "https://securitize.io",
+    "blurb": "Licensed transfer agent and tokenization platform: the regulatory toll booth where funds and treasuries cross between DTCC-world and chains.",
+    "segment": "clearing_custody",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "securitized",
+      "private_alts"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "on_chain"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2017,
+    "status": "active",
+    "notable": [
+      "Transfer agent for BlackRock's BUIDL",
+      "SEC-registered TA + broker-dealer + ATS stack"
+    ],
+    "tags": [
+      "tokenization",
+      "rwa",
+      "transfer-agent"
+    ],
+    "notes": "The gated-boundary seat for tokenized securities — licenses are the moat."
+  },
+  {
+    "id": "ondo",
+    "name": "Ondo Finance",
+    "url": "https://ondo.finance",
+    "blurb": "Issuer of tokenized treasury and yield products (OUSG, USDY): packages T-bill exposure for on-chain holders.",
+    "segment": "crypto_infra",
+    "layers": [
+      "infra_plumbing",
+      "venue_liquidity"
+    ],
+    "asset_classes": [
+      "rates_fixed_income",
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "rest_api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2021,
+    "status": "active",
+    "notable": [
+      "Multi-billion tokenized treasury AUM",
+      "Global Markets push into tokenized equities"
+    ],
+    "tags": [
+      "rwa",
+      "tokenized-treasuries"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "icapital",
+    "name": "iCapital",
+    "url": "https://icapital.com",
+    "blurb": "The dominant toll booth at the accreditation boundary: alt-fund distribution infrastructure connecting wealth managers to PE/PC funds.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "private_alts",
+      "multi_asset"
+    ],
+    "region": "global",
+    "access": [
+      "terminal_gui",
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2013,
+    "status": "active",
+    "notable": [
+      "$200B+ platform assets",
+      "Multi-billion valuation; fees on every crossing"
+    ],
+    "tags": [
+      "alts-distribution",
+      "wealth",
+      "feeder-funds"
+    ],
+    "notes": "Proof that boundary toll booths mint multi-billion companies."
+  },
+  {
+    "id": "cais",
+    "name": "CAIS",
+    "url": "https://www.caisgroup.com",
+    "blurb": "Alternative-investment marketplace for independent financial advisors: the second toll booth at the accreditation boundary.",
+    "segment": "asset_mgmt",
+    "layers": [
+      "infra_plumbing",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "private_alts"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2009,
+    "status": "active",
+    "notable": [
+      "Advisor-channel alts distribution + education"
+    ],
+    "tags": [
+      "alts-distribution",
+      "ria"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pontera",
+    "name": "Pontera",
+    "url": "https://pontera.com",
+    "blurb": "Lets advisors manage clients' held-away 401(k) assets inside recordkeeper rails — a toll booth on the ERISA retirement boundary.",
+    "segment": "brokers_execution",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "equities",
+      "multi_asset"
+    ],
+    "region": "americas",
+    "access": [
+      "terminal_gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2012,
+    "status": "active",
+    "notable": [
+      "$12T sits inside 401k recordkeeper rails",
+      "Alts-in-401k policy push raising boundary traffic"
+    ],
+    "tags": [
+      "retirement",
+      "401k",
+      "advisors"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "cls",
+    "name": "CLS Group",
+    "url": "https://www.cls-group.com",
+    "blurb": "The FX settlement monopoly: payment-vs-payment settlement of ~$6-7T/day, owned by the banks it serves — the boundary institution stablecoin rails route around.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "fx",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "fix",
+      "bulk_file"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2002,
+    "status": "active",
+    "notable": [
+      "PvP settlement kills Herstatt risk",
+      "18 currencies; bank-owned utility"
+    ],
+    "tags": [
+      "fx-settlement",
+      "pvp",
+      "utility"
+    ],
+    "notes": "The map's missing incumbent: what OpenFX-class rails are actually benchmarked against."
+  },
+  {
+    "id": "baton-systems",
+    "name": "Baton Systems",
+    "url": "https://batonsystems.com",
+    "blurb": "Post-trade settlement orchestration: bank-to-bank PvP FX settlement outside CLS windows, on distributed ledgers.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "fx",
+      "payments_fx_settlement"
+    ],
+    "region": "global",
+    "access": [
+      "rest_api"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2016,
+    "status": "active",
+    "notable": [
+      "Core-FX PvP live with major banks",
+      "Settles currencies CLS doesn't cover"
+    ],
+    "tags": [
+      "fx-settlement",
+      "post-trade"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "m0",
+    "name": "M0",
+    "url": "https://m0.org",
+    "blurb": "Stablecoin issuance infrastructure: shared standard and rails for banks and fintechs to issue interoperable, collateral-verified digital dollars.",
+    "segment": "payments_settlement",
+    "layers": [
+      "infra_plumbing"
+    ],
+    "asset_classes": [
+      "stablecoins"
+    ],
+    "region": "global",
+    "access": [
+      "on_chain",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "notable": [
+      "Issuance-as-a-service at the deposit↔stablecoin boundary",
+      "Post-GENIUS bank-issuer wave is the demand driver"
+    ],
+    "tags": [
+      "stablecoins",
+      "issuance",
+      "infrastructure"
+    ],
+    "notes": ""
   }
 ]

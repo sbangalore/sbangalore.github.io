@@ -6167,5 +6167,72 @@
     "notable": [
       "VLAIR legal-AI report benchmarked Harvey/CoCounsel vs lawyer baselines"
     ]
+  },
+  {
+    "id": "sf-compute",
+    "name": "San Francisco Compute",
+    "url": "https://sfcompute.com",
+    "blurb": "Marketplace for GPU compute contracts: buy, sell, and resell cluster time — the financialization boundary between compute commitments and spot demand.",
+    "segment": "cloud_platforms",
+    "layers": [
+      "physical_compute"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "datacenters_compute"
+    ],
+    "region": "americas",
+    "access": [
+      "marketplace",
+      "api"
+    ],
+    "cost_tier": "paid",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "compute marketplace",
+      "gpu contracts",
+      "secondary market"
+    ],
+    "notable": [
+      "Tradable compute contracts (the liquidity layer capex lacks)"
+    ]
+  },
+  {
+    "id": "mercor",
+    "name": "Mercor",
+    "url": "https://mercor.com",
+    "blurb": "Expert-labor marketplace for frontier data work: vets and routes domain experts (doctors, lawyers, engineers) into model training and evaluation.",
+    "segment": "data_context",
+    "layers": [
+      "data_context"
+    ],
+    "asset_classes": [
+      "multi_workload"
+    ],
+    "verticals": [
+      "software_engineering",
+      "enterprise_ops"
+    ],
+    "region": "americas",
+    "access": [
+      "marketplace",
+      "gui"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2023,
+    "status": "active",
+    "country": "US",
+    "tags": [
+      "expert data labor",
+      "rlhf",
+      "evaluations"
+    ],
+    "notable": [
+      "Multi-billion valuation; the vetting-gated boundary between expert time and training pipelines"
+    ]
   }
 ]

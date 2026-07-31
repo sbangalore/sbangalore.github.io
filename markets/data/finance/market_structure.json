@@ -494,6 +494,74 @@
         "rank_score": 63.0,
         "updated_at": "2026-07-27 13:26 UTC"
       }
+    },
+    {
+      "key": "tokenized_rwa_transfer",
+      "name": "Tokenized-Securities Transfer & Custody",
+      "stage": "regulatory toll-booth formation",
+      "attractiveness": 4,
+      "growth": 5,
+      "competition": 3,
+      "resource_intensity": 4,
+      "buyer_power": 3,
+      "supplier_power": 3,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 4,
+      "tam_per_winner": 4,
+      "summary": "The securities↔chain boundary is gated by transfer-agent, broker-dealer, and ATS licenses — and traffic is real now (multi-billion tokenized treasuries: BUIDL, Ondo, Franklin). Toll-keeper seats are being taken by licensed platforms; the OpenFX pattern one asset class over.",
+      "profit_wedge": "Licensed plumbing (TA + custody + ATS) for issuers crossing the boundary; per-crossing and per-AUM fees. Pedigree/licensing-gated like stablecoin FX — entered via acquisition of licenses, not code.",
+      "who_pays": "issuer (funds pay to cross) + buyer (custody/AUM fees)",
+      "moat": "regulatory licenses + issuer integrations",
+      "examples": [
+        "Securitize",
+        "Ondo",
+        "Franklin Templeton (Benji)",
+        "Superstate"
+      ],
+      "maps_to": {
+        "segment": "clearing_custody",
+        "layers": [
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "securitized",
+          "private_alts"
+        ]
+      }
+    },
+    {
+      "key": "alt_distribution_platforms",
+      "name": "Alt-Distribution Toll Booths (Accreditation Boundary)",
+      "stage": "proven duopoly, expanding",
+      "attractiveness": 3,
+      "growth": 4,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 3,
+      "supplier_power": 4,
+      "differentiation": 3,
+      "distribution_difficulty": 5,
+      "profitability_path": 5,
+      "tam_per_winner": 4,
+      "summary": "Private-markets access for the wealth channel is gated by accreditation rules, sub-doc plumbing, and fund distribution agreements. iCapital ($200B+ platformed) and CAIS proved the toll-booth economics; tokenization and alts-in-401k policy widen the boundary traffic.",
+      "profit_wedge": "For entrants: niche boundary segments the duopoly under-serves (evergreen/interval structures, non-US advisors, tokenized feeders) — head-on is closed; distribution relationships are decade-built.",
+      "who_pays": "issuer (fund sponsors pay for distribution) + buyer (platform fees)",
+      "moat": "two-sided distribution network + sub-doc/ops integration",
+      "examples": [
+        "iCapital",
+        "CAIS",
+        "Pontera (retirement-rail variant)"
+      ],
+      "maps_to": {
+        "segment": "asset_mgmt",
+        "layers": [
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "private_alts"
+        ]
+      }
     }
   ]
 }
