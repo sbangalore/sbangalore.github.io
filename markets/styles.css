@@ -746,6 +746,77 @@ body[data-view="overview"] .market-card {
   color: var(--text-faint);
 }
 
+.gap-radar-shell {
+  margin-top: var(--space-3);
+}
+
+.gap-radar-title {
+  margin: 0 0 var(--space-2);
+  font-size: 0.8rem;
+  font-weight: 720;
+  color: var(--text-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.gap-radar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gap-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 12px;
+  border: 1px dashed var(--rule-strong);
+  border-radius: 10px;
+  background: var(--surface-inset);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 160ms var(--ease), transform 160ms var(--ease);
+}
+
+.gap-item:hover {
+  transform: translateY(-1px);
+  border-color: var(--warning);
+}
+
+.gap-item.is-flagged {
+  border-color: var(--warning);
+}
+
+.gap-item__cell {
+  font-size: 0.8rem;
+  font-weight: 720;
+  color: var(--text);
+}
+
+.gap-item__heat {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-faint);
+}
+
+.gap-empty {
+  font-size: 0.8rem;
+  color: var(--text-faint);
+}
+
+.market-card__meta {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--text-soft);
+}
+
+.market-card__registry {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-faint);
+}
+
 .matrix-root {
   display: grid;
   grid-template-columns: 142px repeat(var(--matrix-columns), 104px);

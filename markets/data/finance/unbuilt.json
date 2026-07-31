@@ -28,7 +28,11 @@
           "venue_liquidity"
         ],
         "asset_class": "macro_gdp"
-      }
+      },
+      "tripwires": [
+        "A G7 treasury announces GDP-linked issuance as standing debt management",
+        "A perp DEX lists a synthetic GDP contract with sustained open interest"
+      ]
     },
     {
       "id": "livelihood-insurance",
@@ -58,7 +62,11 @@
           "venue_liquidity"
         ],
         "asset_class": "income_risk"
-      }
+      },
+      "tripwires": [
+        "A statistical agency publishes occupation-level income indices at monthly cadence",
+        "An insurer pilots occupation-indexed income protection at scale"
+      ]
     },
     {
       "id": "household-house-price-hedging",
@@ -82,7 +90,11 @@
           "venue_liquidity"
         ],
         "asset_class": "real_estate"
-      }
+      },
+      "tripwires": [
+        "A mortgage originator bundles home-equity protection at origination",
+        "Metro housing futures sustain real daily volume"
+      ]
     },
     {
       "id": "futarchy",
@@ -120,7 +132,11 @@
           "infra_plumbing"
         ],
         "asset_class": "prediction_markets"
-      }
+      },
+      "tripwires": [
+        "A major DAO or board formally binds a decision to a conditional market",
+        "A regulated venue lists conditional decision markets"
+      ]
     },
     {
       "id": "frequent-batch-auctions",
@@ -144,7 +160,11 @@
           "venue_liquidity"
         ],
         "asset_class": "multi_asset"
-      }
+      },
+      "tripwires": [
+        "A regulator mandates batch auctions for any market segment",
+        "A major exchange launches an opt-in FBA segment"
+      ]
     },
     {
       "id": "combinatorial-markets",
@@ -174,7 +194,11 @@
           "venue_liquidity"
         ],
         "asset_class": "prediction_markets"
-      }
+      },
+      "tripwires": [
+        "A venue ships tractable restricted-structure combinatorial contracts",
+        "Cross-event conditional pricing appears at scale on event venues"
+      ]
     },
     {
       "id": "longevity-market",
@@ -198,7 +222,11 @@
           "venue_liquidity"
         ],
         "asset_class": "longevity"
-      }
+      },
+      "tripwires": [
+        "A standardized longevity-index future clears on a major venue",
+        "Pension-risk-transfer volume forces exchange-traded hedging"
+      ]
     },
     {
       "id": "human-capital-equity",
@@ -222,7 +250,11 @@
           "venue_liquidity"
         ],
         "asset_class": "income_risk"
-      }
+      },
+      "tripwires": [
+        "A federal ISA regulatory framework is enacted",
+        "A major lender originates income-linked financing at scale"
+      ]
     },
     {
       "id": "policy-analysis-market",
@@ -246,7 +278,10 @@
           "venue_liquidity"
         ],
         "asset_class": "prediction_markets"
-      }
+      },
+      "tripwires": [
+        "Largely fired: regulated venues (Kalshi, Polymarket) list geopolitical contracts"
+      ]
     },
     {
       "id": "true-data-markets",
@@ -270,7 +305,11 @@
           "venue_liquidity"
         ],
         "asset_class": "multi_asset"
-      }
+      },
+      "tripwires": [
+        "A privacy-preserving compute standard makes data usable without transfer",
+        "An exchange sustains two-sided flow in priced data products"
+      ]
     },
     {
       "id": "water-futures",
@@ -293,7 +332,11 @@
           "venue_liquidity"
         ],
         "asset_class": "commodities"
-      }
+      },
+      "tripwires": [
+        "NQH2O (or successor) sustains volume through a full drought cycle",
+        "An irrigation district mandates hedging programs"
+      ]
     },
     {
       "id": "tokenized-equity-perps",
@@ -316,7 +359,12 @@
           "venue_liquidity"
         ],
         "asset_class": "crypto_perp"
-      }
+      },
+      "tripwires": [
+        "SEC/CFTC perimeter ruling on equity perps",
+        "HIP-3 equity-perp open interest exceeds $1B",
+        "Fixing-window funding behavior measured (own probe, first analysis 2026-10)"
+      ]
     },
     {
       "id": "litigation-finance-exchange",
@@ -340,7 +388,11 @@
           "venue_liquidity"
         ],
         "asset_class": "private_credit"
-      }
+      },
+      "tripwires": [
+        "A rating agency rates standardized litigation portfolio tranches",
+        "PACER data opened (third-party pricing becomes possible)"
+      ]
     },
     {
       "id": "royalty-ip-exchange",
@@ -363,7 +415,11 @@
           "venue_liquidity"
         ],
         "asset_class": "collectibles"
-      }
+      },
+      "tripwires": [
+        "A DSP-level royalty attestation standard is adopted",
+        "A continuous-trading royalty venue sustains listings"
+      ]
     }
   ]
 }

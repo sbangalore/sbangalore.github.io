@@ -442,6 +442,47 @@ function renderMatrix() {
     .join("");
   $("matrixRoot").style.setProperty("--matrix-columns", cols);
   $("matrixRoot").innerHTML = header + rows;
+  renderGapRadar(counts);
+}
+
+function renderGapRadar(counts) {
+  const root = $("gapRadar");
+  if (!root) return;
+  const cells = taxonomy.matrix_cells || {};
+  const structural = new Set((cells.structural || []).map((c) => `${c.layer}|${c.segment}`));
+  const opportunity = new Map((cells.opportunity || []).map((c) => [`${c.layer}|${c.segment}`, c]));
+  const rowTotals = new Map();
+  const colTotals = new Map();
+  for (const layer of taxonomy.layers) {
+    for (const segment of taxonomy.segments) {
+      const n = counts.get(`${layer.key}|${segment.key}`) || 0;
+      rowTotals.set(layer.key, (rowTotals.get(layer.key) || 0) + n);
+      colTotals.set(segment.key, (colTotals.get(segment.key) || 0) + n);
+    }
+  }
+  const gaps = [];
+  for (const layer of taxonomy.layers) {
+    for (const segment of taxonomy.segments) {
+      const key = `${layer.key}|${segment.key}`;
+      if ((counts.get(key) || 0) > 0 || structural.has(key)) continue;
+      const heat = (rowTotals.get(layer.key) || 0) + (colTotals.get(segment.key) || 0);
+      if (heat === 0) continue;
+      gaps.push({ layer, segment, heat, flagged: opportunity.has(key), note: opportunity.get(key)?.note });
+    }
+  }
+  gaps.sort((a, b) => b.heat - a.heat || Number(b.flagged) - Number(a.flagged));
+  const top = gaps.slice(0, 8);
+  root.innerHTML = top.length
+    ? top
+        .map(
+          (gap) => `
+        <button class="gap-item ${gap.flagged ? "is-flagged" : ""}" type="button" data-matrix-segment="${gap.segment.key}" data-matrix-layer="${gap.layer.key}" title="${escapeHtml(gap.note || "Empty cell in a busy neighborhood — no curated entry yet.")}">
+          <span class="gap-item__cell">${escapeHtml(gap.layer.label)} × ${escapeHtml(gap.segment.label)}</span>
+          <span class="gap-item__heat">${gap.heat} nearby${gap.flagged ? " · flagged" : ""}</span>
+        </button>`
+        )
+        .join("")
+    : `<span class="gap-empty">No empty cells in busy neighborhoods under the current filters.</span>`;
 }
 
 function renderAssetRail() {
@@ -652,6 +693,8 @@ function renderMarketStructure() {
             ${renderScore("TAM/winner", market.tam_per_winner)}
           </div>
           ${market.profit_wedge ? `<p class="market-card__wedge">${escapeHtml(market.profit_wedge)}</p>` : ""}
+          ${market.who_pays || market.moat ? `<p class="market-card__meta">${market.who_pays ? `<strong>Who pays:</strong> ${escapeHtml(market.who_pays)}` : ""}${market.who_pays && market.moat ? " · " : ""}${market.moat ? `<strong>Moat:</strong> ${escapeHtml(market.moat)}` : ""}</p>` : ""}
+          ${market.registry_id || market.registry_note ? `<p class="market-card__registry">${market.registry_id ? `registry: ${escapeHtml(market.registry_id)}` : ""}${market.registry_id && market.registry_note ? " — " : ""}${escapeHtml(market.registry_note || "")}${market.registry?.verdict ? ` · ${escapeHtml(market.registry.verdict)} / rank ${escapeHtml(String(market.registry.rank_score ?? ""))}` : ""}</p>` : ""}
           ${tags ? `<div class="badge-row">${tags}</div>` : ""}
           ${examples ? `<div class="badge-row market-card__examples">${examples}</div>` : ""}
         </article>
@@ -967,6 +1010,7 @@ function renderUnbuilt() {
             <dt>Nearest attempt</dt><dd>${escapeHtml(item.nearest_attempts)}</dd>
             <dt>Wall</dt><dd>${escapeHtml(item.wall)}</dd>
             <dt>Unlock</dt><dd>${escapeHtml(item.unlock)}</dd>
+            ${item.tripwires?.length ? `<dt>Tripwires</dt><dd>${item.tripwires.map((t) => escapeHtml(t)).join(" · ")}</dd>` : ""}
           </dl>
           ${liveLinks}
         </article>

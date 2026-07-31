@@ -4,7 +4,7 @@
     "name": "1X Technologies",
     "url": "https://www.1x.tech",
     "blurb": "Humanoid robotics company developing consumer and workplace robots powered by learned autonomy and teleoperation data.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "orchestration_runtime",
@@ -73,7 +73,7 @@
     "name": "Agility Robotics",
     "url": "https://agilityrobotics.com",
     "blurb": "Humanoid robot company behind Digit, focused on warehouse, logistics, and industrial labor automation.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -142,7 +142,7 @@
     "name": "Anduril",
     "url": "https://www.anduril.com",
     "blurb": "Defense technology company building autonomous systems, sensing, command-and-control software, and AI-enabled defense products.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -179,7 +179,7 @@
     "name": "Archer Aviation",
     "url": "https://www.archer.com",
     "blurb": "eVTOL aircraft and air-taxi company focused on electric aircraft certification, operations, and urban air mobility networks.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "application_layer",
       "ops_governance"
@@ -210,7 +210,7 @@
     "name": "Aurora",
     "url": "https://aurora.tech",
     "blurb": "Autonomous trucking and driverless freight company building the Aurora Driver and commercial highway autonomy network.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "orchestration_runtime",
@@ -246,7 +246,7 @@
     "name": "BETA Technologies",
     "url": "https://www.beta.team",
     "blurb": "Electric aviation company building eVTOL/eCTOL aircraft, charging infrastructure, and advanced air mobility operations.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "industrial_inputs",
       "application_layer",
@@ -279,7 +279,7 @@
     "name": "Built Robotics",
     "url": "https://www.builtrobotics.com",
     "blurb": "Autonomous construction equipment company building robotic systems for heavy equipment and solar/energy infrastructure construction.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -376,7 +376,7 @@
     "name": "Exyn Technologies",
     "url": "https://www.exyn.com",
     "blurb": "Autonomous aerial robotics and 3D mapping platform for GPS-denied industrial environments such as mining, infrastructure, and construction.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "orchestration_runtime",
@@ -411,7 +411,7 @@
     "name": "Figure AI",
     "url": "https://www.figure.ai",
     "blurb": "Humanoid robotics company building general-purpose robots and AI systems for labor in homes and workplaces.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -446,7 +446,7 @@
     "name": "Gecko Robotics",
     "url": "https://www.geckorobotics.com",
     "blurb": "Robotics and AI inspection platform for critical infrastructure, power, manufacturing, defense, and industrial asset health.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "application_layer",
@@ -587,7 +587,7 @@
     "name": "Intrinsic",
     "url": "https://www.intrinsic.ai",
     "blurb": "Alphabet robotics software platform for making industrial robots easier to program, simulate, deploy, and operate.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -622,7 +622,7 @@
     "name": "Joby Aviation",
     "url": "https://www.jobyaviation.com",
     "blurb": "eVTOL aircraft and air-taxi company building electric aviation, certification, fleet operations, and advanced air mobility infrastructure.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "application_layer",
       "ops_governance"
@@ -685,7 +685,7 @@
     "name": "Merlin",
     "url": "https://merlinlabs.com",
     "blurb": "Autonomous flight company building certifiable aviation autonomy and pilot-assist systems for fixed-wing aircraft.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -720,7 +720,7 @@
     "name": "Mujin",
     "url": "https://www.mujin-corp.com",
     "blurb": "Intelligent robotics control platform for industrial robots, logistics automation, and robot motion planning.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer"
@@ -788,7 +788,7 @@
     "name": "Nuro",
     "url": "https://www.nuro.ai",
     "blurb": "Autonomous delivery and goods-movement company building driverless vehicle technology for local commerce and logistics.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -922,7 +922,7 @@
     "name": "Reliable Robotics",
     "url": "https://reliable.co",
     "blurb": "Autonomous aviation company developing remotely operated and increasingly autonomous flight systems for cargo aircraft.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -991,7 +991,7 @@
     "name": "Sanctuary AI",
     "url": "https://www.sanctuary.ai",
     "blurb": "General-purpose humanoid robotics company building Phoenix robots and cognitive architecture for physical work.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer"
@@ -1024,7 +1024,7 @@
     "name": "Shield AI",
     "url": "https://shield.ai",
     "blurb": "Defense autonomy company building Hivemind AI pilot software and autonomous aircraft for contested environments.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -1060,7 +1060,7 @@
     "name": "Skydio",
     "url": "https://www.skydio.com",
     "blurb": "Autonomous drone company focused on inspection, public safety, defense, and AI-piloted drone operations.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -1127,7 +1127,7 @@
     "name": "Tesla Autonomy",
     "url": "https://www.tesla.com/AI",
     "blurb": "Tesla autonomy stack spanning FSD, fleet data, onboard inference, robotaxi ambitions, and embodied AI work across vehicles and robots.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "orchestration_runtime",
@@ -1197,7 +1197,7 @@
     "name": "Waabi",
     "url": "https://waabi.ai",
     "blurb": "Autonomous trucking company built around AI-first simulation, a virtual-driver system, and trucking autonomy deployment.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "orchestration_runtime",
@@ -1233,7 +1233,7 @@
     "name": "Waymo",
     "url": "https://waymo.com",
     "blurb": "Alphabet autonomous-driving company operating commercial robotaxi services and developing driverless vehicle technology, safety cases, and fleet operations.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "orchestration_runtime",
@@ -1270,7 +1270,7 @@
     "name": "Wisk Aero",
     "url": "https://wisk.aero",
     "blurb": "Boeing-backed autonomous eVTOL air-taxi company developing self-flying aircraft and certification path for advanced air mobility.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -1303,7 +1303,7 @@
     "name": "Zipline",
     "url": "https://www.flyzipline.com",
     "blurb": "Autonomous delivery and logistics company using drones and fleet operations for healthcare, retail, and public-sector delivery.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -1338,7 +1338,7 @@
     "name": "Zoox",
     "url": "https://zoox.com",
     "blurb": "Amazon-owned autonomous mobility company building purpose-built robotaxis, autonomy stack, fleet operations, and rider service infrastructure.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "orchestration_runtime",
       "application_layer",
@@ -5437,7 +5437,7 @@
     "name": "OpenSpace",
     "url": "https://www.openspace.ai/",
     "blurb": "Construction visual-intelligence platform using jobsite image capture, computer vision, and AI workflows for progress tracking and field coordination.",
-    "segment": "app_infra",
+    "segment": "robotics_embodied",
     "layers": [
       "data_context",
       "application_layer"

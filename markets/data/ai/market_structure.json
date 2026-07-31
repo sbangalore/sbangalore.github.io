@@ -38,7 +38,9 @@
           "agents",
           "enterprise_automation"
         ]
-      }
+      },
+      "who_pays": "buyer (enterprise security budgets)",
+      "moat": "IAM incumbency + platform distribution"
     },
     {
       "key": "miner_to_ai_datacenter_conversion",
@@ -77,7 +79,9 @@
         "asset_classes": [
           "multi_workload"
         ]
-      }
+      },
+      "who_pays": "buyer (compute lessees)",
+      "moat": "grid interconnects + powered land"
     },
     {
       "key": "model_routing_brokers",
@@ -119,7 +123,9 @@
           "agents",
           "multi_workload"
         ]
-      }
+      },
+      "who_pays": "buyer (per-token margin)",
+      "moat": "volume economics + integration surface — thin, absorbable"
     },
     {
       "key": "healthcare_clinical_ai",
@@ -159,7 +165,9 @@
           "rag_search",
           "enterprise_automation"
         ]
-      }
+      },
+      "who_pays": "buyer (providers; reimbursement-adjacent)",
+      "moat": "EHR integration depth + clinical validation evidence"
     },
     {
       "key": "ai_drug_discovery_models",
@@ -198,7 +206,9 @@
           "science_bio",
           "multi_modal"
         ]
-      }
+      },
+      "who_pays": "partner (milestones / royalties)",
+      "moat": "proprietary wet-lab data flywheel"
     },
     {
       "key": "autonomous_mobility",
@@ -224,7 +234,7 @@
         "Waabi"
       ],
       "maps_to": {
-        "segment": "app_infra",
+        "segment": "robotics_embodied",
         "layers": [
           "data_context",
           "orchestration_runtime",
@@ -240,7 +250,9 @@
           "vision",
           "agents"
         ]
-      }
+      },
+      "who_pays": "buyer (riders / fleets)",
+      "moat": "fleet miles + regulatory approvals"
     },
     {
       "key": "robot_foundation_models",
@@ -282,7 +294,9 @@
           "agents",
           "multi_modal"
         ]
-      }
+      },
+      "who_pays": "buyer / capital (pre-revenue land grab)",
+      "moat": "embodied training-data scarcity"
     },
     {
       "key": "drones_aerospace_autonomy",
@@ -308,7 +322,7 @@
         "Merlin"
       ],
       "maps_to": {
-        "segment": "app_infra",
+        "segment": "robotics_embodied",
         "layers": [
           "orchestration_runtime",
           "application_layer",
@@ -323,7 +337,9 @@
           "vision",
           "agents"
         ]
-      }
+      },
+      "who_pays": "mandate-adjacent (defense procurement)",
+      "moat": "certifications + program-of-record contracts"
     },
     {
       "key": "autonomy_simulation_tooling",
@@ -366,7 +382,9 @@
           "vision",
           "multi_modal"
         ]
-      }
+      },
+      "who_pays": "buyer (validation budgets)",
+      "moat": "scenario libraries + evidence acceptance + toolchain lock-in"
     },
     {
       "key": "vertical_agent_evals",
@@ -408,7 +426,9 @@
           "agents",
           "enterprise_automation"
         ]
-      }
+      },
+      "who_pays": "none yet (standard-formation stage)",
+      "moat": "standard authorship + accreditation network"
     },
     {
       "key": "on_device_ml_edge_ai_runtime",
@@ -450,7 +470,9 @@
           "audio",
           "chat"
         ]
-      }
+      },
+      "who_pays": "platform (OS / hardware owners)",
+      "moat": "hardware and OS control points"
     },
     {
       "key": "rights_clean_media_models",
@@ -470,7 +492,6 @@
       "profit_wedge": "None for outsiders: the credibility IS the company. The moat wasn't the model — it was the soundstage and the name.",
       "who_pays": "acquirer (legitimacy premium)",
       "moat": "rights-clean corpora + creator/guild credibility",
-      "registry_id": "none — screened 2026-07: credibility-reserved seats",
       "examples": [
         "Moonvalley",
         "Runway",
@@ -486,7 +507,8 @@
           "video",
           "creative"
         ]
-      }
+      },
+      "registry_note": "screened 2026-07: credibility-reserved seats"
     },
     {
       "key": "ai_insurance_certified_assurance",
@@ -522,6 +544,12 @@
           "agents",
           "enterprise_automation"
         ]
+      },
+      "registry": {
+        "verdict": "Unclear",
+        "signal": "MIXED",
+        "rank_score": 38.5,
+        "updated_at": "2026-07-17 16:09 UTC"
       }
     },
     {
@@ -557,6 +585,12 @@
         "asset_classes": [
           "enterprise_automation"
         ]
+      },
+      "registry": {
+        "verdict": "Unclear",
+        "signal": "MIXED",
+        "rank_score": 38.5,
+        "updated_at": "2026-07-17 16:09 UTC"
       }
     },
     {
@@ -577,7 +611,6 @@
       "profit_wedge": "Voice is the commodity mouth; the moat is the hands. Only enter with a vertical workflow-integration story, never an answering story.",
       "who_pays": "buyer (SMB subscription)",
       "moat": "workflow/system-of-record integration depth",
-      "registry_id": "none — lesson banked 2026-07 (funeral-homes sweep: 8+ vendors incumbent)",
       "examples": [
         "Rondah AI",
         "Toma",
@@ -593,7 +626,8 @@
           "voice",
           "agents"
         ]
-      }
+      },
+      "registry_note": "lesson banked 2026-07: answering commoditized (funeral-homes sweep, 8+ vendors)"
     },
     {
       "key": "distributed_consumer_inference",
@@ -613,7 +647,6 @@
       "profit_wedge": "Technically real (attestation stacks are serious — MDA, APNs code-identity), commercially mismatched. The durable insight: operator-blind is not platform-blind; hop-by-hop encryption + team-key trust is not E2E.",
       "who_pays": "none proven (subsidy-funded supply, thin demand)",
       "moat": "none durable (access + model quality both revocable)",
-      "registry_id": "none — screened 2026-07 (Darkbloom analysis)",
       "examples": [
         "Darkbloom (Eigen Labs)",
         "Akash",
@@ -628,7 +661,8 @@
           "on_device",
           "chat"
         ]
-      }
+      },
+      "registry_note": "screened 2026-07: Darkbloom analysis — two-sided mismatch"
     }
   ]
 }

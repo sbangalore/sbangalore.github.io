@@ -54,7 +54,11 @@
           "ops_governance"
         ],
         "asset_class": "agents"
-      }
+      },
+      "tripwires": [
+        "A cross-vendor signed-action-receipt standard adopted by 2+ IAM incumbents",
+        "NIST agent-identity guidance becomes a procurement requirement"
+      ]
     },
     {
       "id": "portable-ai-memory",
@@ -78,7 +82,11 @@
           "data_context"
         ],
         "asset_class": "agents"
-      }
+      },
+      "tripwires": [
+        "A frontier lab ships user-exportable memory in a standard format",
+        "An MCP-adjacent memory-interop standard emerges"
+      ]
     },
     {
       "id": "neutral-inference-broker",
@@ -103,7 +111,11 @@
           "ops_governance"
         ],
         "asset_class": "enterprise_automation"
-      }
+      },
+      "tripwires": [
+        "A broker holds 10%+ of any lab's enterprise volume without absorption",
+        "Labs standardize wholesale pricing (margin dies)"
+      ]
     },
     {
       "id": "vertical-agent-eval-standards",
@@ -134,7 +146,11 @@
           "ops_governance"
         ],
         "asset_class": "enterprise_automation"
-      }
+      },
+      "tripwires": [
+        "A vertical eval certification appears in enterprise procurement templates",
+        "An insurer prices premiums off a named eval standard"
+      ]
     },
     {
       "id": "agent-clearinghouse",
@@ -158,7 +174,11 @@
           "ops_governance"
         ],
         "asset_class": "agents"
-      }
+      },
+      "tripwires": [
+        "Payment networks externalize agent-transaction verification to third parties",
+        "An agent-commerce dispute framework is standardized"
+      ]
     },
     {
       "id": "rag-data-rights-market",
@@ -183,7 +203,11 @@
           "ops_governance"
         ],
         "asset_class": "rag_search"
-      }
+      },
+      "tripwires": [
+        "EU AI Office enforcement of training-data transparency lands (fines)",
+        "A licensing certification lifts an insurer's AI-content exclusion"
+      ]
     },
     {
       "id": "ai-power-capacity-broker",
@@ -226,7 +250,11 @@
           "physical_compute"
         ],
         "asset_class": "multi_workload"
-      }
+      },
+      "tripwires": [
+        "A liquid secondary market in interconnection-queue positions emerges",
+        "FERC rule change enables capacity-position transfer"
+      ]
     },
     {
       "id": "ai-supply-chain-risk-index",
@@ -251,7 +279,11 @@
           "ops_governance"
         ],
         "asset_class": "multi_workload"
-      }
+      },
+      "tripwires": [
+        "An insurer or rating agency licenses an AI-supply-chain index",
+        "An export-control shock creates a pricing event"
+      ]
     },
     {
       "id": "secure-frontier-cluster-ops",
@@ -282,7 +314,11 @@
           "ops_governance"
         ],
         "asset_class": "multi_workload"
-      }
+      },
+      "tripwires": [
+        "A government mandates cleared-personnel operations for frontier training",
+        "A lab outsources secure cluster operations to a third party"
+      ]
     },
     {
       "id": "training-data-licensing-attestation",
@@ -317,7 +353,12 @@
           "ops_governance"
         ],
         "asset_class": "creative"
-      }
+      },
+      "tripwires": [
+        "An E&O carrier names a certification lifting AI-content exclusions",
+        "First EU AI Office enforcement on a false training summary",
+        "Big 4 extends assurance scope to licensing truth (absorption kill)"
+      ]
     }
   ]
 }

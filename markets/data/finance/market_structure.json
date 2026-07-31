@@ -32,7 +32,9 @@
         "asset_classes": [
           "prediction_markets"
         ]
-      }
+      },
+      "who_pays": "buyer (funds / active event traders)",
+      "moat": "unified collateral + cross-venue integration network"
     },
     {
       "key": "event_market_data_vendor",
@@ -65,7 +67,9 @@
         "asset_classes": [
           "prediction_markets"
         ]
-      }
+      },
+      "who_pays": "buyer (funds, researchers)",
+      "moat": "neutrality + cross-venue normalization corpus"
     },
     {
       "key": "retail_brokerage_execution",
@@ -101,7 +105,9 @@
           "crypto_spot",
           "multi_asset"
         ]
-      }
+      },
+      "who_pays": "buyer (spreads / flow monetization)",
+      "moat": "scale + brand + regulatory licenses"
     },
     {
       "key": "market_data_infrastructure",
@@ -138,7 +144,9 @@
           "futures",
           "multi_asset"
         ]
-      }
+      },
+      "who_pays": "buyer (terminal / feed subscriptions)",
+      "moat": "exchange-licensing oligopoly + workflow lock-in"
     },
     {
       "key": "alt_data_vendor",
@@ -173,7 +181,9 @@
           "private_alts",
           "multi_asset"
         ]
-      }
+      },
+      "who_pays": "buyer (fund data budgets)",
+      "moat": "exclusive panels + ticker-mapping history"
     },
     {
       "key": "crypto_market_infrastructure",
@@ -209,7 +219,9 @@
           "crypto_perp",
           "crypto_options"
         ]
-      }
+      },
+      "who_pays": "buyer (institutions)",
+      "moat": "licenses + custody trust + integration surface"
     },
     {
       "key": "index_benchmark_provision",
@@ -245,7 +257,9 @@
           "crypto_spot",
           "multi_asset"
         ]
-      }
+      },
+      "who_pays": "issuer (product sponsors license the benchmark)",
+      "moat": "brand + benchmark regulation + index inertia"
     },
     {
       "key": "clearing_custody_settlement",
@@ -280,7 +294,9 @@
           "futures",
           "prediction_markets"
         ]
-      }
+      },
+      "who_pays": "mandate (regulatory requirement to clear/custody)",
+      "moat": "regulatory licenses + network effects + mutualized risk capital"
     },
     {
       "key": "asset_management_strategy_markets",
@@ -316,7 +332,9 @@
           "equities",
           "crypto_spot"
         ]
-      }
+      },
+      "who_pays": "buyer (fees on AUM)",
+      "moat": "track record + distribution relationships"
     },
     {
       "key": "stablecoin_fx_settlement",
@@ -336,7 +354,6 @@
       "profit_wedge": "None for a non-pedigreed entrant. The play was only ever available to founders arriving with institutional liquidity networks and licensing war chests.",
       "who_pays": "buyer (FX spread + float economics)",
       "moat": "licenses + banking relationships + corridor liquidity",
-      "registry_id": "none — screened 2026-07: Zone A finance (balance sheet + licenses), no founder-fit path",
       "examples": [
         "OpenFX",
         "Circle CPN",
@@ -353,7 +370,8 @@
           "stablecoins",
           "payments_fx_settlement"
         ]
-      }
+      },
+      "registry_note": "screened 2026-07: Zone A finance (balance sheet + licenses); no founder-fit path"
     },
     {
       "key": "reserve_attestation_por",
@@ -387,6 +405,12 @@
         "asset_classes": [
           "stablecoins"
         ]
+      },
+      "registry": {
+        "verdict": "Unclear",
+        "signal": "MIXED",
+        "rank_score": 38.5,
+        "updated_at": "2026-07-17 16:09 UTC"
       }
     },
     {
@@ -407,7 +431,7 @@
       "profit_wedge": "AI verification layer reading governing docs (LPA/side letters) against NAV/allocation/fee calcs, sold to fund CFOs as restatement insurance; continuous-NAV trend deepens the need (the checking tools are being built by the admins' own vendors).",
       "who_pays": "buyer (fund CFO; reputational/operational risk budget)",
       "moat": "clause-to-calc corpus + exam-cited evidence switching costs",
-      "registry_id": "ai-native-fund-administration (PAUSED 2026-07: domain co-founder stepped back)",
+      "registry_id": "ai-native-fund-administration",
       "examples": [
         "Arcesium (incumbent benchmark)",
         "FundGuard (the conflict, not the competitor)"
@@ -422,6 +446,13 @@
           "private_alts",
           "multi_asset"
         ]
+      },
+      "registry_note": "PAUSED 2026-07: domain co-founder stepped back",
+      "registry": {
+        "verdict": "Do Not Build Yet",
+        "signal": "MIXED",
+        "rank_score": 9.5,
+        "updated_at": "2026-07-08 19:54 UTC"
       }
     },
     {
@@ -442,7 +473,7 @@
       "profit_wedge": "Provably lookahead-free signal feeds from municipal data (permits, deeds, crime) mapped to concentrated tradeable instruments (NYC pure-play REITs, CRE-heavy banks, CMBS). Integrity is the product; the deflation battery is the sales pitch.",
       "who_pays": "buyer (systematic funds; alt-data budget)",
       "moat": "forward-accruing PIT history + revision archives",
-      "registry_id": "re-alt-data-pit-signals (Promising; alpha backtest is the gate)",
+      "registry_id": "re-alt-data-pit-signals",
       "examples": [
         "Cherre/ATTOM (coverage incumbents without the wedge)"
       ],
@@ -455,6 +486,13 @@
           "real_estate",
           "equities"
         ]
+      },
+      "registry_note": "alpha backtest is the gate",
+      "registry": {
+        "verdict": "Promising",
+        "signal": "MIXED",
+        "rank_score": 63.0,
+        "updated_at": "2026-07-27 13:26 UTC"
       }
     }
   ]

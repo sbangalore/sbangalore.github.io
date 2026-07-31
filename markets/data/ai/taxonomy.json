@@ -92,6 +92,13 @@
       "flow": "control"
     },
     {
+      "key": "robotics_embodied",
+      "label": "Robotics, Autonomy & Embodied AI",
+      "description": "Physical-world AI: humanoids, industrial autonomy, AVs, drones, and eVTOL — where models meet actuators and regulators.",
+      "color": "#f472b6",
+      "flow": "app"
+    },
+    {
       "key": "app_infra",
       "label": "Application Infrastructure",
       "description": "Developer-facing platforms and vertical agent shells that turn AI components into deployable products.",
