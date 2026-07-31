@@ -597,6 +597,40 @@
           "rates_fixed_income"
         ]
       }
+    },
+    {
+      "key": "builder_deployed_markets",
+      "name": "Builder-Deployed Markets (HIP-3 class rail-surfing)",
+      "stage": "land grab on new primitives",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 3,
+      "resource_intensity": 4,
+      "buyer_power": 2,
+      "supplier_power": 3,
+      "differentiation": 3,
+      "distribution_difficulty": 3,
+      "profitability_path": 2,
+      "tam_per_winner": 3,
+      "summary": "A market SHAPE, not a single market: when a platform opens permissionless market deployment (Hyperliquid HIP-3), the first credible deployment of an obvious high-value underlying becomes an acquisition target for the strategic class that will need the capability — before liquidity economics ever have to work. Proven twice in 2026: perpetuals.xyz (HIP-3 FX perps, quietly acquired by OpenFX) and Ornn (compute marketplace/index, anointed by Kalshi settlement, now building ICE futures).",
+      "profit_wedge": "The playbook: new rail + obvious market + forced-acquirer class within 18 months + deploy before they come looking. Entry ticket is NOT zero: HIP-3 requires a large staked-HYPE position + market-making relationships. Exit is the business model; standalone liquidity is the death lane (Hyperliquid absorbs it).",
+      "who_pays": "acquirer (capability purchase, not revenue multiple)",
+      "moat": "operating position + speed; decays fast — this is an option play, not a company",
+      "examples": [
+        "perpetuals.xyz (acq. OpenFX)",
+        "Ornn (Kalshi settlement, ICE futures)",
+        "trade.xyz (equity perps)"
+      ],
+      "maps_to": {
+        "segment": "crypto_infra",
+        "layers": [
+          "venue_liquidity"
+        ],
+        "asset_classes": [
+          "crypto_perp",
+          "fx"
+        ]
+      }
     }
   ]
 }
