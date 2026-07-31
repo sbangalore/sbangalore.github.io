@@ -6200,5 +6200,39 @@
       "analytics"
     ],
     "notes": "Owns the dashboard layer; the PIT archive + NAV-basis research layer above it remains open."
+  },
+  {
+    "id": "river-markets",
+    "name": "River Markets",
+    "url": "https://www.rivermarkets.com",
+    "blurb": "YC-backed prime brokerage terminal for prediction markets: unified OMS, smart routing, execution algos, and API across Kalshi, Polymarket, and Polymarket US — non-custodial (local key signing).",
+    "segment": "prediction_event",
+    "layers": [
+      "connectivity_execution",
+      "analytics_apps"
+    ],
+    "asset_classes": [
+      "prediction_markets"
+    ],
+    "region": "americas",
+    "access": [
+      "rest_api",
+      "websocket",
+      "sdk"
+    ],
+    "cost_tier": "enterprise",
+    "founded": 2024,
+    "status": "active",
+    "notable": [
+      "Backed by Y Combinator",
+      "Institutional clients (Chimera, Game Point, Cleat Street)",
+      "Live on 3 venues, Novig coming"
+    ],
+    "tags": [
+      "prime-brokerage",
+      "oms",
+      "event-markets"
+    ],
+    "notes": "Takes the non-custodial terminal wedge the map prescribed for this row — the seat is now contested."
   }
 ]
