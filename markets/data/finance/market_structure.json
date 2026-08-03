@@ -631,6 +631,182 @@
           "fx"
         ]
       }
+    },
+    {
+      "key": "tax_deferred_conversion_vehicles",
+      "name": "Tax-Deferred Conversion Vehicles (351 exchange ETFs)",
+      "stage": "early scaling, tax-code-gated",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 2,
+      "resource_intensity": 3,
+      "buyer_power": 2,
+      "supplier_power": 3,
+      "differentiation": 4,
+      "distribution_difficulty": 3,
+      "profitability_path": 4,
+      "tam_per_winner": 3,
+      "summary": "Section 351 exchanges let holders of appreciated, concentrated stock contribute it into a new ETF without triggering capital gains. The fee sits exactly at the conversion boundary: the client is not paying for management, they are paying for a tax event that does not happen. Levine covered this repeatedly through 2026 (351 exchange ETFs; 'Tax Alpha Needs Some Real Alpha', Apr 16) as advisors industrialize it.",
+      "profit_wedge": "Gate is the tax code plus the operational stack to run it: ETF sponsor/trust, custodian, diversification-test structuring, and advisor distribution. Competitors cannot undercut on price because the value is the deferred tax, not the expense ratio. Wedge decays only if Treasury/IRS narrows the treatment.",
+      "who_pays": "buyer (holder of concentrated appreciated stock, paying for tax deferral)",
+      "moat": "regulatory/tax structuring capability + sponsor infrastructure; advisor distribution relationships",
+      "examples": [
+        "Cambria/ETF Architect-class 351 launches",
+        "RIA-led concentrated-position conversions"
+      ],
+      "maps_to": {
+        "segment": "asset_mgmt",
+        "layers": [
+          "infra_plumbing",
+          "analytics_apps"
+        ],
+        "asset_classes": [
+          "etfs",
+          "equities"
+        ]
+      }
+    },
+    {
+      "key": "synthetic_private_exposure",
+      "name": "Synthetic Private-Company Exposure & Structured Notes",
+      "stage": "land grab, pre-regulatory-clarity",
+      "attractiveness": 3,
+      "growth": 5,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 2,
+      "supplier_power": 4,
+      "differentiation": 3,
+      "distribution_difficulty": 3,
+      "profitability_path": 4,
+      "tam_per_winner": 4,
+      "summary": "Manufacturing exposure to private companies that will not sell you shares. The 2026 SpaceX cycle produced the full menu in Levine's coverage: synthetic IPO pops, shorts selling SpaceX exposure, SpaceX treasury companies, 'SpaceX Crash Insurance' structured notes (Jul 30), plus prediction-market structured notes (Apr 2). Pricing opacity is the product.",
+      "profit_wedge": "Issuer-gated: banks and platforms that can structure, hedge, and distribute a note capture a spread the buyer cannot observe. Adjacent to but distinct from secondaries — no shares change hands. Risk: regulators decide retail synthetic exposure to private companies is a securities problem.",
+      "who_pays": "buyer (retail/HNW paying embedded structuring spread); issuer pays for distribution",
+      "moat": "hedging book + issuance shelf + distribution; not replicable without a balance sheet",
+      "examples": [
+        "SpaceX-linked structured notes",
+        "prediction-market structured notes",
+        "DAT / treasury-company wrappers"
+      ],
+      "maps_to": {
+        "segment": "asset_mgmt",
+        "layers": [
+          "analytics_apps",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "private_alts",
+          "options",
+          "prediction_markets"
+        ]
+      }
+    },
+    {
+      "key": "private_market_secondaries",
+      "name": "Private-Market Secondaries & Continuation Vehicles",
+      "stage": "mature intermediation, retail-ization underway",
+      "attractiveness": 3,
+      "growth": 4,
+      "competition": 4,
+      "resource_intensity": 4,
+      "buyer_power": 3,
+      "supplier_power": 3,
+      "differentiation": 2,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 4,
+      "summary": "The transfer boundary for existing private positions: LP stakes, GP-led continuation vehicles, NAV loans, zombie-fund workouts, employee lockup liquidity. Levine returned to it all year ('Elevators Won't Repair Themselves' on independent sponsors, Jul 29; zombie funds; Blue Owl/BCRED liquidity worries, Mar 9; 'Be Liquid When Others Are Illiquid').",
+      "profit_wedge": "Fees concentrate where an illiquid asset must change hands and no price exists: brokerage, valuation, and structuring all bill at the same boundary. Crowded at the top (Jefferies, Evercore, Lazard, dedicated secondaries funds); the unclaimed edge is data and pricing infrastructure, not intermediation.",
+      "who_pays": "buyer/seller (transaction fees) + issuer (GP pays for continuation-vehicle structuring)",
+      "moat": "deal flow relationships + proprietary pricing marks; weak for entrants without either",
+      "examples": [
+        "GP-led continuation vehicles",
+        "NAV lending",
+        "LP stake brokerage",
+        "employee lockup platforms"
+      ],
+      "maps_to": {
+        "segment": "asset_mgmt",
+        "layers": [
+          "venue_liquidity",
+          "data_feeds"
+        ],
+        "asset_classes": [
+          "private_alts",
+          "private_credit"
+        ]
+      }
+    },
+    {
+      "key": "event_market_surveillance",
+      "name": "Event-Market Surveillance & Integrity",
+      "stage": "forming — enforcement arriving before infrastructure",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 2,
+      "resource_intensity": 2,
+      "buyer_power": 3,
+      "supplier_power": 2,
+      "differentiation": 4,
+      "distribution_difficulty": 3,
+      "profitability_path": 3,
+      "tam_per_winner": 2,
+      "summary": "Prediction markets inherited securities-market integrity problems without securities-market surveillance. Levine documented the whole 2026 sequence: 'Kalshi Found Some Insider Traders' (Feb 23), 'Polymarket Has Some Fake Traders' (Jun 23), 'War Markets Have Some Bugs' (Mar 9), 'Make the Predictions Come True' (Mar 16), insider betting/FBI cases, and sports-event integrity ('Sports Happen So Much', Jul 24). Manipulating a thin event market is far cheaper than manipulating a stock.",
+      "profit_wedge": "Mandate-pays shape: as CFTC oversight and exchange self-regulation harden, venues must demonstrate surveillance the way equities venues do. Wash-trade detection, wallet clustering, resolution-source integrity, and insider-pattern detection on public on-chain plus venue data. Sean-relevant: on-chain PM data is public, which makes the evidence layer buildable without venue permission.",
+      "who_pays": "mandate (venue/regulator-funded compliance obligation)",
+      "moat": "labelled manipulation dataset + cross-venue coverage; regulatory credibility once adopted",
+      "examples": [
+        "Kalshi/Polymarket internal surveillance",
+        "Nasdaq SMARTS-class analogues",
+        "on-chain wallet forensics vendors"
+      ],
+      "maps_to": {
+        "segment": "prediction_event",
+        "layers": [
+          "data_feeds",
+          "analytics_apps"
+        ],
+        "asset_classes": [
+          "prediction_markets",
+          "sports_events"
+        ]
+      }
+    },
+    {
+      "key": "private_asset_valuation_marks",
+      "name": "Private-Asset Valuation & Mark Verification",
+      "stage": "pressure building, pre-mandate",
+      "attractiveness": 4,
+      "growth": 4,
+      "competition": 3,
+      "resource_intensity": 3,
+      "buyer_power": 3,
+      "supplier_power": 2,
+      "differentiation": 4,
+      "distribution_difficulty": 4,
+      "profitability_path": 3,
+      "tam_per_winner": 3,
+      "summary": "When private credit and private equity enter 401(k)s and interval funds, someone has to defend the marks. Levine hammered this through 2026: 'Private Credit Gets Marked Down' (Feb 17), 'Private Credit Marks Will Matter', 'Private Assets Are Coming to 401(k)s' (Mar 30), 'Private Markets Charge More' (Apr 22), 'Private Markets Are the New Securities Fraud', plus the BCRED/Blue Owl liquidity cycle. Retail distribution plus self-reported valuation is the classic setup for an enforcement wave.",
+      "profit_wedge": "Textbook who-pays trilemma: today the issuer pays (manager hires the valuation agent), which is the weakest form. The prize is the shift to mandate-pays as ERISA fiduciaries and regulators demand independent marks for retail-held private assets. Watch for the DOL/SEC trigger; before it, this is a services business, after it, a franchise.",
+      "who_pays": "issuer today (manager-funded valuation agents) -> mandate if fiduciary/regulatory rules harden",
+      "moat": "independence + comparables data + regulatory acceptance; brand-gated",
+      "examples": [
+        "Houlihan Lokey / Kroll valuation practices",
+        "interval-fund and BDC NAV review",
+        "401(k) fiduciary valuation demands"
+      ],
+      "maps_to": {
+        "segment": "analytics_research",
+        "layers": [
+          "analytics_apps",
+          "data_feeds"
+        ],
+        "asset_classes": [
+          "private_credit",
+          "private_alts"
+        ]
+      }
     }
   ]
 }
