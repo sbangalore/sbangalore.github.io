@@ -2,58 +2,56 @@
   "candidate_count": 2,
   "candidates": [
     {
-      "authority": "research",
-      "candidate_id": "atlas-9bd6202bed244e0a",
-      "lane": "ai",
+      "authority": "primary",
+      "candidate_id": "atlas-a5e1135059384589",
+      "lane": "finance",
       "matched_terms": [
-        "inference",
-        "edge device"
+        "clearing"
       ],
-      "promotion_policy": "corroborate",
+      "promotion_policy": "eligible",
       "proposed_targets": [
         "entries",
         "literature",
         "market_structure",
         "unbuilt"
       ],
-      "published_at": "2026-07-10T04:00:00+00:00",
+      "published_at": "2026-09-02T16:04:52+00:00",
       "review_status": "unreviewed",
-      "source_class": "research_index",
-      "source_id": "openalex-ai",
-      "source_name": "OpenAlex: AI systems research",
-      "title": "DynamiGraph: A Specialized, Runtime-Aware FPGA Overlay for Ultra Low-Latency GNN Inference on Edge Devices",
-      "url": "https://doi.org/10.3390/mi17070824"
+      "source_class": "regulator",
+      "source_id": "cftc-press-releases",
+      "source_name": "Commodity Futures Trading Commission",
+      "title": "CFTC Issues Final Rule to Modify Clearing Requirement for Canadian Dollar- and Mexican Peso-Denominated Interest Rate Swaps",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9292-26"
     },
     {
-      "authority": "research",
-      "candidate_id": "atlas-6ed0d808c1f09242",
-      "lane": "ai",
+      "authority": "primary",
+      "candidate_id": "atlas-c9ac4df93cd0f6da",
+      "lane": "finance",
       "matched_terms": [
-        "serving",
-        "agent"
+        "exchange"
       ],
-      "promotion_policy": "corroborate",
+      "promotion_policy": "eligible",
       "proposed_targets": [
         "entries",
         "literature",
         "market_structure",
         "unbuilt"
       ],
-      "published_at": "2026-07-09T04:00:00+00:00",
+      "published_at": "2026-08-28T17:33:00+00:00",
       "review_status": "unreviewed",
-      "source_class": "research_index",
-      "source_id": "openalex-ai",
-      "source_name": "OpenAlex: AI systems research",
-      "title": "SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling",
-      "url": "https://arxiv.org/abs/2607.08565"
+      "source_class": "regulator",
+      "source_id": "sec-press-releases",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "title": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations"
     }
   ],
-  "generated_at": "2026-07-15T05:26:57.972083+00:00",
+  "generated_at": "2026-09-07T18:15:14.004260+00:00",
   "publication_rule": "Collectors create evidence candidates only. Public atlas claims require review and a separate commit.",
   "schema_version": 1,
   "source_runs": [
     {
-      "candidate_count": 2,
+      "candidate_count": 0,
       "source_id": "openalex-ai",
       "status": "ok"
     },
@@ -63,12 +61,12 @@
       "status": "ok"
     },
     {
-      "candidate_count": 0,
+      "candidate_count": 1,
       "source_id": "sec-press-releases",
       "status": "ok"
     },
     {
-      "candidate_count": 0,
+      "candidate_count": 1,
       "source_id": "cftc-press-releases",
       "status": "ok"
     },
