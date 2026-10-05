@@ -1,59 +1,79 @@
 {
-  "candidate_count": 2,
+  "candidate_count": 3,
   "candidates": [
     {
-      "authority": "research",
-      "candidate_id": "atlas-9bd6202bed244e0a",
+      "authority": "primary",
+      "candidate_id": "atlas-9a751d06677cd5a2",
       "lane": "ai",
       "matched_terms": [
-        "inference",
-        "edge device"
+        "llama.cpp"
       ],
-      "promotion_policy": "corroborate",
+      "promotion_policy": "eligible",
       "proposed_targets": [
         "entries",
         "literature",
         "market_structure",
         "unbuilt"
       ],
-      "published_at": "2026-07-10T04:00:00+00:00",
+      "published_at": "2026-10-05T16:56:22+00:00",
       "review_status": "unreviewed",
-      "source_class": "research_index",
-      "source_id": "openalex-ai",
-      "source_name": "OpenAlex: AI systems research",
-      "title": "DynamiGraph: A Specialized, Runtime-Aware FPGA Overlay for Ultra Low-Latency GNN Inference on Edge Devices",
-      "url": "https://doi.org/10.3390/mi17070824"
+      "source_class": "official_product",
+      "source_id": "github-llama-cpp",
+      "source_name": "llama.cpp releases",
+      "title": "v0.6.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
     },
     {
-      "authority": "research",
-      "candidate_id": "atlas-6ed0d808c1f09242",
+      "authority": "primary",
+      "candidate_id": "atlas-c8308708fd775ffe",
       "lane": "ai",
       "matched_terms": [
-        "serving",
-        "agent"
+        "inference"
       ],
-      "promotion_policy": "corroborate",
+      "promotion_policy": "eligible",
       "proposed_targets": [
         "entries",
         "literature",
         "market_structure",
         "unbuilt"
       ],
-      "published_at": "2026-07-09T04:00:00+00:00",
+      "published_at": "2026-10-02T20:48:43+00:00",
       "review_status": "unreviewed",
-      "source_class": "research_index",
-      "source_id": "openalex-ai",
-      "source_name": "OpenAlex: AI systems research",
-      "title": "SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling",
-      "url": "https://arxiv.org/abs/2607.08565"
+      "source_class": "official_product",
+      "source_id": "github-onnx-runtime",
+      "source_name": "ONNX Runtime releases",
+      "title": "ONNX Runtime v1.28.3",
+      "url": "https://github.com/microsoft/onnxruntime/releases/tag/v1.28.3"
+    },
+    {
+      "authority": "primary",
+      "candidate_id": "atlas-fbacd9638dc993d3",
+      "lane": "ai",
+      "matched_terms": [
+        "quantization"
+      ],
+      "promotion_policy": "eligible",
+      "proposed_targets": [
+        "entries",
+        "literature",
+        "market_structure",
+        "unbuilt"
+      ],
+      "published_at": "2026-09-22T17:13:27+00:00",
+      "review_status": "unreviewed",
+      "source_class": "official_product",
+      "source_id": "github-onnx-runtime",
+      "source_name": "ONNX Runtime releases",
+      "title": "ONNX Runtime WebGPU Plugin EP v0.4.0",
+      "url": "https://github.com/microsoft/onnxruntime/releases/tag/plugin-ep-webgpu/v0.4.0"
     }
   ],
-  "generated_at": "2026-07-15T05:26:57.972083+00:00",
+  "generated_at": "2026-10-05T21:11:46.068622+00:00",
   "publication_rule": "Collectors create evidence candidates only. Public atlas claims require review and a separate commit.",
   "schema_version": 1,
   "source_runs": [
     {
-      "candidate_count": 2,
+      "candidate_count": 0,
       "source_id": "openalex-ai",
       "status": "ok"
     },
@@ -73,12 +93,12 @@
       "status": "ok"
     },
     {
-      "candidate_count": 0,
+      "candidate_count": 1,
       "source_id": "github-llama-cpp",
       "status": "ok"
     },
     {
-      "candidate_count": 0,
+      "candidate_count": 2,
       "source_id": "github-onnx-runtime",
       "status": "ok"
     },
