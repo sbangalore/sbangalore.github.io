@@ -2,6 +2,146 @@
   "description": "Markets proposed in the academic literature that do not (yet) exist as liquid venues. Status pipeline: unbuilt -> attempted -> embryonic -> built_late. 'built_late' items are kept as calibration: they prove this list is a forward indicator, not a graveyard. Each item names the wall keeping it vacant; per the matrix-cell logic, contingent walls (liquidity bootstrap, regulation, computation) are opportunities, essential walls (one-sided flow, adverse selection) are warnings.",
   "items": [
     {
+      "id": "complementary-rights-assembly",
+      "name": "Complementary Rights Assembly Markets",
+      "status": "research-backed / buyer test",
+      "blurb": "Conditional commitments assemble a bundle of separately owned rights. Owners who accept receive a buyer-funded bonus if the required bundle fails to close. The market coordinates acquisition; it does not wager on an external event.",
+      "literature": [
+        {
+          "author": "Timothy Cason, Alex Tabarrok & Robertas Zubrickas",
+          "year": 2026,
+          "work": "Breaking Ground: Can Refund Bonuses Solve the Holdout Problem?",
+          "venue": "Journal of Urban Economics; online 20 August",
+          "url": "https://web.ics.purdue.edu/~cason/Holdout_bonuses.pdf"
+        }
+      ],
+      "nearest_attempts": "Pieces describes bonder-funded refund bonuses for creator content; openmog terms describe sponsor-funded bonuses for sealed content. Product-level direct attempts in crowdfunding, with paid adoption and funding unverified. Anoma Public Signal is a concept; Allo implementations are experimental code. Land-assembly brokers already use options and conditional contracts.",
+      "wall": "Laboratory coordination gains do not prove profitable real-world assembly. Existing options may solve enough of the problem. Unique holdouts, seller collusion, title defects and permitting remain; sponsor capital can be lost when assembly fails.",
+      "unlock": "A buyer with a blocked, valuable bundle funds the bonus and pays a completion fee. Start with one asset class and measure incremental completed transactions against an option-based process.",
+      "buyer": "Developer or acquirer pays; independently controlled rights owners sell. The buyer or a contracted capital provider funds failure bonuses.",
+      "commercial_verdict": "Conditional opening. No scaled venue using this specific rights-assembly mechanism was established in the sources reviewed. This is a transaction-design hypothesis, not validated exchange demand.",
+      "tripwires": [
+        "One buyer commits a capped bonus pool and a paid pilot",
+        "Actual assembly economics outperform existing options after failed-deal and legal costs",
+        "A second buyer repeats the same contractual process"
+      ],
+      "sources": [
+        {
+          "title": "Research manuscript (October 2025 version)",
+          "url": "https://web.ics.purdue.edu/~cason/Holdout_bonuses.pdf",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Pieces product mechanism",
+          "url": "https://trypieces.com/learn/refund-bonus/",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "openmog terms, updated 30 September 2026",
+          "url": "https://openmog.com/terms",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Existing land-assembly substitute",
+          "url": "https://www.rowanedwardland.com/",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Anoma concept, not a launch",
+          "url": "https://anoma.net/blog/publicsignal",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        }
+      ],
+      "reviewed_at": "2026-10-19",
+      "research_note": "https://sbangalore.github.io/markets/research/2026-10-19-market-structures.html#rights",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity",
+          "infra_plumbing"
+        ],
+        "asset_class": "real_estate"
+      }
+    },
+    {
+      "id": "committed-research-purchase-markets",
+      "name": "Committed-Purchase Research Markets",
+      "status": "existing operators / narrow opening",
+      "blurb": "Sponsors commit to purchase qualifying outputs; researchers or suppliers compete to deliver. A further market could finance suppliers against enforceable purchase claims, but transferability and investor repayment must be established separately.",
+      "literature": [
+        {
+          "author": "Michael Kremer, Jonathan Levin & Christopher Snyder",
+          "year": 2020,
+          "work": "Advance Market Commitments: Insights from Theory and Experience",
+          "venue": "Foundational research",
+          "url": "https://doi.org/10.2139/ssrn.3543298"
+        }
+      ],
+      "nearest_attempts": "Frontier has contracted carbon-removal purchases and published buyer fees. Wazoku/Innocentive and HeroX operate prize/solution marketplaces. Manifund has executed impact-certificate experiments, but its documentation restricts profits to charitable use. Hypercerts supplies records and funding infrastructure, not proof of liquid trading.",
+      "wall": "Generic pay-for-results research is already served. A sponsor may change its mind unless the commitment is binding. Acceptance disputes, non-transferable claims, working-capital needs and IP terms can prevent investor financing.",
+      "unlock": "Find a specific shared deliverable that several buyers will pre-purchase on common acceptance and licensing terms. Secure sponsor commitments before recruiting speculative investors; prove one delivery and repeat purchase before a secondary venue.",
+      "buyer": "Corporate or philanthropic sponsors buy outputs; research teams supply them. Outside financiers take execution risk only if purchase proceeds and repayment rights are enforceable.",
+      "commercial_verdict": "Commercial activity exists; broad greenfield thesis rejected. Conditional opening in pooled demand plus financeable claims for a specific underserved output. A general impact-token exchange is not supported by this review.",
+      "tripwires": [
+        "At least two independent buyers sign the same output specification and purchasing terms",
+        "One financed supplier delivers, is accepted and is paid",
+        "A follow-on purchaser repeats without a grant subsidy to the platform"
+      ],
+      "sources": [
+        {
+          "title": "Frontier contracted purchases, October dashboard",
+          "url": "https://frontierclimate.com/progress",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Frontier buyer contracts and fees",
+          "url": "https://frontierclimate.com/participate",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Wazoku/Innocentive operating marketplace",
+          "url": "https://www.wazoku.com/innocentive/",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "HeroX fee requirement",
+          "url": "https://www.herox.com/help/147-guide-publishing-your-herox-page",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Manifund certificate economics and restrictions",
+          "url": "https://manifund.com/about/impact-certificates",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Manifund historical results; 2023 only",
+          "url": "https://manifund.substack.com/p/manifund-2023-in-review",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        }
+      ],
+      "reviewed_at": "2026-10-19",
+      "research_note": "https://sbangalore.github.io/markets/research/2026-10-19-market-structures.html#research",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity",
+          "infra_plumbing"
+        ],
+        "asset_class": "private_alts"
+      }
+    },
+    {
       "id": "gdp-linked-markets",
       "name": "GDP-Linked Securities & Macro Markets",
       "blurb": "Standing markets in claims on national income — countries issue equity in themselves; investors and firms hedge recession risk directly.",

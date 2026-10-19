@@ -34,7 +34,7 @@ const MAPS = {
   finance: {
     key: "finance",
     label: "Financial Markets",
-    kicker: "Secondary-market structure",
+    kicker: "Market structure & formation",
     title: "Markets directory",
     lede: "A map of venues, brokers, data rails, analytics, asset managers, and post-trade plumbing across traditional, crypto, and event markets.",
     assetLabel: "Asset classes",
@@ -51,8 +51,8 @@ const MAPS = {
     primaryFlow: ["Capital flow", "Down the stack"],
     secondaryFlow: ["Data flow", "Up the stack"],
     literatureTitle: "New ideas and paper-to-product lineage",
-    unbuiltLabel: "Unbuilt markets",
-    unbuiltTitle: "Literature-predicted markets still looking for a natural short",
+    unbuiltLabel: "Market openings & attempts",
+    unbuiltTitle: "New market structures and the barriers to building them",
     unbuiltCountLabel: "ideas",
     paths: {
       taxonomy: "./data/finance/taxonomy.json",
@@ -859,6 +859,7 @@ function collectLiterature() {
   const recent = (literature.recent_signals || []).map((item) => ({
     type: "Recent signal",
     year: item.year,
+    published_date: item.published_date,
     title: item.title,
     authors: item.authors,
     venue: item.venue,
@@ -872,6 +873,7 @@ function collectLiterature() {
       year: ref.year,
       title: ref.work,
       authors: ref.author,
+      url: ref.url,
       venue: ref.venue || item.name,
       note: item.wall,
       implication: `Maps to ${itemLabel("segment", item.maps_to?.segment)}.`,
@@ -888,7 +890,7 @@ function collectLiterature() {
       implication: `Product: ${entry.name}.`,
     })),
   );
-  return [...recent, ...ghostRefs, ...lineage].sort((a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title));
+  return [...recent, ...ghostRefs, ...lineage].sort((a, b) => String(b.published_date || b.year || "").localeCompare(String(a.published_date || a.year || "")) || a.title.localeCompare(b.title));
 }
 
 function renderLiterature() {
@@ -912,7 +914,7 @@ function renderLiterature() {
         <article class="paper-card">
           <div>
             <span>${escapeHtml(paper.type)}</span>
-            <strong>${escapeHtml(paper.year || "n.d.")}</strong>
+            <strong>${escapeHtml(paper.published_date || paper.year || "n.d.")}</strong>
           </div>
           <h3>${paper.url ? `<a href="${escapeHtml(paper.url)}" target="_blank" rel="noreferrer">${escapeHtml(paper.title)}</a>` : escapeHtml(paper.title)}</h3>
           <p>${escapeHtml(paper.authors || "")}</p>
@@ -976,7 +978,7 @@ function renderResearchLedger() {
             <dt>Update</dt><dd>${escapeHtml([item.result, item.belief_update].filter(Boolean).join(" "))}</dd>
           </dl>
           ${(item.prior_art || []).length ? `<ul>${item.prior_art.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>` : ""}
-          ${item.public_artifact ? `<p class="ledger-card__artifact">${escapeHtml(item.public_artifact)}</p>` : ""}
+          ${item.public_artifact ? `<p class="ledger-card__artifact">${/^https:\/\//.test(item.public_artifact) ? `<a href="${escapeHtml(item.public_artifact)}" target="_blank" rel="noreferrer">Read the research note</a>` : escapeHtml(item.public_artifact)}</p>` : ""}
           ${tags ? `<div class="badge-row">${tags}</div>` : ""}
         </article>
       `;
@@ -992,7 +994,7 @@ function renderUnbuilt() {
   $("unbuiltGrid").innerHTML = visible
     .map((item) => {
       const refs = (item.literature || [])
-        .map((ref) => `<li>${escapeHtml(ref.author)} (${escapeHtml(ref.year)}), <em>${escapeHtml(ref.work)}</em>${ref.venue ? `, ${escapeHtml(ref.venue)}` : ""}</li>`)
+        .map((ref) => `<li>${escapeHtml(ref.author)} (${escapeHtml(ref.year)}), <em>${/^https:\/\//.test(ref.url || "") ? `<a href="${escapeHtml(ref.url)}" target="_blank" rel="noreferrer">${escapeHtml(ref.work)}</a>` : escapeHtml(ref.work)}</em>${ref.venue ? `, ${escapeHtml(ref.venue)}` : ""}</li>`)
         .join("");
       const liveLinks =
         item.id === "policy-analysis-market"
@@ -1010,8 +1012,13 @@ function renderUnbuilt() {
             <dt>Nearest attempt</dt><dd>${escapeHtml(item.nearest_attempts)}</dd>
             <dt>Wall</dt><dd>${escapeHtml(item.wall)}</dd>
             <dt>Unlock</dt><dd>${escapeHtml(item.unlock)}</dd>
+            ${item.buyer ? `<dt>Who pays</dt><dd>${escapeHtml(item.buyer)}</dd>` : ""}
+            ${item.commercial_verdict ? `<dt>Commercial view</dt><dd>${escapeHtml(item.commercial_verdict)}</dd>` : ""}
             ${item.tripwires?.length ? `<dt>Tripwires</dt><dd>${item.tripwires.map((t) => escapeHtml(t)).join(" · ")}</dd>` : ""}
           </dl>
+          ${item.reviewed_at ? `<small>Reviewed ${escapeHtml(item.reviewed_at)} · source facts and analysis are distinguished in the note.</small>` : ""}
+          ${item.sources?.length ? `<ul>${item.sources.filter((ref) => /^https:\/\//.test(ref.url || "")).map((ref) => `<li><a href="${escapeHtml(ref.url)}" target="_blank" rel="noreferrer">${escapeHtml(ref.title)}</a> <small>(${escapeHtml(ref.provenance)}, ${escapeHtml(ref.observed_date)})</small></li>`).join("")}</ul>` : ""}
+          ${/^https:\/\//.test(item.research_note || "") ? `<p><a href="${escapeHtml(item.research_note)}" target="_blank" rel="noreferrer">Read the commercial assessment →</a></p>` : ""}
           ${liveLinks}
         </article>
       `;

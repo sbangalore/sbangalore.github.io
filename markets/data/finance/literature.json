@@ -11,6 +11,28 @@
   ],
   "recent_signals": [
     {
+      "id": "sequential-agent-auctions-20261015",
+      "title": "Decentralized LLM Workflows via Sequential Auctions",
+      "authors": "Ian Gemp et al.",
+      "year": 2026,
+      "published_date": "2026-10-15",
+      "venue": "arXiv preprint; full text read",
+      "url": "https://arxiv.org/abs/2610.22201",
+      "signal": "Experiments study profitable specialist agents under imperfect competition using sequential task auctions.",
+      "map_implication": "New agent-work market mechanism to investigate. Benchmark task success does not establish paying market participants."
+    },
+    {
+      "id": "market-microstructure-foundation-models-20261014",
+      "title": "What Do Foundation Models for Market Microstructure Learn? A Controlled Study with Synthetic Limit Order Books",
+      "authors": "Fernando Acero",
+      "year": 2026,
+      "published_date": "2026-10-14",
+      "venue": "arXiv; accepted at ACM ICAIF 2026; full text read",
+      "url": "https://arxiv.org/abs/2610.20104",
+      "signal": "Synthetic markets with known regimes test whether order-flow models infer underlying market state; transfer depends on simulator coverage.",
+      "map_implication": "Useful for testing auction simulators and market-design claims. Predictive fit is not proof of executable trading profit."
+    },
+    {
       "id": "kalshi-rise-macro-markets",
       "title": "Kalshi and the Rise of Macro Markets",
       "authors": "Anthony M. Diercks, Jared Dean Katz & Jonathan H. Wright",

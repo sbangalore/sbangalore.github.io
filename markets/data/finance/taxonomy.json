@@ -448,7 +448,7 @@
       "indices_benchmarks",
       "asset_mgmt"
     ],
-    "scope_note": "Deliberately out of scope: the primary market (issuers, underwriters, IPO/bond syndication, token launches). This map covers secondary-market structure — where instruments trade, not where they are born."
+    "scope_note": "The directory covers secondary-market infrastructure. Research also tracks market formation: new claims, auctions, rights assembly and committed-purchase funding institutions. Ordinary IPO/bond syndication remains outside the directory."
   },
   "field_notes": {
     "country": "Optional ISO-3166 alpha-2 HQ country, shown on cards and searchable. NOT a filter facet — region remains the facet. Omitted for decentralized/global entities and where HQ is uncertain.",
