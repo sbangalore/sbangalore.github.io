@@ -2,6 +2,79 @@
   "description": "Open AI-infrastructure gaps: ideas visible in papers, protocols, and product pain, but not yet settled as default categories with obvious winners.",
   "items": [
     {
+      "id": "ml-research-purchase-markets",
+      "name": "Buyer-Committed Markets for Shared ML Research Outputs",
+      "status": "existing operators / narrow opening",
+      "blurb": "Sponsors commit to purchase qualifying outputs; researchers or suppliers compete to deliver. A further market could finance suppliers against enforceable purchase claims, but transferability and investor repayment must be established separately.",
+      "literature": [
+        {
+          "author": "Michael Kremer, Jonathan Levin & Christopher Snyder",
+          "year": 2020,
+          "work": "Advance Market Commitments: Insights from Theory and Experience",
+          "venue": "Foundational research",
+          "url": "https://doi.org/10.2139/ssrn.3543298"
+        }
+      ],
+      "nearest_attempts": "Frontier has contracted carbon-removal purchases and published buyer fees. Wazoku/Innocentive and HeroX operate prize/solution marketplaces. Manifund has executed impact-certificate experiments, but its documentation restricts profits to charitable use. Hypercerts supplies records and funding infrastructure, not proof of liquid trading.",
+      "wall": "Generic pay-for-results research is already served. A sponsor may change its mind unless the commitment is binding. Acceptance disputes, non-transferable claims, working-capital needs and IP terms can prevent investor financing.",
+      "unlock": "Find a specific shared deliverable that several buyers will pre-purchase on common acceptance and licensing terms. Secure sponsor commitments before recruiting speculative investors; prove one delivery and repeat purchase before a secondary venue.",
+      "buyer": "Corporate or philanthropic sponsors buy outputs; research teams supply them. Outside financiers take execution risk only if purchase proceeds and repayment rights are enforceable.",
+      "commercial_verdict": "Commercial activity exists; broad greenfield thesis rejected. Conditional opening in pooled demand plus financeable claims for a specific underserved output. A general impact-token exchange is not supported by this review.",
+      "tripwires": [
+        "At least two independent buyers sign the same output specification and purchasing terms",
+        "One financed supplier delivers, is accepted and is paid",
+        "A follow-on purchaser repeats without a grant subsidy to the platform"
+      ],
+      "sources": [
+        {
+          "title": "Frontier contracted purchases, October dashboard",
+          "url": "https://frontierclimate.com/progress",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Frontier buyer contracts and fees",
+          "url": "https://frontierclimate.com/participate",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Wazoku/Innocentive operating marketplace",
+          "url": "https://www.wazoku.com/innocentive/",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "HeroX fee requirement",
+          "url": "https://www.herox.com/help/147-guide-publishing-your-herox-page",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Manifund certificate economics and restrictions",
+          "url": "https://manifund.com/about/impact-certificates",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Manifund historical results; 2023 only",
+          "url": "https://manifund.substack.com/p/manifund-2023-in-review",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        }
+      ],
+      "reviewed_at": "2026-10-19",
+      "research_note": "https://sbangalore.github.io/markets/research/2026-10-19-market-structures.html#research",
+      "maps_to": {
+        "segment": "data_context",
+        "layers": [
+          "data_context",
+          "model_supply"
+        ],
+        "asset_class": "science_bio"
+      }
+    },
+    {
       "id": "agent-permission-layer",
       "name": "Agent Identity & Permission Layer",
       "blurb": "A control plane that tells tools what an agent is allowed to do, on whose behalf, with what scope, for how long, and under what audit trail.",

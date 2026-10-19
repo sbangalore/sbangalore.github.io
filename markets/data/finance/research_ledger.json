@@ -2,6 +2,128 @@
   "description": "A working log for research taste: each row starts with a problem, names the prior art, makes a forecast, defines what would falsify it, and points to the cheapest next test.",
   "items": [
     {
+      "id": "complementary-rights-assembly",
+      "status": "research-backed / buyer test",
+      "problem": "Conditional commitments assemble a bundle of separately owned rights. Owners who accept receive a buyer-funded bonus if the required bundle fails to close. The market coordinates acquisition; it does not wager on an external event.",
+      "why_now": "Research and competitor review completed 19 October 2026.",
+      "prior_art": [
+        "Pieces describes bonder-funded refund bonuses for creator content; openmog terms describe sponsor-funded bonuses for sealed content. Product-level direct attempts in crowdfunding, with paid adoption and funding unverified. Anoma Public Signal is a concept; Allo implementations are experimental code. Land-assembly brokers already use options and conditional contracts."
+      ],
+      "forecast": "Conditional opening. No scaled venue using this specific rights-assembly mechanism was established in the sources reviewed. This is a transaction-design hypothesis, not validated exchange demand.",
+      "falsifier": "Laboratory coordination gains do not prove profitable real-world assembly. Existing options may solve enough of the problem. Unique holdouts, seller collusion, title defects and permitting remain; sponsor capital can be lost when assembly fails.",
+      "cheap_test": "One buyer commits a capped bonus pool and a paid pilot",
+      "result": "No customer interviews or paid pilots were conducted in this review.",
+      "belief_update": "A buyer with a blocked, valuable bundle funds the bonus and pays a completion fee. Start with one asset class and measure incremental completed transactions against an option-based process.",
+      "public_artifact": "https://sbangalore.github.io/markets/research/2026-10-19-market-structures.html",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "real_estate"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Research manuscript (October 2025 version)",
+          "url": "https://web.ics.purdue.edu/~cason/Holdout_bonuses.pdf",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Pieces product mechanism",
+          "url": "https://trypieces.com/learn/refund-bonus/",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "openmog terms, updated 30 September 2026",
+          "url": "https://openmog.com/terms",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Existing land-assembly substitute",
+          "url": "https://www.rowanedwardland.com/",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Anoma concept, not a launch",
+          "url": "https://anoma.net/blog/publicsignal",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        }
+      ],
+      "reviewed_at": "2026-10-19"
+    },
+    {
+      "id": "committed-research-purchase-markets",
+      "status": "existing operators / narrow opening",
+      "problem": "Sponsors commit to purchase qualifying outputs; researchers or suppliers compete to deliver. A further market could finance suppliers against enforceable purchase claims, but transferability and investor repayment must be established separately.",
+      "why_now": "Research and competitor review completed 19 October 2026.",
+      "prior_art": [
+        "Frontier has contracted carbon-removal purchases and published buyer fees. Wazoku/Innocentive and HeroX operate prize/solution marketplaces. Manifund has executed impact-certificate experiments, but its documentation restricts profits to charitable use. Hypercerts supplies records and funding infrastructure, not proof of liquid trading."
+      ],
+      "forecast": "Commercial activity exists; broad greenfield thesis rejected. Conditional opening in pooled demand plus financeable claims for a specific underserved output. A general impact-token exchange is not supported by this review.",
+      "falsifier": "Generic pay-for-results research is already served. A sponsor may change its mind unless the commitment is binding. Acceptance disputes, non-transferable claims, working-capital needs and IP terms can prevent investor financing.",
+      "cheap_test": "At least two independent buyers sign the same output specification and purchasing terms",
+      "result": "No customer interviews or paid pilots were conducted in this review.",
+      "belief_update": "Find a specific shared deliverable that several buyers will pre-purchase on common acceptance and licensing terms. Secure sponsor commitments before recruiting speculative investors; prove one delivery and repeat purchase before a secondary venue.",
+      "public_artifact": "https://sbangalore.github.io/markets/research/2026-10-19-market-structures.html",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [
+          "venue_liquidity",
+          "infra_plumbing"
+        ],
+        "asset_classes": [
+          "private_alts"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Frontier contracted purchases, October dashboard",
+          "url": "https://frontierclimate.com/progress",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Frontier buyer contracts and fees",
+          "url": "https://frontierclimate.com/participate",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Wazoku/Innocentive operating marketplace",
+          "url": "https://www.wazoku.com/innocentive/",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "HeroX fee requirement",
+          "url": "https://www.herox.com/help/147-guide-publishing-your-herox-page",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Manifund certificate economics and restrictions",
+          "url": "https://manifund.com/about/impact-certificates",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        },
+        {
+          "title": "Manifund historical results; 2023 only",
+          "url": "https://manifund.substack.com/p/manifund-2023-in-review",
+          "provenance": "read",
+          "observed_date": "2026-10-19"
+        }
+      ],
+      "reviewed_at": "2026-10-19"
+    },
+    {
       "id": "prediction-market-prime-brokerage",
       "status": "live hypothesis",
       "problem": "Prediction-market APIs are improving, but professional flow still lacks unified collateral, margin, custody, settlement, and cross-venue risk views.",
