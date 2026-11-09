@@ -76,20 +76,20 @@
     },
     {
       "id": "recycled-resin-offtake-finance",
-      "status": "contested / one-lane pilot",
-      "problem": "A converter commits to buy a specified grade of post-consumer resin, allowing a funding partner to advance against the contract and an independently verified lot. Document the actual cleanup and material flows separately.",
+      "status": "sourcing / paid lot test",
+      "problem": "Source post-consumer rigid HDPE from Indian recyclers and sell buyer-qualified lots to packaging converters. Test an Indian converter first. A separately sponsored river cleanup can fund collection and public reporting.",
       "why_now": "Commercial and primary-source review completed 9 November 2026.",
       "prior_art": [
-        "The Body Shop confirms Indian recycled-plastic sourcing through Plastics For Change. The supplier offers physical resin, traceability and documented cleanups. Circulate Capital already finances Lucro, which has traceability and brand agreements."
+        "Banyan Nation reports HUL and Reckitt bottle programs. The Body Shop confirms Indian sourcing through Plastics For Change, which already offers traceable resin and documented cleanups."
       ],
-      "forecast": "Best near-term commercial test of the three. The potential opening is a specific underfinanced buyer-supplier lane, with repeated contracted delivery required.",
-      "falsifier": "Third-country eligibility, grade consistency, rejects, freight, FX, payment delays and incumbent supply can erase margins. Visible cleanup does not establish how much saleable resin entered the lot.",
-      "cheap_test": "Broker one non-food rigid HDPE lot through an existing recycler and buyer-approved certifier. Get a signed conditional purchase order and a financing quote before advancing funds.",
-      "result": "Desk research only. No buyer interviews or paid tests.",
-      "belief_update": "Buyer signs a PO specifying grade, acceptable origin evidence and rejection terms",
+      "forecast": "32.5/100 first sourcing baseline. Existing supply and thin modeled margins favor a one-lane test.",
+      "falsifier": "No matched supplier and buyer quotes. Grade acceptance, rejects and landed costs can erase the spread. Export requires a separate eligibility and freight check.",
+      "cheap_test": "Get two matched supplier samples and written quotes, a converter spec and incumbent delivered price, then one paid PO with positive stressed margin. Require a repeat order.",
+      "result": "Desk research. Public asks and indicative freight only.",
+      "belief_update": "Test physical sourcing first. Budget cleanup separately.",
       "public_artifact": "https://sbangalore.github.io/markets/research/2026-11-09-commercial-openings.html#recycled-resin-offtake-finance",
       "maps_to": {
-        "segment": "lending_credit",
+        "segment": "brokers_execution",
         "layers": [],
         "asset_classes": [
           "commodities"
@@ -97,26 +97,38 @@
       },
       "sources": [
         {
-          "title": "EU Packaging and Packaging Waste Regulation, Article 7",
-          "url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj/eng",
+          "title": "Banyan Nation commercial programs",
+          "url": "https://www.banyannation.com/about-us/",
           "provenance": "read",
           "observed_date": "2026-11-09"
         },
         {
-          "title": "Plastics For Change supply and cleanup services",
-          "url": "https://plasticsforchange.org/faqs",
-          "provenance": "read",
-          "observed_date": "2026-11-09"
-        },
-        {
-          "title": "The Body Shop confirms sourcing from India",
+          "title": "The Body Shop sourcing program",
           "url": "https://www.thebodyshop.com/blogs/our-brand-values/community-fair-trade-recycled-plastic",
           "provenance": "read",
           "observed_date": "2026-11-09"
         },
         {
-          "title": "Circulate Capital follow-on investment in Lucro, July 2022",
-          "url": "https://www.circulatecapital.com/circulate-capital-announces-follow-on-investment-into-lucro-as-company-closes-the-loop-on-flexible-plastic-packaging-in-india/",
+          "title": "Plastics For Change",
+          "url": "https://plasticsforchange.org/faqs",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "21 Century Polymers indicative EXW pricing",
+          "url": "https://www.21centurypolymers.in/products/recycled-hdpe-granules",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Sungai Watch cleanup and sponsorship model",
+          "url": "https://sungai.watch/pages/transparency",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Indicative India–Rotterdam freight",
+          "url": "https://globy.com/freight-calculator/from-india/to-netherlands",
           "provenance": "read",
           "observed_date": "2026-11-09"
         }
