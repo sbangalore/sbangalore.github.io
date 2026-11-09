@@ -2,6 +2,128 @@
   "description": "A working log for research taste: each row starts with a problem, names the prior art, makes a forecast, defines what would falsify it, and points to the cheapest next test.",
   "items": [
     {
+      "id": "transferable-inference-reservations",
+      "status": "contested / paid premium unverified",
+      "problem": "Reserve model serving for a future window with a right to reassign the entitlement. Touchmark already documents consented resale of unused contracts. The narrower opening is recovery of partially consumed commitments or enforceable throughput portability across providers.",
+      "why_now": "Commercial and primary-source review completed 9 November 2026.",
+      "prior_art": [
+        "Touchmark is direct. SF Compute operates resale of GPU hours with named customer cases. Architect launched a spot inference auction. Tuarā markets cross-provider matching, Tokexchange describes a closed credit pilot, and Corgi describes planned GPU resale."
+      ],
+      "forecast": "Credible direct competition. Validate a narrower enterprise contract through a broker or host.",
+      "falsifier": "Public quote requests and GPU resale demonstrate interest and adjacent usage. The price buyers will pay for inference transfer alone, resale fill rates, and delivered SLA performance remain unverified.",
+      "cheap_test": "Quote identical reserved capacity with and without assignment, alongside a cancellation or rollover option. Collect a real payment for assignment and execute a transfer before building a venue.",
+      "result": "Desk research only. No buyer interviews or paid tests.",
+      "belief_update": "Two buyers choose and pay for transferability at a disclosed price",
+      "public_artifact": "https://sbangalore.github.io/markets/research/2026-11-09-commercial-openings.html#transferable-inference-reservations",
+      "maps_to": {
+        "segment": "exchanges_venues",
+        "layers": [],
+        "asset_classes": [
+          "commodities"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Touchmark contract and resale terms",
+          "url": "https://www.touchmark.ai/how-it-works/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Y Combinator company profile and launch",
+          "url": "https://www.ycombinator.com/companies/touchmark",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "SF Compute named resale customer cases, September 28",
+          "url": "https://sfcompute.com/news/scaling-with-gpu-resale",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Architect Liquid Inference launch, October 7",
+          "url": "https://architect.co/insights/press/architect-launches-liquid-inference/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Corgi resale roadmap, September 22",
+          "url": "https://compute.corgi.com/resources/compute-resale",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "OpenAI Reserved Tier terms",
+          "url": "https://openai.com/api-reserved-tier/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Tuarā product and market claims",
+          "url": "https://tuara.com/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Tokexchange closed pilot",
+          "url": "https://tokexchange.app/about",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        }
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "id": "recycled-resin-offtake-finance",
+      "status": "contested / one-lane pilot",
+      "problem": "A converter commits to buy a specified grade of post-consumer resin, allowing a funding partner to advance against the contract and an independently verified lot. Document the actual cleanup and material flows separately.",
+      "why_now": "Commercial and primary-source review completed 9 November 2026.",
+      "prior_art": [
+        "The Body Shop confirms Indian recycled-plastic sourcing through Plastics For Change. The supplier offers physical resin, traceability and documented cleanups. Circulate Capital already finances Lucro, which has traceability and brand agreements."
+      ],
+      "forecast": "Best near-term commercial test of the three. The potential opening is a specific underfinanced buyer-supplier lane, with repeated contracted delivery required.",
+      "falsifier": "Third-country eligibility, grade consistency, rejects, freight, FX, payment delays and incumbent supply can erase margins. Visible cleanup does not establish how much saleable resin entered the lot.",
+      "cheap_test": "Broker one non-food rigid HDPE lot through an existing recycler and buyer-approved certifier. Get a signed conditional purchase order and a financing quote before advancing funds.",
+      "result": "Desk research only. No buyer interviews or paid tests.",
+      "belief_update": "Buyer signs a PO specifying grade, acceptable origin evidence and rejection terms",
+      "public_artifact": "https://sbangalore.github.io/markets/research/2026-11-09-commercial-openings.html#recycled-resin-offtake-finance",
+      "maps_to": {
+        "segment": "lending_credit",
+        "layers": [],
+        "asset_classes": [
+          "commodities"
+        ]
+      },
+      "sources": [
+        {
+          "title": "EU Packaging and Packaging Waste Regulation, Article 7",
+          "url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj/eng",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Plastics For Change supply and cleanup services",
+          "url": "https://plasticsforchange.org/faqs",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "The Body Shop confirms sourcing from India",
+          "url": "https://www.thebodyshop.com/blogs/our-brand-values/community-fair-trade-recycled-plastic",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Circulate Capital follow-on investment in Lucro, July 2022",
+          "url": "https://www.circulatecapital.com/circulate-capital-announces-follow-on-investment-into-lucro-as-company-closes-the-loop-on-flexible-plastic-packaging-in-india/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        }
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
       "id": "complementary-rights-assembly",
       "status": "research-backed / buyer test",
       "problem": "Conditional commitments assemble a bundle of separately owned rights. Owners who accept receive a buyer-funded bonus if the required bundle fails to close. The market coordinates acquisition; it does not wager on an external event.",

@@ -2,6 +2,112 @@
   "description": "Open AI-infrastructure gaps: ideas visible in papers, protocols, and product pain, but not yet settled as default categories with obvious winners.",
   "items": [
     {
+      "id": "transferable-inference-reservations",
+      "name": "Transferable inference reservations",
+      "status": "contested / paid premium unverified",
+      "blurb": "Reserve model serving for a future window with a right to reassign the entitlement. Touchmark already documents consented resale of unused contracts. The narrower opening is recovery of partially consumed commitments or enforceable throughput portability across providers.",
+      "nearest_attempts": "Touchmark is direct. SF Compute operates resale of GPU hours with named customer cases. Architect launched a spot inference auction. Tuarā markets cross-provider matching, Tokexchange describes a closed credit pilot, and Corgi describes planned GPU resale.",
+      "wall": "Public quote requests and GPU resale demonstrate interest and adjacent usage. The price buyers will pay for inference transfer alone, resale fill rates, and delivered SLA performance remain unverified.",
+      "unlock": "Quote identical reserved capacity with and without assignment, alongside a cancellation or rollover option. Collect a real payment for assignment and execute a transfer before building a venue.",
+      "buyer": "An AI application or inference broker pays the host for delivery. A replacement commercial buyer takes over the entitlement with provider consent.",
+      "commercial_verdict": "Credible direct competition. Validate a narrower enterprise contract through a broker or host.",
+      "tripwires": [
+        "Two buyers choose and pay for transferability at a disclosed price",
+        "One approved assignment settles and the recipient receives contracted service",
+        "Recovery exceeds the best rollover, cancellation or routing alternative after fees"
+      ],
+      "sources": [
+        {
+          "title": "Touchmark contract and resale terms",
+          "url": "https://www.touchmark.ai/how-it-works/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Y Combinator company profile and launch",
+          "url": "https://www.ycombinator.com/companies/touchmark",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "SF Compute named resale customer cases, September 28",
+          "url": "https://sfcompute.com/news/scaling-with-gpu-resale",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Architect Liquid Inference launch, October 7",
+          "url": "https://architect.co/insights/press/architect-launches-liquid-inference/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Corgi resale roadmap, September 22",
+          "url": "https://compute.corgi.com/resources/compute-resale",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "OpenAI Reserved Tier terms",
+          "url": "https://openai.com/api-reserved-tier/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Tuarā product and market claims",
+          "url": "https://tuara.com/",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Tokexchange closed pilot",
+          "url": "https://tokexchange.app/about",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        }
+      ],
+      "reviewed_at": "2026-11-09",
+      "research_note": "https://sbangalore.github.io/markets/research/2026-11-09-commercial-openings.html#transferable-inference-reservations"
+    },
+    {
+      "id": "sweat-folate-research",
+      "name": "Sweat folate measurement for nutrition studies",
+      "status": "research pilot / clinical utility unknown",
+      "blurb": "A nutrition study sponsor pays for serial sweat folate measurements alongside reference blood sampling. A 2026 wearable study supports feasibility, with clinical decision value still unverified.",
+      "nearest_attempts": "China Agricultural University researchers demonstrated low-concentration vitamin sensing and human folate time profiles. UC San Diego demonstrated a vitamin C-capable ring. Gatorade’s sweat patch is a commercial hydration workflow.",
+      "wall": "A correlation in a study does not establish interchangeability, deficiency classification or an actionable consumer reading. Collection yield, skin contamination, assay drift and between-person variability matter.",
+      "unlock": "Partner with a nutrition CRO for one paid research-use folate study. Keep paired serum or plasma reference testing and predefine the decision the extra timepoints must improve.",
+      "buyer": "A nutrition R&D sponsor or study operator pays per usable participant series. Finger-prick or venous lab tests are the budget substitute.",
+      "commercial_verdict": "Plausible research-service experiment. Commercial vitamin monitoring and diagnostic claims require separate evidence.",
+      "tripwires": [
+        "Sponsor pays for a specified study decision",
+        "Blinded paired results meet prespecified repeatability, agreement and missingness limits",
+        "Dense sampling changes a sponsor decision enough to justify cost over standard testing"
+      ],
+      "sources": [
+        {
+          "title": "Nature Communications wearable vitamin study, April 23, 2026",
+          "url": "https://www.nature.com/articles/s41467-026-72356-1",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "UC San Diego multisensor ring prototype",
+          "url": "https://today.ucsd.edu/story/new-wearable-ring-tracks-glucose-ketone-and-other-biomarkers-in-sweat-simultaneously",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        },
+        {
+          "title": "Gatorade sweat testing guide",
+          "url": "https://performancepartner.gatorade.com/content/resources/pdfs/gx-teams-sweat-testing-guide.pdf",
+          "provenance": "read",
+          "observed_date": "2026-11-09"
+        }
+      ],
+      "reviewed_at": "2026-11-09",
+      "research_note": "https://sbangalore.github.io/markets/research/2026-11-09-commercial-openings.html#sweat-folate-research"
+    },
+    {
       "id": "ml-research-purchase-markets",
       "name": "Buyer-Committed Markets for Shared ML Research Outputs",
       "status": "existing operators / narrow opening",
