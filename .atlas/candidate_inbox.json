@@ -1,13 +1,13 @@
 {
-  "candidate_count": 2,
+  "candidate_count": 5,
   "candidates": [
     {
       "authority": "research",
-      "candidate_id": "atlas-9bd6202bed244e0a",
+      "candidate_id": "atlas-aebe9d4f0905b1a2",
       "lane": "ai",
       "matched_terms": [
-        "inference",
-        "edge device"
+        "agent",
+        "benchmark"
       ],
       "promotion_policy": "corroborate",
       "proposed_targets": [
@@ -16,21 +16,21 @@
         "market_structure",
         "unbuilt"
       ],
-      "published_at": "2026-07-10T04:00:00+00:00",
+      "published_at": "2026-11-06T00:00:00+00:00",
       "review_status": "unreviewed",
       "source_class": "research_index",
       "source_id": "openalex-ai",
       "source_name": "OpenAlex: AI systems research",
-      "title": "DynamiGraph: A Specialized, Runtime-Aware FPGA Overlay for Ultra Low-Latency GNN Inference on Edge Devices",
-      "url": "https://doi.org/10.3390/mi17070824"
+      "title": "CutVerse: A Compositional GUI Agents Benchmark for Media Post-Production Editing",
+      "url": "https://doi.org/10.1145/3767308.3835214"
     },
     {
       "authority": "research",
-      "candidate_id": "atlas-6ed0d808c1f09242",
+      "candidate_id": "atlas-db95ab92a08ba60a",
       "lane": "ai",
       "matched_terms": [
-        "serving",
-        "agent"
+        "agent",
+        "retrieval"
       ],
       "promotion_policy": "corroborate",
       "proposed_targets": [
@@ -39,16 +39,82 @@
         "market_structure",
         "unbuilt"
       ],
-      "published_at": "2026-07-09T04:00:00+00:00",
+      "published_at": "2026-11-06T00:00:00+00:00",
       "review_status": "unreviewed",
       "source_class": "research_index",
       "source_id": "openalex-ai",
       "source_name": "OpenAlex: AI systems research",
-      "title": "SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling",
-      "url": "https://arxiv.org/abs/2607.08565"
+      "title": "A multi-agent retrieval-augmented generation framework for pedagogical feedback on EFL student writing",
+      "url": "https://doi.org/10.1007/s44163-026-02384-9"
+    },
+    {
+      "authority": "primary",
+      "candidate_id": "atlas-db64e38d3cc1813b",
+      "lane": "finance",
+      "matched_terms": [
+        "settlement"
+      ],
+      "promotion_policy": "eligible",
+      "proposed_targets": [
+        "entries",
+        "literature",
+        "market_structure",
+        "unbuilt"
+      ],
+      "published_at": "2026-11-05T18:13:46+00:00",
+      "review_status": "unreviewed",
+      "source_class": "regulator",
+      "source_id": "cftc-press-releases",
+      "source_name": "Commodity Futures Trading Commission",
+      "title": "CFTC Staff Addresses Use of Trust Companies for Daily Settlements",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9322-26"
+    },
+    {
+      "authority": "primary",
+      "candidate_id": "atlas-f6684c8c47b91d54",
+      "lane": "finance",
+      "matched_terms": [
+        "clearing"
+      ],
+      "promotion_policy": "eligible",
+      "proposed_targets": [
+        "entries",
+        "literature",
+        "market_structure",
+        "unbuilt"
+      ],
+      "published_at": "2026-10-30T19:30:00+00:00",
+      "review_status": "unreviewed",
+      "source_class": "regulator",
+      "source_id": "sec-press-releases",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo"
+    },
+    {
+      "authority": "primary",
+      "candidate_id": "atlas-27d60a3e8e33d9a8",
+      "lane": "ai",
+      "matched_terms": [
+        "inference"
+      ],
+      "promotion_policy": "eligible",
+      "proposed_targets": [
+        "entries",
+        "literature",
+        "market_structure",
+        "unbuilt"
+      ],
+      "published_at": "2026-10-29T22:01:54+00:00",
+      "review_status": "unreviewed",
+      "source_class": "official_product",
+      "source_id": "github-onnx-runtime",
+      "source_name": "ONNX Runtime releases",
+      "title": "ONNX Runtime v1.30.1",
+      "url": "https://github.com/microsoft/onnxruntime/releases/tag/v1.30.1"
     }
   ],
-  "generated_at": "2026-07-15T05:26:57.972083+00:00",
+  "generated_at": "2026-11-09T22:58:52.482108+00:00",
   "publication_rule": "Collectors create evidence candidates only. Public atlas claims require review and a separate commit.",
   "schema_version": 1,
   "source_runs": [
@@ -63,12 +129,12 @@
       "status": "ok"
     },
     {
-      "candidate_count": 0,
+      "candidate_count": 1,
       "source_id": "sec-press-releases",
       "status": "ok"
     },
     {
-      "candidate_count": 0,
+      "candidate_count": 1,
       "source_id": "cftc-press-releases",
       "status": "ok"
     },
@@ -78,7 +144,7 @@
       "status": "ok"
     },
     {
-      "candidate_count": 0,
+      "candidate_count": 1,
       "source_id": "github-onnx-runtime",
       "status": "ok"
     },
