@@ -36,8 +36,8 @@ footer-links:
 # You can find your shortname on the Settings page of your Disqus account
 disqus: sudarshan-2
 
-# Public Cloudflare Web Analytics beacon token
-cloudflare_web_analytics: 790a76b8b4944dbc88241dd6bf4d01cf
+# Public Google Analytics 4 measurement ID
+google_analytics: G-X9LFE1KC7Q
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
