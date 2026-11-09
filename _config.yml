@@ -36,8 +36,8 @@ footer-links:
 # You can find your shortname on the Settings page of your Disqus account
 disqus: sudarshan-2
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-130164733-1
+# Public Cloudflare Web Analytics beacon token
+cloudflare_web_analytics: 790a76b8b4944dbc88241dd6bf4d01cf
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
